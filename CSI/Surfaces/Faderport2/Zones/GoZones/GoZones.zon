@@ -1,0 +1,11 @@
+Zone GoZones
+     MasterTrack
+	SelectedTrackReceive
+	SelectedTrackSend
+	LastTouchedFXParam       // LinkLock Button
+	Marker SelectedTrackNavigator
+     Pan SelectedTrackNavigator
+	Scroll SelectedTrackNavigator
+	Section SelectedTrackNavigator
+	Zoom SelectedTrackNavigator
+ZoneEnd

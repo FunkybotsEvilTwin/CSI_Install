@@ -1,0 +1,43 @@
+// X-Touch_Mini CSI v7
+
+Zone "SelectedTracks"
+
+    Flip+Rotary|          	    TrackVolume
+    Toggle+Rotary|   	    	    TrackVolume
+    Flip+RotaryPush|      	    TrackVolume [ 0.76 ] 		// Sets volume to unity gain
+
+    Rotary|                  	    TrackPan 0
+    RotaryPush|        		    TrackPan [ 0.5 ]			// Sets Pan to center
+
+    Shift+Rotary|                   TrackPanWidth
+    Toggle+Rotary|           	    TrackPanAutoRight RingStyle=Dot
+    Shift+RotaryPush|       	    TrackPanWidth [ 1.0 ]		// Sets Width to 100%
+
+    Option+RotaryPush|  	    TrackRecordArm
+    Option+Rotary|     		    TrackRecordArm RingStyle=Fill
+
+    Control+RotaryPush|		    CycleTrackInputMonitor    
+
+    Alt+RotaryPush|   		    TrackInvertPolarity
+    Alt+Rotary|          	    TrackInvertPolarity RingStyle=Fill
+ 
+    Control+Alt+RotaryPush|         CycleTrackAutoMode
+
+//GlobalView
+ 
+    Global+RotaryPush|        	    TrackUniqueSelect
+    Global+Rotary|     	    	    TrackUniqueSelect RingStyle=Fill
+
+    Global+Shift+RotaryPush|	    TrackSelect       	  
+    Global+Shift+Rotary|     	    TrackSelect RingStyle=Fill
+
+    Global+Option+RotaryPush|       TrackRangeSelect
+    Global+Option+Rotary|           TrackRangeSelect RingStyle=Fill
+
+    Global+Control+RotaryPush|      TrackSolo 
+    Global+Control+Rotary|          TrackSolo RingStyle=Fill
+
+    Global+Alt+RotaryPush|  	    TrackMute
+    Global+Alt+Rotary|      	    TrackMute RingStyle=Fill
+
+ZoneEnd

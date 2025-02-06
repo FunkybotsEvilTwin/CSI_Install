@@ -1,5 +1,0 @@
-Zone FocusedFXParam
-	    FXParamAdjust           		FocusedFXParam
-		FXFocusDisplayUpper				FocusedFXParamNameDisplay
-		FXFocusDisplayLower				FocusedFXParamValueDisplay
-ZoneEnd

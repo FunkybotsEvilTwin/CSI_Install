@@ -1,5 +1,0 @@
-Zone "LearnFXParams"
-    AsparionDisplayEncoder| FixedTextDisplay "learn FX"
-    Instrument		SaveLearnedFXParams
-    User                EraseLastTouchedControl
-ZoneEnd

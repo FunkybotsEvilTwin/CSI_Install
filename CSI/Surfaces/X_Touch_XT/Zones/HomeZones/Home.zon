@@ -1,0 +1,9 @@
+Zone Home
+    OnInitialization            ToggleRestrictTextLength 7
+    OnInitialization            SetLatchTime 100
+        
+    IncludedZones
+        Track
+    IncludedZonesEnd
+    
+ZoneEnd

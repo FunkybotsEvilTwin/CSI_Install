@@ -1,9 +1,0 @@
-Zone "SelectedTrack"
-
-     Arm                    TrackRecordArm
-     RotarySmallPush        ToggleChannel
-				        
-     RotarySmall            TrackPanAutoLeft 
-     Toggle+RotarySmall     TrackPanAutoRight
- 
-ZoneEnd

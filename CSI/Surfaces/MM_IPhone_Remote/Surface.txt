@@ -1,0 +1,151 @@
+Widget SelectedTrackName
+    FB_Processor /SelectedTrackName
+WidgetEnd
+
+Widget SelectedTrackNumber
+    FB_Processor /SelectedTrackNumber
+WidgetEnd
+
+Widget TimeDisplay
+    FB_Processor /TimeDisplay
+WidgetEnd
+
+Widget TimeMode
+    Control /TimeMode
+    FB_Processor /TimeMode
+WidgetEnd
+
+Widget ButtonA1
+    Control /ButtonA1
+    FB_Processor /ButtonA1
+WidgetEnd
+
+Widget ButtonA2
+    Control /ButtonA2
+    FB_Processor /ButtonA2
+WidgetEnd
+
+Widget ButtonA3
+    Control /ButtonA3
+    FB_Processor /ButtonA3
+WidgetEnd
+
+Widget ButtonA4
+    Control /ButtonA4
+    FB_Processor /ButtonA4
+WidgetEnd
+
+Widget ButtonA5
+    Control /ButtonA5
+    FB_Processor /ButtonA5
+WidgetEnd
+
+Widget ButtonA6
+    Control /ButtonA6
+    FB_Processor /ButtonA6
+WidgetEnd
+
+Widget ButtonA7
+    Control /ButtonA7
+    FB_Processor /ButtonA7
+WidgetEnd
+
+Widget ButtonA8
+    Control /ButtonA8
+    FB_Processor /ButtonA8
+WidgetEnd
+
+Widget ButtonA9
+    Control /ButtonA9
+    FB_Processor /ButtonA9
+WidgetEnd
+
+Widget ButtonA10
+    Control /ButtonA10
+    FB_Processor /ButtonA10
+WidgetEnd
+
+Widget ButtonA11
+    Control /ButtonA11
+    FB_Processor /ButtonA11
+WidgetEnd
+
+Widget ButtonA12
+    Control /ButtonA12
+    FB_Processor /ButtonA12
+WidgetEnd
+
+Widget ButtonA13
+    Control /ButtonA13
+    FB_Processor /ButtonA13
+WidgetEnd
+
+Widget ButtonA14
+    Control /ButtonA14
+    FB_Processor /ButtonA14
+WidgetEnd
+
+Widget ButtonA15
+    Control /ButtonA15
+    FB_Processor /ButtonA15
+WidgetEnd
+
+Widget DisplayA1
+    FB_Processor /DisplayA1
+WidgetEnd
+
+Widget DisplayA2
+    FB_Processor /DisplayA2
+WidgetEnd
+
+Widget DisplayA3
+    FB_Processor /DisplayA3
+WidgetEnd
+
+Widget DisplayA4
+    FB_Processor /DisplayA4
+WidgetEnd
+
+Widget DisplayA5
+    FB_Processor /DisplayA5
+WidgetEnd
+
+Widget DisplayA6
+    FB_Processor /DisplayA6
+WidgetEnd
+
+Widget DisplayA7
+    FB_Processor /DisplayA7
+WidgetEnd
+
+Widget DisplayA8
+    FB_Processor /DisplayA8
+WidgetEnd
+
+Widget DisplayA9
+    FB_Processor /DisplayA9
+WidgetEnd
+
+Widget DisplayA10
+    FB_Processor /DisplayA10
+WidgetEnd
+
+Widget DisplayA11
+    FB_Processor /DisplayA11
+WidgetEnd
+
+Widget DisplayA12
+    FB_Processor /DisplayA12
+WidgetEnd
+
+Widget DisplayA13
+    FB_Processor /DisplayA13
+WidgetEnd
+
+Widget DisplayA14
+    FB_Processor /DisplayA14
+WidgetEnd
+
+Widget DisplayA15
+    FB_Processor /DisplayA15
+WidgetEnd

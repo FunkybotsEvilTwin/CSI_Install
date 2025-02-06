@@ -1,0 +1,14 @@
+Zone "SelectedTrackFXMenu"
+    Display1C|              FixedTextDisplay "Push To Map" TopMargin=0 BottomMargin=28 Font=1 TextColor=#ffff00ff BackgroundColor=#000000ff
+    Display2C|              FXMenuNameDisplay TopMargin=29 BottomMargin=63 Font=3 TextColor=#ffff00ff BackgroundColor=#000000ff
+    Display3C|              NoAction
+    Display4C|              NoAction
+
+    RotaryPushC|            ShowFXSlot
+    RotaryPushC|            GoFXSlot
+    
+    RotaryC|                NoAction LEDRingColor=#ffff00ff
+
+    Shift+RotaryPushC|      ToggleFXBypass                   //Bypass FX Slot
+    Option+RotaryPushC|     Reaper _S&M_FXOFF|               //Offline FX slot
+ZoneEnd

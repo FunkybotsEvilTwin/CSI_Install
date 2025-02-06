@@ -1,0 +1,18 @@
+Zone "VST3: Warmy EP1A V2 (Kiive Audio)"
+
+Rotary20	FXParam 0 // LFGain "Low_Boost"
+Rotary16	FXParam 1 // LMFGain "Low_Cut"
+Rotary19	FXParam 2 // LFFreq "Low_Freq"
+Rotary13	FXParam 3 // HMFGain "High_Boost"
+Rotary14	FXParam 4 // HMFFreq "High_Freq"
+Rotary18 	FXParam 5 // LMFQ "Bandwidth"
+Rotary11 	FXParam 6 // HFGain "High_Cut"
+Rotary12 	FXParam 7 // HFFreq "High_Cut_Freq"
+Rotary1		FXParam 8 // Input "INPUT"
+Rotary2		FXParam 9 // Output "OUTPUT"
+Shift+Rotary1   FXParam 10 // "THD"
+	/ FXParam 11 "Bypass"
+Phase 		FXParam 12 [ 0.0 1.0 ] // "Bypass"
+	/ FXParam 13 "Wet"
+	/ FXParam 14 "Delta"
+ZoneEnd

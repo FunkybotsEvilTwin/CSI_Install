@@ -1,0 +1,60 @@
+Zone "VST3: Lindell 80 Channel (Plugin Alliance)"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	/OnZoneActivation 	ToggleUseLocalModifiers
+	/OnZoneDeactivation 	ToggleUseLocalModifiers
+	OnZoneActivation 	ToggleUseLocalFXSlot
+	OnZoneDeactivation 	ToggleUseLocalFXSlot
+
+	Plugin      		ClearFXSlot
+
+Shift+Rotary1		FXParam 0 // "THD"
+Rotary1			FXParam 1 // "Gain"
+RotaryPush1		FXParam 2 [ 0.0 1.0 ] // "Pad"
+RotaryPush2		FXParam 3 [ 0.0 1.0 ] // "Unity"
+Rotary12		FXParam 4 // "High Frequency"
+Rotary11		FXParam 5 // "High Gain"
+RotaryPush24		FXParam 6 [ 0.0 1.0 ] // "84 Mode"
+RotaryPush25		FXParam 7 [ 0.0 1.0 ] // "Mid High Q"
+Rotary17		FXParam 8 // "Mid Frequency"
+Rotary16		FXParam 9 // "Mid Gain"
+Rotary19		FXParam 10 // "Low Frequency"
+Rotary20		FXParam 11 // "Low Gain"
+Rotary10		FXParam 12 // "High Pass"
+Rotary9			FXParam 13 // "Low Pass"
+RotaryPush19		FXParam 14 [ 0.0 1.0 ] // "Equalizer"
+RotaryPush10		FXParam 15 [ 0.0 1.0 ] // "Filter"
+Shift+Rotary3		FXParam 16 // "Comp Mix"
+Shift+Rotary4		FXParam 17 // "Comp High Pass Filter"
+Rotary4			FXParam 18 // "Comp Threshold"
+Rotary3			FXParam 19 // "Comp Ratio"
+Shift+Rotary5		FXParam 20 // "Comp Gain"
+Rotary5			FXParam 21 // "Comp Recovery"
+RotaryPush4		FXParam 22 [ 0.0 1.0 ] // "Comp In"
+RotaryPush3		FXParam 23 [ 0.0 1.0 ] // "Comp Fast"
+	/FXParam 24 "Comp Niveau"
+	/FXParam 25 "Comp Smash"
+	/FXParam 26 "Comp External Side Chain"
+Shift+Rotary6		FXParam 27 // "Gate Hysteresis"
+Rotary6			FXParam 28 // "Gate Threshold"
+Rotary7			FXParam 29 // "Gate Range"
+Rotary8			FXParam 30 // "Gate Recovery"
+RotaryPush6		FXParam 31 [ 0.0 1.0 ] // "Gate In"
+RotaryPush8	FXParam 32 [ 0.0 1.0 ] // "Gate Fast"
+RotaryPush22		FXParam 33 [ 0.0 1.0 ] // "Gate Expander"
+	/FXParam 34 "Gate Inverted"
+	/FXParam 35 "Gate External Side Chain"
+	/FXParam 36 "Mute"
+Shift+RotaryPush21	FXParam 37 [ 0.0 1.0 ] // "Phase"
+Rotary2			FXParam 38 // "Level"
+	/FXParam 39 "TMT Channel"
+	/FXParam 40 "TMT Link"
+	/FXParam 41 "Input Level"
+	/FXParam 42 "Output Level"
+/Phase			FXParam 43 // "Bypass"
+	/FXParam 44 "Program"
+RotaryPush21		FXParam 45 [ 0.0 1.0 ] // "Bypass"
+	/FXParam 46 "Wet"
+	/FXParam 47 "Delta"
+RotaryPush26	NoAction
+ZoneEnd

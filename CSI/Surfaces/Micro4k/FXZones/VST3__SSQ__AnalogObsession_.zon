@@ -1,0 +1,34 @@
+Zone "VST3: SSQ (AnalogObsession)"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	/OnZoneActivation 	ToggleUseLocalModifiers
+	/OnZoneDeactivation 	ToggleUseLocalModifiers
+	OnZoneActivation 	ToggleUseLocalFXSlot
+	OnZoneDeactivation 	ToggleUseLocalFXSlot
+
+	Plugin      		ClearFXSlot
+	/FXParam 0 [ 0.0 1.0 ] // "Bypass"
+Rotary1			FXParam 1 // "Input"
+Rotary12		FXParam 2 // "High Frequency"
+Rotary11		FXParam 3 // "High Gain"
+Rotary14		FXParam 4 // "High Mid Frequency"
+Rotary15		FXParam 5 // "High Mid Bandwidth"
+Rotary13		FXParam 6 // "High Mid Gain"
+Rotary10		FXParam 7 // "Highpass Filter"
+Rotary19		FXParam 8 // "Low Frequency"
+Rotary20		FXParam 9 // "Low Gain"
+Rotary17		FXParam 10 // "Low Mid Frequency"
+Rotary18		FXParam 11 // "Low Mid Bandwidth"
+Rotary16		FXParam 12 // "Low Mid Gain"
+Rotary9			FXParam 13 // "Lowpass Filter"
+Rotary2			FXParam 14 // "Output"
+RotaryPush20		FXParam 15 [ 0.0 1.0 ] // "EQ Bypass"
+RotaryPush1		FXParam 15 [ 0.0 1.0 ] // "EQ Bypass"
+RotaryPush10		FXParam 16 [ 0.0 1.0 ] // "Filter Bypass"
+RotaryPush26		FXParam 17 [ 0.0 1.0 ] // "Low Bell"
+RotaryPush23		FXParam 18 [ 0.0 1.0 ] // "High Bell"
+	/FXParam 19 "Oversampling"
+RotaryPush21		FXParam 20 [ 0.0 1.0 ] // "Bypass"
+	/FXParam 21 "Wet"
+	/FXParam 22 "Delta"
+ZoneEnd

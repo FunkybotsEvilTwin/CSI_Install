@@ -1,0 +1,4 @@
+Zone "SelectedTrack"
+    LeftDisplay     TrackNameDisplay TopMargin=0 BottomMargin=47 Font=4
+    RightDisplay    TrackVolumeDisplay TopMargin=0 BottomMargin=47 Font=4
+ZoneEnd

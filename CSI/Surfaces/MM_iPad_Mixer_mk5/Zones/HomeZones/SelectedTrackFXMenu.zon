@@ -1,0 +1,49 @@
+Zone SelectedTrackFXMenu
+        DisplayL|           FXMenuNameDisplay
+        Shift+ButtonL|      ToggleFXBypass   
+        Option+ButtonL|     ToggleFXOffline
+        FXBypassL|          ToggleFXBypass   { #808080FF #1D521EFF }
+        FXOfflineL|         ToggleFXOffline  { #000000FF #00000000 }
+        Alt+ButtonL|        ShowFXSlot
+        Alt+ButtonL|		GoFXSlot
+        ButtonL|			SendOSCMessage "/Pager 1"
+        ButtonL|            GoZone SelectedTrackFXMenu
+        ButtonL|			ShowFXSlot 
+        ButtonL|            GoFXSlot	
+		Shift				Reaper 65535  { #20202000 }
+		DisplayShift		FixedTextDisplay SZ1		
+		Option				Reaper 65535  { #20202000 }
+		DisplayOption		FixedTextDisplay SZ2		
+		Control				Reaper 65535  { #20202000 }
+		DisplayControl		FixedTextDisplay SZ3		
+		Alt					Reaper 65535  { #20202000 }
+		DisplayAlt			FixedTextDisplay SZ4
+		
+		ButtonP7			Reaper 65535  { #000001 }      
+		DisplayP7			NoAction		
+		
+		ButtonP8			Reaper 65535  { #000001 }      
+		DisplayP8			NoAction
+		
+		ButtonP9			Reaper 65535  { #000001 }      
+		DisplayP9			NoAction
+
+		ButtonP10			Reaper 65535  { #000001 }      
+		DisplayP10			NoAction
+
+		ButtonP11			Reaper 65535  { #000001 }      
+		DisplayP11			NoAction
+
+		ButtonP12			LearnFocusedFX  { #4C1111 }      
+		DisplayP12			FixedTextDisplay LEARN
+		
+    	ButtonP14           GoHome  { #643701 #FA9501 }
+		ButtonP14			SendOSCMessage "/Pager 0"	
+    	DisplayP14          FixedTextDisplay HOME
+    	Hold+ButtonP14      Reaper _S&M_WNCLS3 Feedback=No                     
+    	Hold+ButtonP14      Reaper _S&M_WNCLS4 Feedback=No
+    	
+		ButtonP15			Reaper 65535  { #000001 }      
+		DisplayP15			NoAction
+ 
+ZoneEnd

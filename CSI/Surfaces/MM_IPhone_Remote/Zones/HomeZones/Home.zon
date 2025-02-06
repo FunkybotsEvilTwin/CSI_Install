@@ -1,0 +1,65 @@
+Zone Home
+
+    TimeDisplay                     OSCTimeDisplay
+    
+    TimeMode                        CycleTimeDisplayModes
+    
+    SelectedTrackName				TrackNameDisplay
+    
+    ButtonA1                        Rewind { #444444 #C8C8C8 }                                          
+    DisplayA1                       FixedTextDisplay REW                                            
+                                                       
+    ButtonA2                        FastForward { #444444 #C8C8C8 }                                         
+    DisplayA2                       FixedTextDisplay FWD                                            
+    
+    ButtonA3                        Record  { #4C1111 #E03131 }                         
+    DisplayA3                       FixedTextDisplay REC
+	Shift+ButtonA3  				Reaper 9 { #4C1111 #E03131 } 	//Toggle record arm for selected tracks
+	Shift+DisplayA3 				FixedTextDisplay ARM 
+                
+    ButtonA4                        Play { #1D521E #01CA1E }                        
+    DisplayA4                       FixedTextDisplay "PLAY" { #4C1111 }                 
+
+    ButtonA5                        Stop  { #444444 #B8B8B8 }                       
+    DisplayA5                       FixedTextDisplay STOP   
+    Hold+ButtonA5                   Reaper 40042    Feedback=No     // Go to start
+    
+    ButtonA6                      	Reaper 1068     { #00576F #01C8FF }                                     
+    DisplayA6                      	FixedTextDisplay CYCLE 
+    
+    ButtonA7                        Bank SelectedTrack -1  { #693C26 }                  
+    DisplayA7                       FixedTextDisplay <CHAN                     
+    Shift+ButtonA7                  Bank SelectedTrack -8  { #8B5032 }                  
+    Shift+DisplayA7                 FixedTextDisplay <-8                     
+    
+    ButtonA8                        Bank SelectedTrack 1  { #693C26 }                                           
+    DisplayA8                       FixedTextDisplay CHAN>                                              
+    Shift+ButtonA8                  Bank SelectedTrack 8   { #8B5032 }                                              
+    Shift+DisplayA8                 FixedTextDisplay +8> 
+    
+    ButtonA9						Reaper 6 { #69254C #C5458F }     	  
+	DisplayA9       				FixedTextDisplay MUTE
+	Shift+ButtonA9					Reaper 65535  { #000001 }		//Reaper 65535 is "no operation"", it's use instead of NoAction allows the button color to be reset to black. 		  
+	Shift+DisplayA9					NoAction						//Note: Using #000000 to set color to black doesn't work.						
+
+    ButtonA10						Reaper 7 { #695125 #C8A747 }     	  
+	DisplayA10       				FixedTextDisplay SOLO
+	Shift+ButtonA10					Reaper 65535  { #000001 }	
+	Shift+DisplayA10				NoAction					
+
+    ButtonA11                       Shift  { #4C1111 #E03131 }                                                      
+    DisplayA11                      FixedTextDisplay SHIFT                                                                                                                                                                                                                                                                          
+                        
+    ButtonA12                       Option  { #4C1111 #E03131 }                                                     
+    DisplayA12                      FixedTextDisplay OPTION                                                                                                                                                                                                                                                                         
+
+    ButtonA13                       Control { #4C1111 #E03131 }                                             
+    DisplayA13                      FixedTextDisplay CNTRL                                      
+    
+    ButtonA14                       Alt  { #4C1111 #E03131 }                                                            
+    DisplayA14                      FixedTextDisplay ALT
+    
+    ButtonA15						Reaper 65535  { #000001 }						
+	DisplayA15						NoAction
+
+ZoneEnd

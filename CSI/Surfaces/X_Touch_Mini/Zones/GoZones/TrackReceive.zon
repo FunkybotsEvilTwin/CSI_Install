@@ -1,0 +1,22 @@
+// X-Touch_Mini CSI v7
+
+Zone "TrackReceive"
+
+    Flip+Rotary|           	TrackReceiveVolume
+    Toggle+Rotary|   		TrackReceiveVolume
+    Flip+RotaryPush|      	TrackReceiveVolume [ 0.76 ] 	// Sets fader to unity gain
+
+    Rotary|                    	TrackReceivePan
+    RotaryPush|          	TrackReceivePan [ 0.5 ]		// Sets pan to center
+
+    Shift+RotaryPush|		TrackReceivePrePost
+
+    Alt+RotaryPush|        	TrackReceiveMute
+    Alt+Rotary|        		TrackReceiveMute RingStyle=Fill
+
+    LowerButton3		Bank TrackReceivex -8
+    LowerButton4   		Bank TrackReceive 8
+    Control+LowerButton3        Bank TrackReceivex -1
+    Control+LowerButton4        Bank TrackReceive 1
+
+ZoneEnd

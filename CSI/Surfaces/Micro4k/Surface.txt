@@ -1,0 +1,453 @@
+// Rocksolid Micro4k
+
+
+StepSize
+    RotaryWidgetClass   0.003
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass   Dec 7f     7e    7d    	7c    7b    7a    79	78	77	76	75	74	73	72	70
+    RotaryWidgetClass   Inc 01     02    03    	04    05    06    07	08	09	0a	0b	0c  	0d	0e	0f
+    RotaryWidgetClass   Val 0.001  0.02  0.025  0.03  0.04  0.04  0.05	0.05	0.05	0.06	0.07	0.08	0.09	0.1	0.2 
+AccelerationValuesEnd
+
+
+//////////////
+// Rotaries //
+//////////////
+
+Widget Rotary1 RotaryWidgetClass	//Input
+    Encoder b0 01 7f 
+WidgetEnd
+
+Widget Rotary2 RotaryWidgetClass	//Output
+    Encoder b0 02 7f 
+WidgetEnd
+
+Widget Rotary3 RotaryWidgetClass	//DYNRatio
+    Encoder b0 03 7f 
+WidgetEnd
+
+Widget Rotary4 RotaryWidgetClass	//DYNThreshold
+    Encoder b0 04 7f 
+WidgetEnd
+
+Widget Rotary5 RotaryWidgetClass	//DYNRelease
+    Encoder b0 05 7f 
+WidgetEnd
+
+Widget Rotary6 RotaryWidgetClass	//EXPThreshold
+    Encoder b0 06 7f 
+WidgetEnd
+
+Widget Rotary7 RotaryWidgetClass	//EXPRange
+    Encoder b0 07 7f 
+WidgetEnd
+
+Widget Rotary8 RotaryWidgetClass	//EXPRelease
+    Encoder b0 08 7f 
+WidgetEnd
+
+Widget Rotary9 RotaryWidgetClass	//HighFilter
+    Encoder b0 0a 7f 
+WidgetEnd
+
+Widget Rotary10 RotaryWidgetClass	//LowFilter 
+    Encoder b0 09 7f 	
+WidgetEnd	
+	
+Widget Rotary11 RotaryWidgetClass	//HFGain
+    Encoder b0 0b 7f 	
+WidgetEnd	
+	
+Widget Rotary12 RotaryWidgetClass	//HFFreq
+    Encoder b0 0c 7f 	
+WidgetEnd	
+	
+Widget Rotary13 RotaryWidgetClass	//HMFGain
+    Encoder b0 0d 7f 	
+WidgetEnd	
+	
+Widget Rotary14 RotaryWidgetClass	//HMFFreq
+    Encoder b0 0e 7f 	
+WidgetEnd	
+	
+Widget Rotary15 RotaryWidgetClass	//HMFQ
+    Encoder b0 0f 7f 	
+WidgetEnd	
+	
+Widget Rotary16 RotaryWidgetClass	//LMFGain
+    Encoder b0 10 7f 	
+WidgetEnd	
+	
+Widget Rotary17 RotaryWidgetClass	//LMFFreq
+    Encoder b0 11 7f 	
+WidgetEnd	
+	
+Widget Rotary18 RotaryWidgetClass	//LMFQ
+    Encoder b0 12 7f 	
+WidgetEnd	
+	
+Widget  Rotary19 RotaryWidgetClass	//LFFreq
+    Encoder b0 14 7f 
+WidgetEnd
+
+Widget Rotary20 RotaryWidgetClass	//LFGain
+    Encoder b0 13 7f 
+WidgetEnd
+
+////////////////////
+/// Dummy Rotary ///
+////////////////////
+
+Widget Rotary21 RotaryWidgetClass	
+    Encoder b0 17 7f 
+WidgetEnd
+
+Widget Rotary22 RotaryWidgetClass	
+    Encoder b0 17 7f 
+WidgetEnd
+
+Widget Rotary23 RotaryWidgetClass	
+    Encoder b0 17 7f 
+WidgetEnd
+
+Widget Rotary24 RotaryWidgetClass	
+    Encoder b0 17 7f 
+WidgetEnd
+
+Widget Rotary25 RotaryWidgetClass	
+    Encoder b0 17 7f
+WidgetEnd
+
+Widget Rotary26 RotaryWidgetClass	
+    Encoder b0 17 7f 
+WidgetEnd
+
+
+////////////////
+// RotaryPush //
+////////////////
+
+
+Widget RotaryPush1			//Input
+    AnyPress b0 15 01
+WidgetEnd
+
+Widget RotaryPush2			//Output
+    AnyPress b0 16 01
+WidgetEnd
+
+Widget RotaryPush3			//DYNRatio
+    AnyPress b0 17 01
+WidgetEnd
+
+Widget RotaryPush4			//DYNThreshold
+    AnyPress b0 18 01
+WidgetEnd
+
+Widget RotaryPush5			//DYNRelease
+   AnyPress b0 19 01
+WidgetEnd
+
+Widget RotaryPush6			//EXPThreshold
+    AnyPress b0 1a 01
+WidgetEnd
+
+Widget RotaryPush7			//EXPRange
+    AnyPress b0 1b 01
+WidgetEnd
+
+Widget RotaryPush8			//EXPRelease
+    AnyPress b0 1c 01
+WidgetEnd
+
+Widget RotaryPush9			//HighFilter
+    AnyPress b0 1e 01 
+WidgetEnd
+
+Widget RotaryPush10			//LowFilter
+    AnyPress b0 1d 01 
+WidgetEnd
+
+Widget RotaryPush11			//HFGain
+    AnyPress b0 1f 01
+WidgetEnd
+
+Widget RotaryPush12			//HFFreq
+    AnyPress b0 20 01
+WidgetEnd
+
+Widget RotaryPush13			//HMFGain
+    AnyPress b0 21 01
+WidgetEnd
+
+Widget RotaryPush14			//HMFFreq
+    AnyPress b0 22 01
+WidgetEnd
+
+Widget RotaryPush15			//HMFQ
+    AnyPress b0 23 01
+WidgetEnd
+
+Widget RotaryPush16			//LMFGain
+    AnyPress b0 24 01
+WidgetEnd
+
+Widget RotaryPush17			//LMFFreq
+    AnyPress b0 25 01
+WidgetEnd
+
+Widget RotaryPush18			//LMFQ
+    AnyPress b0 26 01
+WidgetEnd
+
+Widget RotaryPush19			//LFFreq
+    AnyPress b0 27 01
+WidgetEnd
+
+Widget RotaryPush20			//LFGain
+    AnyPress b0 28 01
+WidgetEnd
+
+
+
+///////////////////////////
+// Miscellaneous Buttons //
+///////////////////////////
+
+Widget RotaryPush21			//Phase
+    AnyPress b0 29 01
+WidgetEnd
+
+Widget RotaryPush22			//Gate
+    AnyPress b0 2a 01 
+WidgetEnd
+
+Widget RotaryPush23			//HFBell
+    AnyPress b0 2B 01   
+WidgetEnd
+
+Widget RotaryPush24			//C1
+    AnyPress b0 2C 01
+WidgetEnd
+
+Widget RotaryPush25			//C2
+    AnyPress b0 2D 01
+WidgetEnd
+
+Widget RotaryPush26			//LFBell
+    AnyPress b0 2E 01   
+WidgetEnd
+
+////////////////////
+// Dummy Displays //
+////////////////////
+
+Widget DisplayUpper1						
+	FB_MCUDisplayUpper 0
+WidgetEnd
+
+Widget DisplayUpper2						
+	FB_MCUDisplayUpper 1
+WidgetEnd
+
+Widget DisplayUpper3						
+	FB_MCUDisplayUpper 2
+WidgetEnd
+
+Widget DisplayUpper4						
+	FB_MCUDisplayUpper 3
+WidgetEnd
+
+Widget DisplayUpper5
+	FB_MCUDisplayUpper 4
+WidgetEnd
+
+Widget DisplayUpper6
+	FB_MCUDisplayUpper 5
+WidgetEnd
+
+Widget DisplayUpper7
+	FB_MCUDisplayUpper 6
+WidgetEnd
+
+Widget DisplayUpper8
+	FB_MCUDisplayUpper 7
+WidgetEnd
+
+Widget DisplayUpper9
+	FB_MCUDisplayUpper 8
+WidgetEnd
+
+Widget DisplayUpper10
+	FB_MCUDisplayUpper 9
+WidgetEnd
+
+Widget DisplayUpper11
+	FB_MCUDisplayUpper 10
+WidgetEnd
+
+Widget DisplayUpper12
+	FB_MCUDisplayUpper 11
+WidgetEnd
+
+Widget DisplayUpper13
+	FB_MCUDisplayUpper 12
+WidgetEnd
+
+Widget DisplayUpper14
+	FB_MCUDisplayUpper 13
+WidgetEnd
+
+Widget DisplayUpper15
+	FB_MCUDisplayUpper 14
+WidgetEnd
+
+Widget DisplayUpper16
+	FB_MCUDisplayUpper 15
+WidgetEnd
+
+Widget DisplayUpper17
+	FB_MCUDisplayUpper 16
+WidgetEnd
+
+Widget DisplayUpper18
+	FB_MCUDisplayUpper 17
+WidgetEnd
+
+Widget DisplayUpper19
+	FB_MCUDisplayUpper 18
+WidgetEnd
+
+Widget DisplayUpper20
+	FB_MCUDisplayUpper 19
+WidgetEnd
+
+Widget DisplayUpper21
+	FB_MCUDisplayUpper 20
+WidgetEnd
+
+Widget DisplayUpper22
+	FB_MCUDisplayUpper 21
+WidgetEnd
+
+Widget DisplayUpper23
+	FB_MCUDisplayUpper 22
+WidgetEnd
+
+Widget DisplayUpper24
+	FB_MCUDisplayUpper 23
+WidgetEnd
+
+Widget DisplayUpper25
+	FB_MCUDisplayUpper 24
+WidgetEnd
+
+Widget DisplayUpper26
+	FB_MCUDisplayUpper 25
+WidgetEnd
+
+Widget DisplayLower1
+	FB_MCUDisplayLower 0
+WidgetEnd
+
+Widget DisplayLower2
+	FB_MCUDisplayLower 1
+WidgetEnd
+
+Widget DisplayLower3
+	FB_MCUDisplayLower 2
+WidgetEnd
+
+Widget DisplayLower4
+	FB_MCUDisplayLower 3
+WidgetEnd
+
+Widget DisplayLower5
+	FB_MCUDisplayLower 4
+WidgetEnd
+
+Widget DisplayLower6
+	FB_MCUDisplayLower 5
+WidgetEnd
+
+Widget DisplayLower7
+	FB_MCUDisplayLower 6
+WidgetEnd
+
+Widget DisplayLower8
+	FB_MCUDisplayLower 7
+WidgetEnd
+
+Widget DisplayLower9
+	FB_MCUDisplayLower 8
+WidgetEnd
+
+Widget DisplayLower10
+	FB_MCUDisplayLower 9
+WidgetEnd
+
+Widget DisplayLower11
+	FB_MCUDisplayLower 10
+WidgetEnd
+
+Widget DisplayLower12
+	FB_MCUDisplayLower 11
+WidgetEnd
+
+Widget DisplayLower13
+	FB_MCUDisplayLower 12
+WidgetEnd
+
+Widget DisplayLower14
+	FB_MCUDisplayLower 13
+WidgetEnd
+
+Widget DisplayLower15
+	FB_MCUDisplayLower 14
+WidgetEnd
+
+Widget DisplayLower16
+	FB_MCUDisplayLower 15
+WidgetEnd
+
+Widget DisplayLower17
+	FB_MCUDisplayLower 16
+WidgetEnd
+
+Widget DisplayLower18
+	FB_MCUDisplayLower 17
+WidgetEnd
+
+Widget DisplayLower19
+	FB_MCUDisplayLower 18
+WidgetEnd
+
+Widget DisplayLower20
+	FB_MCUDisplayLower 19
+WidgetEnd
+
+Widget DisplayLower21
+	FB_MCUDisplayLower 20
+WidgetEnd
+
+Widget DisplayLower22
+	FB_MCUDisplayLower 21
+WidgetEnd
+
+Widget DisplayLower23
+	FB_MCUDisplayLower 22
+WidgetEnd
+
+Widget DisplayLower24
+	FB_MCUDisplayLower 23
+WidgetEnd
+
+Widget DisplayLower25
+	FB_MCUDisplayLower 24
+WidgetEnd
+
+Widget DisplayLower26
+	FB_MCUDisplayLower 25
+WidgetEnd

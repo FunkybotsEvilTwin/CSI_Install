@@ -1,0 +1,46 @@
+Zone "VST: ReaComp (Cockos)" "ReaComp"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	/OnZoneActivation 	ToggleUseLocalModifiers
+	/OnZoneDeactivation 	ToggleUseLocalModifiers
+	OnZoneActivation 	ToggleUseLocalFXSlot
+	OnZoneDeactivation 	ToggleUseLocalFXSlot
+
+	/Plugin      		ClearFXSlot
+	
+
+#Begin auto generated section
+
+	Rotary1 FXParam 11 // "Wet"
+	
+	Rotary2 FXParam 10 // "Dry" 
+	 
+
+
+	Rotary3 FXParam 1 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper3 FixedTextDisplay "Ratio" 1 
+	DisplayLower3 FXParamValueDisplay 1 
+
+
+	Rotary4 FXParam 0 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper4 FixedTextDisplay "Threshold" 0 
+	DisplayLower4 FXParamValueDisplay 0 
+
+
+	Rotary5 FXParam 3 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper5 FixedTextDisplay "Auto Release" 16 
+	DisplayLower5 FXParamValueDisplay 16 
+ 
+
+
+	Shift+Rotary3 FXParam 2 // "Attack"
+	
+
+	 
+
+
+
+#End auto generated section
+
+	
+ZoneEnd

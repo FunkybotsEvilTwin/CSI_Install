@@ -1,5 +1,0 @@
-Zone FXEpilogue
-
-OnZoneDeactivation 	HideFXSlot
-
-ZoneEnd

@@ -1,0 +1,15 @@
+// X-Touch_Mini CSI v7
+
+Zone "SelectedTrackFXMenu"
+	OnZoneDeactivation 	HideFXSlot
+
+        DisplayUpper|       	FXMenuNameDisplay
+	DisplayLower|       	FXBypassedDisplay
+
+        Rotary|             	NoAction
+        RotaryPush|             ShowFXSlot
+        RotaryPush|         	GoFXSlot
+
+	Fader			NoAction    
+
+ZoneEnd

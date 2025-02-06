@@ -1,0 +1,18 @@
+Zone FXRowLayout
+     "" ""
+     "Shift" ""
+     "Option" ""
+     "Control" ""
+     "Alt" ""
+     "Shift+Option" ""
+     "Shift+Control" ""
+     "Shift+Alt" ""
+     "Shift+Option+Control" ""
+     "Shit+Option+Control+Alt" ""
+     "Shift+Control+Alt" ""
+     "Shift+Option+Alt" ""
+     "Option+Control" ""
+     "Option+Alt" ""
+     "Option+Control+Alt" ""
+     "Control+Alt" ""
+ZoneEnd

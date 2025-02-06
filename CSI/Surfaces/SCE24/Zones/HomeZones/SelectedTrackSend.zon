@@ -1,0 +1,14 @@
+Zone "SelectedTrackSend"
+    Display1B|              TrackSendNameDisplay TopMargin=0 BottomMargin=28 Font=2 TextColor=#ffffffff BackgroundColor=#000000ff
+    Display2B|              TrackSendPrePostDisplay TopMargin=29 BottomMargin=63 Font=4 TextColor=#ffffffff BackgroundColor=#000000ff
+    Touch+Display2B|        TrackSendVolumeDisplay TopMargin=29 BottomMargin=63 Font=4 TextColor=#ffffffff BackgroundColor=#000000ff
+    Display3B|              NoAction
+    Display4B|              NoAction
+
+    RotaryB|                TrackSendVolume RingStyle=Fill LEDRingColor=#00ffffff PushColor=#003f00ff
+    RotaryPushB|            TrackSendPrePost
+					   
+    Shift+RotaryB|          TrackSendPan RingStyle=Dot
+    Shift+Display2B|        TrackSendPanDisplay TopMargin=29 BottomMargin=63 Font=4 TextColor=#ffffffff BackgroundColor=#000000ff
+    Shift+RotaryPushB|      TrackSendPan [ 0.5 ]
+ZoneEnd

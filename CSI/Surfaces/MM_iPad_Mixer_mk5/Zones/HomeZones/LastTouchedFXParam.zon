@@ -1,0 +1,5 @@
+Zone LastTouchedFXParam
+          FXParamAdjust            LastTouchedFXParam
+          FXFocusDisplayUpper      LastTouchedFXParamNameDisplay
+          FXFocusDisplayLower      LastTouchedFXParamValueDisplay
+ZoneEnd

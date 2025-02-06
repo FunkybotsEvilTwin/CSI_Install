@@ -1,0 +1,27 @@
+Zone FXWidgetLayout
+	Rotary FXParam  
+	Display1 FixedTextDisplay 
+	Display2 FXParamValueDisplay 
+ZoneEnd
+
+#WidgetType Rotary RingStyle=Dot LEDRingColor=#0000ffff
+#WidgetType RotaryPush PushColor=#003f00ff
+#DisplayRow Display1 TopMargin=0  BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff
+#DisplayRow Display2 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff
+#DisplayRow Display3 TopMargin=0  BottomMargin=31 Font=2 TextColor=#00ffffff BackgroundColor=#000000ff
+#DisplayRow Display4 TopMargin=32 BottomMargin=63 Font=4 TextColor=#00ffffff BackgroundColor=#000000ff
+#RingStyle Dot
+#RingStyle Fill
+#RingStyle BoostCut
+#RingStyle Spread
+#DisplayFont 0
+#DisplayFont 1
+#DisplayFont 2
+#DisplayFont 3
+#DisplayFont 4
+#DisplayFont 5
+#DisplayFont 6
+#DisplayFont 7
+#DisplayFont 8
+#DisplayFont 9
+#SupportsColor

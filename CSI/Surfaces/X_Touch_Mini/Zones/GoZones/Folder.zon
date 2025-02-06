@@ -1,0 +1,23 @@
+// X-Touch_Mini CSI v7
+
+Zone "Folder"
+
+    Fader|                   	NoAction 
+
+    Rotary|                  	TrackPan 0
+    RotaryPush|        		TrackPan [ 0.5 ]		// Sets Pan to center
+
+    Shift+Rotary|               TrackPanWidth
+    Toggle+Rotary|           	TrackPanAutoRight RingStyle=Dot
+    Shift+RotaryPush|       	TrackPanWidth [ 1.0 ]		// Sets Width to 100%
+
+    Control+Alt+RotaryPush|	CycleTrackAutoMode
+
+    Hold+RotaryPush|            TrackToggleFolderSpill
+
+    LowerButton3		Bank Folder -8
+    LowerButton4   		Bank Folder 8
+    Control+LowerButton3        Bank Folder -1
+    Control+LowerButton4        Bank Folder 1
+
+ZoneEnd

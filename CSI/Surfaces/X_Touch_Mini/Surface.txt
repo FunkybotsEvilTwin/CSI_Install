@@ -1,0 +1,252 @@
+// X-Touch Mini CSI v7
+
+// Layout:
+//   Rotary Buttons (EN 1-8 Push)
+//   Rotary Knobs   (EN 1-8 Turn)
+//   Upper Buttons  (BT 1-8)
+//   Lower Buttons  (BT 9-16)
+//   Upper Button A (Layer A Button)
+//   Lower Button B (Layer B Button)
+//   Fader    	    (FD 1)
+
+StepSize
+    RotaryWidgetClass   0.05
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass   Dec 41     42    43    44    45    46    47    
+    RotaryWidgetClass   Inc 01     02    03    04    05    06    07      
+    RotaryWidgetClass   Val 0.005  0.01  0.02  0.04  0.06  0.08  0.1  
+AccelerationValuesEnd
+
+
+Widget UpperButton1
+	Press 90 59 7f 90 59 00
+	FB_TwoState 90 59 7f 90 59 00
+WidgetEnd
+
+Widget UpperButton2
+	Press 90 5a 7f 90 5a 00
+	FB_TwoState 90 5a 7f 90 5a 00
+ WidgetEnd
+
+Widget UpperButton3
+	Press 90 28 7f 90 28 00
+	FB_TwoState 90 28 7f 90 28 00
+WidgetEnd
+
+Widget UpperButton4
+	Press 90 29 7f 90 29 00
+	FB_TwoState 90 29 7f 90 29 00
+WidgetEnd
+
+Widget UpperButton5
+	Press 90 2a 7f 90 2a 00
+	FB_TwoState 90 2a 7f 90 2a 00
+WidgetEnd
+
+Widget UpperButton6
+	Press 90 2b 7f 90 2b 00
+	FB_TwoState 90 2b 7f 90 2b 00
+WidgetEnd
+
+Widget UpperButton7
+	Press 90 2c 7f 90 2c 00
+	FB_TwoState 90 2c 7f 90 2c 00
+WidgetEnd
+
+Widget UpperButton8
+	Press 90 2d 7f 90 2d 00
+	FB_TwoState 90 2d 7f 90 2d 00
+WidgetEnd
+
+Widget UpperButtonA
+	Press 90 54 7f 90 54 00
+	FB_TwoState 90 54 7f 90 54 00
+WidgetEnd
+
+Widget LowerButton1
+	Press 90 57 7f 90 57 00
+	FB_TwoState 90 57 7f 90 57 00
+WidgetEnd
+
+Widget LowerButton2
+	Press 90 58 7f 90 58 00
+	FB_TwoState 90 58 7f 90 58 00
+WidgetEnd
+
+Widget LowerButton3
+	Press 90 5b 7f 90 5b 00
+	FB_TwoState 90 5b 7f 90 5b 00
+WidgetEnd
+
+Widget LowerButton4
+	Press 90 5c 7f 90 5c 00
+	FB_TwoState 90 5c 7f 90 5c 00
+WidgetEnd
+
+Widget LowerButton5
+	Press 90 56 7f 90 56 00
+	FB_TwoState 90 56 7f 90 56 00
+WidgetEnd
+
+Widget LowerButton6
+	Press 90 5d 7f 90 5d 00
+	FB_TwoState 90 5d 7f 90 5d 00
+WidgetEnd
+
+Widget LowerButton7
+	Press 90 5e 7f 90 5e 00
+	FB_TwoState 90 5e 7f 90 5e 00
+WidgetEnd
+
+Widget LowerButton8
+	Press 90 5f 7f 90 5f 00
+	FB_TwoState 90 5f 7f 90 5f 00
+WidgetEnd
+
+Widget LowerButtonB
+	Press 90 55 7f 90 55 00
+	FB_TwoState 90 55 7f 90 55 00
+WidgetEnd
+
+Widget Fader
+	Fader14Bit e8 00 7f
+WidgetEnd
+
+Widget RotaryPush1
+	Press 90 20 7f 90 20 00
+WidgetEnd
+	
+Widget RotaryPush2
+	Press 90 21 7f 90 21 00
+WidgetEnd
+
+Widget RotaryPush3
+	Press 90 22 7f 90 22 00
+WidgetEnd
+
+Widget RotaryPush4
+	Press 90 23 7f 90 23 00
+WidgetEnd
+
+Widget RotaryPush5
+	Press 90 24 7f 90 24 00
+WidgetEnd
+
+Widget RotaryPush6
+	Press 90 25 7f 90 25 00
+WidgetEnd
+
+Widget RotaryPush7
+	Press 90 26 7f 90 26 00
+WidgetEnd
+
+Widget RotaryPush8
+	Press 90 27 7f 90 27 00
+WidgetEnd
+
+Widget Rotary1 RotaryWidgetClass
+	Encoder b0 10 7f
+	FB_Encoder b0 10 7f
+WidgetEnd
+
+Widget Rotary2 RotaryWidgetClass
+	Encoder b0 11 7f
+	FB_Encoder b0 11 7f
+WidgetEnd
+
+Widget Rotary3 RotaryWidgetClass
+	Encoder b0 12 7f
+	FB_Encoder b0 12 7f
+WidgetEnd
+
+Widget Rotary4 RotaryWidgetClass
+	Encoder b0 13 7f
+	FB_Encoder b0 13 7f
+WidgetEnd
+
+Widget Rotary5 RotaryWidgetClass
+	Encoder b0 14 7f
+	FB_Encoder b0 14 7f
+WidgetEnd
+
+Widget Rotary6 RotaryWidgetClass
+	Encoder b0 15 7f
+	FB_Encoder b0 15 7f
+WidgetEnd
+
+Widget Rotary7 RotaryWidgetClass
+	Encoder b0 16 7f
+	FB_Encoder b0 16 7f
+WidgetEnd
+
+Widget Rotary8 RotaryWidgetClass
+	Encoder b0 17 7f
+	FB_Encoder b0 17 7f
+WidgetEnd
+
+Widget DisplayUpper1
+	FB_XTouchDisplayUpper 0
+WidgetEnd
+
+Widget DisplayUpper2
+	FB_MCUDisplayUpper 1
+WidgetEnd
+
+Widget DisplayUpper3
+	FB_MCUDisplayUpper 2
+WidgetEnd
+
+Widget DisplayUpper4
+	FB_MCUDisplayUpper 3
+WidgetEnd
+
+Widget DisplayUpper5
+	FB_MCUDisplayUpper 4
+WidgetEnd
+
+Widget DisplayUpper6
+	FB_MCUDisplayUpper 5
+WidgetEnd
+
+Widget DisplayUpper7
+	FB_MCUDisplayUpper 6
+WidgetEnd
+
+Widget DisplayUpper8
+	FB_MCUDisplayUpper 7
+WidgetEnd
+
+Widget DisplayLower1
+	FB_MCUDisplayLower 0
+WidgetEnd
+
+Widget DisplayLower2
+	FB_MCUDisplayLower 1
+WidgetEnd
+
+Widget DisplayLower3
+	FB_MCUDisplayLower 2
+WidgetEnd
+
+Widget DisplayLower4
+	FB_MCUDisplayLower 3
+WidgetEnd
+
+Widget DisplayLower5
+	FB_MCUDisplayLower 4
+WidgetEnd
+
+Widget DisplayLower6
+	FB_MCUDisplayLower 5
+WidgetEnd
+
+Widget DisplayLower7
+	FB_MCUDisplayLower 6
+WidgetEnd
+
+Widget DisplayLower8
+	FB_MCUDisplayLower 7
+WidgetEnd
+

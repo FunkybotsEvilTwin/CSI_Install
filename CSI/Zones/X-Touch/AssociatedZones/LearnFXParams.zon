@@ -1,5 +1,0 @@
-Zone "LearnFXParams"
-    OnZoneActivation	SetXTouchDisplayColors Cyan 
-    Instrument		SaveLearnedFXParams
-    User                EraseLastTouchedControl
-ZoneEnd

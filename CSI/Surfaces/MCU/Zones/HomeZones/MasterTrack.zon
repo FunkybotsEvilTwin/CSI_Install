@@ -1,0 +1,4 @@
+Zone "MasterTrack"
+    MasterFader                 TrackVolume
+    Control+Alt+MasterFader     LastTouchedFXParam
+ZoneEnd

@@ -1,0 +1,23 @@
+Zone "VST3: Lindell 80 Bus (Plugin Alliance)"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	/OnZoneActivation 	ToggleUseLocalModifiers
+	/OnZoneDeactivation 	ToggleUseLocalModifiers
+	OnZoneActivation 	ToggleUseLocalFXSlot
+	OnZoneDeactivation 	ToggleUseLocalFXSlot
+
+	Plugin      		ClearFXSlot
+
+Shift+Rotary1		FXParam 0 // "THD"
+Rotary1 		FXParam 1 // "Trim"
+Rotary2			FXParam 2 // "Level"
+	/FXParam 3 "TMT Channel"
+	/FXParam 4 "TMT Link"
+	/FXParam 5 "Input Level"
+	/FXParam 6 "Output Level"
+	/FXParam 7 "Bypass"
+	/FXParam 8 "Program"
+RotaryPush21		FXParam 9 [ 0.0 1.0 ] // "Bypass"
+	FXParam 10 "Wet"
+	FXParam 11 "Delta"
+ZoneEnd

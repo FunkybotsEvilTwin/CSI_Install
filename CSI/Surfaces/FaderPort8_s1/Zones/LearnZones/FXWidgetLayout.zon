@@ -1,0 +1,17 @@
+Zone FXWidgetLayout
+	Fader FXParam
+     ScribbleLine1_          FixedTextDisplay
+     ScribbleLine4_          FXParamValueDisplay
+ZoneEnd
+
+#WidgetType Fader
+#WidgetType RotaryPush
+#WidgetType Rotary
+#DisplayRow ScribbleLine1_
+#DisplayRow ScribbleLine2_
+#DisplayRow ScribbleLine3_
+#DisplayRow ScribbleLine4_
+#RingStyle Dot
+#RingStyle Fill
+#RingStyle BoostCut
+#RingStyle Spread

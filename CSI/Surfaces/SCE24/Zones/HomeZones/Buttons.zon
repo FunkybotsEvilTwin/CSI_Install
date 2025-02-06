@@ -1,0 +1,52 @@
+Zone "Buttons"
+                        
+    OLEDButton1           Stop
+    OLEDButtonDisplay11   Stop           DisplayText=STOP TopMargin=0 BottomMargin=63 Font=6 TextColorOn=#0000ff00 BackgroundColorOn=#ffff0000 TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+    OLEDButtonDisplay21   NoAction
+    OLEDButtonDisplay31   NoAction
+    OLEDButtonDisplay41   NoAction
+    
+    OLEDButton2           Play
+    OLEDButtonDisplay12   Play           DisplayText=PLAY TopMargin=0 BottomMargin=63 Font=6 TextColorOn=#000000ff BackgroundColorOn=#21ff06ff TextColorOff=#21ff06ff BackgroundColorOff=#000000ff
+    OLEDButtonDisplay22   NoAction
+    OLEDButtonDisplay32   NoAction
+    OLEDButtonDisplay42   NoAction
+    
+    OLEDButton3           Rewind        
+    OLEDButtonDisplay13   Rewind         DisplayText=REW TopMargin=0 BottomMargin=63 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#00ff00ff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+    OLEDButtonDisplay23   NoAction
+    OLEDButtonDisplay33   NoAction
+    OLEDButtonDisplay43   NoAction 
+ 
+    OLEDButton4           FastForward
+    OLEDButtonDisplay14   FastForward    DisplayText=FF TopMargin=0 BottomMargin=63 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#0000ffff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+    OLEDButtonDisplay24   NoAction
+    OLEDButtonDisplay34   NoAction
+    OLEDButtonDisplay44   NoAction 
+     
+    OLEDButton5           Record
+    OLEDButtonDisplay15   Record         DisplayText=REC TopMargin=0 BottomMargin=63 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#ff0000ff TextColorOff=#ff0000ff BackgroundColorOff=#000000ff
+    OLEDButtonDisplay25   NoAction
+    OLEDButtonDisplay35   NoAction
+    OLEDButtonDisplay45   NoAction 
+    
+    
+    OLEDButton6           CycleTimeline
+    OLEDButtonDisplay16   CycleTimeline  DisplayText=LOOP TopMargin=0 BottomMargin=63 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#00ff00ff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+    OLEDButtonDisplay26   NoAction
+    OLEDButtonDisplay36   NoAction
+    OLEDButtonDisplay46   NoAction 
+    
+    OLEDButton7           Reaper 1157
+    OLEDButtonDisplay17   Reaper 1157    DisplayText=SNAP TopMargin=0 BottomMargin=63 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#0000ffff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+    OLEDButtonDisplay27   NoAction
+    OLEDButtonDisplay37   NoAction
+    OLEDButtonDisplay47   NoAction 
+
+    OLEDButton8           Reaper 1155
+    OLEDButtonDisplay18   Reaper 1155    DisplayText=RPLE TopMargin=0 BottomMargin=63 Font=6 TextColorOn=#ffffffff BackgroundColorOn=#0000ffff TextColorOff=#ffffffff BackgroundColorOff=#000000ff
+    OLEDButtonDisplay28   NoAction
+    OLEDButtonDisplay38   NoAction
+    OLEDButtonDisplay48   NoAction     
+    
+ZoneEnd

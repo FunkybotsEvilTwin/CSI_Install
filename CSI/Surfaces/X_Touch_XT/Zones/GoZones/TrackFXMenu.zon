@@ -1,0 +1,20 @@
+Zone TrackFXMenu
+	OnZoneActivation       SetXTouchDisplayColors Blue
+     OnZoneDeactivation     RestoreXTouchDisplayColors
+	OnZoneDeactivation     Reaper _S&M_WNCLS3
+	
+        DisplayUpper|       FixedTextDisplay "FXMenu"
+        DisplayLower|       FXMenuNameDisplay
+        Rotary|             NoAction
+        RotaryPush|         GoFXSlot
+        RotaryPush|         Reaper _S&M_FLOATFX|
+        Mute|               ToggleFXBypass
+        Left                SelectedTrackFXMenuBank -1
+        Right               SelectedTrackFXMenuBank 1
+        Up                  Bank TrackFXMenu -1
+        Down                Bank TrackFXMenu 1
+        RecordArm|          NoAction
+        Solo|               NoAction
+        Select|             NoAction
+        Fader|              NoAction   
+ZoneEnd

@@ -1,0 +1,4 @@
+Zone FXPrologue
+	LeftDisplay	    	FXNameDisplay TopMargin=0 BottomMargin=47 Font=4
+	RightDisplay 		TrackNameDisplay TopMargin=0 BottomMargin=47 Font=4
+ZoneEnd

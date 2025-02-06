@@ -1,0 +1,757 @@
+Zone "VST3: The Scream (Cytomic)" "The Scream"
+	LeftDisplay	    	FXNameDisplay TopMargin=0 BottomMargin=47 Font=4
+	RightDisplay 		TrackNameDisplay TopMargin=0 BottomMargin=47 Font=4
+
+#Begin auto generated section
+
+	RotaryA1 FXParam 1 RingStyle=Dot LEDRingColor=#0000ffff [ 0.00>1.00 (0.001,0.002,0.004,0.01,0.02,0.04,0.08,0.16) (0)  ]
+	RotaryPushA1 NoAction 
+	Display1A1 FixedTextDisplay "Drive" 1 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2A1 FXParamValueDisplay 1 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryA2 FXParam 2 RingStyle=Dot LEDRingColor=#0000ffff [ 0.00>1.00 (0.001,0.002,0.004,0.01,0.02,0.04,0.08,0.16) (0)  ]
+	RotaryPushA2 NoAction 
+	Display1A2 FixedTextDisplay "Tone" 2 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2A2 FXParamValueDisplay 2 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryA3 FXParam 3 RingStyle=Dot LEDRingColor=#0000ffff [ 0.00>1.00 (0.001,0.002,0.004,0.01,0.02,0.04,0.08,0.16) (0)  ]
+	RotaryPushA3 NoAction 
+	Display1A3 FixedTextDisplay "Level" 3 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2A3 FXParamValueDisplay 3 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryA4 FXParam 9 RingStyle=Dot LEDRingColor=#0000ffff [ 0.00>1.00 (0.001,0.002,0.004,0.01,0.02,0.04,0.08,0.16) (0)  ]
+	RotaryPushA4 NoAction 
+	Display1A4 FixedTextDisplay "Voltage" 9 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2A4 FXParamValueDisplay 9 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryA5 FXParam 10 RingStyle=Dot LEDRingColor=#0000ffff [ 0.00>1.00 (0.001,0.002,0.004,0.01,0.02,0.04,0.08,0.16) (0)  ]
+	RotaryPushA5 NoAction 
+	Display1A5 FixedTextDisplay "Bias" 10 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2A5 FXParamValueDisplay 10 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryA6 FXParam 6 RingStyle=Dot LEDRingColor=#0000ffff [ 0.00>1.00 (0.001,0.002,0.004,0.01,0.02,0.04,0.08,0.16) (0)  ]
+	RotaryPushA6 NoAction 
+	Display1A6 FixedTextDisplay "Pre" 6 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2A6 FXParamValueDisplay 6 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryA7 FXParam 7 RingStyle=Dot LEDRingColor=#0000ffff [ 0.00>1.00 (0.001,0.002,0.004,0.01,0.02,0.04,0.08,0.16) (0)  ]
+	RotaryPushA7 NoAction 
+	Display1A7 FixedTextDisplay "Post" 7 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2A7 FXParamValueDisplay 7 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryA8 FXParam 8 RingStyle=Dot LEDRingColor=#0000ffff [ 0.00>1.00 (0.001,0.002,0.004,0.01,0.02,0.04,0.08,0.16) (0)  ]
+	RotaryPushA8 NoAction 
+	Display1A8 FixedTextDisplay "Mix" 8 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2A8 FXParamValueDisplay 8 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+
+
+	RotaryB1 NoAction 
+	RotaryPushB1 FXParam 5 PushColor=#003f00ff [ 0.00>1.00 (0.0) (0) 0.00 1.00  ]
+	Display1B1 FixedTextDisplay "Mod" 5 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2B1 FXParamValueDisplay 5 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryB2 NoAction 
+	RotaryPushB2 FXParam 4 PushColor=#003f00ff [ 0.00>1.00 (0.0) (0) 0.00 1.00  ]
+	Display1B2 FixedTextDisplay "Active" 4 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2B2 FXParamValueDisplay 4 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryB3 NoAction 
+	RotaryPushB3 FXParam 0 PushColor=#003f00ff [ 0.00>1.00 (0.0) (0) 0.00 1.00  ]
+	Display1B3 FixedTextDisplay "Power" 0 TopMargin=0 BottomMargin=31 Font=2 TextColor=#ffff00ff BackgroundColor=#000000ff 
+	Display2B3 FXParamValueDisplay 0 TopMargin=32 BottomMargin=63 Font=4 TextColor=#ffff00ff BackgroundColor=#000000ff 
+
+
+	RotaryB4 NoAction 
+	RotaryPushB4 NoAction 
+	Display1B4 NoAction 
+	Display2B4 NoAction 
+
+
+	RotaryB5 NoAction 
+	RotaryPushB5 NoAction 
+	Display1B5 NoAction 
+	Display2B5 NoAction 
+
+
+	RotaryB6 NoAction 
+	RotaryPushB6 NoAction 
+	Display1B6 NoAction 
+	Display2B6 NoAction 
+
+
+	RotaryB7 NoAction 
+	RotaryPushB7 NoAction 
+	Display1B7 NoAction 
+	Display2B7 NoAction 
+
+
+	RotaryB8 NoAction 
+	RotaryPushB8 NoAction 
+	Display1B8 NoAction 
+	Display2B8 NoAction 
+
+
+
+
+	RotaryC1 NoAction 
+	RotaryPushC1 NoAction 
+	Display1C1 NoAction 
+	Display2C1 NoAction 
+
+
+	RotaryC2 NoAction 
+	RotaryPushC2 NoAction 
+	Display1C2 NoAction 
+	Display2C2 NoAction 
+
+
+	RotaryC3 NoAction 
+	RotaryPushC3 NoAction 
+	Display1C3 NoAction 
+	Display2C3 NoAction 
+
+
+	RotaryC4 NoAction 
+	RotaryPushC4 NoAction 
+	Display1C4 NoAction 
+	Display2C4 NoAction 
+
+
+	RotaryC5 NoAction 
+	RotaryPushC5 NoAction 
+	Display1C5 NoAction 
+	Display2C5 NoAction 
+
+
+	RotaryC6 NoAction 
+	RotaryPushC6 NoAction 
+	Display1C6 NoAction 
+	Display2C6 NoAction 
+
+
+	RotaryC7 NoAction 
+	RotaryPushC7 NoAction 
+	Display1C7 NoAction 
+	Display2C7 NoAction 
+
+
+	RotaryC8 NoAction 
+	RotaryPushC8 NoAction 
+	Display1C8 NoAction 
+	Display2C8 NoAction 
+
+
+
+
+	Shift+RotaryA1 NoAction 
+	Shift+RotaryPushA1 NoAction 
+	Shift+Display1A1 NoAction 
+	Shift+Display2A1 NoAction 
+
+
+	Shift+RotaryA2 NoAction 
+	Shift+RotaryPushA2 NoAction 
+	Shift+Display1A2 NoAction 
+	Shift+Display2A2 NoAction 
+
+
+	Shift+RotaryA3 NoAction 
+	Shift+RotaryPushA3 NoAction 
+	Shift+Display1A3 NoAction 
+	Shift+Display2A3 NoAction 
+
+
+	Shift+RotaryA4 NoAction 
+	Shift+RotaryPushA4 NoAction 
+	Shift+Display1A4 NoAction 
+	Shift+Display2A4 NoAction 
+
+
+	Shift+RotaryA5 NoAction 
+	Shift+RotaryPushA5 NoAction 
+	Shift+Display1A5 NoAction 
+	Shift+Display2A5 NoAction 
+
+
+	Shift+RotaryA6 NoAction 
+	Shift+RotaryPushA6 NoAction 
+	Shift+Display1A6 NoAction 
+	Shift+Display2A6 NoAction 
+
+
+	Shift+RotaryA7 NoAction 
+	Shift+RotaryPushA7 NoAction 
+	Shift+Display1A7 NoAction 
+	Shift+Display2A7 NoAction 
+
+
+	Shift+RotaryA8 NoAction 
+	Shift+RotaryPushA8 NoAction 
+	Shift+Display1A8 NoAction 
+	Shift+Display2A8 NoAction 
+
+
+
+
+	Shift+RotaryB1 NoAction 
+	Shift+RotaryPushB1 NoAction 
+	Shift+Display1B1 NoAction 
+	Shift+Display2B1 NoAction 
+
+
+	Shift+RotaryB2 NoAction 
+	Shift+RotaryPushB2 NoAction 
+	Shift+Display1B2 NoAction 
+	Shift+Display2B2 NoAction 
+
+
+	Shift+RotaryB3 NoAction 
+	Shift+RotaryPushB3 NoAction 
+	Shift+Display1B3 NoAction 
+	Shift+Display2B3 NoAction 
+
+
+	Shift+RotaryB4 NoAction 
+	Shift+RotaryPushB4 NoAction 
+	Shift+Display1B4 NoAction 
+	Shift+Display2B4 NoAction 
+
+
+	Shift+RotaryB5 NoAction 
+	Shift+RotaryPushB5 NoAction 
+	Shift+Display1B5 NoAction 
+	Shift+Display2B5 NoAction 
+
+
+	Shift+RotaryB6 NoAction 
+	Shift+RotaryPushB6 NoAction 
+	Shift+Display1B6 NoAction 
+	Shift+Display2B6 NoAction 
+
+
+	Shift+RotaryB7 NoAction 
+	Shift+RotaryPushB7 NoAction 
+	Shift+Display1B7 NoAction 
+	Shift+Display2B7 NoAction 
+
+
+	Shift+RotaryB8 NoAction 
+	Shift+RotaryPushB8 NoAction 
+	Shift+Display1B8 NoAction 
+	Shift+Display2B8 NoAction 
+
+
+
+
+	Shift+RotaryC1 NoAction 
+	Shift+RotaryPushC1 NoAction 
+	Shift+Display1C1 NoAction 
+	Shift+Display2C1 NoAction 
+
+
+	Shift+RotaryC2 NoAction 
+	Shift+RotaryPushC2 NoAction 
+	Shift+Display1C2 NoAction 
+	Shift+Display2C2 NoAction 
+
+
+	Shift+RotaryC3 NoAction 
+	Shift+RotaryPushC3 NoAction 
+	Shift+Display1C3 NoAction 
+	Shift+Display2C3 NoAction 
+
+
+	Shift+RotaryC4 NoAction 
+	Shift+RotaryPushC4 NoAction 
+	Shift+Display1C4 NoAction 
+	Shift+Display2C4 NoAction 
+
+
+	Shift+RotaryC5 NoAction 
+	Shift+RotaryPushC5 NoAction 
+	Shift+Display1C5 NoAction 
+	Shift+Display2C5 NoAction 
+
+
+	Shift+RotaryC6 NoAction 
+	Shift+RotaryPushC6 NoAction 
+	Shift+Display1C6 NoAction 
+	Shift+Display2C6 NoAction 
+
+
+	Shift+RotaryC7 NoAction 
+	Shift+RotaryPushC7 NoAction 
+	Shift+Display1C7 NoAction 
+	Shift+Display2C7 NoAction 
+
+
+	Shift+RotaryC8 NoAction 
+	Shift+RotaryPushC8 NoAction 
+	Shift+Display1C8 NoAction 
+	Shift+Display2C8 NoAction 
+
+
+
+
+	Option+RotaryA1 NoAction 
+	Option+RotaryPushA1 NoAction 
+	Option+Display1A1 NoAction 
+	Option+Display2A1 NoAction 
+
+
+	Option+RotaryA2 NoAction 
+	Option+RotaryPushA2 NoAction 
+	Option+Display1A2 NoAction 
+	Option+Display2A2 NoAction 
+
+
+	Option+RotaryA3 NoAction 
+	Option+RotaryPushA3 NoAction 
+	Option+Display1A3 NoAction 
+	Option+Display2A3 NoAction 
+
+
+	Option+RotaryA4 NoAction 
+	Option+RotaryPushA4 NoAction 
+	Option+Display1A4 NoAction 
+	Option+Display2A4 NoAction 
+
+
+	Option+RotaryA5 NoAction 
+	Option+RotaryPushA5 NoAction 
+	Option+Display1A5 NoAction 
+	Option+Display2A5 NoAction 
+
+
+	Option+RotaryA6 NoAction 
+	Option+RotaryPushA6 NoAction 
+	Option+Display1A6 NoAction 
+	Option+Display2A6 NoAction 
+
+
+	Option+RotaryA7 NoAction 
+	Option+RotaryPushA7 NoAction 
+	Option+Display1A7 NoAction 
+	Option+Display2A7 NoAction 
+
+
+	Option+RotaryA8 NoAction 
+	Option+RotaryPushA8 NoAction 
+	Option+Display1A8 NoAction 
+	Option+Display2A8 NoAction 
+
+
+
+
+	Option+RotaryB1 NoAction 
+	Option+RotaryPushB1 NoAction 
+	Option+Display1B1 NoAction 
+	Option+Display2B1 NoAction 
+
+
+	Option+RotaryB2 NoAction 
+	Option+RotaryPushB2 NoAction 
+	Option+Display1B2 NoAction 
+	Option+Display2B2 NoAction 
+
+
+	Option+RotaryB3 NoAction 
+	Option+RotaryPushB3 NoAction 
+	Option+Display1B3 NoAction 
+	Option+Display2B3 NoAction 
+
+
+	Option+RotaryB4 NoAction 
+	Option+RotaryPushB4 NoAction 
+	Option+Display1B4 NoAction 
+	Option+Display2B4 NoAction 
+
+
+	Option+RotaryB5 NoAction 
+	Option+RotaryPushB5 NoAction 
+	Option+Display1B5 NoAction 
+	Option+Display2B5 NoAction 
+
+
+	Option+RotaryB6 NoAction 
+	Option+RotaryPushB6 NoAction 
+	Option+Display1B6 NoAction 
+	Option+Display2B6 NoAction 
+
+
+	Option+RotaryB7 NoAction 
+	Option+RotaryPushB7 NoAction 
+	Option+Display1B7 NoAction 
+	Option+Display2B7 NoAction 
+
+
+	Option+RotaryB8 NoAction 
+	Option+RotaryPushB8 NoAction 
+	Option+Display1B8 NoAction 
+	Option+Display2B8 NoAction 
+
+
+
+
+	Option+RotaryC1 NoAction 
+	Option+RotaryPushC1 NoAction 
+	Option+Display1C1 NoAction 
+	Option+Display2C1 NoAction 
+
+
+	Option+RotaryC2 NoAction 
+	Option+RotaryPushC2 NoAction 
+	Option+Display1C2 NoAction 
+	Option+Display2C2 NoAction 
+
+
+	Option+RotaryC3 NoAction 
+	Option+RotaryPushC3 NoAction 
+	Option+Display1C3 NoAction 
+	Option+Display2C3 NoAction 
+
+
+	Option+RotaryC4 NoAction 
+	Option+RotaryPushC4 NoAction 
+	Option+Display1C4 NoAction 
+	Option+Display2C4 NoAction 
+
+
+	Option+RotaryC5 NoAction 
+	Option+RotaryPushC5 NoAction 
+	Option+Display1C5 NoAction 
+	Option+Display2C5 NoAction 
+
+
+	Option+RotaryC6 NoAction 
+	Option+RotaryPushC6 NoAction 
+	Option+Display1C6 NoAction 
+	Option+Display2C6 NoAction 
+
+
+	Option+RotaryC7 NoAction 
+	Option+RotaryPushC7 NoAction 
+	Option+Display1C7 NoAction 
+	Option+Display2C7 NoAction 
+
+
+	Option+RotaryC8 NoAction 
+	Option+RotaryPushC8 NoAction 
+	Option+Display1C8 NoAction 
+	Option+Display2C8 NoAction 
+
+
+
+
+	Control+RotaryA1 NoAction 
+	Control+RotaryPushA1 NoAction 
+	Control+Display1A1 NoAction 
+	Control+Display2A1 NoAction 
+
+
+	Control+RotaryA2 NoAction 
+	Control+RotaryPushA2 NoAction 
+	Control+Display1A2 NoAction 
+	Control+Display2A2 NoAction 
+
+
+	Control+RotaryA3 NoAction 
+	Control+RotaryPushA3 NoAction 
+	Control+Display1A3 NoAction 
+	Control+Display2A3 NoAction 
+
+
+	Control+RotaryA4 NoAction 
+	Control+RotaryPushA4 NoAction 
+	Control+Display1A4 NoAction 
+	Control+Display2A4 NoAction 
+
+
+	Control+RotaryA5 NoAction 
+	Control+RotaryPushA5 NoAction 
+	Control+Display1A5 NoAction 
+	Control+Display2A5 NoAction 
+
+
+	Control+RotaryA6 NoAction 
+	Control+RotaryPushA6 NoAction 
+	Control+Display1A6 NoAction 
+	Control+Display2A6 NoAction 
+
+
+	Control+RotaryA7 NoAction 
+	Control+RotaryPushA7 NoAction 
+	Control+Display1A7 NoAction 
+	Control+Display2A7 NoAction 
+
+
+	Control+RotaryA8 NoAction 
+	Control+RotaryPushA8 NoAction 
+	Control+Display1A8 NoAction 
+	Control+Display2A8 NoAction 
+
+
+
+
+	Control+RotaryB1 NoAction 
+	Control+RotaryPushB1 NoAction 
+	Control+Display1B1 NoAction 
+	Control+Display2B1 NoAction 
+
+
+	Control+RotaryB2 NoAction 
+	Control+RotaryPushB2 NoAction 
+	Control+Display1B2 NoAction 
+	Control+Display2B2 NoAction 
+
+
+	Control+RotaryB3 NoAction 
+	Control+RotaryPushB3 NoAction 
+	Control+Display1B3 NoAction 
+	Control+Display2B3 NoAction 
+
+
+	Control+RotaryB4 NoAction 
+	Control+RotaryPushB4 NoAction 
+	Control+Display1B4 NoAction 
+	Control+Display2B4 NoAction 
+
+
+	Control+RotaryB5 NoAction 
+	Control+RotaryPushB5 NoAction 
+	Control+Display1B5 NoAction 
+	Control+Display2B5 NoAction 
+
+
+	Control+RotaryB6 NoAction 
+	Control+RotaryPushB6 NoAction 
+	Control+Display1B6 NoAction 
+	Control+Display2B6 NoAction 
+
+
+	Control+RotaryB7 NoAction 
+	Control+RotaryPushB7 NoAction 
+	Control+Display1B7 NoAction 
+	Control+Display2B7 NoAction 
+
+
+	Control+RotaryB8 NoAction 
+	Control+RotaryPushB8 NoAction 
+	Control+Display1B8 NoAction 
+	Control+Display2B8 NoAction 
+
+
+
+
+	Control+RotaryC1 NoAction 
+	Control+RotaryPushC1 NoAction 
+	Control+Display1C1 NoAction 
+	Control+Display2C1 NoAction 
+
+
+	Control+RotaryC2 NoAction 
+	Control+RotaryPushC2 NoAction 
+	Control+Display1C2 NoAction 
+	Control+Display2C2 NoAction 
+
+
+	Control+RotaryC3 NoAction 
+	Control+RotaryPushC3 NoAction 
+	Control+Display1C3 NoAction 
+	Control+Display2C3 NoAction 
+
+
+	Control+RotaryC4 NoAction 
+	Control+RotaryPushC4 NoAction 
+	Control+Display1C4 NoAction 
+	Control+Display2C4 NoAction 
+
+
+	Control+RotaryC5 NoAction 
+	Control+RotaryPushC5 NoAction 
+	Control+Display1C5 NoAction 
+	Control+Display2C5 NoAction 
+
+
+	Control+RotaryC6 NoAction 
+	Control+RotaryPushC6 NoAction 
+	Control+Display1C6 NoAction 
+	Control+Display2C6 NoAction 
+
+
+	Control+RotaryC7 NoAction 
+	Control+RotaryPushC7 NoAction 
+	Control+Display1C7 NoAction 
+	Control+Display2C7 NoAction 
+
+
+	Control+RotaryC8 NoAction 
+	Control+RotaryPushC8 NoAction 
+	Control+Display1C8 NoAction 
+	Control+Display2C8 NoAction 
+
+
+
+
+	Alt+RotaryA1 NoAction 
+	Alt+RotaryPushA1 NoAction 
+	Alt+Display1A1 NoAction 
+	Alt+Display2A1 NoAction 
+
+
+	Alt+RotaryA2 NoAction 
+	Alt+RotaryPushA2 NoAction 
+	Alt+Display1A2 NoAction 
+	Alt+Display2A2 NoAction 
+
+
+	Alt+RotaryA3 NoAction 
+	Alt+RotaryPushA3 NoAction 
+	Alt+Display1A3 NoAction 
+	Alt+Display2A3 NoAction 
+
+
+	Alt+RotaryA4 NoAction 
+	Alt+RotaryPushA4 NoAction 
+	Alt+Display1A4 NoAction 
+	Alt+Display2A4 NoAction 
+
+
+	Alt+RotaryA5 NoAction 
+	Alt+RotaryPushA5 NoAction 
+	Alt+Display1A5 NoAction 
+	Alt+Display2A5 NoAction 
+
+
+	Alt+RotaryA6 NoAction 
+	Alt+RotaryPushA6 NoAction 
+	Alt+Display1A6 NoAction 
+	Alt+Display2A6 NoAction 
+
+
+	Alt+RotaryA7 NoAction 
+	Alt+RotaryPushA7 NoAction 
+	Alt+Display1A7 NoAction 
+	Alt+Display2A7 NoAction 
+
+
+	Alt+RotaryA8 NoAction 
+	Alt+RotaryPushA8 NoAction 
+	Alt+Display1A8 NoAction 
+	Alt+Display2A8 NoAction 
+
+
+
+
+	Alt+RotaryB1 NoAction 
+	Alt+RotaryPushB1 NoAction 
+	Alt+Display1B1 NoAction 
+	Alt+Display2B1 NoAction 
+
+
+	Alt+RotaryB2 NoAction 
+	Alt+RotaryPushB2 NoAction 
+	Alt+Display1B2 NoAction 
+	Alt+Display2B2 NoAction 
+
+
+	Alt+RotaryB3 NoAction 
+	Alt+RotaryPushB3 NoAction 
+	Alt+Display1B3 NoAction 
+	Alt+Display2B3 NoAction 
+
+
+	Alt+RotaryB4 NoAction 
+	Alt+RotaryPushB4 NoAction 
+	Alt+Display1B4 NoAction 
+	Alt+Display2B4 NoAction 
+
+
+	Alt+RotaryB5 NoAction 
+	Alt+RotaryPushB5 NoAction 
+	Alt+Display1B5 NoAction 
+	Alt+Display2B5 NoAction 
+
+
+	Alt+RotaryB6 NoAction 
+	Alt+RotaryPushB6 NoAction 
+	Alt+Display1B6 NoAction 
+	Alt+Display2B6 NoAction 
+
+
+	Alt+RotaryB7 NoAction 
+	Alt+RotaryPushB7 NoAction 
+	Alt+Display1B7 NoAction 
+	Alt+Display2B7 NoAction 
+
+
+	Alt+RotaryB8 NoAction 
+	Alt+RotaryPushB8 NoAction 
+	Alt+Display1B8 NoAction 
+	Alt+Display2B8 NoAction 
+
+
+
+
+	Alt+RotaryC1 NoAction 
+	Alt+RotaryPushC1 NoAction 
+	Alt+Display1C1 NoAction 
+	Alt+Display2C1 NoAction 
+
+
+	Alt+RotaryC2 NoAction 
+	Alt+RotaryPushC2 NoAction 
+	Alt+Display1C2 NoAction 
+	Alt+Display2C2 NoAction 
+
+
+	Alt+RotaryC3 NoAction 
+	Alt+RotaryPushC3 NoAction 
+	Alt+Display1C3 NoAction 
+	Alt+Display2C3 NoAction 
+
+
+	Alt+RotaryC4 NoAction 
+	Alt+RotaryPushC4 NoAction 
+	Alt+Display1C4 NoAction 
+	Alt+Display2C4 NoAction 
+
+
+	Alt+RotaryC5 NoAction 
+	Alt+RotaryPushC5 NoAction 
+	Alt+Display1C5 NoAction 
+	Alt+Display2C5 NoAction 
+
+
+	Alt+RotaryC6 NoAction 
+	Alt+RotaryPushC6 NoAction 
+	Alt+Display1C6 NoAction 
+	Alt+Display2C6 NoAction 
+
+
+	Alt+RotaryC7 NoAction 
+	Alt+RotaryPushC7 NoAction 
+	Alt+Display1C7 NoAction 
+	Alt+Display2C7 NoAction 
+
+
+	Alt+RotaryC8 NoAction 
+	Alt+RotaryPushC8 NoAction 
+	Alt+Display1C8 NoAction 
+	Alt+Display2C8 NoAction 
+
+
+
+#End auto generated section
+

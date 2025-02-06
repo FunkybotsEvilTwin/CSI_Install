@@ -1,0 +1,13 @@
+Zone LastTouchedFXParam
+/ ## Right-most fader controls the last touched parameter
+
+  ScribbleStripMode Mode=0 // default mode -> 3 lines + valuebar
+  
+  Fader8             LastTouchedFXParam
+  ScribbleLine1_8    LastTouchedFXParamValueDisplay
+  ScribbleLine2_8    LastTouchedFXParamNameDisplay
+  ScribbleLine3_8    FixedTextDisplay "FX"
+  ScribbleLine4_8    NoAction
+  ValueBar|          LastTouchedFXParam BarStyle=Fill
+
+ZoneEnd

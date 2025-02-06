@@ -1,0 +1,38 @@
+Zone Home
+    OnInitialization    ToggleUseLocalModifiers
+    OnInitialization    ToggleRestrictTextLength 7
+    OnTrackSelection    GoHome
+
+        IncludedZones
+            SelectedTrackFXMenu
+            SelectedTrackSend
+            SelectedTrackReceive 
+        IncludedZonesEnd
+        
+        Marker              Reaper _S&M_TOGLFLOATFXEL
+        Track               NoAction
+        ChanStrip           NoAction
+        Function            NoAction
+        
+        Shift               Shift
+        Option              Option
+        Control             Control
+        Alt                 Alt
+
+        
+        Lock                ToggleEnableFocusedFXMapping
+        SpotErase           LearnFocusedFX
+        Split               GoHome     
+        Split               Reaper _S&M_WNCLS3 Feedback=No  
+        Split               Reaper _S&M_WNCLS4 Feedback=No        
+        BankLeft            Bank SelectedTrackSend -8
+        Shift+BankLeft      Bank SelectedTrackReceive -8
+        BankRight           Bank SelectedTrackSend 8
+        Shift+BankRight     Bank SelectedTrackReceive 8
+        ChannelLeft         Bank SelectedTrackFXMenu -8
+        ChannelRight        Bank SelectedTrackFXMenu 8
+        SlotUp              NoAction
+        SlotDown            NoAction
+        TrackL              NoAction
+        TrackR              NoAction
+ZoneEnd

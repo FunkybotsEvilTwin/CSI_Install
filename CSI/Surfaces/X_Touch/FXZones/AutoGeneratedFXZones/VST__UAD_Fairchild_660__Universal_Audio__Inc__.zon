@@ -1,0 +1,262 @@
+Zone "VST: UAD Fairchild 660 (Universal Audio, Inc.)" "Fairchild 660"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneActivation 	ToggleUseLocalModifiers
+	Plugin      		ClearFXSlot
+
+#Begin auto generated section
+
+	Rotary1 FXParam 0 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (0) 0.00 0.50 1.00  ]
+	RotaryPush1 NoAction 
+	Fader1 NoAction 
+	DisplayUpper1 FixedTextDisplay "Meter" 0 
+	DisplayLower1 FXParamValueDisplay 0 
+
+	Rotary2 FXParam 1 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (0) 0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00  ]
+	RotaryPush2 NoAction 
+	Fader2 NoAction 
+	DisplayUpper2 FixedTextDisplay "Input" 1 
+	DisplayLower2 FXParamValueDisplay 1 
+
+	Rotary3 FXParam 2 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (10)  ]
+	RotaryPush3 NoAction 
+	Fader3 NoAction 
+	DisplayUpper3 FixedTextDisplay "Thresh" 2 
+	DisplayLower3 FXParamValueDisplay 2 
+
+	Rotary4 FXParam 3 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (0) 0.00 0.20 0.40 0.60 0.80 1.00  ]
+	RotaryPush4 NoAction 
+	Fader4 NoAction 
+	DisplayUpper4 FixedTextDisplay "Time Const" 3 
+	DisplayLower4 FXParamValueDisplay 3 
+
+	Rotary5 FXParam 4 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (10)  ]
+	RotaryPush5 NoAction 
+	Fader5 NoAction 
+	DisplayUpper5 FixedTextDisplay "SC Filt" 4 
+	DisplayLower5 FXParamValueDisplay 4 
+
+	Rotary6 FXParam 5 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (10)  ]
+	RotaryPush6 NoAction 
+	Fader6 NoAction 
+	DisplayUpper6 FixedTextDisplay "Bal" 5 
+	DisplayLower6 FXParamValueDisplay 5 
+
+	Rotary7 FXParam 6 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (10)  ]
+	RotaryPush7 NoAction 
+	Fader7 NoAction 
+	DisplayUpper7 FixedTextDisplay "DC Thr" 6 
+	DisplayLower7 FXParamValueDisplay 6 
+
+	Rotary8 FXParam 7 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (10)  ]
+	RotaryPush8 NoAction 
+	Fader8 NoAction 
+	DisplayUpper8 FixedTextDisplay "Output" 7 
+	DisplayLower8 FXParamValueDisplay 7 
+
+
+
+	Shift+Rotary1 FXParam 8 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (10)  ]
+	Shift+RotaryPush1 NoAction 
+	Shift+Fader1 NoAction 
+	Shift+DisplayUpper1 FixedTextDisplay "Mix" 8 
+	Shift+DisplayLower1 FXParamValueDisplay 8 
+
+	Shift+Rotary2 FXParam 9 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (0) 0.00 0.17 0.33 0.50 0.67 0.83 1.00  ]
+	Shift+RotaryPush2 NoAction 
+	Shift+Fader2 NoAction 
+	Shift+DisplayUpper2 FixedTextDisplay "Headroom" 9 
+	Shift+DisplayLower2 FXParamValueDisplay 9 
+
+	Shift+Rotary3 FXParam 10 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (0) 0.00 1.00  ]
+	Shift+RotaryPush3 NoAction 
+	Shift+Fader3 NoAction 
+	Shift+DisplayUpper3 FixedTextDisplay "Power" 10 
+	Shift+DisplayLower3 FXParamValueDisplay 10 
+
+	Shift+Rotary4 FXParam 11 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (0) 0.00 1.00  ]
+	Shift+RotaryPush4 NoAction 
+	Shift+Fader4 NoAction 
+	Shift+DisplayUpper4 FixedTextDisplay "Bypass" 11 
+	Shift+DisplayLower4 FXParamValueDisplay 11 
+
+	Shift+Rotary5 FXParam 12 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (10)  ]
+	Shift+RotaryPush5 NoAction 
+	Shift+Fader5 NoAction 
+	Shift+DisplayUpper5 FixedTextDisplay "Wet" 12 
+	Shift+DisplayLower5 FXParamValueDisplay 12 
+
+	Shift+Rotary6 FXParam 13 RingStyle=Dot [ 0.00>1.00 (0.00,0.00,0.00,0.00,0.01,0.04,0.08) (0) 0.00 1.00  ]
+	Shift+RotaryPush6 NoAction 
+	Shift+Fader6 NoAction 
+	Shift+DisplayUpper6 FixedTextDisplay "Delta" 13 
+	Shift+DisplayLower6 FXParamValueDisplay 13 
+
+	Shift+Rotary7 NoAction 
+	Shift+RotaryPush7 NoAction 
+	Shift+Fader7 NoAction 
+	Shift+DisplayUpper7 NoAction 
+	Shift+DisplayLower7 NoAction 
+
+	Shift+Rotary8 NoAction 
+	Shift+RotaryPush8 NoAction 
+	Shift+Fader8 NoAction 
+	Shift+DisplayUpper8 NoAction 
+	Shift+DisplayLower8 NoAction 
+
+
+
+	Control+Rotary1 NoAction 
+	Control+RotaryPush1 NoAction 
+	Control+Fader1 NoAction 
+	Control+DisplayUpper1 NoAction 
+	Control+DisplayLower1 NoAction 
+
+	Control+Rotary2 NoAction 
+	Control+RotaryPush2 NoAction 
+	Control+Fader2 NoAction 
+	Control+DisplayUpper2 NoAction 
+	Control+DisplayLower2 NoAction 
+
+	Control+Rotary3 NoAction 
+	Control+RotaryPush3 NoAction 
+	Control+Fader3 NoAction 
+	Control+DisplayUpper3 NoAction 
+	Control+DisplayLower3 NoAction 
+
+	Control+Rotary4 NoAction 
+	Control+RotaryPush4 NoAction 
+	Control+Fader4 NoAction 
+	Control+DisplayUpper4 NoAction 
+	Control+DisplayLower4 NoAction 
+
+	Control+Rotary5 NoAction 
+	Control+RotaryPush5 NoAction 
+	Control+Fader5 NoAction 
+	Control+DisplayUpper5 NoAction 
+	Control+DisplayLower5 NoAction 
+
+	Control+Rotary6 NoAction 
+	Control+RotaryPush6 NoAction 
+	Control+Fader6 NoAction 
+	Control+DisplayUpper6 NoAction 
+	Control+DisplayLower6 NoAction 
+
+	Control+Rotary7 NoAction 
+	Control+RotaryPush7 NoAction 
+	Control+Fader7 NoAction 
+	Control+DisplayUpper7 NoAction 
+	Control+DisplayLower7 NoAction 
+
+	Control+Rotary8 NoAction 
+	Control+RotaryPush8 NoAction 
+	Control+Fader8 NoAction 
+	Control+DisplayUpper8 NoAction 
+	Control+DisplayLower8 NoAction 
+
+
+
+	Option+Rotary1 NoAction 
+	Option+RotaryPush1 NoAction 
+	Option+Fader1 NoAction 
+	Option+DisplayUpper1 NoAction 
+	Option+DisplayLower1 NoAction 
+
+	Option+Rotary2 NoAction 
+	Option+RotaryPush2 NoAction 
+	Option+Fader2 NoAction 
+	Option+DisplayUpper2 NoAction 
+	Option+DisplayLower2 NoAction 
+
+	Option+Rotary3 NoAction 
+	Option+RotaryPush3 NoAction 
+	Option+Fader3 NoAction 
+	Option+DisplayUpper3 NoAction 
+	Option+DisplayLower3 NoAction 
+
+	Option+Rotary4 NoAction 
+	Option+RotaryPush4 NoAction 
+	Option+Fader4 NoAction 
+	Option+DisplayUpper4 NoAction 
+	Option+DisplayLower4 NoAction 
+
+	Option+Rotary5 NoAction 
+	Option+RotaryPush5 NoAction 
+	Option+Fader5 NoAction 
+	Option+DisplayUpper5 NoAction 
+	Option+DisplayLower5 NoAction 
+
+	Option+Rotary6 NoAction 
+	Option+RotaryPush6 NoAction 
+	Option+Fader6 NoAction 
+	Option+DisplayUpper6 NoAction 
+	Option+DisplayLower6 NoAction 
+
+	Option+Rotary7 NoAction 
+	Option+RotaryPush7 NoAction 
+	Option+Fader7 NoAction 
+	Option+DisplayUpper7 NoAction 
+	Option+DisplayLower7 NoAction 
+
+	Option+Rotary8 NoAction 
+	Option+RotaryPush8 NoAction 
+	Option+Fader8 NoAction 
+	Option+DisplayUpper8 NoAction 
+	Option+DisplayLower8 NoAction 
+
+
+
+	Alt+Rotary1 NoAction 
+	Alt+RotaryPush1 NoAction 
+	Alt+Fader1 NoAction 
+	Alt+DisplayUpper1 NoAction 
+	Alt+DisplayLower1 NoAction 
+
+	Alt+Rotary2 NoAction 
+	Alt+RotaryPush2 NoAction 
+	Alt+Fader2 NoAction 
+	Alt+DisplayUpper2 NoAction 
+	Alt+DisplayLower2 NoAction 
+
+	Alt+Rotary3 NoAction 
+	Alt+RotaryPush3 NoAction 
+	Alt+Fader3 NoAction 
+	Alt+DisplayUpper3 NoAction 
+	Alt+DisplayLower3 NoAction 
+
+	Alt+Rotary4 NoAction 
+	Alt+RotaryPush4 NoAction 
+	Alt+Fader4 NoAction 
+	Alt+DisplayUpper4 NoAction 
+	Alt+DisplayLower4 NoAction 
+
+	Alt+Rotary5 NoAction 
+	Alt+RotaryPush5 NoAction 
+	Alt+Fader5 NoAction 
+	Alt+DisplayUpper5 NoAction 
+	Alt+DisplayLower5 NoAction 
+
+	Alt+Rotary6 NoAction 
+	Alt+RotaryPush6 NoAction 
+	Alt+Fader6 NoAction 
+	Alt+DisplayUpper6 NoAction 
+	Alt+DisplayLower6 NoAction 
+
+	Alt+Rotary7 NoAction 
+	Alt+RotaryPush7 NoAction 
+	Alt+Fader7 NoAction 
+	Alt+DisplayUpper7 NoAction 
+	Alt+DisplayLower7 NoAction 
+
+	Alt+Rotary8 NoAction 
+	Alt+RotaryPush8 NoAction 
+	Alt+Fader8 NoAction 
+	Alt+DisplayUpper8 NoAction 
+	Alt+DisplayLower8 NoAction 
+
+
+#End auto generated section
+
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	OnZoneDeactivation 	ToggleUseLocalModifiers
+
+ZoneEnd

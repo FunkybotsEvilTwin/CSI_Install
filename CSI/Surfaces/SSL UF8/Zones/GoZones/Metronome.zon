@@ -1,0 +1,34 @@
+Zone Metronome
+    DisplayUpper1    FixedTextDisplay "Metro P"
+    DisplayLower1    MetronomePrimaryVolumeDisplay   "P" // "P"rimary
+    Fader1           MetronomePrimaryVolume
+
+    DisplayUpper2    FixedTextDisplay "Metro S"
+    DisplayLower2    MetronomeSecondaryVolumeDisplay "S" // "S"econdary
+    Fader2           MetronomeSecondaryVolume
+
+    DisplayUpper3     NoAction
+    DisplayLower3     NoAction
+    Fader3            NoAction
+
+    DisplayUpper4     NoAction
+    DisplayLower4     NoAction
+    Fader4            NoAction
+    
+    DisplayUpper5     NoAction
+    DisplayLower5     NoAction
+    Fader5            NoAction
+
+    DisplayUpper6     NoAction
+    DisplayLower6     NoAction
+    Fader6            NoAction
+
+    DisplayUpper7     NoAction
+    DisplayLower7     NoAction
+    Fader8            NoAction
+
+    DisplayUpper8     NoAction
+    DisplayLower8     NoAction
+    Fader8            NoAction    
+    
+ZoneEnd

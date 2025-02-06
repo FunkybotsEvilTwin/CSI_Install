@@ -1,0 +1,25 @@
+Zone "VST3: Lindell 50 Buss (Plugin Alliance)"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	/OnZoneActivation 	ToggleUseLocalModifiers
+	/OnZoneDeactivation 	ToggleUseLocalModifiers
+	OnZoneActivation 	ToggleUseLocalFXSlot
+	OnZoneDeactivation 	ToggleUseLocalFXSlot
+
+	Plugin      		ClearFXSlot
+
+Rotary1			FXParam 0 // "Pre Gain"
+Shift+Rotary1		FXParam 1 // "THD"
+RotaryPush1		FXParam 2 [ 0.0 1.0 ] // "Cut"
+Shift+RotaryPush21	FXParam 3 [ 0.0 1.0 ] // "Phase"
+RotaryPush2	FXParam 4 [ 0.0 1.0 ] // "Unity"
+Rotary2		FXParam 5 // "Level"
+	/FXParam 6 "TMT Channel"
+	/FXParam 7 "TMT Link"
+	/FXParam 8 "Input Level"
+	/FXParam 9 "Output Level"
+	/FXParam 10 "Bypass"
+RotaryPush21	FXParam 11 [ 0.0 1.0 ] // "Bypass"
+	/FXParam 12 "Wet"
+	/FXParam 13 "Delta"
+ZoneEnd

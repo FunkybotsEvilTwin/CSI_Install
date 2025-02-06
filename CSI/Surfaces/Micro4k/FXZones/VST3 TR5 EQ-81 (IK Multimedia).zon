@@ -1,0 +1,35 @@
+Zone "VST3: TR5 EQ-81 (IK Multimedia)" "EQ-81"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	/OnZoneActivation 	ToggleUseLocalModifiers
+	/OnZoneDeactivation 	ToggleUseLocalModifiers
+	OnZoneActivation 	ToggleUseLocalFXSlot
+	OnZoneDeactivation 	ToggleUseLocalFXSlot
+
+	Plugin      		ClearFXSlot
+
+	/FXParam 0 "Eq In"
+Shift+RotaryPush21	FXParam 1 [ 0.0 1.0 ] // "Phase"
+RotaryPush1		FXParam 2 [ 0.0 1.0 ] // "Mic"
+Rotary1			FXParam 3 /"Gain"
+Rotary2			FXParam 4 /"Output"
+Rotary10		FXParam 5 /"HP Freq"
+Rotary9			FXParam 6 /"LP Freq"
+Rotary12		FXParam 7 /"Hi Freq"
+RotaryPush23		FXParam 8 [ 0.0 1.0 ] /"Hi Bell"
+Rotary11 		FXParam 9 /"Hi"
+Rotary14		FXParam 10 /"Hi Pres Freq"
+RotaryPush24		FXParam 11 [ 0.0 1.0 ] /"Hi Pres Q"
+Rotary13		FXParam 12 /"Hi Presence"
+Rotary17		FXParam 13 /"Low Pres Freq"
+RotaryPush25		FXParam 14 [ 0.0 1.0 ] /"Low Pres Q"
+Rotary16		FXParam 15 /"Low Presence"
+Rotary19		FXParam 16 /"Low Freq"
+RotaryPush26		FXParam 17 [ 0.0 1.0 ] /"Low Bell"
+Rotary20		FXParam 18 /"Low"
+	/FXParam 19 /"Bypass"
+RotaryPush21		FXParam 20 [ 0.0 1.0 ] /"Bypass"
+	/FXParam 21 "Wet"
+	/FXParam 22 "Delta"
+
+ZoneEnd

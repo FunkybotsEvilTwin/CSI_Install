@@ -1,0 +1,11 @@
+  Zone GoZones
+    LastTouchedFXParam
+    Folder
+    VCA
+    SelectedTrackFXMenu
+    TrackFXMenu
+    SelectedTrackSend
+    SelectedTrackReceive
+    TrackSend
+    TrackReceive
+ZoneEnd

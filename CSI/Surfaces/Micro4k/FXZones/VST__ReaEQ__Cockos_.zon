@@ -1,0 +1,79 @@
+Zone "VST: ReaEQ (Cockos)" "ReaEQ"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	/OnZoneActivation 	ToggleUseLocalModifiers
+	/OnZoneDeactivation 	ToggleUseLocalModifiers
+	OnZoneActivation 	ToggleUseLocalFXSlot
+	OnZoneDeactivation 	ToggleUseLocalFXSlot
+
+	/Plugin      		ClearFXSlot
+	
+
+#Begin auto generated section
+
+	Rotary1 FXParam 15 // "Global Gain"
+	
+
+
+	Rotary10 FXParam 12 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper10 FixedTextDisplay "Freq-High Pass 5" 12 
+	DisplayLower10 FXParamValueDisplay 12 
+
+
+	Rotary11 FXParam 10 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper11 FixedTextDisplay "Gain-High Shelf 4" 10 
+	DisplayLower11 FXParamValueDisplay 10 
+
+
+	Rotary12 FXParam 9 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper12 FixedTextDisplay "Freq-High Shelf 4" 9 
+	DisplayLower12 FXParamValueDisplay 9 
+
+
+	Rotary13 FXParam 7 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper13 FixedTextDisplay "Gain-Band 3" 7 
+	DisplayLower13 FXParamValueDisplay 7 
+
+
+	Rotary14 FXParam 6 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper14 FixedTextDisplay "Freq-Band 3" 6 
+	DisplayLower14 FXParamValueDisplay 6 
+
+
+	Rotary15 FXParam 8 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper15 FixedTextDisplay "BW-Band 3" 8 
+	DisplayLower15 FXParamValueDisplay 8 
+
+
+	Rotary16 FXParam 4 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper16 FixedTextDisplay "Gain-Band 2" 4 
+	DisplayLower16 FXParamValueDisplay 4 
+
+
+	Rotary17 FXParam 3 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper17 FixedTextDisplay "Freq-Band 2" 3 
+	DisplayLower17 FXParamValueDisplay 3 
+
+
+	Rotary18 FXParam 5 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper18 FixedTextDisplay "BW-Band 2" 5 
+	DisplayLower18 FXParamValueDisplay 5 
+
+
+	Rotary19 FXParam 0 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper19 FixedTextDisplay "Freq-Low Shelf" 0 
+	DisplayLower19 FXParamValueDisplay 0 
+
+
+	Rotary20 FXParam 1 [ 0.00>1.00 (0.001,0.02,0.025,0.03,0.04,0.04,0.05,0.05,0.05,0.06,0.07,0.08,0.09,0.1,0.2) (0)  ]
+	DisplayUpper20 FixedTextDisplay "Gain-Low Shelf" 1 
+	DisplayLower20 FXParamValueDisplay 1 
+
+	Shift+Rotary10 FXParam 14 
+	Shift+DisplayUpper10 FixedTextDisplay "BW-High Pass 5" 14 
+	Shift+DisplayLower10 FXParamValueDisplay 14
+
+#End auto generated section
+
+	
+ZoneEnd

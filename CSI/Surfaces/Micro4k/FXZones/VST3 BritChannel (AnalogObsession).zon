@@ -1,0 +1,26 @@
+Zone "VST3: BritChannel (AnalogObsession)"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	/OnZoneActivation 	ToggleUseLocalModifiers
+	/OnZoneDeactivation 	ToggleUseLocalModifiers
+	OnZoneActivation 	ToggleUseLocalFXSlot
+	OnZoneDeactivation 	ToggleUseLocalFXSlot
+
+	Plugin      		ClearFXSlot
+
+	/FXParam 0 "Bypass"
+Rotary1		FXParam 1 // "Preamp Gain"
+Rotary2		FXParam 2 // "Output Trim"
+Rotary10	FXParam 3 [ (3) 0.00 0.25 0.50 0.75 1.00 ] // "HighPass"
+Rotary19	FXParam 4 [ (3) 0.00 0.25 0.50 0.75 1.00 ] // "Low Freq"
+Rotary20	FXParam 5 // "Low Gain"
+Rotary14	FXParam 6 [ (3) 0.00 0.17 0.33 0.50 0.67 0.83 1.00 ] // "Mid Freq"
+Rotary13 	FXParam 7 // "Mid Gain"
+Rotary11	FXParam 8 "High Gain"
+RotaryPush25	FXParam 9 [ 0.0 1.0 ] // "Bypass"
+RotaryPush24	FXParam 10 [ 0.0 1.0 ] // "Mic Pre"
+	/FXParam 11 "Oversampling"
+RotaryPush21		FXParam 12 [ 0.0 1.0 ] // "Bypass"
+	/FXParam 13 "Wet"
+	/FXParam 14 "Delta"
+ZoneEnd

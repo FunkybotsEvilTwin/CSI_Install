@@ -1,0 +1,46 @@
+Zone "VST3: Model N Channel (VoosteQ)" "V-NEVE"
+	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+	/OnZoneActivation 	ToggleUseLocalModifiers
+	/OnZoneDeactivation 	ToggleUseLocalModifiers
+	OnZoneActivation 	ToggleUseLocalFXSlot
+	OnZoneDeactivation 	ToggleUseLocalFXSlot
+
+	Plugin      		ClearFXSlot
+
+RotaryPush2			FXParam 0 [ 0.0 0.5 1.0 ] // "Preamp Select"
+	/FXParam 1 "Trim"
+Rotary1				FXParam 2 "Preamp"
+	/FXParam 3 "LINE MIC"
+RotaryPush1			FXParam 4 [ 0.0 1.0 ] // "Preamp Enable"
+RotaryPush3			FXParam 5 [ 0.0 1.0 ] // "Comp Select"
+Rotary4				FXParam 6 // "Threshold"
+Rotary3				FXParam 7 // "Ratio"
+Rotary5				FXParam 8 // "Recovery"
+Rotary7				FXParam 9 // "Gain Makeup"
+Rotary6				FXParam 10 // "Comp Mix"
+RotaryPush5			FXParam 11 [ 0.0 1.0 ] // "Nuance Slam"
+RotaryPush4			FXParam 12 [ 0.0 1.0 ] // "Comp Enable"
+RotaryPush24			FXParam 13 [ 0.0 0.5 1.0 ] // "EQ Select"
+Rotary12  			FXParam 14 // "Hi Freq"
+Rotary11			FXParam 15 // "Hi Gain"
+Rotary17			FXParam 16 // "Mid Freq"
+Rotary16			FXParam 17 // "Mid Gain"
+RotaryPush25			FXParam 18 [ 0.0 1.0 ] // "Mid HiQ"
+Rotary19			FXParam 19 // "Low Freq"
+Rotary20			FXParam 20 // "Low Gain"
+Rotary10			FXParam 21 // "High Pass"
+Rotary9				FXParam 22 // "Low Pass"
+RotaryPush19			FXParam 23 [ 0.0 1.0 ] // "EQ Enable"
+	/FXParam 24 "OverSampling"
+	/FXParam 25 "Routing"
+	/FXParam 26 "Analog Flavor"
+	/FXParam 27 "Condition"
+Rotary2				FXParam 28 "MasterGain"
+	/FXParam 29 "Power"
+	/FXParam 30 "Gain Reduction"
+	/FXParam 31 [ 0.0 1.0 ]// "Bypass"
+RotaryPush21			FXParam 32 [ 0.0 1.0 ]// "Bypass"
+	/FXParam 33 "Wet"
+	/FXParam 34 "Delta"
+ZoneEnd

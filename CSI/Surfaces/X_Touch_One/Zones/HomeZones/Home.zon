@@ -1,0 +1,187 @@
+Zone Home
+     IncludedZones
+          SelectedTrack
+          MasterTrack
+     IncludedZonesEnd
+ZoneEnd
+
+/////////////////////////////////////////////////////////NOTES////////////////////////////////////////////////////////
+// For use with CSI version 7.0                                                                                     //
+// Developed using the 1.07 firmware in "MC User" mode using only the button assignments printed on the surface.    //
+//                                                                                                                  //
+// IMPORTANT: Setup the device in CSI with 1 Fader.                                                                 //
+//                                                                                                                  //
+// If the fader isn't working, enter one of the MCU DAW modes and hit the Channel Select button a few times until   //
+// fader1 (address e0) is active, then return to MCU User mode.                                                     // 
+//                                                                                                                  //
+// Some actions require SWS Extensions be installed.                                                                //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//  Encoder Assign Buttons - Note: "Track" style zones were kept in these definitions just in case a user wants to use on of the MCU Std modes where the surface behaves as an 8-fader MCU (not recommended)
+
+    Track                       GoZone SelectedTracks 
+    Global+Track                GoZone MasterTrackFXMenu
+    Pan                         GoZone Folder
+    Global+Pan                  GoZone VCA
+    EQ                          GoZone SelectedTrackReceive
+    Global+EQ                   GoZone TrackReceive
+    Send                        GoZone SelectedTrackSend
+    Global+Send                 GoZone TrackSend
+    Plugin                      GoZone SelectedTrackFXMenu
+    Global+Plugin               GoZone TrackFXMenu
+    Instrument                  LearnFocusedFX
+ 
+//  Display Section
+
+    nameValue                   GoHome
+    nameValue                   Reaper _S&M_WNCLS4 Feedback=No   // Closes all FX chain windows
+    nameValue                   Reaper _S&M_WNCLS3 Feedback=No   // Closes all floating FX windows  
+    AssignmentDisplay           GlobalModeDisplay 
+    TimeDisplay                 MCUTimeDisplay
+    smpteBeats                  CycleTimeDisplayModes
+
+ 
+//  View Buttons
+ 
+    GlobalView                  Global
+    MidiTracks                  ToggleEnableLastTouchedFXParamMapping
+    Inputs                      ToggleEnableFocusedFXMapping
+    AudioTracks                 ToggleScrollLink
+    AudioInstrument             GoZone SelectedTrackFX
+    Aux                         ClearSelectedTrackFX
+    Busses                      GoZone SelectedTrackTCPFX
+    Outputs                     ToggleFollowMCP
+    User                        Reaper 42678          // View: Show envelope manager window
+           
+// Function Buttons - Note: function buttons repeat some actions for a good out of the box experience with MC User mode while still allowing users to customize the buttons in this mode.
+
+    F1                          GoHome
+    F1                          Reaper _S&M_WNCLS4 Feedback=No          // Closes all(!) FX chain windows          
+    F1                          Reaper _S&M_WNCLS3 Feedback=No          // Closes all(!) floating FX windows   
+    F2                          ToggleEnableLastTouchedFXParamMapping   // Assigns Fader1 to the last touched FX parameter             
+    F3                          GoZone SelectedTrackSend                // Activates a send zone with banking
+    F4                          GoZone SelectedTrackReceive             // Activates a receive zone with banking
+    F5                          Shift                                   
+    F6                          Option           
+    F7                          ToggleFollowMCP                         // Toggles between CSI following the MCP or TCP visibility
+    F8                          Reaper 41050                            // Toggle show master track and tempo envelope           
+	    
+//  Modifiers
+
+    Flip                        Flip
+    Shift                       Shift
+    Option                      Option
+    Control                     Control
+    Alt                         Alt     
+
+// Automation Buttonsg
+
+    Read                        TrackAutoMode 1
+    Write                       TrackAutoMode 3
+    Trim                        TrackAutoMode 0
+    Touch                       TrackAutoMode 2
+    Latch                       TrackAutoMode 4
+    Group                       TrackAutoMode 5
+    
+    Global+Read                 GlobalAutoMode 1
+    Global+Write                GlobalAutoMode 3
+    Global+Trim                 GlobalAutoMode 0
+    Global+Touch                GlobalAutoMode 2
+    Global+Latch                GlobalAutoMode 4  
+    Global+Group                GlobalAutoMode 5   
+
+//  Utility Buttons
+
+    Save                        SaveProject Feedback=No
+    Undo                        Undo Feedback=No
+    Shift+Undo                  Redo Feedback=No
+    Option+Undo                 Reaper 40072                // View: Show undo history window
+    Cancel                      ClearModifiers         
+    Enter                       Reaper 40021                // File: Project settings...
+    
+//  Transport Section
+
+    Marker                      Marker
+    Nudge                       Nudge
+    Cycle                       CycleTimeline
+    Drop                        Reaper 1157                 // Toggle snapping
+    Replace                     Reaper 1155                 // Cycle ripple editing mode
+    Click                       Reaper 40364                // Toggle metronome
+    Shift+Click                 Reaper _SWS_AWCOUNTRECTOG   // Toggle count-in before recording
+    Option+Click                Reaper 40363                // Show metronome settings
+    Rewind                      Rewind   
+    FastForward                 FastForward
+    Stop                        Stop
+    Hold+Stop                   Reaper 40042 Feedback=No    // Go to start of project
+    Play                        Play
+    Record                      Record    
+    Solo                        ClearAllSolo
+    Option+Solo                 Reaper 40745                // Solo in front (dim solo)  
+
+//  Banking 
+
+    BankLeft                    Bank Track -8
+    BankLeft                    Bank SelectedTrack -8
+    BankRight                   Bank Track 8
+    BankRight                   Bank SelectedTrack 8
+
+    ChannelLeft                 Bank Track -1
+    ChannelLeft                 Bank SelectedTrack -1
+    ChannelRight                Bank Track 1
+    ChannelRight                Bank SelectedTrack 1
+
+    Shift+ChannelLeft           Bank Track -999
+    Shift+ChannelLeft           Bank SelectedTrack -999
+    Shift+ChannelRight          Bank Track 999
+    Shift+ChannelRight          Bank SelectedTrack 999
+    
+    
+//  Navigation and Zoom
+    
+    Zoom                        Zoom
+    
+    Up                          Reaper _XENAKIOS_TVPAGEUP   // Xenakios/SWS: Scroll track view up (page)
+    Down                        Reaper _XENAKIOS_TVPAGEDOWN // Xenakios-SWS: Scroll track view down 
+    Left                        Reaper 40842                // Move edit cursor back one beat (no seek)
+    Right                       Reaper 40841                // Move edit cursor forward one beat (no seek)
+    
+    Zoom+Up                     Reaper 40111                // Zoom in vertical                                            
+    Zoom+Down                   Reaper 40112                // Zoom out vertical                                                       
+    Zoom+Right                  Reaper 1012                 // Zoom in horizontal                                      
+    Zoom+Left                   Reaper 1011                 // Zoom out horizontal                                     
+
+    Marker+Up                   Reaper 40613                // Delete marker near cursor                                    
+    Marker+Down                 Reaper 40157                // Insert marker at current or edit position                                      
+    Marker+Right                Reaper 40173                // Go to next marker or project end                                      
+    Marker+Left                 Reaper 40172                // Go to previous marker or project start           
+
+    Nudge+Up                    Reaper 41925                // Item: Nudge items volume +1dB
+    Nudge+Down                  Reaper 41924                // Item: Nudge items volume -1dB
+    Nudge+Left                  Reaper 41279                // Item edit: Nudge left by saved nudge dialog settings 1
+    Nudge+Right                 Reaper 41275                // Item edit: Nudge right by saved nudge dialog settings 1
+
+    Scrub                       Scrub
+
+//  JogWheel
+
+    Decrease+JogWheel                MoveEditCursor Bar          
+    Increase+JogWheel                MoveEditCustor Bar                                                 
+    Shift+Decrease+JogWheel          Reaper 40286                // Track: Go to previous track       
+    Shift+Increase+JogWheel          Reaper 40285                // Track: Go to next track                     
+    
+    Zoom+Decrease+JogWheel           Reaper 40112           // Zoom out vertical 
+    Zoom+Increase+JogWheel           Reaper 40111           // Zoom in vertical          
+    Zoom+Shift+Decrease+JogWheel     Reaper 1011            // Zoom out horizontal
+    Zoom+Shift+Increase+JogWheel     Reaper 1012            // Zoom in horizontal   
+  
+    Marker+Decrease+JogWheel         MoveEditCursor Marker       
+    Marker+Increase+JogWheel         MoveEditCusror Marker       
+                                     
+    Scrub+Decrease+Jogwheel          Reaper 40084                // Transport: Rewind a little bit
+    Scrub+Increase+Jogwheel          Reaper 40085                // Transport: Fast forward a little bit
+
+// Footswitches
+
+    Footswitch1                 Reaper 40003                // Transport: Start/stop recording at next measure
+
+ZoneEnd
