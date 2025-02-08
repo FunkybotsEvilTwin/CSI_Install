@@ -1,0 +1,97 @@
+Zone FXMode
+              
+     RotaryPush1                   Reaper _RS4a59873d8a864b25ad252cf47f7bed5a73c17cbf      // MT4U_F_FX4.eel
+     Alt+RotaryPush1               Reaper _RS94d36270a59c05e387a234a4a359347c63cb2273      // MT4U_F_FX4_Add.eel
+
+     RotaryPush2                   Reaper _RS87571b848a098b379fa88401f9884989becf701c      // MT4U_F_FX5.eel
+     Alt+RotaryPush2               Reaper _RS5fbaef55bfde55c2ebdd2ba5a7f3ef84e1684df9      // MT4U_F_FX5_Add.eel
+
+     RotaryPush3                   Reaper _RS3d5b56e2458a161a4e2191dc32c52f5aa9726bd6      // MT4U_F_FX6.eel
+     Alt+RotaryPush3               Reaper _RSa65abfe8faf42eeffddef53188b1646c7ca9d81d      // MT4U_F_FX6_Add.eel
+
+     RotaryPush4                   Reaper _RS3a001acbac4ded63ca2187d0290fce88dbc713cc      // MT4U_F_FX7.eel
+     Alt+RotaryPush4               Reaper _RSa13088123d871028400c1ffeb126af7f58d627d1      // MT4U_F_FX7_Add.eel
+
+     RotaryPush5                   Reaper _RS70deecde9d1768ba2e1fc7c32dbe5e5ebffe02a3      // MT4U_F_FX10.eel
+     Alt+RotaryPush5               Reaper _RSfd2aee83062555058002371a7cd46ad9f7aff08b      // MT4U_F_FX10_Add.eel
+     
+     RotaryPush6                   Reaper _RS46fd31e460a025da8b02d46b4266ad1f4e6db9a6      // MT4U_F_FX11.eel
+     Alt+RotaryPush6               Reaper _RSdf35b4848af3dc6d07971386f976fffb023c98ca      // MT4U_F_FX11_Add.eel
+     
+     RotaryPush7                   Reaper _RS81348526f4d175fa6d40bbfcb4051dea643c6ac4      // MT4U_F_FX8.eel
+     Alt+RotaryPush7               Reaper _RS173b2f63134d8e63d55783518c1b61a328a33751      // MT4U_F_FX8_Add.eel
+
+     RotaryPush8                   Reaper _RSc761747e39961c41fe2919a6330954754c0dd28d      // MT4U_F_FX9.eel
+     Alt+RotaryPush8               Reaper _RS3064fad6946f480771ec28ec13eebfce92221b86      // MT4U_F_FX9_Add.eel
+     
+     DisplayUpper1                 FixedTextDisplay Inst
+     DisplayUpper2                 FixedTextDisplay 
+     DisplayUpper3                 FixedTextDisplay EQ
+     DisplayUpper4                 FixedTextDisplay 
+     DisplayUpper5                 FixedTextDisplay 
+     DisplayUpper6                 FixedTextDisplay 
+     DisplayUpper7                 FixedTextDisplay Dyn
+     DisplayUpper8                 FixedTextDisplay Harmo
+
+    DisplayLower1                  FixedTextDisplay Utility
+    DisplayLower2                  FixedTextDisplay FX
+    DisplayLower3                  FixedTextDisplay Delay
+    DisplayLower4                  FixedTextDisplay Verb
+    DisplayLower5                  FixedTextDisplay Field
+    DisplayLower6                  FixedTextDisplay Meters
+    DisplayLower7                  FixedTextDisplay De-Ess
+    DisplayLower8                  FixedTextDisplay Tape
+     
+
+
+
+// These lines provide the Prev/Next plug-in for each slot in the chain.
+
+  Alt+Increase+Rotary1             Reaper _RSc545ff69f595f1cae309546bcdb9179f7429c0e3      // MT4U_FX_MENU_Next_01.eel
+  Alt+Increase+Rotary2             Reaper _RS5439e90ffa8d42ed4c792c6b3a3ea73cf00fba3b      // MT4U_FX_MENU_Next_02.eel
+  Alt+Increase+Rotary3             Reaper _RS68d54e0a0cfd883a7a32300ad232da0b0b014582      // MT4U_FX_MENU_Next_03.eel
+  Alt+Increase+Rotary4             Reaper _RS03d759a19dd784936c0623261989a9d068b506b9      // MT4U_FX_MENU_Next_04.eel
+  Alt+Increase+Rotary5             Reaper _RSb2361f8e123048bd39d7939940b69a1bf42c9548      // MT4U_FX_MENU_Next_05.eel
+  Alt+Increase+Rotary6             Reaper _RS85f1b59aeae81a32fefe19bf6450a0fa211a6481      // MT4U_FX_MENU_Next_06.eel
+  Alt+Increase+Rotary7             Reaper _RSef0d0b1af31dc05cb612426330c91fe07772ba69      // MT4U_FX_MENU_Next_07.eel
+  Alt+Increase+Rotary8             Reaper _RS1f833e289409ee010d55aef22db12d40c2682bbc      // MT4U_FX_MENU_Next_08.eel
+  Alt+Decrease+Rotary1             Reaper _RS94465c3306bb9b3c9d55b8c7178f5ed761470a11      // MT4U_FX_MENU_Prev_01.eel  
+  Alt+Decrease+Rotary2             Reaper _RSa53d4aacb8b072d7a6ab0396a9defe16ad65cdb9      // MT4U_FX_MENU_Prev_02.eel  
+  Alt+Decrease+Rotary3             Reaper _RS074637b1b554af8249c502f39f5ed701aa8f31e9      // MT4U_FX_MENU_Prev_03.eel  
+  Alt+Decrease+Rotary4             Reaper _RS6c27b24ff350d5e37917f5d04efe37a8cbddc3c8      // MT4U_FX_MENU_Prev_04.eel  
+  Alt+Decrease+Rotary5             Reaper _RSe93b961d483b93912ed350205563a80bf3d1ca4f      // MT4U_FX_MENU_Prev_05.eel  
+  Alt+Decrease+Rotary6             Reaper _RSc5afaed8eff8f9fe6fadd2aef6113d8fa8cf64e4      // MT4U_FX_MENU_Prev_06.eel  
+  Alt+Decrease+Rotary7             Reaper _RSebb16895b121c261b4738e73ad6fc42db29f0909      // MT4U_FX_MENU_Prev_07.eel  
+  Alt+Decrease+Rotary8             Reaper _RS8cdd865f8ede7ec4e95a7f433bea329f780d1362      // MT4U_FX_MENU_Prev_08.eel   
+
+// FX Selection. These allow us to select a plug-in, so we can move it up or down whithin the chain.
+
+  RecordArm1                       Reaper _RS5a050d77bb0db671a322ab6afeea1c473e23922b      // MT4U_FX_MENU_Sel_01.eel
+  RecordArm2                       Reaper _RS943d149b67e3955639628ad3fcba5ecb09ef0a0e      // MT4U_FX_MENU_Sel_02.eel
+  RecordArm3                       Reaper _RS9c174a048d6852aac1146045de404f785820876b      // MT4U_FX_MENU_Sel_03.eel
+  RecordArm4                       Reaper _RSc39ebef0a88dcbbb01c9a266ca09f1086bfd06ad      // MT4U_FX_MENU_Sel_04.eel
+  RecordArm5                       Reaper _RS50b6875f1a9ec9faec87346b6116d0a98007f32f      // MT4U_FX_MENU_Sel_05.eel
+  RecordArm6                       Reaper _RS9cfda924b0efc46db8d57a8bd41e7375304c370e      // MT4U_FX_MENU_Sel_06.eel
+  RecordArm7                       Reaper _RS306c3f85913dbdd73e5ad305d2d2b68d63aebad7      // MT4U_FX_MENU_Sel_07.eel
+  RecordArm8                       Reaper _RS0088ef7ea422f2bb69a043a6065cb578405e4fa0      // MT4U_FX_MENU_Sel_08.eel
+
+// Now the actual plug-in movers.
+
+  Up                               Reaper _RS95211454bfbef97e0215b0b918446426978d0014      // Script: MT4U_FX_MENU_MoveUp.eel
+  Down                             Reaper _RScab515c7031f31eec2ec211302e3ca346798462d      // Script: MT4U_FX_MENU_MoveDown.eel
+
+
+// To delete a plug-in.
+
+  Hold+RecordArm1                  Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630      // MT4U_FX_MENU_Del.eel
+  Hold+RecordArm2                  Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630      // MT4U_FX_MENU_Del.eel
+  Hold+RecordArm3                  Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630      // MT4U_FX_MENU_Del.eel
+  Hold+RecordArm4                  Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630      // MT4U_FX_MENU_Del.eel
+  Hold+RecordArm5                  Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630      // MT4U_FX_MENU_Del.eel
+  Hold+RecordArm6                  Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630      // MT4U_FX_MENU_Del.eel
+  Hold+RecordArm7                  Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630      // MT4U_FX_MENU_Del.eel
+  Hold+RecordArm8                  Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630      // MT4U_FX_MENU_Del.eel
+
+  Param                            LeaveSubZone
+
+ZoneEnd

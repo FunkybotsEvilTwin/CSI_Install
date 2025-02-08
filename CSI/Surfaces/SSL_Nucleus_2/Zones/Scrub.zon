@@ -1,0 +1,6 @@
+Zone Scrub
+    Decrease+JogWheel     Reaper 40084                // Rewind a little bit  
+    Increase+JogWheel     Reaper 40085                // Forward a little bit    
+
+    Scrub                 LeaveSubZone              
+ZoneEnd

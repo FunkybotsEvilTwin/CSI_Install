@@ -1,0 +1,210 @@
+Zone "VST3: EchoBoy (Soundtoys)" "EchoBoy"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 25 [ 0  1  ] 
+
+	Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush1	FXParam 0 [ 0 1 ] RingStyle=Fill
+	DisplayUpper1	FixedTextDisplay "Bypass" 
+	DisplayLower1	FXParamValueDisplay 0
+
+
+
+
+	Rotary2	FXParam 1  RingStyle=Fill
+	DisplayUpper2	FixedTextDisplay "In" 
+	DisplayLower2	FXParamValueDisplay 1
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+	Rotary3	FXParam 2  RingStyle=Fill
+	DisplayUpper3	FixedTextDisplay "Out" 
+	DisplayLower3	FXParamValueDisplay 2
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary4	FXParam 3  RingStyle=Fill
+	DisplayUpper4	FixedTextDisplay "Mix" 
+	DisplayLower4	FXParamValueDisplay 3
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary5	FXParam 4 [ 0 0.33 0.67 1 ] RingStyle=Fill
+	DisplayUpper5	FixedTextDisplay "Mode" 
+	DisplayLower5	FXParamValueDisplay 4
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary6	FXParam 5  RingStyle=Fill
+	DisplayUpper6	FixedTextDisplay "Echo1" 
+	DisplayLower6	FXParamValueDisplay 5
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary7	FXParam 6  RingStyle=Fill
+	DisplayUpper7	FixedTextDisplay "" 
+	DisplayLower7	FXParamValueDisplay 6
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary8	FXParam 7  RingStyle=Fill
+	DisplayUpper8	FixedTextDisplay "" 
+	DisplayLower8	FXParamValueDisplay 7
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary1	FXParam 16  RingStyle=Fill
+	Shift+DisplayUpper1	FixedTextDisplay "HPF" 
+	Shift+DisplayLower1	FXParamValueDisplay 16
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary2	FXParam 17  RingStyle=Fill
+	Shift+DisplayUpper2	FixedTextDisplay "LPF" 
+	Shift+DisplayLower2	FXParamValueDisplay 17
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary3	FXParam 18  RingStyle=Fill
+	Shift+DisplayUpper3	FixedTextDisplay "Rythm" 
+	Shift+DisplayLower3	FXParamValueDisplay 18
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary4	FXParam 19  RingStyle=Fill
+	Shift+DisplayUpper4	FixedTextDisplay "" 
+	Shift+DisplayLower4	FXParamValueDisplay 19
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary5	FXParam 20  RingStyle=Fill
+	Shift+DisplayUpper5	FixedTextDisplay "" 
+	Shift+DisplayLower5	FXParamValueDisplay 20
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary6	FXParam 21  RingStyle=Fill
+	Shift+DisplayUpper6	FixedTextDisplay "" 
+	Shift+DisplayLower6	FXParamValueDisplay 21
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary7	FXParam 22  RingStyle=Fill
+	Shift+DisplayUpper7	FixedTextDisplay "" 
+	Shift+DisplayLower7	FXParamValueDisplay 22
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary8	FXParam 23  RingStyle=Fill
+	Shift+DisplayUpper8	FixedTextDisplay "Style" 
+	Shift+DisplayLower8	FXParamValueDisplay 23
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+#End auto generated section
+ZoneEnd
+0 Bypass
+1 InputGain
+2 OutputGain
+3 Mix
+4 Mode
+5 Echo1Mode
+6 Echo1Note
+7 Echo1Time
+8 Echo2Mode
+9 Echo2Note
+10 Echo2Time
+11 Feedback
+12 PrimeNumbers
+13 Groove
+14 Feel
+15 Saturation
+16 LowCut
+17 HighCut
+18 RhythmMode
+19 RhythmNote
+20 RhythmTime
+21 RhythmRepeats
+22 RhythmDecay
+23 Style
+24 Tempo
+25 Bypass
+26 Wet
+27 Delta

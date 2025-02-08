@@ -1,0 +1,279 @@
+Zone "VST3: bx_console E (Plugin Alliance)" "bx_console E"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 42  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "HMF" 
+	DisplayLower1	FXParamValueDisplay 42
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 41  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "" 
+	DisplayLower2	FXParamValueDisplay 41
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 43  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "" 
+	DisplayLower3	FXParamValueDisplay 43
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 39  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "HF" 
+	DisplayLower4	FXParamValueDisplay 39
+
+	RotaryPush4	FXParam 40 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 38  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "" 
+	DisplayLower5	FXParamValueDisplay 38
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	FXParam 37 [ 0 1 ]
+	DisplayUpper6	FixedTextDisplay "EQ in" 
+	DisplayLower6	FXParamValueDisplay 37
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	FXParam 51 [ 0 0.5 1 ]
+	DisplayUpper7	FixedTextDisplay "EQ Pos" 
+	DisplayLower7	FXParamValueDisplay 51
+
+
+	Rotary8	FXParam 7  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Output" 
+	DisplayLower8	FXParamValueDisplay 7
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	FXParam 36 [ 0 1 ]
+	Shift+DisplayUpper1	FixedTextDisplay "Dyn Key" 
+	Shift+DisplayLower1	FXParamValueDisplay 36
+
+
+	Shift+Rotary2	FXParam 29  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "G Range" 
+	Shift+DisplayLower2	FXParamValueDisplay 29
+
+	Shift+RotaryPush2	FXParam 27 [ 0 1 ] RingStyle=Dot
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 30  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "G Thresh" 
+	Shift+DisplayLower3	FXParamValueDisplay 30
+
+	Shift+RotaryPush3	FXParam 31 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 32  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "G Rel" 
+	Shift+DisplayLower4	FXParamValueDisplay 32
+
+	Shift+RotaryPush4	FXParam 33 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 34  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "G Hyst" 
+	Shift+DisplayLower5	FXParamValueDisplay 34
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 3  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "In Gain" 
+	Shift+DisplayLower6	FXParamValueDisplay 3
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 4  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "V Gain" 
+	Shift+DisplayLower7	FXParamValueDisplay 4
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 5  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "THD" 
+	Shift+DisplayLower8	FXParamValueDisplay 5
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	FXParam 54 [ 0 1 ] RingStyle=
+	Option+DisplayUpper1	FixedTextDisplay "Bypass" 
+	Option+DisplayLower1	FXParamValueDisplay 54
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Power
+1 Mute
+2 Setting
+3 In Gain
+4 Virtual Gain
+5 THD
+6 Phase
+7 Out Gain
+8 Monitoring
+9 Console Channel
+10 Stereo Mode
+11 HPF On/Off
+12 HPF Frequency
+13 HPF x3
+14 LPF On/Off
+15 LPF Frequency
+16 LPF /3
+17 FLT Position
+18 Dyn On/Off
+19 LC Ratio
+20 LC Threshold
+21 LC Release
+22 LC Attack
+23 LC Mix
+24 LC Link
+25 LC Highpass
+26 LC 2nd Thresh Level
+27 GE Mode
+28 GE Invert
+29 GE Range
+30 GE Threshold
+31 GE Threshold Range
+32 GE Release
+33 GE Attack
+34 GE Hysteresis
+35 Dyn VCA Series
+36 Dyn Key
+37 EQ On/Off
+38 EQ High Gain
+39 EQ High Frequency
+40 EQ High Bell
+41 EQ High Mid Gain
+42 EQ High Mid Frequency
+43 EQ High Mid Q
+44 EQ Type
+45 EQ Low Mid Gain
+46 EQ Low Mid Frequency
+47 EQ Low Mid Q
+48 EQ Low Gain
+49 EQ Low Frequency
+50 EQ Low Bell
+51 EQ Position
+52 Meter Position
+53 Bypass
+54 Bypass
+55 Wet
+56 Delta

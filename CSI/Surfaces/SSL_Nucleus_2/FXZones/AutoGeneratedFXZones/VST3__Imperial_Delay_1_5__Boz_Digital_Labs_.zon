@@ -1,0 +1,290 @@
+Zone "VST3: Imperial Delay 1.5 (Boz Digital Labs)" "Imperial Delay 1.5"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 64 [ 0  1  ] 
+
+	Rotary1	FXParam 10  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Delay" 
+	DisplayLower1	FXParamValueDisplay 10
+
+	RotaryPush1	FXParam 14 [ 0 0.5 1 ] RingStyle=Dot
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush2	FXParam 12 [ 0 0.5 1 ] RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Chan" 
+	DisplayLower2	FXParamValueDisplay 12
+
+
+	Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush3	FXParam 24 [ 0 0.2 0.4 0.6 0.8 1 ]
+	DisplayUpper3	FixedTextDisplay "Mode" 
+	DisplayLower3	FXParamValueDisplay 24
+
+
+	Rotary4	FXParam 13  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Offset" 
+	DisplayLower4	FXParamValueDisplay 13
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 51  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Duck" 
+	DisplayLower5	FXParamValueDisplay 51
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 18  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "FB" 
+	DisplayLower6	FXParamValueDisplay 18
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 3  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Drive" 
+	DisplayLower7	FXParamValueDisplay 3
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 31  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Color" 
+	DisplayLower8	FXParamValueDisplay 31
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 53  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "Duck Att" 
+	Shift+DisplayLower1	FXParamValueDisplay 53
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 54  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "Duck Rel" 
+	Shift+DisplayLower2	FXParamValueDisplay 54
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 55  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "Duck Ratio" 
+	Shift+DisplayLower3	FXParamValueDisplay 55
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 19  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "Sec FB" 
+	Shift+DisplayLower4	FXParamValueDisplay 19
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 21  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "Dyn FB" 
+	Shift+DisplayLower5	FXParamValueDisplay 21
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	FXParam 20 [ 0 1 ]
+	Shift+DisplayUpper6	FixedTextDisplay "Dyn FB" 
+	Shift+DisplayLower6	FXParamValueDisplay 20
+
+
+	Shift+Rotary7	FXParam 6  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "Dr Blend" 
+	Shift+DisplayLower7	FXParamValueDisplay 6
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 8  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "Dr Tone" 
+	Shift+DisplayLower8	FXParamValueDisplay 8
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 39  RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "Smear LPF" 
+	Option+DisplayLower1	FXParamValueDisplay 39
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 27  RingStyle=Dot
+	Option+DisplayUpper2	FixedTextDisplay "Mod Speed" 
+	Option+DisplayLower2	FXParamValueDisplay 27
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 28  RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "Mod Speed Diff" 
+	Option+DisplayLower3	FXParamValueDisplay 28
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 29  RingStyle=Dot
+	Option+DisplayUpper4	FixedTextDisplay "Mod Blend" 
+	Option+DisplayLower4	FXParamValueDisplay 29
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	FXParam 46  RingStyle=Dot
+	Option+DisplayUpper5	FixedTextDisplay "Ch Depth" 
+	Option+DisplayLower5	FXParamValueDisplay 46
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 47  RingStyle=Dot
+	Option+DisplayUpper6	FixedTextDisplay "Ch Tone" 
+	Option+DisplayLower6	FXParamValueDisplay 47
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 48  RingStyle=Dot
+	Option+DisplayUpper7	FixedTextDisplay "Ch Rate" 
+	Option+DisplayLower7	FXParamValueDisplay 48
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	FXParam 49 [ 0 0.33 0.67 1 ] RingStyle=Dot
+	Option+DisplayUpper8	FixedTextDisplay "Ch Voices" 
+	Option+DisplayLower8	FXParamValueDisplay 49
+
+
+#End auto generated section
+ZoneEnd
+0 Preset
+1 Bypass
+2 Drive Enable
+3 Drive
+4 Apply Drive to Dry
+5 Drive Harmonics
+6 Drive Blend
+7 Drive Mode
+8 Drive Tone
+9 Drive Boost
+10 Delay Left
+11 Delay Right
+12 Delay Channel
+13 Delay 2 Offset
+14 Delay Sync Mode
+15 Delay Sync Left
+16 Delay Sync Right
+17 Feedback Enable
+18 Feedback
+19 Secondary Feedback
+20 Dynamic Feedback Enable
+21 Dynamic Feedback Threshold
+22 Polarity L
+23 Polarity R
+24 Feedback Mode
+25 Mod Enable
+26 Mod Depth
+27 Mod Speed
+28 Mod Speed Difference
+29 Mod Blend
+30 Color Enable
+31 Color
+32 Color LPF Freq
+33 Color HPF Freq
+34 Color Slant
+35 Smear Enable
+36 Smear
+37 Smear Feedback
+38 Smear Delay
+39 Smear LPF
+40 Pitch Shift Link L R
+41 Pitch Shift Enable
+42 Pitch Left
+43 Pitch Right
+44 Chorus Enable
+45 Chorus Mix
+46 Chorus Depth
+47 Chorus Tone
+48 Chorus Rate
+49 Chorus Voices
+50 Duck Enable
+51 Duck Threshold
+52 Duck Inside FB
+53 Duck Attack
+54 Duck Release
+55 Duck Ratio
+56 Width
+57 Dry Volume
+58 Wet Volume
+59 Plugin Enabled
+60 Wet Enable
+61 Dry Enable
+62 Tap Tempo
+63 Delay Change Speed
+64 Bypass
+65 Wet
+66 Delta

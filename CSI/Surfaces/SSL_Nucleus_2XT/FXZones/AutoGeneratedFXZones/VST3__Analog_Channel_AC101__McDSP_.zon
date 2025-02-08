@@ -1,0 +1,100 @@
+Zone "VST3: Analog Channel AC101 (McDSP)" "Analog Channel AC101"
+
+#Begin auto generated section
+
+	#Cell 1  
+	Rotary1 NoAction
+	DisplayUpper1 NoAction
+	DisplayLower1 NoAction
+
+	RotaryPush1 NoAction
+	DisplayUpper1 NullDisplay
+	DisplayLower1 NullDisplay
+
+
+	#Cell 2  
+	Rotary2 NoAction
+	DisplayUpper2 NoAction
+	DisplayLower2 NoAction
+
+	RotaryPush2 NoAction
+	DisplayUpper2 NullDisplay
+	DisplayLower2 NullDisplay
+
+
+	#Cell 3  
+	Rotary3 NoAction
+	DisplayUpper3 NoAction
+	DisplayLower3 NoAction
+
+	RotaryPush3 NoAction
+	DisplayUpper3 NullDisplay
+	DisplayLower3 NullDisplay
+
+
+	#Cell 4  
+	Rotary4 NoAction
+	DisplayUpper4 NoAction
+	DisplayLower4 NoAction
+
+	RotaryPush4 NoAction
+	DisplayUpper4 NullDisplay
+	DisplayLower4 NullDisplay
+
+
+	#Cell 5  
+	Rotary5 NoAction
+	DisplayUpper5 NoAction
+	DisplayLower5 NoAction
+
+	RotaryPush5 NoAction
+	DisplayUpper5 NullDisplay
+	DisplayLower5 NullDisplay
+
+
+	#Cell 6  
+	Rotary6 NoAction
+	DisplayUpper6 NoAction
+	DisplayLower6 NoAction
+
+	RotaryPush6 NoAction
+	DisplayUpper6 NullDisplay
+	DisplayLower6 NullDisplay
+
+
+	#Cell 7  
+	Rotary7 FXParam 7 RingStyle=Dot
+	DisplayUpper7 FixedTextDisplay "Inv L" 
+	DisplayLower7 FXParamValueDisplay 7 
+
+	RotaryPush7 NoAction
+	DisplayUpper7 NullDisplay
+	DisplayLower7 NullDisplay
+
+
+	#Cell 8  
+	Rotary8 FXParam 9 RingStyle=Dot
+	DisplayUpper8 FixedTextDisplay "Inv R" 
+	DisplayLower8 FXParamValueDisplay 9 
+
+	RotaryPush8 NoAction
+	DisplayUpper8 NullDisplay
+	DisplayLower8 NullDisplay
+
+
+#End auto generated section
+ZoneEnd
+0 Input
+1 Output
+2 Auto
+3 Drive
+4 Curve
+5 Attack
+6 Release
+7 Phase
+8 UI Scale
+9 Phase Right
+10 Bypass
+11 Bypass
+12 Wet
+13 Delta

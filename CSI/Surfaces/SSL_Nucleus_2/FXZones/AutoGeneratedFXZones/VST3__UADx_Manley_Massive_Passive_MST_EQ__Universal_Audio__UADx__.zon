@@ -1,0 +1,276 @@
+Zone "VST3: UADx Manley Massive Passive MST (Universal Audio (UADx))" "Manley Massive Passive MST"
+
+#Begin auto Generated section
+	InvertFB+Param FXParam 51 [ 0  1  ] 
+	Rotary1	FXParam 4 [ 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 ] RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "LoF" 
+	DisplayLower1	FXParamValueDisplay 4
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 3  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "LoBW" 
+	DisplayLower2	FXParamValueDisplay 3
+
+	RotaryPush2	FXParam 1 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 2  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "LoG" 
+	DisplayLower3	FXParamValueDisplay 2
+
+	RotaryPush3	FXParam 0 [ 0 0.5 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 9 [ 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 ] RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "LoMidF" 
+	DisplayLower4	FXParamValueDisplay 9
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 8  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "LoMidBW" 
+	DisplayLower5	FXParamValueDisplay 8
+
+	RotaryPush5	FXParam 6 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 7  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "LoMidG" 
+	DisplayLower6	FXParamValueDisplay 7
+
+	RotaryPush6	FXParam 5 [ 0 0.5 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 14 [ 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 ] RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "HiMidF" 
+	DisplayLower7	FXParamValueDisplay 14
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 13  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "HiMidBW" 
+	DisplayLower8	FXParamValueDisplay 13
+
+	RotaryPush8	FXParam 11 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 28 [ 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 ] RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "LoF" 
+	Shift+DisplayLower1	FXParamValueDisplay 28
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 27  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "LoBW" 
+	Shift+DisplayLower2	FXParamValueDisplay 27
+
+	Shift+RotaryPush2	FXParam 25 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 26  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "LoG" 
+	Shift+DisplayLower3	FXParamValueDisplay 26
+
+	Shift+RotaryPush3	FXParam 24 [ 0 0.5 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 33 [ 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 ] RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "LoMidF" 
+	Shift+DisplayLower4	FXParamValueDisplay 33
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 32  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "LoMidBW" 
+	Shift+DisplayLower5	FXParamValueDisplay 32
+
+	Shift+RotaryPush5	FXParam 30 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 31  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "LoMidG" 
+	Shift+DisplayLower6	FXParamValueDisplay 31
+
+	Shift+RotaryPush6	FXParam 29 [ 0 0.5 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 38 [ 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 ] RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "HiMidF" 
+	Shift+DisplayLower7	FXParamValueDisplay 38
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 37  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "HiMidBW" 
+	Shift+DisplayLower8	FXParamValueDisplay 37
+
+	Shift+RotaryPush8	FXParam 35 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto Generated section
+ZoneEnd
+0 LoEnable
+1 LoShp
+2 LoG
+3 LoBW
+4 LoF
+5 LoMidEnable
+6 LoMidShp
+7 LoMidG
+8 LoMidBW
+9 LoMidF
+10 HiMidEnable
+11 HiMidShp
+12 HiMidG
+13 HiMidBW
+14 HiMidF
+15 HiEnable
+16 HiShp
+17 HiG
+18 HiBW
+19 HiF
+20 LoPass
+21 HiPass
+22 G
+23 ENABLE
+24 LoEnable
+25 LoShp
+26 LoG
+27 LoBW
+28 LoF
+29 LoMidEnable
+30 LoMidShp
+31 LoMidG
+32 LoMidBW
+33 LoMidF
+34 HiMidEnable
+35 HiMidShp
+36 HiMidG
+37 HiMidBW
+38 HiMidF
+39 HiEnable
+40 HiShp
+41 HiG
+42 HiBW
+43 HiF
+44 LoPass
+45 HiPass
+46 G
+47 ENABLE
+48 CtrlLink
+49 Pwr
+50 Mst Bypass
+51 Bypass
+52 Wet
+53 Delta

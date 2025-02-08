@@ -1,0 +1,60 @@
+	Zone "TrackSend"
+
+    DisplayUpper|               TrackNameDisplay
+    DisplayLower|               TrackSendNameDisplay
+	Control+DisplayLower|       TrackSendVolumeDisplay
+
+    Fader|                      TrackVolume
+	Flip+Fader|                 TrackSendVolume
+	Flip+Rotary|		    	TrackSendPan
+
+	Touch+DisplayLower|         TrackVolumeDisplay
+    Option+DisplayLower|        TrackSendPrePostDisplay
+    Option+RotaryPush|          TrackSendPrePost
+    RotaryPush|        			TrackSendMute 
+	Hold+RotaryPush|			TrackUniqueSelect Feedback=No
+	Hold+RotaryPush|			Reaper _RS05137becb9d903efdb424712c8afeea03284deeb Feedback=No			// Script: edgemeal_Remove muted track sends from selected tracks.lua
+	Alt+DisplayLower|         	TrackSendPanDisplay
+  	Alt+RotaryPush|          	TrackSendPan [ 0.5 ] Feedback=No			 // Centers Pan
+    Alt+Rotary|          		TrackSendPan
+    Rotary|                     TrackSendVolume RingStyle=Fill
+
+    Up                          Bank TrackSend -1
+    Down                        Bank TrackSend 1
+
+ 	// Shift+Option+DisplayLower|  	TrackAutoModeDisplay
+	// Shift+Option+Select|	 		CycleTrackAutoMode
+      
+    Solo|                       TrackSolo
+	Hold+Solo|		    		ClearAllSolo Feedback=No
+    Mute|                       TrackMute
+    Select|                     TrackUniqueSelect
+	Hold+Select|                TrackSendVolume [ 0.716 ] Feedback=No  		// Sets send to unity gain
+    // Shift+Select|            TrackRangeSelect    
+    Control+Select|             TrackSelect
+	
+	Enter						Reaper _RSf7cf6672c5050bd9e00b59d44bb47f35edababce // ***CUSTOM - MD Create send between multiple tracks left to Right.lua***
+	
+	BankLeft                	Bank Track -16
+    BankRight               	Bank Track 16
+	
+    VUMeter|                    TrackOutputMeterAverageLR  
+	
+	
+	
+	
+	// TrackReceive Mode
+	
+	Shift+DisplayUpper|               TrackNameDisplay
+    Shift+DisplayLower|               TrackReceiveNameDisplay
+	Shift+Shift+Option+DisplayLower|  TrackReceivePrePostDisplay
+    Shift+Option+RotaryPush|          TrackReceivePrePost
+    Shift+FaderTouch+DisplayLower|    TrackReceiveVolumeDisplay
+    Shift+Alt+DisplayLower|       	  TrackReceivePanDisplay
+    Shift+Alt+Rotary|                 TrackReceivePan
+    Shift+RotaryPush|                 TrackReceiveMute
+    Shift+Fader|                      TrackReceiveVolume
+	Shift+BankLeft                    Bank TrackReceive -1
+    Shift+BankRight                   Bank TrackReceive 1
+
+ZoneEnd

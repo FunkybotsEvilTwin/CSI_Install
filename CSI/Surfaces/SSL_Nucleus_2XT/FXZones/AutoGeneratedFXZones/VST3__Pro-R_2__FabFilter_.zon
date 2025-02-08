@@ -1,0 +1,898 @@
+Zone "VST3: Pro-R 2 (FabFilter)" "Pro-R 2"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 8  RingStyle=Fill
+	DisplayUpper1	FixedTextDisplay "Duck" 
+	DisplayLower1	FXParamValueDisplay 8
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush2	FXParam 4 [ 0 0.5 1 ] RingStyle=Fill
+	DisplayUpper2	FixedTextDisplay "Style" 
+	DisplayLower2	FXParamValueDisplay 4
+
+
+
+
+	Rotary3	FXParam 12  RingStyle=Fill
+	DisplayUpper3	FixedTextDisplay "Gate" 
+	DisplayLower3	FXParamValueDisplay 12
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush4	FXParam 13 [ 0 1 ] RingStyle=Fill
+	DisplayUpper4	FixedTextDisplay "Gate" 
+	DisplayLower4	FXParamValueDisplay 13
+
+
+
+
+	Rotary5	NoAction
+	DisplayUpper5	NoAction
+	DisplayLower5	NoAction
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary6	NoAction
+	DisplayUpper6	NoAction
+	DisplayLower6	NoAction
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary7	NoAction
+	DisplayUpper7	NoAction
+	DisplayLower7	NoAction
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary8	FXParam 9  RingStyle=Fill
+	DisplayUpper8	FixedTextDisplay "Mix" 
+	DisplayLower8	FXParamValueDisplay 9
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Alt+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Alt+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Alt+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Alt+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Alt+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Alt+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Alt+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Alt+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Alt+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Alt+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Alt+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Alt+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Alt+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Alt+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Alt+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Alt+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Control+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Control+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Control+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Control+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Control+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Control+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Control+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Control+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Control+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Control+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Control+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Control+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Control+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Control+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Control+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Control+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Alt+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Alt+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Alt+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Alt+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Alt+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Alt+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Alt+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Alt+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Alt+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Alt+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Alt+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Alt+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Alt+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Alt+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Alt+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Alt+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+#End auto generated section
+ZoneEnd
+0 Space
+1 Decay Rate
+2 Distance
+3 Brightness
+4 Style
+5 Character
+6 Thickness
+7 Stereo Width
+8 Ducking
+9 Mix
+10 Lock Mix
+11 Freeze
+12 Auto Gate
+13 Auto Gate Enabled
+14 Auto Gate Offset
+15 Auto Gate Sync
+16 Predelay
+17 Predelay Offset
+18 Predelay Sync
+19 Decay EQ Band 1 Used
+20 Decay EQ Band 1 Enabled
+21 Decay EQ Band 1 Frequency
+22 Decay EQ Band 1 Rate
+23 Decay EQ Band 1 Q
+24 Decay EQ Band 1 Shape
+25 Decay EQ Band 1 Speakers
+26 Decay EQ Band 2 Used
+27 Decay EQ Band 2 Enabled
+28 Decay EQ Band 2 Frequency
+29 Decay EQ Band 2 Rate
+30 Decay EQ Band 2 Q
+31 Decay EQ Band 2 Shape
+32 Decay EQ Band 2 Speakers
+33 Decay EQ Band 3 Used
+34 Decay EQ Band 3 Enabled
+35 Decay EQ Band 3 Frequency
+36 Decay EQ Band 3 Rate
+37 Decay EQ Band 3 Q
+38 Decay EQ Band 3 Shape
+39 Decay EQ Band 3 Speakers
+40 Decay EQ Band 4 Used
+41 Decay EQ Band 4 Enabled
+42 Decay EQ Band 4 Frequency
+43 Decay EQ Band 4 Rate
+44 Decay EQ Band 4 Q
+45 Decay EQ Band 4 Shape
+46 Decay EQ Band 4 Speakers
+47 Decay EQ Band 5 Used
+48 Decay EQ Band 5 Enabled
+49 Decay EQ Band 5 Frequency
+50 Decay EQ Band 5 Rate
+51 Decay EQ Band 5 Q
+52 Decay EQ Band 5 Shape
+53 Decay EQ Band 5 Speakers
+54 Decay EQ Band 6 Used
+55 Decay EQ Band 6 Enabled
+56 Decay EQ Band 6 Frequency
+57 Decay EQ Band 6 Rate
+58 Decay EQ Band 6 Q
+59 Decay EQ Band 6 Shape
+60 Decay EQ Band 6 Speakers
+61 Post EQ Band 1 Used
+62 Post EQ Band 1 Enabled
+63 Post EQ Band 1 Frequency
+64 Post EQ Band 1 Gain
+65 Post EQ Band 1 Q
+66 Post EQ Band 1 Shape
+67 Post EQ Band 1 Slope
+68 Post EQ Band 1 Stereo Placement
+69 Post EQ Band 1 Speakers
+70 Post EQ Band 2 Used
+71 Post EQ Band 2 Enabled
+72 Post EQ Band 2 Frequency
+73 Post EQ Band 2 Gain
+74 Post EQ Band 2 Q
+75 Post EQ Band 2 Shape
+76 Post EQ Band 2 Slope
+77 Post EQ Band 2 Stereo Placement
+78 Post EQ Band 2 Speakers
+79 Post EQ Band 3 Used
+80 Post EQ Band 3 Enabled
+81 Post EQ Band 3 Frequency
+82 Post EQ Band 3 Gain
+83 Post EQ Band 3 Q
+84 Post EQ Band 3 Shape
+85 Post EQ Band 3 Slope
+86 Post EQ Band 3 Stereo Placement
+87 Post EQ Band 3 Speakers
+88 Post EQ Band 4 Used
+89 Post EQ Band 4 Enabled
+90 Post EQ Band 4 Frequency
+91 Post EQ Band 4 Gain
+92 Post EQ Band 4 Q
+93 Post EQ Band 4 Shape
+94 Post EQ Band 4 Slope
+95 Post EQ Band 4 Stereo Placement
+96 Post EQ Band 4 Speakers
+97 Post EQ Band 5 Used
+98 Post EQ Band 5 Enabled
+99 Post EQ Band 5 Frequency
+100 Post EQ Band 5 Gain
+101 Post EQ Band 5 Q
+102 Post EQ Band 5 Shape
+103 Post EQ Band 5 Slope
+104 Post EQ Band 5 Stereo Placement
+105 Post EQ Band 5 Speakers
+106 Post EQ Band 6 Used
+107 Post EQ Band 6 Enabled
+108 Post EQ Band 6 Frequency
+109 Post EQ Band 6 Gain
+110 Post EQ Band 6 Q
+111 Post EQ Band 6 Shape
+112 Post EQ Band 6 Slope
+113 Post EQ Band 6 Stereo Placement
+114 Post EQ Band 6 Speakers
+115 Decay Rate Tilt
+116 Distance Tilt
+117 Brightness Tilt
+118 Character Tilt
+119 Thickness Tilt
+120 Stereo Width Tilt
+121 Ducking Tilt
+122 Mix Tilt
+123 Predelay Tilt
+124 LFE Level
+125 Center Level
+126 Top Level
+127 Surround Cross Feed
+128 Input Level
+129 Input Pan
+130 Output Level
+131 Output Pan
+132 Bypass
+133 Analyzer Mode
+134 Display Range
+135 Midi State
+136 Host Bypass
+137 Internal
+138 Internal
+139 Internal
+140 MIDI CC
+141 Pitch Bend
+142 Channel Pressure
+143 MIDI CC
+144 MIDI CC
+145 MIDI CC
+146 MIDI CC
+147 MIDI CC
+148 MIDI CC
+149 MIDI CC
+150 MIDI CC
+151 MIDI CC
+152 MIDI CC
+153 MIDI CC
+154 MIDI CC
+155 MIDI CC
+156 MIDI CC
+157 MIDI CC
+158 MIDI CC
+159 MIDI CC
+160 MIDI CC
+161 MIDI CC
+162 MIDI CC
+163 MIDI CC
+164 MIDI CC
+165 MIDI CC
+166 MIDI CC
+167 MIDI CC
+168 MIDI CC
+169 MIDI CC
+170 MIDI CC
+171 MIDI CC
+172 MIDI CC
+173 MIDI CC
+174 MIDI CC
+175 MIDI CC
+176 MIDI CC
+177 MIDI CC
+178 MIDI CC
+179 MIDI CC
+180 MIDI CC
+181 MIDI CC
+182 MIDI CC
+183 MIDI CC
+184 MIDI CC
+185 MIDI CC
+186 MIDI CC
+187 MIDI CC
+188 MIDI CC
+189 MIDI CC
+190 MIDI CC
+191 MIDI CC
+192 MIDI CC
+193 MIDI CC
+194 MIDI CC
+195 MIDI CC
+196 MIDI CC
+197 MIDI CC
+198 MIDI CC
+199 MIDI CC
+200 MIDI CC
+201 MIDI CC
+202 MIDI CC
+203 MIDI CC
+204 MIDI CC
+205 MIDI CC
+206 MIDI CC
+207 MIDI CC
+208 MIDI CC
+209 MIDI CC
+210 MIDI CC
+211 MIDI CC
+212 MIDI CC
+213 MIDI CC
+214 MIDI CC
+215 MIDI CC
+216 MIDI CC
+217 MIDI CC
+218 MIDI CC
+219 MIDI CC
+220 MIDI CC
+221 MIDI CC
+222 MIDI CC
+223 MIDI CC
+224 MIDI CC
+225 MIDI CC
+226 MIDI CC
+227 MIDI CC
+228 MIDI CC
+229 MIDI CC
+230 MIDI CC
+231 MIDI CC
+232 MIDI CC
+233 MIDI CC
+234 MIDI CC
+235 MIDI CC
+236 MIDI CC
+237 MIDI CC
+238 MIDI CC
+239 MIDI CC
+240 MIDI CC
+241 MIDI CC
+242 MIDI CC
+243 MIDI CC
+244 MIDI CC
+245 MIDI CC
+246 MIDI CC
+247 MIDI CC
+248 MIDI CC
+249 MIDI CC
+250 MIDI CC
+251 MIDI CC
+252 MIDI CC
+253 MIDI CC
+254 MIDI CC
+255 MIDI CC
+256 MIDI CC
+257 MIDI CC
+258 MIDI CC
+259 MIDI CC
+260 MIDI CC
+261 MIDI CC
+262 MIDI CC
+263 MIDI CC
+264 MIDI CC
+265 MIDI CC
+266 MIDI CC
+267 MIDI CC
+268 MIDI CC
+269 MIDI CC
+270 MIDI CC
+271 MIDI CC
+272 Internal
+273 Bypass
+274 Wet
+275 Delta

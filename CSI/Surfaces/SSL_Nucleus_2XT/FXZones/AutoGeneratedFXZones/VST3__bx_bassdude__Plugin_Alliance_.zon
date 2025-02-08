@@ -1,0 +1,254 @@
+Zone "VST3: bx_bassdude (Plugin Alliance)" "bx_bassdude"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 17  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Pres" 
+	DisplayLower1	FXParamValueDisplay 17
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush2	NoAction
+	DisplayUpper2	NoAction
+	DisplayLower2	NoAction
+
+
+	Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush3	NoAction
+	DisplayUpper3	NoAction
+	DisplayLower3	NoAction
+
+
+	Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush4	NoAction
+	DisplayUpper4	NoAction
+	DisplayLower4	NoAction
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	NoAction
+	DisplayUpper5	NoAction
+	DisplayLower5	NoAction
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	NoAction
+	DisplayUpper6	NoAction
+	DisplayLower6	NoAction
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	NoAction
+	DisplayUpper7	NoAction
+	DisplayLower7	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 29 [ 0 1 ]
+	DisplayUpper8	FixedTextDisplay "Bypass" 
+	DisplayLower8	FXParamValueDisplay 29
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Bypass
+1 ByPreAmp
+2 ByPowerAmp
+3 Setting
+4 Input
+5 Power_Soak
+6 Rec_Chain
+7 NG_ByPass
+8 NG_Thres
+9 NG_Range
+10 Channel
+11 BassBass
+12 BassTreb
+13 NormBass
+14 NormTreb
+15 BassVol
+16 NormVol
+17 Presence
+18 InputType
+19 Delay
+20 Delay_Time
+21 Delay_Mix
+22 Delay_Feedback
+23 Delay_LoFi
+24 Tight
+25 Tight_Frequency
+26 Smooth
+27 Smooth_Frequency
+28 Bypass
+29 Bypass
+30 Wet
+31 Delta

@@ -1,0 +1,266 @@
+Zone "VST3: Analog Channel AC202 (McDSP)" "Analog Channel AC202"
+
+#Begin auto generated section
+
+	InvertFB+Param FXParam 15 [ 0  1  ] 
+	#Cell 1  
+	Rotary1 FXParam 0
+	DisplayUpper1 FixedTextDisplay "Input"
+	DisplayLower1 FXParamValueDisplay 0
+
+	RotaryPush1 FXParam 0 [ 0.5 ] 
+	NullDisplay NoAction
+	NullDisplay NoAction 
+
+
+	#Cell 2  
+	Rotary2 FXParam 1
+	DisplayUpper2 FixedTextDisplay "Output"
+	DisplayLower2 FXParamValueDisplay 1
+
+	RotaryPush2 FXParam 1 [ 0.5 ] 
+	NullDisplay NoAction
+	NullDisplay NoAction 
+
+
+	#Cell 3  
+	Rotary3 NoAction 
+	DisplayUpper3 NoAction	
+	DisplayLower3 NoAction 
+
+	RotaryPush3 NoAction
+	NullDisplay NoAction
+	NullDisplay NoAction
+
+
+	#Cell 4  
+	Rotary4 FXParam 6
+	DisplayUpper4 FixedTextDisplay "Rolloff"
+	DisplayLower4 FXParamValueDisplay 6
+
+	RotaryPush4 FXParam 6 [ 0 ]  
+	NullDisplay NoAction
+	NullDisplay NoAction 
+
+
+	#Cell 5  
+	Rotary5 FXParam 10
+	DisplayUpper5 FixedTextDisplay "Tape Head Type"
+	DisplayLower5 FXParamValueDisplay 10
+
+	RotaryPush5 NoAction 
+	NullDisplay NoAction
+	NullDisplay NoAction 
+
+
+	#Cell 6  
+	Rotary6 FXParam 7
+	DisplayUpper6 FixedTextDisplay "Bump"
+	DisplayLower6 FXParamValueDisplay 7
+
+	RotaryPush6 FXParam 7 [ 0.5 ] 
+	NullDisplay NoAction
+	NullDisplay NoAction 
+
+
+	#Cell 7  
+	Rotary7 FXParam 3
+	DisplayUpper7 FixedTextDisplay "Bias"
+	DisplayLower7 FXParamValueDisplay 3
+
+	RotaryPush7 FXParam 3 [ 0.5 ] 
+	NullDisplay NoAction
+	NullDisplay NoAction 
+
+
+	#Cell 8  
+	Rotary8 FXParam 5
+	DisplayUpper8 FixedTextDisplay "Release"
+	DisplayLower8 FXParamValueDisplay 5
+
+	RotaryPush8 FXParam 5 [ 0.5 ] 
+	NullDisplay NoAction
+	NullDisplay NoAction 
+
+
+	#Cell 1 Shift+ 
+	Shift+Rotary1 NoAction
+	Shift+DisplayUpper1 NoAction
+	Shift+DisplayLower1 NoAction
+
+	Shift+RotaryPush1 NoAction
+	Shift+DisplayUpper1 NullDisplay
+	Shift+DisplayLower1 NullDisplay
+
+
+	#Cell 2 Shift+ 
+	Shift+Rotary2 NoAction
+	Shift+DisplayUpper2 NoAction
+	Shift+DisplayLower2 NoAction
+
+	Shift+RotaryPush2 NoAction
+	Shift+DisplayUpper2 NullDisplay
+	Shift+DisplayLower2 NullDisplay
+
+
+	#Cell 3 Shift+ 
+	Shift+Rotary3 NoAction
+	Shift+DisplayUpper3 NoAction
+	Shift+DisplayLower3 NoAction
+
+	Shift+RotaryPush3 NoAction
+	Shift+DisplayUpper3 NullDisplay
+	Shift+DisplayLower3 NullDisplay
+
+
+	#Cell 4 Shift+ 
+	Shift+Rotary4 NoAction
+	Shift+DisplayUpper4 NoAction
+	Shift+DisplayLower4 NoAction
+
+	Shift+RotaryPush4 NoAction
+	Shift+DisplayUpper4 NullDisplay
+	Shift+DisplayLower4 NullDisplay
+
+
+	#Cell 5 Shift+ 
+	Shift+Rotary5 NoAction
+	Shift+DisplayUpper5 NoAction
+	Shift+DisplayLower5 NoAction
+
+	Shift+RotaryPush5 NoAction
+	Shift+DisplayUpper5 NullDisplay
+	Shift+DisplayLower5 NullDisplay
+
+
+	#Cell 6 Shift+ 
+	Shift+Rotary6 NoAction
+	Shift+DisplayUpper6 NoAction
+	Shift+DisplayLower6 NoAction
+
+	Shift+RotaryPush6 NoAction
+	Shift+DisplayUpper6 NullDisplay
+	Shift+DisplayLower6 NullDisplay
+
+
+	#Cell 7 Shift+ 
+	Shift+Rotary7 NoAction
+	Shift+DisplayUpper7 NoAction
+	Shift+DisplayLower7 NoAction
+
+	Shift+RotaryPush7 NoAction
+	Shift+DisplayUpper7 NullDisplay
+	Shift+DisplayLower7 NullDisplay
+
+
+	#Cell 8 Shift+ 
+	Shift+Rotary8 NoAction
+	Shift+DisplayUpper8 NoAction
+	Shift+DisplayLower8 NoAction
+
+	Shift+RotaryPush8 NoAction
+	Shift+DisplayUpper8 NullDisplay
+	Shift+DisplayLower8 NullDisplay
+
+
+	#Cell 1 Option+ 
+	Option+Rotary1 NoAction
+	Option+DisplayUpper1 NoAction
+	Option+DisplayLower1 NoAction
+
+	Option+RotaryPush1 NoAction
+	Option+DisplayUpper1 NullDisplay
+	Option+DisplayLower1 NullDisplay
+
+
+	#Cell 2 Option+ 
+	Option+Rotary2 NoAction
+	Option+DisplayUpper2 NoAction
+	Option+DisplayLower2 NoAction
+
+	Option+RotaryPush2 NoAction
+	Option+DisplayUpper2 NullDisplay
+	Option+DisplayLower2 NullDisplay
+
+
+	#Cell 3 Option+ 
+	Option+Rotary3 NoAction
+	Option+DisplayUpper3 NoAction
+	Option+DisplayLower3 NoAction
+
+	Option+RotaryPush3 NoAction
+	Option+DisplayUpper3 NullDisplay
+	Option+DisplayLower3 NullDisplay
+
+
+	#Cell 4 Option+ 
+	Option+Rotary4 NoAction
+	Option+DisplayUpper4 NoAction
+	Option+DisplayLower4 NoAction
+
+	Option+RotaryPush4 NoAction
+	Option+DisplayUpper4 NullDisplay
+	Option+DisplayLower4 NullDisplay
+
+
+	#Cell 5 Option+ 
+	Option+Rotary5 NoAction
+	Option+DisplayUpper5 NoAction
+	Option+DisplayLower5 NoAction
+
+	Option+RotaryPush5 NoAction
+	Option+DisplayUpper5 NullDisplay
+	Option+DisplayLower5 NullDisplay
+
+
+	#Cell 6 Option+ 
+	Option+Rotary6 NoAction
+	Option+DisplayUpper6 NoAction
+	Option+DisplayLower6 NoAction
+
+	Option+RotaryPush6 NoAction
+	Option+DisplayUpper6 NullDisplay
+	Option+DisplayLower6 NullDisplay
+
+
+	#Cell 7 Option+ 
+	Option+Rotary7 NoAction
+	Option+DisplayUpper7 NoAction
+	Option+DisplayLower7 NoAction
+
+	Option+RotaryPush7 NoAction
+	Option+DisplayUpper7 NullDisplay
+	Option+DisplayLower7 NullDisplay
+
+
+	#Cell 8 Option+ 
+	Option+Rotary8 NoAction
+	Option+DisplayUpper8 NoAction
+	Option+DisplayLower8 NoAction
+
+	Option+RotaryPush8 NoAction
+	Option+DisplayUpper8 NullDisplay
+	Option+DisplayLower8 NullDisplay
+
+
+#End auto generated section
+ZoneEnd
+
+0 Input
+1 Output
+2 Auto
+3 Bias
+4 Tape Speed
+5 Release
+6 Rolloff
+7 Bump
+8 EQ Type
+9 Tape Type
+10 Tape Head Type
+11 Phase
+12 UI Scale
+13 Phase Right
+14 Bypass
+15 Bypass
+16 Wet
+17 Delta

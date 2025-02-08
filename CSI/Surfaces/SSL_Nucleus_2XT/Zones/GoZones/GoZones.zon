@@ -1,0 +1,10 @@
+Zone GoZones
+     Folder
+     TrackReceive
+     TrackSend
+     VCA
+     SelectedTrackFXMenu
+     TrackFXMenu
+     SelectedTrackSend
+     MasterTrackFXMenu
+ZoneEnd

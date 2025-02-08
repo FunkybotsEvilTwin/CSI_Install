@@ -1,0 +1,15 @@
+Zone SelectedTrackSend
+		
+	ChannelLeft		    		Reaper 40286	//Track: Go To Previous Track
+	ChannelRight		    	Reaper 40285	//Track: Go To Next Track
+	BankLeft					Bank Track -8
+	BankRight					Bank Track 8
+	
+	OnZoneDeactivation 	    	HideFXSlot
+	OnZoneDeactivation	    	ClearModifiers
+	
+	
+	Esc			    			AllSurfacesGoHome
+
+	
+ZoneEnd

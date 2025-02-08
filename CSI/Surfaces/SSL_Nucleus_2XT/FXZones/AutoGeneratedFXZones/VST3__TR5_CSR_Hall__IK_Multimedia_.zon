@@ -1,0 +1,251 @@
+Zone "VST3: TR5 CSR Hall (IK Multimedia)" "TR5 CSR Hall"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 3  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "In Img" 
+	DisplayLower1	FXParamValueDisplay 3
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 4  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Out Img" 
+	DisplayLower2	FXParamValueDisplay 4
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 7  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Cross" 
+	DisplayLower3	FXParamValueDisplay 7
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 10  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "PD" 
+	DisplayLower4	FXParamValueDisplay 10
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 11  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Size" 
+	DisplayLower5	FXParamValueDisplay 11
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 13  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Build" 
+	DisplayLower6	FXParamValueDisplay 13
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 14  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Disp" 
+	DisplayLower7	FXParamValueDisplay 14
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 15  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Mod" 
+	DisplayLower8	FXParamValueDisplay 15
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 24  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "Level R" 
+	Shift+DisplayLower1	FXParamValueDisplay 24
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	FXParam 26 [ 0 1 ]
+	Shift+DisplayUpper8	FixedTextDisplay "Bypass" 
+	Shift+DisplayLower8	FXParamValueDisplay 26
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 In Level
+1 Out Level
+2 Mix
+3 In Image
+4 Out Image
+5 Rvb Time
+6 Low Time
+7 Crossover
+8 High Freq
+9 High Damp
+10 Pre Delay
+11 Size
+12 Diffusion
+13 Buildup
+14 Disperse
+15 Modulation
+16 Mod Move
+17 Lo Cut F
+18 Lo Cut G
+19 Hi Cut F
+20 Hi Cut G
+21 Time L
+22 Level L
+23 Time R
+24 Level R
+25 Bypass
+26 Bypass
+27 Wet
+28 Delta

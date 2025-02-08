@@ -1,0 +1,456 @@
+Zone "VST3: Pro-C 2 (FabFilter)" "Pro-C 2"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 183 [ 0  1  ] 
+
+
+	Rotary1	FXParam 1  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Thres" 
+	DisplayLower1	FXParamValueDisplay 1
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary2	FXParam 3  RingStyle=Fill
+	DisplayUpper2	FixedTextDisplay "Knee" 
+	DisplayLower2	FXParamValueDisplay 3
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+	Rotary3	FXParam 2  RingStyle=Fill
+	DisplayUpper3	FixedTextDisplay "Ratio" 
+	DisplayLower3	FXParamValueDisplay 2
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary4	FXParam 4  RingStyle=Fill
+	DisplayUpper4	FixedTextDisplay "Range" 
+	DisplayLower4	FXParamValueDisplay 4
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary5	FXParam 5  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Att" 
+	DisplayLower5	FXParamValueDisplay 5
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary6	FXParam 8  RingStyle=Fill
+	DisplayUpper6	FixedTextDisplay "Look" 
+	DisplayLower6	FXParamValueDisplay 8
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary7	FXParam 6  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Rel" 
+	DisplayLower7	FXParamValueDisplay 6
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary8	FXParam 9  RingStyle=Fill
+	DisplayUpper8	FixedTextDisplay "Hold" 
+	DisplayLower8	FXParamValueDisplay 9
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary1	FXParam 21  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "SC Low" 
+	Shift+DisplayLower1	FXParamValueDisplay 21
+
+	Shift+RotaryPush1	FXParam 20 [ 0 1 ] RingStyle=Fill
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary2	FXParam 22  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "" 
+	Shift+DisplayLower2	FXParamValueDisplay 22
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary3	FXParam 25  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "SC Mid" 
+	Shift+DisplayLower3	FXParamValueDisplay 25
+
+	Shift+RotaryPush3	FXParam 23 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary4	FXParam 26  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "" 
+	Shift+DisplayLower4	FXParamValueDisplay 26
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary5	FXParam 27  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "" 
+	Shift+DisplayLower5	FXParamValueDisplay 27
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary6	FXParam 30  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "SC Hi" 
+	Shift+DisplayLower6	FXParamValueDisplay 30
+
+	Shift+RotaryPush6	FXParam 29 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary7	FXParam 31  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "" 
+	Shift+DisplayLower7	FXParamValueDisplay 31
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+#End auto generated section
+ZoneEnd
+0 Style
+1 Threshold
+2 Ratio
+3 Knee
+4 Range
+5 Attack
+6 Release
+7 Auto Release
+8 Lookahead
+9 Hold
+10 Wet Gain
+11 Wet Pan
+12 Dry Gain
+13 Dry Pan
+14 Auto Gain
+15 Side Chain Expert Mode
+16 Side Chain Input
+17 Side Chain Level
+18 Stereo Link
+19 Stereo Link Mode
+20 Side Chain Low Enabled
+21 Side Chain Low Frequency
+22 Side Chain Low Slope
+23 Side Chain Mid Auto
+24 Side Chain Mid Enabled
+25 Side Chain Mid Frequency
+26 Side Chain Mid Gain
+27 Side Chain Mid Q
+28 Side Chain Mid Shape
+29 Side Chain High Enabled
+30 Side Chain High Frequency
+31 Side Chain High Slope
+32 Audition Side Chain
+33 Audition Triggering
+34 Mix
+35 Input Level
+36 Input Pan
+37 Output Level
+38 Output Pan
+39 Bypass
+40 Oversampling
+41 Lookahead Enabled
+42 Midi State
+43 Meter Scale
+44 Display Enabled
+45 Knee Display Enabled
+46 Host Bypass
+47 Internal
+48 Internal
+49 Internal
+50 MIDI CC
+51 Pitch Bend
+52 Channel Pressure
+53 MIDI CC
+54 MIDI CC
+55 MIDI CC
+56 MIDI CC
+57 MIDI CC
+58 MIDI CC
+59 MIDI CC
+60 MIDI CC
+61 MIDI CC
+62 MIDI CC
+63 MIDI CC
+64 MIDI CC
+65 MIDI CC
+66 MIDI CC
+67 MIDI CC
+68 MIDI CC
+69 MIDI CC
+70 MIDI CC
+71 MIDI CC
+72 MIDI CC
+73 MIDI CC
+74 MIDI CC
+75 MIDI CC
+76 MIDI CC
+77 MIDI CC
+78 MIDI CC
+79 MIDI CC
+80 MIDI CC
+81 MIDI CC
+82 MIDI CC
+83 MIDI CC
+84 MIDI CC
+85 MIDI CC
+86 MIDI CC
+87 MIDI CC
+88 MIDI CC
+89 MIDI CC
+90 MIDI CC
+91 MIDI CC
+92 MIDI CC
+93 MIDI CC
+94 MIDI CC
+95 MIDI CC
+96 MIDI CC
+97 MIDI CC
+98 MIDI CC
+99 MIDI CC
+100 MIDI CC
+101 MIDI CC
+102 MIDI CC
+103 MIDI CC
+104 MIDI CC
+105 MIDI CC
+106 MIDI CC
+107 MIDI CC
+108 MIDI CC
+109 MIDI CC
+110 MIDI CC
+111 MIDI CC
+112 MIDI CC
+113 MIDI CC
+114 MIDI CC
+115 MIDI CC
+116 MIDI CC
+117 MIDI CC
+118 MIDI CC
+119 MIDI CC
+120 MIDI CC
+121 MIDI CC
+122 MIDI CC
+123 MIDI CC
+124 MIDI CC
+125 MIDI CC
+126 MIDI CC
+127 MIDI CC
+128 MIDI CC
+129 MIDI CC
+130 MIDI CC
+131 MIDI CC
+132 MIDI CC
+133 MIDI CC
+134 MIDI CC
+135 MIDI CC
+136 MIDI CC
+137 MIDI CC
+138 MIDI CC
+139 MIDI CC
+140 MIDI CC
+141 MIDI CC
+142 MIDI CC
+143 MIDI CC
+144 MIDI CC
+145 MIDI CC
+146 MIDI CC
+147 MIDI CC
+148 MIDI CC
+149 MIDI CC
+150 MIDI CC
+151 MIDI CC
+152 MIDI CC
+153 MIDI CC
+154 MIDI CC
+155 MIDI CC
+156 MIDI CC
+157 MIDI CC
+158 MIDI CC
+159 MIDI CC
+160 MIDI CC
+161 MIDI CC
+162 MIDI CC
+163 MIDI CC
+164 MIDI CC
+165 MIDI CC
+166 MIDI CC
+167 MIDI CC
+168 MIDI CC
+169 MIDI CC
+170 MIDI CC
+171 MIDI CC
+172 MIDI CC
+173 MIDI CC
+174 MIDI CC
+175 MIDI CC
+176 MIDI CC
+177 MIDI CC
+178 MIDI CC
+179 MIDI CC
+180 MIDI CC
+181 MIDI CC
+182 Internal
+183 Bypass
+184 Wet
+185 Delta

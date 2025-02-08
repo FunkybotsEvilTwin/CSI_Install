@@ -1,0 +1,245 @@
+Zone "VST3: TR5 Classic EQ (IK Multimedia)" "TR5 Classic EQ"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 12  RingStyle=Fill
+	DisplayUpper1	FixedTextDisplay "" 
+	DisplayLower1	FXParamValueDisplay 12
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 15  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Band 5" 
+	DisplayLower2	FXParamValueDisplay 15
+
+	RotaryPush2	FXParam 14 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 13  RingStyle=BoostCut
+	DisplayUpper3	FixedTextDisplay "" 
+	DisplayLower3	FXParamValueDisplay 13
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 16  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Band 6" 
+	DisplayLower4	FXParamValueDisplay 16
+
+	RotaryPush4	FXParam 17 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	NoAction
+	DisplayUpper5	NoAction
+	DisplayLower5	NoAction
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	NoAction
+	DisplayUpper6	NoAction
+	DisplayLower6	NoAction
+
+
+	Rotary7	FXParam 18  RingStyle=BoostCut
+	DisplayUpper7	FixedTextDisplay "Output" 
+	DisplayLower7	FXParamValueDisplay 18
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 20 [ 0 1 ] RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Bypass" 
+	DisplayLower8	FXParamValueDisplay 20
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Band 1 Freq
+1 Band 1 Active
+2 Band 2 Gain
+3 Band 2 Active
+4 Band 2 Freq
+5 Band 3 Gain
+6 Band 3 Active
+7 Band 3 Freq
+8 Band 3 Q
+9 Band 4 Gain
+10 Band 4 Active
+11 Band 4 Freq
+12 Band 4 Q
+13 Band 5 Gain
+14 Band 5 Active
+15 Band 5 Freq
+16 Band 6 Freq
+17 Band 6 Active
+18 Output Level
+19 Bypass
+20 Bypass
+21 Wet
+22 Delta

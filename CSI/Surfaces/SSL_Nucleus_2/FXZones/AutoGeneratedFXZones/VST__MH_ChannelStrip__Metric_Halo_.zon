@@ -1,0 +1,300 @@
+Zone "VST: MH ChannelStrip (Metric Halo)" "MH ChannelStrip"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 74 [ 0  1  ] 
+
+	Rotary1	FXParam 59  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "EQ6" 
+	DisplayLower1	FXParamValueDisplay 59
+
+	RotaryPush1	FXParam 57 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 34  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "EQ1" 
+	DisplayLower2	FXParamValueDisplay 34
+
+	RotaryPush2	FXParam 32 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 53  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "EQ5" 
+	DisplayLower3	FXParamValueDisplay 53
+
+	RotaryPush3	FXParam 52 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 54  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "" 
+	DisplayLower4	FXParamValueDisplay 54
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 55  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "" 
+	DisplayLower5	FXParamValueDisplay 55
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 48  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "EQ4" 
+	DisplayLower6	FXParamValueDisplay 48
+
+	RotaryPush6	FXParam 47 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 49  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "" 
+	DisplayLower7	FXParamValueDisplay 49
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 50  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "" 
+	DisplayLower8	FXParamValueDisplay 50
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	FXParam 15 [ 0 1 ]
+	Shift+DisplayUpper1	FixedTextDisplay "PrePost" 
+	Shift+DisplayLower1	FXParamValueDisplay 15
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	FXParam 16 [ 0 1 ]
+	Shift+DisplayUpper2	FixedTextDisplay "AtG" 
+	Shift+DisplayLower2	FXParamValueDisplay 16
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	FXParam 19 [ 0 0.33 0.67 1 ] RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "Charac" 
+	Shift+DisplayLower3	FXParamValueDisplay 19
+
+
+	Shift+Rotary4	FXParam 17  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "Knee" 
+	Shift+DisplayLower4	FXParamValueDisplay 17
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 18  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "Gain" 
+	Shift+DisplayLower5	FXParamValueDisplay 18
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 20  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "Thrsh" 
+	Shift+DisplayLower6	FXParamValueDisplay 20
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 21  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "Ratio" 
+	Shift+DisplayLower7	FXParamValueDisplay 21
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 22  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "Att" 
+	Shift+DisplayLower8	FXParamValueDisplay 22
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 1  RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "In Gain" 
+	Option+DisplayLower1	FXParamValueDisplay 1
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 5  RingStyle=Dot
+	Option+DisplayUpper2	FixedTextDisplay "GThrsh" 
+	Option+DisplayLower2	FXParamValueDisplay 5
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 6  RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "Att" 
+	Option+DisplayLower3	FXParamValueDisplay 6
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 7  RingStyle=Dot
+	Option+DisplayUpper4	FixedTextDisplay "Rel" 
+	Option+DisplayLower4	FXParamValueDisplay 7
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	FXParam 8 [ 0 1 ]
+	Option+DisplayUpper5	FixedTextDisplay "Return" 
+	Option+DisplayLower5	FXParamValueDisplay 8
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	FXParam 9 [ 0 0.2 0.4 0.6 0.8 1 ] RingStyle=Fill
+	Option+DisplayUpper6	FixedTextDisplay "Filter" 
+	Option+DisplayLower6	FXParamValueDisplay 9
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	FXParam 10 [ 0 1 ]
+	Option+DisplayUpper7	FixedTextDisplay "SC" 
+	Option+DisplayLower7	FXParamValueDisplay 10
+
+
+	Option+Rotary8	FXParam 11  RingStyle=Dot
+	Option+DisplayUpper8	FixedTextDisplay "SC Gain" 
+	Option+DisplayLower8	FXParamValueDisplay 11
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 MstrByps
+1 In Gain
+2 ChnnlDly
+3 PhsInvrt
+4 GatEnbl
+5 GtThrshl
+6 GtAttck
+7 GateRls
+8 GtSCRtng
+9 GtSCFltr
+10 GtSCEnbl
+11 GatSCGn
+12 GtSCFrqn
+13 GtSCBndw
+14 CmpEnbl
+15 CmpPstEq
+16 CmpEnAtG
+17 CmpKnee
+18 CmpOtGn
+19 CmpChrct
+20 CmpThrsh
+21 CmpRati
+22 CmpAttck
+23 CmpRels
+24 CmpSCRtn
+25 CmpSCFlt
+26 CmpSCEnb
+27 CmpSCGn
+28 CmpSCFrq
+29 CmpSCBnd
+30 EQMstrEn
+31 EQ1FltrT
+32 EQ1Enbl
+33 EQ1Gain
+34 EQ1Frqnc
+35 EQ1Bndwd
+36 EQ2FltrT
+37 EQ2Enbl
+38 EQ2Gain
+39 EQ2Frqnc
+40 EQ2Bndwd
+41 EQ3FltrT
+42 EQ3Enbl
+43 EQ3Gain
+44 EQ3Frqnc
+45 EQ3Bndwd
+46 EQ4FltrT
+47 EQ4Enbl
+48 EQ4Gain
+49 EQ4Frqnc
+50 EQ4Bndwd
+51 EQ5FltrT
+52 EQ5Enbl
+53 EQ5Gain
+54 EQ5Frqnc
+55 EQ5Bndwd
+56 EQ6FltrT
+57 EQ6Enbl
+58 EQ6Gain
+59 EQ6Frqnc
+60 EQ6Bndwd
+61 MastrGn
+62 LmtEnbl
+63 LmtThrsh
+64 LstnPnt
+65 AnlyzrPn
+66 EQTFRng
+67 GtSCTFRn
+68 CmpSCTFR
+69 EQAnlyzr
+70 GtAnlyzr
+71 CmpAnlyz
+72 GtGRRng
+73 CmpGRRng
+74 Bypass
+75 Wet
+76 Delta

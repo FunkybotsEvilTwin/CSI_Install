@@ -1,0 +1,594 @@
+Zone "VST3: EQuilibrium (DMGAudio)" "EQuilibrium"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 81  RingStyle=Fill
+	DisplayUpper1	FixedTextDisplay "Band4" 
+	DisplayLower1	FXParamValueDisplay 81
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 80  RingStyle=Fill
+	DisplayUpper2	FixedTextDisplay "" 
+	DisplayLower2	FXParamValueDisplay 80
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 82  RingStyle=Fill
+	DisplayUpper3	FixedTextDisplay "" 
+	DisplayLower3	FXParamValueDisplay 82
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 91  RingStyle=Fill
+	DisplayUpper4	FixedTextDisplay "Band5" 
+	DisplayLower4	FXParamValueDisplay 91
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 90  RingStyle=Fill
+	DisplayUpper5	FixedTextDisplay "" 
+	DisplayLower5	FXParamValueDisplay 90
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 92  RingStyle=Fill
+	DisplayUpper6	FixedTextDisplay "" 
+	DisplayLower6	FXParamValueDisplay 92
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 101  RingStyle=Fill
+	DisplayUpper7	FixedTextDisplay "Band6" 
+	DisplayLower7	FXParamValueDisplay 101
+
+	RotaryPush7	FXParam 96 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 104  RingStyle=Fill
+	DisplayUpper8	FixedTextDisplay "" 
+	DisplayLower8	FXParamValueDisplay 104
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Bypass
+1 Gain
+2 Scale
+3 Shift
+4 Mode
+5 Parallel
+6 A/B
+7 IRLength
+8 IRWindow
+9 IRWindowParam
+10 IRPhase
+11 IRPad
+12 D+Len
+13 MS State
+14 Channel 1 Level
+15 Channel 1 Phase
+16 Channel 1 Mute
+17 Channel 1 Solo
+18 Channel 2 Level
+19 Channel 2 Phase
+20 Channel 2 Mute
+21 Channel 2 Solo
+22 Channel 3 Level
+23 Channel 3 Phase
+24 Channel 3 Mute
+25 Channel 3 Solo
+26 Channel 4 Level
+27 Channel 4 Phase
+28 Channel 4 Mute
+29 Channel 4 Solo
+30 Channel 5 Level
+31 Channel 5 Phase
+32 Channel 5 Mute
+33 Channel 5 Solo
+34 Channel 6 Level
+35 Channel 6 Phase
+36 Channel 6 Mute
+37 Channel 6 Solo
+38 Channel 7 Level
+39 Channel 7 Phase
+40 Channel 7 Mute
+41 Channel 7 Solo
+42 Channel 8 Level
+43 Channel 8 Phase
+44 Channel 8 Mute
+45 Channel 8 Solo
+46 Band1 State
+47 Band1 Groups
+48 Band1 Type
+49 Band1 Subtype
+50 Band1 Gain
+51 Band1 Frequency
+52 Band1 Q
+53 Band1 Shift
+54 Band1 Slope
+55 Band1 Phase
+56 Band2 State
+57 Band2 Groups
+58 Band2 Type
+59 Band2 Subtype
+60 Band2 Gain
+61 Band2 Frequency
+62 Band2 Q
+63 Band2 Shift
+64 Band2 Slope
+65 Band2 Phase
+66 Band3 State
+67 Band3 Groups
+68 Band3 Type
+69 Band3 Subtype
+70 Band3 Gain
+71 Band3 Frequency
+72 Band3 Q
+73 Band3 Shift
+74 Band3 Slope
+75 Band3 Phase
+76 Band4 State
+77 Band4 Groups
+78 Band4 Type
+79 Band4 Subtype
+80 Band4 Gain
+81 Band4 Frequency
+82 Band4 Q
+83 Band4 Shift
+84 Band4 Slope
+85 Band4 Phase
+86 Band5 State
+87 Band5 Groups
+88 Band5 Type
+89 Band5 Subtype
+90 Band5 Gain
+91 Band5 Frequency
+92 Band5 Q
+93 Band5 Shift
+94 Band5 Slope
+95 Band5 Phase
+96 Band6 State
+97 Band6 Groups
+98 Band6 Type
+99 Band6 Subtype
+100 Band6 Gain
+101 Band6 Frequency
+102 Band6 Q
+103 Band6 Shift
+104 Band6 Slope
+105 Band6 Phase
+106 Band7 State
+107 Band7 Groups
+108 Band7 Type
+109 Band7 Subtype
+110 Band7 Gain
+111 Band7 Frequency
+112 Band7 Q
+113 Band7 Shift
+114 Band7 Slope
+115 Band7 Phase
+116 Band8 State
+117 Band8 Groups
+118 Band8 Type
+119 Band8 Subtype
+120 Band8 Gain
+121 Band8 Frequency
+122 Band8 Q
+123 Band8 Shift
+124 Band8 Slope
+125 Band8 Phase
+126 Band9 State
+127 Band9 Groups
+128 Band9 Type
+129 Band9 Subtype
+130 Band9 Gain
+131 Band9 Frequency
+132 Band9 Q
+133 Band9 Shift
+134 Band9 Slope
+135 Band9 Phase
+136 Band10 State
+137 Band10 Groups
+138 Band10 Type
+139 Band10 Subtype
+140 Band10 Gain
+141 Band10 Frequency
+142 Band10 Q
+143 Band10 Shift
+144 Band10 Slope
+145 Band10 Phase
+146 Band11 State
+147 Band11 Groups
+148 Band11 Type
+149 Band11 Subtype
+150 Band11 Gain
+151 Band11 Frequency
+152 Band11 Q
+153 Band11 Shift
+154 Band11 Slope
+155 Band11 Phase
+156 Band12 State
+157 Band12 Groups
+158 Band12 Type
+159 Band12 Subtype
+160 Band12 Gain
+161 Band12 Frequency
+162 Band12 Q
+163 Band12 Shift
+164 Band12 Slope
+165 Band12 Phase
+166 Band13 State
+167 Band13 Groups
+168 Band13 Type
+169 Band13 Subtype
+170 Band13 Gain
+171 Band13 Frequency
+172 Band13 Q
+173 Band13 Shift
+174 Band13 Slope
+175 Band13 Phase
+176 Band14 State
+177 Band14 Groups
+178 Band14 Type
+179 Band14 Subtype
+180 Band14 Gain
+181 Band14 Frequency
+182 Band14 Q
+183 Band14 Shift
+184 Band14 Slope
+185 Band14 Phase
+186 Band15 State
+187 Band15 Groups
+188 Band15 Type
+189 Band15 Subtype
+190 Band15 Gain
+191 Band15 Frequency
+192 Band15 Q
+193 Band15 Shift
+194 Band15 Slope
+195 Band15 Phase
+196 Band16 State
+197 Band16 Groups
+198 Band16 Type
+199 Band16 Subtype
+200 Band16 Gain
+201 Band16 Frequency
+202 Band16 Q
+203 Band16 Shift
+204 Band16 Slope
+205 Band16 Phase
+206 Band17 State
+207 Band17 Groups
+208 Band17 Type
+209 Band17 Subtype
+210 Band17 Gain
+211 Band17 Frequency
+212 Band17 Q
+213 Band17 Shift
+214 Band17 Slope
+215 Band17 Phase
+216 Band18 State
+217 Band18 Groups
+218 Band18 Type
+219 Band18 Subtype
+220 Band18 Gain
+221 Band18 Frequency
+222 Band18 Q
+223 Band18 Shift
+224 Band18 Slope
+225 Band18 Phase
+226 Band19 State
+227 Band19 Groups
+228 Band19 Type
+229 Band19 Subtype
+230 Band19 Gain
+231 Band19 Frequency
+232 Band19 Q
+233 Band19 Shift
+234 Band19 Slope
+235 Band19 Phase
+236 Band20 State
+237 Band20 Groups
+238 Band20 Type
+239 Band20 Subtype
+240 Band20 Gain
+241 Band20 Frequency
+242 Band20 Q
+243 Band20 Shift
+244 Band20 Slope
+245 Band20 Phase
+246 Band21 State
+247 Band21 Groups
+248 Band21 Type
+249 Band21 Subtype
+250 Band21 Gain
+251 Band21 Frequency
+252 Band21 Q
+253 Band21 Shift
+254 Band21 Slope
+255 Band21 Phase
+256 Band22 State
+257 Band22 Groups
+258 Band22 Type
+259 Band22 Subtype
+260 Band22 Gain
+261 Band22 Frequency
+262 Band22 Q
+263 Band22 Shift
+264 Band22 Slope
+265 Band22 Phase
+266 Band23 State
+267 Band23 Groups
+268 Band23 Type
+269 Band23 Subtype
+270 Band23 Gain
+271 Band23 Frequency
+272 Band23 Q
+273 Band23 Shift
+274 Band23 Slope
+275 Band23 Phase
+276 Band24 State
+277 Band24 Groups
+278 Band24 Type
+279 Band24 Subtype
+280 Band24 Gain
+281 Band24 Frequency
+282 Band24 Q
+283 Band24 Shift
+284 Band24 Slope
+285 Band24 Phase
+286 Band25 State
+287 Band25 Groups
+288 Band25 Type
+289 Band25 Subtype
+290 Band25 Gain
+291 Band25 Frequency
+292 Band25 Q
+293 Band25 Shift
+294 Band25 Slope
+295 Band25 Phase
+296 Band26 State
+297 Band26 Groups
+298 Band26 Type
+299 Band26 Subtype
+300 Band26 Gain
+301 Band26 Frequency
+302 Band26 Q
+303 Band26 Shift
+304 Band26 Slope
+305 Band26 Phase
+306 Band27 State
+307 Band27 Groups
+308 Band27 Type
+309 Band27 Subtype
+310 Band27 Gain
+311 Band27 Frequency
+312 Band27 Q
+313 Band27 Shift
+314 Band27 Slope
+315 Band27 Phase
+316 Band28 State
+317 Band28 Groups
+318 Band28 Type
+319 Band28 Subtype
+320 Band28 Gain
+321 Band28 Frequency
+322 Band28 Q
+323 Band28 Shift
+324 Band28 Slope
+325 Band28 Phase
+326 Band29 State
+327 Band29 Groups
+328 Band29 Type
+329 Band29 Subtype
+330 Band29 Gain
+331 Band29 Frequency
+332 Band29 Q
+333 Band29 Shift
+334 Band29 Slope
+335 Band29 Phase
+336 Band30 State
+337 Band30 Groups
+338 Band30 Type
+339 Band30 Subtype
+340 Band30 Gain
+341 Band30 Frequency
+342 Band30 Q
+343 Band30 Shift
+344 Band30 Slope
+345 Band30 Phase
+346 Band31 State
+347 Band31 Groups
+348 Band31 Type
+349 Band31 Subtype
+350 Band31 Gain
+351 Band31 Frequency
+352 Band31 Q
+353 Band31 Shift
+354 Band31 Slope
+355 Band31 Phase
+356 Band32 State
+357 Band32 Groups
+358 Band32 Type
+359 Band32 Subtype
+360 Band32 Gain
+361 Band32 Frequency
+362 Band32 Q
+363 Band32 Shift
+364 Band32 Slope
+365 Band32 Phase
+366 D+Phase
+367 Program
+368 Pitch Bend
+369 Bypass
+370 Wet
+371 Delta

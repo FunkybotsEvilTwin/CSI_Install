@@ -1,0 +1,281 @@
+Zone "VST3: Manic Compressor (Boz Digital Labs)" "Manic Compressor"
+
+#Begin auto generated section
+
+	Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush1	FXParam 37 [ 0 0.5 1 ] RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Beef" 
+	DisplayLower1	FXParamValueDisplay 37
+
+
+	Rotary2	FXParam 4  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Wet" 
+	DisplayLower2	FXParamValueDisplay 4
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 6  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Dry" 
+	DisplayLower3	FXParamValueDisplay 6
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 2  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Master" 
+	DisplayLower4	FXParamValueDisplay 2
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	FXParam 5 [ 0 1 ]
+	DisplayUpper5	FixedTextDisplay "Wet" 
+	DisplayLower5	FXParamValueDisplay 5
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	FXParam 3 [ 0 1 ]
+	DisplayUpper6	FixedTextDisplay "Mix" 
+	DisplayLower6	FXParamValueDisplay 3
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	FXParam 7 [ 0 1 ]
+	DisplayUpper7	FixedTextDisplay "Dry" 
+	DisplayLower7	FXParamValueDisplay 7
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 15 [ 0 1 ]
+	DisplayUpper8	FixedTextDisplay "Makeup" 
+	DisplayLower8	FXParamValueDisplay 15
+
+
+	Shift+Rotary1	FXParam 54  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "" 
+	Shift+DisplayLower1	FXParamValueDisplay 54
+
+	Shift+RotaryPush1	FXParam 51 [ 0 0.5 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	FXParam 38 [ 0 1 ]
+	Shift+DisplayUpper2	FixedTextDisplay "SC - Enable" 
+	Shift+DisplayLower2	FXParamValueDisplay 38
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	FXParam 39 [ 0 1 ]
+	Shift+DisplayUpper7	FixedTextDisplay "SC - Listen" 
+	Shift+DisplayLower7	FXParamValueDisplay 39
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	FXParam 33  RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "Tone High" 
+	Option+DisplayLower1	FXParamValueDisplay 33
+
+	Option+RotaryPush1	FXParam 32 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	FXParam 19 [ 0 1 ] RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "Tone" 
+	Option+DisplayLower3	FXParamValueDisplay 19
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	FXParam 55 [ 0 1 ] RingStyle=Dot
+	Option+DisplayUpper4	FixedTextDisplay "SC Source" 
+	Option+DisplayLower4	FXParamValueDisplay 55
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Preset
+1 Bypass
+2 Master Volume
+3 Mix Mode Enable
+4 Wet Level
+5 Wet Out Enable
+6 Dry Level
+7 Dry Out Enable
+8 Input Drive
+9 Comp Type
+10 Attack
+11 Release
+12 Threshold
+13 Ratio
+14 Knee
+15 Auto Makeup Gain
+16 Loud Relief
+17 Stereo Mode
+18 Mid/Side Pan
+19 Tone - Enable
+20 Tone - Location
+21 Tone - Pre/Post
+22 Tone - Mid Band Type
+23 Tone - Mid Gain
+24 Tone - Mid Freq
+25 Tone - Mid Resonance
+26 Tone - Mid Enable
+27 Tone Low Type
+28 Tone - Low Gain
+29 Tone - Low Freq
+30 Tone - Low Q
+31 Tone - Low Enable
+32 Tone - High Band Type
+33 Tone - High Freq Gain
+34 Tone - High Freq
+35 Tone - High Q
+36 Tone - High Enable
+37 Beef
+38 SC - Enable
+39 SC - Listen
+40 SC - Enable Low
+41 SC - Filt Type Low
+42 SC - Frequency Low
+43 SC - Resonance Low
+44 SC - Gain Low
+45 SC - Enable Mid
+46 SC - Filt Type Mid
+47 SC - Frequency Mid
+48 SC - Q Mid
+49 SC - Gain Mid
+50 SC - Enable High
+51 SC - Filt Type High
+52 SC - Frequency High
+53 SC - Q High
+54 SC - Gain High
+55 SC - Source
+56 Bypass
+57 Wet
+58 Delta

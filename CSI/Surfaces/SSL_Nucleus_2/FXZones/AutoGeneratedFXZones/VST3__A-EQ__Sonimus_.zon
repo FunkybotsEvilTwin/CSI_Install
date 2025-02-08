@@ -1,0 +1,12 @@
+Zone "VST3: A-EQ (Sonimus)" "A-EQ"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 1 [ 0  1  ] 
+
+#End auto generated section
+ZoneEnd
+
+0 Bypass
+1 Bypass
+2 Wet
+3 Delta

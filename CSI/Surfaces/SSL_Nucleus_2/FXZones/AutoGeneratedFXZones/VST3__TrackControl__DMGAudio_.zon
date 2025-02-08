@@ -1,0 +1,508 @@
+Zone "VST3: TrackControl (DMGAudio)" "TrackControl"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 149 [ 0  1  ] 
+	Rotary1	FXParam 5 [  (0.00025,0.0003,0.0004,0.0006,0.0008,0.001,0.015,0.02,0.025,0.05,0.06,0.08,0.1,0.2,0.6) ] RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Trim" 
+	DisplayLower1	FXParamValueDisplay 5
+
+	RotaryPush1	FXParam 5 [ 0.9175 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary2	FXParam 7  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "HPF Freq" 
+	DisplayLower2	FXParamValueDisplay 7
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+	Rotary3	FXParam 9  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Balance" 
+	DisplayLower3	FXParamValueDisplay 9
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary4	FXParam 10  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Width" 
+	DisplayLower4	FXParamValueDisplay 10
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary5	FXParam 12  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Pan L" 
+	DisplayLower5	FXParamValueDisplay 12
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary6	FXParam 13  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Pan R" 
+	DisplayLower6	FXParamValueDisplay 13
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary7	FXParam 18  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Gain" 
+	DisplayLower7	FXParamValueDisplay 18
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Control+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	
+
+
+	Control+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+#End auto generated section
+ZoneEnd
+0 Bypass
+1 MS
+2 LR Swap
+3 Phase L
+4 Phase R
+5 Trim
+6 HPF
+7 HPF Freq
+8 HPF Slope
+9 Balance
+10 Width
+11 Pan Mode
+12 Pan L
+13 Pan R
+14 Pan M
+15 Pan S
+16 Delay
+17 Solo
+18 Gain
+19 Mute
+20 Program
+21 CC0
+22 CC1
+23 CC2
+24 CC3
+25 CC4
+26 CC5
+27 CC6
+28 CC7
+29 CC8
+30 CC9
+31 CC10
+32 CC11
+33 CC12
+34 CC13
+35 CC14
+36 CC15
+37 CC16
+38 CC17
+39 CC18
+40 CC19
+41 CC20
+42 CC21
+43 CC22
+44 CC23
+45 CC24
+46 CC25
+47 CC26
+48 CC27
+49 CC28
+50 CC29
+51 CC30
+52 CC31
+53 CC32
+54 CC33
+55 CC34
+56 CC35
+57 CC36
+58 CC37
+59 CC38
+60 CC39
+61 CC40
+62 CC41
+63 CC42
+64 CC43
+65 CC44
+66 CC45
+67 CC46
+68 CC47
+69 CC48
+70 CC49
+71 CC50
+72 CC51
+73 CC52
+74 CC53
+75 CC54
+76 CC55
+77 CC56
+78 CC57
+79 CC58
+80 CC59
+81 CC60
+82 CC61
+83 CC62
+84 CC63
+85 CC64
+86 CC65
+87 CC66
+88 CC67
+89 CC68
+90 CC69
+91 CC70
+92 CC71
+93 CC72
+94 CC73
+95 CC74
+96 CC75
+97 CC76
+98 CC77
+99 CC78
+100 CC79
+101 CC80
+102 CC81
+103 CC82
+104 CC83
+105 CC84
+106 CC85
+107 CC86
+108 CC87
+109 CC88
+110 CC89
+111 CC90
+112 CC91
+113 CC92
+114 CC93
+115 CC94
+116 CC95
+117 CC96
+118 CC97
+119 CC98
+120 CC99
+121 CC100
+122 CC101
+123 CC102
+124 CC103
+125 CC104
+126 CC105
+127 CC106
+128 CC107
+129 CC108
+130 CC109
+131 CC110
+132 CC111
+133 CC112
+134 CC113
+135 CC114
+136 CC115
+137 CC116
+138 CC117
+139 CC118
+140 CC119
+141 CC120
+142 CC121
+143 CC122
+144 CC123
+145 CC124
+146 CC125
+147 CC126
+148 CC127
+149 Bypass
+150 Wet
+151 Delta

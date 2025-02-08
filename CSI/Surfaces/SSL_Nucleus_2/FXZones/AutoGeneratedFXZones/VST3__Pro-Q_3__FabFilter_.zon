@@ -1,0 +1,746 @@
+Zone "VST3: Pro-Q 3 (FabFilter)" "Pro-Q 3"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 519 [ 0  1  ] 
+
+
+	Rotary1	FXParam 2  RingStyle=Fill
+	DisplayUpper1	FixedTextDisplay "Band 1" 
+	DisplayLower1	FXParamValueDisplay 2
+
+	RotaryPush1	FXParam 1 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 7  RingStyle=Fill
+	DisplayUpper2	FixedTextDisplay "" 
+	DisplayLower2	FXParamValueDisplay 7
+
+	RotaryPush2	FXParam 9 [ 0 0.11 0.22 0.33 0.44 0.56 0.67 0.78 0.89 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 15  RingStyle=Fill
+	DisplayUpper3	FixedTextDisplay "Band 2" 
+	DisplayLower3	FXParamValueDisplay 15
+
+	RotaryPush3	FXParam 14 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 16  RingStyle=Fill
+	DisplayUpper4	FixedTextDisplay "" 
+	DisplayLower4	FXParamValueDisplay 16
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 20  RingStyle=Fill
+	DisplayUpper5	FixedTextDisplay "" 
+	DisplayLower5	FXParamValueDisplay 20
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 28  RingStyle=Fill
+	DisplayUpper6	FixedTextDisplay "Band 3" 
+	DisplayLower6	FXParamValueDisplay 28
+
+	RotaryPush6	FXParam 27 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 29  RingStyle=Fill
+	DisplayUpper7	FixedTextDisplay "" 
+	DisplayLower7	FXParamValueDisplay 29
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 33  RingStyle=Fill
+	DisplayUpper8	FixedTextDisplay "" 
+	DisplayLower8	FXParamValueDisplay 33
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Band 1 Used
+1 Band 1 Enabled
+2 Band 1 Frequency
+3 Band 1 Gain
+4 Band 1 Dynamic Range
+5 Band 1 Dynamics Enabled
+6 Band 1 Threshold
+7 Band 1 Q
+8 Band 1 Shape
+9 Band 1 Slope
+10 Band 1 Stereo Placement
+11 Band 1 Speakers
+12 Band 1 Solo
+13 Band 2 Used
+14 Band 2 Enabled
+15 Band 2 Frequency
+16 Band 2 Gain
+17 Band 2 Dynamic Range
+18 Band 2 Dynamics Enabled
+19 Band 2 Threshold
+20 Band 2 Q
+21 Band 2 Shape
+22 Band 2 Slope
+23 Band 2 Stereo Placement
+24 Band 2 Speakers
+25 Band 2 Solo
+26 Band 3 Used
+27 Band 3 Enabled
+28 Band 3 Frequency
+29 Band 3 Gain
+30 Band 3 Dynamic Range
+31 Band 3 Dynamics Enabled
+32 Band 3 Threshold
+33 Band 3 Q
+34 Band 3 Shape
+35 Band 3 Slope
+36 Band 3 Stereo Placement
+37 Band 3 Speakers
+38 Band 3 Solo
+39 Band 4 Used
+40 Band 4 Enabled
+41 Band 4 Frequency
+42 Band 4 Gain
+43 Band 4 Dynamic Range
+44 Band 4 Dynamics Enabled
+45 Band 4 Threshold
+46 Band 4 Q
+47 Band 4 Shape
+48 Band 4 Slope
+49 Band 4 Stereo Placement
+50 Band 4 Speakers
+51 Band 4 Solo
+52 Band 5 Used
+53 Band 5 Enabled
+54 Band 5 Frequency
+55 Band 5 Gain
+56 Band 5 Dynamic Range
+57 Band 5 Dynamics Enabled
+58 Band 5 Threshold
+59 Band 5 Q
+60 Band 5 Shape
+61 Band 5 Slope
+62 Band 5 Stereo Placement
+63 Band 5 Speakers
+64 Band 5 Solo
+65 Band 6 Used
+66 Band 6 Enabled
+67 Band 6 Frequency
+68 Band 6 Gain
+69 Band 6 Dynamic Range
+70 Band 6 Dynamics Enabled
+71 Band 6 Threshold
+72 Band 6 Q
+73 Band 6 Shape
+74 Band 6 Slope
+75 Band 6 Stereo Placement
+76 Band 6 Speakers
+77 Band 6 Solo
+78 Band 7 Used
+79 Band 7 Enabled
+80 Band 7 Frequency
+81 Band 7 Gain
+82 Band 7 Dynamic Range
+83 Band 7 Dynamics Enabled
+84 Band 7 Threshold
+85 Band 7 Q
+86 Band 7 Shape
+87 Band 7 Slope
+88 Band 7 Stereo Placement
+89 Band 7 Speakers
+90 Band 7 Solo
+91 Band 8 Used
+92 Band 8 Enabled
+93 Band 8 Frequency
+94 Band 8 Gain
+95 Band 8 Dynamic Range
+96 Band 8 Dynamics Enabled
+97 Band 8 Threshold
+98 Band 8 Q
+99 Band 8 Shape
+100 Band 8 Slope
+101 Band 8 Stereo Placement
+102 Band 8 Speakers
+103 Band 8 Solo
+104 Band 9 Used
+105 Band 9 Enabled
+106 Band 9 Frequency
+107 Band 9 Gain
+108 Band 9 Dynamic Range
+109 Band 9 Dynamics Enabled
+110 Band 9 Threshold
+111 Band 9 Q
+112 Band 9 Shape
+113 Band 9 Slope
+114 Band 9 Stereo Placement
+115 Band 9 Speakers
+116 Band 9 Solo
+117 Band 10 Used
+118 Band 10 Enabled
+119 Band 10 Frequency
+120 Band 10 Gain
+121 Band 10 Dynamic Range
+122 Band 10 Dynamics Enabled
+123 Band 10 Threshold
+124 Band 10 Q
+125 Band 10 Shape
+126 Band 10 Slope
+127 Band 10 Stereo Placement
+128 Band 10 Speakers
+129 Band 10 Solo
+130 Band 11 Used
+131 Band 11 Enabled
+132 Band 11 Frequency
+133 Band 11 Gain
+134 Band 11 Dynamic Range
+135 Band 11 Dynamics Enabled
+136 Band 11 Threshold
+137 Band 11 Q
+138 Band 11 Shape
+139 Band 11 Slope
+140 Band 11 Stereo Placement
+141 Band 11 Speakers
+142 Band 11 Solo
+143 Band 12 Used
+144 Band 12 Enabled
+145 Band 12 Frequency
+146 Band 12 Gain
+147 Band 12 Dynamic Range
+148 Band 12 Dynamics Enabled
+149 Band 12 Threshold
+150 Band 12 Q
+151 Band 12 Shape
+152 Band 12 Slope
+153 Band 12 Stereo Placement
+154 Band 12 Speakers
+155 Band 12 Solo
+156 Band 13 Used
+157 Band 13 Enabled
+158 Band 13 Frequency
+159 Band 13 Gain
+160 Band 13 Dynamic Range
+161 Band 13 Dynamics Enabled
+162 Band 13 Threshold
+163 Band 13 Q
+164 Band 13 Shape
+165 Band 13 Slope
+166 Band 13 Stereo Placement
+167 Band 13 Speakers
+168 Band 13 Solo
+169 Band 14 Used
+170 Band 14 Enabled
+171 Band 14 Frequency
+172 Band 14 Gain
+173 Band 14 Dynamic Range
+174 Band 14 Dynamics Enabled
+175 Band 14 Threshold
+176 Band 14 Q
+177 Band 14 Shape
+178 Band 14 Slope
+179 Band 14 Stereo Placement
+180 Band 14 Speakers
+181 Band 14 Solo
+182 Band 15 Used
+183 Band 15 Enabled
+184 Band 15 Frequency
+185 Band 15 Gain
+186 Band 15 Dynamic Range
+187 Band 15 Dynamics Enabled
+188 Band 15 Threshold
+189 Band 15 Q
+190 Band 15 Shape
+191 Band 15 Slope
+192 Band 15 Stereo Placement
+193 Band 15 Speakers
+194 Band 15 Solo
+195 Band 16 Used
+196 Band 16 Enabled
+197 Band 16 Frequency
+198 Band 16 Gain
+199 Band 16 Dynamic Range
+200 Band 16 Dynamics Enabled
+201 Band 16 Threshold
+202 Band 16 Q
+203 Band 16 Shape
+204 Band 16 Slope
+205 Band 16 Stereo Placement
+206 Band 16 Speakers
+207 Band 16 Solo
+208 Band 17 Used
+209 Band 17 Enabled
+210 Band 17 Frequency
+211 Band 17 Gain
+212 Band 17 Dynamic Range
+213 Band 17 Dynamics Enabled
+214 Band 17 Threshold
+215 Band 17 Q
+216 Band 17 Shape
+217 Band 17 Slope
+218 Band 17 Stereo Placement
+219 Band 17 Speakers
+220 Band 17 Solo
+221 Band 18 Used
+222 Band 18 Enabled
+223 Band 18 Frequency
+224 Band 18 Gain
+225 Band 18 Dynamic Range
+226 Band 18 Dynamics Enabled
+227 Band 18 Threshold
+228 Band 18 Q
+229 Band 18 Shape
+230 Band 18 Slope
+231 Band 18 Stereo Placement
+232 Band 18 Speakers
+233 Band 18 Solo
+234 Band 19 Used
+235 Band 19 Enabled
+236 Band 19 Frequency
+237 Band 19 Gain
+238 Band 19 Dynamic Range
+239 Band 19 Dynamics Enabled
+240 Band 19 Threshold
+241 Band 19 Q
+242 Band 19 Shape
+243 Band 19 Slope
+244 Band 19 Stereo Placement
+245 Band 19 Speakers
+246 Band 19 Solo
+247 Band 20 Used
+248 Band 20 Enabled
+249 Band 20 Frequency
+250 Band 20 Gain
+251 Band 20 Dynamic Range
+252 Band 20 Dynamics Enabled
+253 Band 20 Threshold
+254 Band 20 Q
+255 Band 20 Shape
+256 Band 20 Slope
+257 Band 20 Stereo Placement
+258 Band 20 Speakers
+259 Band 20 Solo
+260 Band 21 Used
+261 Band 21 Enabled
+262 Band 21 Frequency
+263 Band 21 Gain
+264 Band 21 Dynamic Range
+265 Band 21 Dynamics Enabled
+266 Band 21 Threshold
+267 Band 21 Q
+268 Band 21 Shape
+269 Band 21 Slope
+270 Band 21 Stereo Placement
+271 Band 21 Speakers
+272 Band 21 Solo
+273 Band 22 Used
+274 Band 22 Enabled
+275 Band 22 Frequency
+276 Band 22 Gain
+277 Band 22 Dynamic Range
+278 Band 22 Dynamics Enabled
+279 Band 22 Threshold
+280 Band 22 Q
+281 Band 22 Shape
+282 Band 22 Slope
+283 Band 22 Stereo Placement
+284 Band 22 Speakers
+285 Band 22 Solo
+286 Band 23 Used
+287 Band 23 Enabled
+288 Band 23 Frequency
+289 Band 23 Gain
+290 Band 23 Dynamic Range
+291 Band 23 Dynamics Enabled
+292 Band 23 Threshold
+293 Band 23 Q
+294 Band 23 Shape
+295 Band 23 Slope
+296 Band 23 Stereo Placement
+297 Band 23 Speakers
+298 Band 23 Solo
+299 Band 24 Used
+300 Band 24 Enabled
+301 Band 24 Frequency
+302 Band 24 Gain
+303 Band 24 Dynamic Range
+304 Band 24 Dynamics Enabled
+305 Band 24 Threshold
+306 Band 24 Q
+307 Band 24 Shape
+308 Band 24 Slope
+309 Band 24 Stereo Placement
+310 Band 24 Speakers
+311 Band 24 Solo
+312 Processing Mode
+313 Processing Resolution
+314 Gain Scale
+315 Output Level
+316 Output Pan
+317 Output Pan Mode
+318 Bypass
+319 Output Invert Phase
+320 Auto Gain
+321 Analyzer Show Pre-Processing
+322 Analyzer Show Post-Processing
+323 Analyzer External Spectrum
+324 Analyzer Range
+325 Analyzer Resolution
+326 Analyzer Speed
+327 Analyzer Tilt
+328 Analyzer Freeze
+329 Analyzer Show Collisions
+330 Spectrum Grab
+331 Display Range
+332 Receive Midi
+333 Solo Gain
+334 Band 1 External Side Chain
+335 Band 2 External Side Chain
+336 Band 3 External Side Chain
+337 Band 4 External Side Chain
+338 Band 5 External Side Chain
+339 Band 6 External Side Chain
+340 Band 7 External Side Chain
+341 Band 8 External Side Chain
+342 Band 9 External Side Chain
+343 Band 10 External Side Chain
+344 Band 11 External Side Chain
+345 Band 12 External Side Chain
+346 Band 13 External Side Chain
+347 Band 14 External Side Chain
+348 Band 15 External Side Chain
+349 Band 16 External Side Chain
+350 Band 17 External Side Chain
+351 Band 18 External Side Chain
+352 Band 19 External Side Chain
+353 Band 20 External Side Chain
+354 Band 21 External Side Chain
+355 Band 22 External Side Chain
+356 Band 23 External Side Chain
+357 Band 24 External Side Chain
+358 Ex Band 1 Speakers
+359 Ex Band 2 Speakers
+360 Ex Band 3 Speakers
+361 Ex Band 4 Speakers
+362 Ex Band 5 Speakers
+363 Ex Band 6 Speakers
+364 Ex Band 7 Speakers
+365 Ex Band 8 Speakers
+366 Ex Band 9 Speakers
+367 Ex Band 10 Speakers
+368 Ex Band 11 Speakers
+369 Ex Band 12 Speakers
+370 Ex Band 13 Speakers
+371 Ex Band 14 Speakers
+372 Ex Band 15 Speakers
+373 Ex Band 16 Speakers
+374 Ex Band 17 Speakers
+375 Ex Band 18 Speakers
+376 Ex Band 19 Speakers
+377 Ex Band 20 Speakers
+378 Ex Band 21 Speakers
+379 Ex Band 22 Speakers
+380 Ex Band 23 Speakers
+381 Ex Band 24 Speakers
+382 Host Bypass
+383 Internal
+384 Internal
+385 Internal
+386 MIDI CC
+387 Pitch Bend
+388 Channel Pressure
+389 MIDI CC
+390 MIDI CC
+391 MIDI CC
+392 MIDI CC
+393 MIDI CC
+394 MIDI CC
+395 MIDI CC
+396 MIDI CC
+397 MIDI CC
+398 MIDI CC
+399 MIDI CC
+400 MIDI CC
+401 MIDI CC
+402 MIDI CC
+403 MIDI CC
+404 MIDI CC
+405 MIDI CC
+406 MIDI CC
+407 MIDI CC
+408 MIDI CC
+409 MIDI CC
+410 MIDI CC
+411 MIDI CC
+412 MIDI CC
+413 MIDI CC
+414 MIDI CC
+415 MIDI CC
+416 MIDI CC
+417 MIDI CC
+418 MIDI CC
+419 MIDI CC
+420 MIDI CC
+421 MIDI CC
+422 MIDI CC
+423 MIDI CC
+424 MIDI CC
+425 MIDI CC
+426 MIDI CC
+427 MIDI CC
+428 MIDI CC
+429 MIDI CC
+430 MIDI CC
+431 MIDI CC
+432 MIDI CC
+433 MIDI CC
+434 MIDI CC
+435 MIDI CC
+436 MIDI CC
+437 MIDI CC
+438 MIDI CC
+439 MIDI CC
+440 MIDI CC
+441 MIDI CC
+442 MIDI CC
+443 MIDI CC
+444 MIDI CC
+445 MIDI CC
+446 MIDI CC
+447 MIDI CC
+448 MIDI CC
+449 MIDI CC
+450 MIDI CC
+451 MIDI CC
+452 MIDI CC
+453 MIDI CC
+454 MIDI CC
+455 MIDI CC
+456 MIDI CC
+457 MIDI CC
+458 MIDI CC
+459 MIDI CC
+460 MIDI CC
+461 MIDI CC
+462 MIDI CC
+463 MIDI CC
+464 MIDI CC
+465 MIDI CC
+466 MIDI CC
+467 MIDI CC
+468 MIDI CC
+469 MIDI CC
+470 MIDI CC
+471 MIDI CC
+472 MIDI CC
+473 MIDI CC
+474 MIDI CC
+475 MIDI CC
+476 MIDI CC
+477 MIDI CC
+478 MIDI CC
+479 MIDI CC
+480 MIDI CC
+481 MIDI CC
+482 MIDI CC
+483 MIDI CC
+484 MIDI CC
+485 MIDI CC
+486 MIDI CC
+487 MIDI CC
+488 MIDI CC
+489 MIDI CC
+490 MIDI CC
+491 MIDI CC
+492 MIDI CC
+493 MIDI CC
+494 MIDI CC
+495 MIDI CC
+496 MIDI CC
+497 MIDI CC
+498 MIDI CC
+499 MIDI CC
+500 MIDI CC
+501 MIDI CC
+502 MIDI CC
+503 MIDI CC
+504 MIDI CC
+505 MIDI CC
+506 MIDI CC
+507 MIDI CC
+508 MIDI CC
+509 MIDI CC
+510 MIDI CC
+511 MIDI CC
+512 MIDI CC
+513 MIDI CC
+514 MIDI CC
+515 MIDI CC
+516 MIDI CC
+517 MIDI CC
+518 Internal
+519 Bypass
+520 Wet
+521 Delta

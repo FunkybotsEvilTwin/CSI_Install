@@ -1,0 +1,58 @@
+Zone "LearnFocusedFX"
+
+		Enter           SaveLearnedFXParams
+		Enter			AllSurfacesGoHome
+		Enter			SendMIDIMessage "B0 4B 13"
+		Enter       	SendMIDIMessage "B0 4A 05"
+		Mute1			EraseLastTouchedControl
+		F4 				AutoLearnFocusedFX
+		
+		Rotary1				NoAction
+		RotaryPush1			NoAction
+		Fader1   			NoAction
+		DisplayUpper1       NoAction
+		DisplayLower1		NoAction
+
+		Rotary2				NoAction
+		RotaryPush2			NoAction
+		Fader2   			NoAction
+		DisplayUpper2       NoAction
+		DisplayLower2		NoAction
+
+		Rotary3				NoAction
+		RotaryPush3			NoAction
+		Fader3   			NoAction
+		DisplayUpper3       NoAction
+		DisplayLower3		NoAction
+
+		Rotary4				NoAction
+		RotaryPush4			NoAction
+		Fader4   			NoAction
+		DisplayUpper4       NoAction
+		DisplayLower4		NoAction
+
+		Rotary5				NoAction
+		RotaryPush5			NoAction
+		Fader5   			NoAction
+		DisplayUpper5       NoAction
+		DisplayLower5		NoAction
+
+		Rotary6				NoAction
+		RotaryPush6			NoAction
+		Fader6   			NoAction
+		DisplayUpper6       NoAction
+		DisplayLower6		NoAction
+
+		Rotary7				NoAction
+		RotaryPush7			NoAction
+		Fader7   			NoAction
+		DisplayUpper7       NoAction
+		DisplayLower7		NoAction
+
+		Rotary8				NoAction
+		RotaryPush8			NoAction
+		Fader8   			NoAction
+		DisplayUpper8       NoAction
+		DisplayLower8		NoAction
+    
+ZoneEnd

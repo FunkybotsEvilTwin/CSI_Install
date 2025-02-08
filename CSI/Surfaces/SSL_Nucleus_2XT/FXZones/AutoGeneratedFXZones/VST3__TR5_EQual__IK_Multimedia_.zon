@@ -1,0 +1,356 @@
+Zone "VST3: TR5 EQual (IK Multimedia)" "TR5 EQual"
+
+#Begin auto generated section
+	Rotary1	FXParam 0 RingStyle=Fill
+	DisplayUpper1	FixedTextDisplay "Band 1 Enabled"
+	DisplayLower1	FXParamValueDisplay 0
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 1 RingStyle=Fill
+	DisplayUpper2	FixedTextDisplay "Band 1 Gain"
+	DisplayLower2	FXParamValueDisplay 1
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 2 RingStyle=Fill
+	DisplayUpper3	FixedTextDisplay "Band 1 Freq"
+	DisplayLower3	FXParamValueDisplay 2
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 3 RingStyle=Fill
+	DisplayUpper4	FixedTextDisplay "Band 1 Q"
+	DisplayLower4	FXParamValueDisplay 3
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 4 RingStyle=Fill
+	DisplayUpper5	FixedTextDisplay "Band 1 Gain"
+	DisplayLower5	FXParamValueDisplay 4
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 5 RingStyle=Fill
+	DisplayUpper6	FixedTextDisplay "Band 1 Atten"
+	DisplayLower6	FXParamValueDisplay 5
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 6 RingStyle=Fill
+	DisplayUpper7	FixedTextDisplay "Band 1 FreqEnd"
+	DisplayLower7	FXParamValueDisplay 6
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 7 RingStyle=Fill
+	DisplayUpper8	FixedTextDisplay "Band 1 Bandwidth"
+	DisplayLower8	FXParamValueDisplay 7
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 8 RingStyle=Fill
+	Shift+DisplayUpper1	FixedTextDisplay "Band 1 Order"
+	Shift+DisplayLower1	FXParamValueDisplay 8
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 9 RingStyle=Fill
+	Shift+DisplayUpper2	FixedTextDisplay "Band 1 Resonance"
+	Shift+DisplayLower2	FXParamValueDisplay 9
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 10 RingStyle=Fill
+	Shift+DisplayUpper3	FixedTextDisplay "Band 1 Q (Mastering SS)"
+	Shift+DisplayLower3	FXParamValueDisplay 10
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 11 RingStyle=Fill
+	Shift+DisplayUpper4	FixedTextDisplay "Band 1 Freq (Classic Low Shelf)"
+	Shift+DisplayLower4	FXParamValueDisplay 11
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 12 RingStyle=Fill
+	Shift+DisplayUpper5	FixedTextDisplay "Band 1 Visible"
+	Shift+DisplayLower5	FXParamValueDisplay 12
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 13 RingStyle=Fill
+	Shift+DisplayUpper6	FixedTextDisplay "Band 2 Enabled"
+	Shift+DisplayLower6	FXParamValueDisplay 13
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 14 RingStyle=Fill
+	Shift+DisplayUpper7	FixedTextDisplay "Band 2 Gain"
+	Shift+DisplayLower7	FXParamValueDisplay 14
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 15 RingStyle=Fill
+	Shift+DisplayUpper8	FixedTextDisplay "Band 2 Freq"
+	Shift+DisplayLower8	FXParamValueDisplay 15
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 16 RingStyle=Fill
+	Option+DisplayUpper1	FixedTextDisplay "Band 2 Q"
+	Option+DisplayLower1	FXParamValueDisplay 16
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 17 RingStyle=Fill
+	Option+DisplayUpper2	FixedTextDisplay "Band 2 Gain"
+	Option+DisplayLower2	FXParamValueDisplay 17
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 18 RingStyle=Fill
+	Option+DisplayUpper3	FixedTextDisplay "Band 2 Atten"
+	Option+DisplayLower3	FXParamValueDisplay 18
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 19 RingStyle=Fill
+	Option+DisplayUpper4	FixedTextDisplay "Band 2 FreqEnd"
+	Option+DisplayLower4	FXParamValueDisplay 19
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	FXParam 20 RingStyle=Fill
+	Option+DisplayUpper5	FixedTextDisplay "Band 2 Bandwidth"
+	Option+DisplayLower5	FXParamValueDisplay 20
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 21 RingStyle=Fill
+	Option+DisplayUpper6	FixedTextDisplay "Band 2 Order"
+	Option+DisplayLower6	FXParamValueDisplay 21
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 22 RingStyle=Fill
+	Option+DisplayUpper7	FixedTextDisplay "Band 2 Resonance"
+	Option+DisplayLower7	FXParamValueDisplay 22
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary8	FXParam 23 RingStyle=Fill
+	Option+DisplayUpper8	FixedTextDisplay "Band 2 Q (Mastering SS)"
+	Option+DisplayLower8	FXParamValueDisplay 23
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+
+0 Band 1 Enabled
+1 Band 1 Gain
+2 Band 1 Freq
+3 Band 1 Q
+4 Band 1 Gain
+5 Band 1 Atten
+6 Band 1 FreqEnd
+7 Band 1 Bandwidth
+8 Band 1 Order
+9 Band 1 Resonance
+10 Band 1 Q (Mastering SS)
+11 Band 1 Freq (Classic Low Shelf)
+12 Band 1 Visible
+13 Band 2 Enabled
+14 Band 2 Gain
+15 Band 2 Freq
+16 Band 2 Q
+17 Band 2 Gain
+18 Band 2 Atten
+19 Band 2 FreqEnd
+20 Band 2 Bandwidth
+21 Band 2 Order
+22 Band 2 Resonance
+23 Band 2 Q (Mastering SS)
+24 Band 2 Freq (Classic Low Shelf)
+25 Band 2 Visible
+26 Band 3 Enabled
+27 Band 3 Gain
+28 Band 3 Freq
+29 Band 3 Q
+30 Band 3 Gain
+31 Band 3 Atten
+32 Band 3 FreqEnd
+33 Band 3 Bandwidth
+34 Band 3 Order
+35 Band 3 Resonance
+36 Band 3 Q (Mastering SS)
+37 Band 3 Freq (Classic Low Shelf)
+38 Band 3 Visible
+39 Band 4 Enabled
+40 Band 4 Gain
+41 Band 4 Freq
+42 Band 4 Q
+43 Band 4 Gain
+44 Band 4 Atten
+45 Band 4 FreqEnd
+46 Band 4 Bandwidth
+47 Band 4 Order
+48 Band 4 Resonance
+49 Band 4 Q (Mastering SS)
+50 Band 4 Freq (Classic Low Shelf)
+51 Band 4 Visible
+52 Band 5 Enabled
+53 Band 5 Gain
+54 Band 5 Freq
+55 Band 5 Q
+56 Band 5 Gain
+57 Band 5 Atten
+58 Band 5 FreqEnd
+59 Band 5 Bandwidth
+60 Band 5 Order
+61 Band 5 Resonance
+62 Band 5 Q (Mastering SS)
+63 Band 5 Freq (Classic Low Shelf)
+64 Band 5 Visible
+65 Band 6 Enabled
+66 Band 6 Gain
+67 Band 6 Freq
+68 Band 6 Q
+69 Band 6 Gain
+70 Band 6 Atten
+71 Band 6 FreqEnd
+72 Band 6 Bandwidth
+73 Band 6 Order
+74 Band 6 Resonance
+75 Band 6 Q (Mastering SS)
+76 Band 6 Freq (Classic Low Shelf)
+77 Band 6 Visible
+78 Band 7 Enabled
+79 Band 7 Gain
+80 Band 7 Freq
+81 Band 7 Q
+82 Band 7 Gain
+83 Band 7 Atten
+84 Band 7 FreqEnd
+85 Band 7 Bandwidth
+86 Band 7 Order
+87 Band 7 Resonance
+88 Band 7 Q (Mastering SS)
+89 Band 7 Freq (Classic Low Shelf)
+90 Band 7 Visible
+91 Band 8 Enabled
+92 Band 8 Gain
+93 Band 8 Freq
+94 Band 8 Q
+95 Band 8 Gain
+96 Band 8 Atten
+97 Band 8 FreqEnd
+98 Band 8 Bandwidth
+99 Band 8 Order
+100 Band 8 Resonance
+101 Band 8 Q (Mastering SS)
+102 Band 8 Freq (Classic Low Shelf)
+103 Band 8 Visible
+104 Band 9 Enabled
+105 Band 9 Gain
+106 Band 9 Freq
+107 Band 9 Q
+108 Band 9 Gain
+109 Band 9 Atten
+110 Band 9 FreqEnd
+111 Band 9 Bandwidth
+112 Band 9 Order
+113 Band 9 Resonance
+114 Band 9 Q (Mastering SS)
+115 Band 9 Freq (Classic Low Shelf)
+116 Band 9 Visible
+117 Band 10 Enabled
+118 Band 10 Gain
+119 Band 10 Freq
+120 Band 10 Q
+121 Band 10 Gain
+122 Band 10 Atten
+123 Band 10 FreqEnd
+124 Band 10 Bandwidth
+125 Band 10 Order
+126 Band 10 Resonance
+127 Band 10 Q (Mastering SS)
+128 Band 10 Freq (Classic Low Shelf)
+129 Band 10 Visible
+130 Bypass
+131 Bypass
+132 Wet
+133 Delta

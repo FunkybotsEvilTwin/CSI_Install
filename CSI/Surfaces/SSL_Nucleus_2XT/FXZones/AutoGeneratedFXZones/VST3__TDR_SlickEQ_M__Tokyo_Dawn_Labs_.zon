@@ -1,0 +1,307 @@
+Zone "VST3: TDR SlickEQ M (Tokyo Dawn Labs)" "TDR SlickEQ M"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 15  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Band 3" 
+	DisplayLower1	FXParamValueDisplay 15
+
+	RotaryPush1	FXParam 14 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 18  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "" 
+	DisplayLower2	FXParamValueDisplay 18
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 16  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "" 
+	DisplayLower3	FXParamValueDisplay 16
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 17  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "" 
+	DisplayLower4	FXParamValueDisplay 17
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 22  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Band 4" 
+	DisplayLower5	FXParamValueDisplay 22
+
+	RotaryPush5	FXParam 21 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 25  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "" 
+	DisplayLower6	FXParamValueDisplay 25
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 23  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "" 
+	DisplayLower7	FXParamValueDisplay 23
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 24  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "" 
+	DisplayLower8	FXParamValueDisplay 24
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 51  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "Tilt" 
+	Shift+DisplayLower1	FXParamValueDisplay 51
+
+	Shift+RotaryPush1	FXParam 50 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 52  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "" 
+	Shift+DisplayLower2	FXParamValueDisplay 52
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 43  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "HPF" 
+	Shift+DisplayLower3	FXParamValueDisplay 43
+
+	Shift+RotaryPush3	FXParam 42 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 44  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "" 
+	Shift+DisplayLower4	FXParamValueDisplay 44
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 73  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "LF Ex" 
+	Shift+DisplayLower5	FXParamValueDisplay 73
+
+	Shift+RotaryPush5	FXParam 72 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 74  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "" 
+	Shift+DisplayLower6	FXParamValueDisplay 74
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 60  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "Range" 
+	Shift+DisplayLower7	FXParamValueDisplay 60
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 46  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "LF mono" 
+	Shift+DisplayLower8	FXParamValueDisplay 46
+
+	Shift+RotaryPush8	FXParam 45 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	FXParam 82 [ 0 1 ]
+	Option+DisplayUpper8	FixedTextDisplay "Bypass" 
+	Option+DisplayLower8	FXParamValueDisplay 82
+
+
+#End auto generated section
+ZoneEnd
+0 Band 1 Active
+1 Band 1 Shape
+2 Band 1 Freq
+3 Band 1 Gain
+4 Band 1 Q
+5 Band 1 Stereo Width
+6 Band 1 Stereo Balance
+7 Band 2 Active
+8 Band 2 Shape
+9 Band 2 Freq
+10 Band 2 Gain
+11 Band 2 Q
+12 Band 2 Stereo Width
+13 Band 2 Stereo Balance
+14 Band 3 Active
+15 Band 3 Shape
+16 Band 3 Freq
+17 Band 3 Gain
+18 Band 3 Q
+19 Band 3 Stereo Width
+20 Band 3 Stereo Balance
+21 Band 4 Active
+22 Band 4 Shape
+23 Band 4 Freq
+24 Band 4 Gain
+25 Band 4 Q
+26 Band 4 Stereo Width
+27 Band 4 Stereo Balance
+28 Band 5 Active
+29 Band 5 Shape
+30 Band 5 Freq
+31 Band 5 Gain
+32 Band 5 Q
+33 Band 5 Stereo Width
+34 Band 5 Stereo Balance
+35 Band 6 Active
+36 Band 6 Shape
+37 Band 6 Freq
+38 Band 6 Gain
+39 Band 6 Q
+40 Band 6 Stereo Width
+41 Band 6 Stereo Balance
+42 HP Active
+43 HP Steepness
+44 HP Freq
+45 Elliptical Filter Active
+46 Elliptical Filter Freq
+47 LP Active
+48 LP Steepness
+49 LP Freq
+50 Center Filter Active
+51 Center Filter Type
+52 Center Filter Amount
+53 LF Sat Active
+54 LF Sat Amount
+55 HF Sat Active
+56 HF Sat Amount
+57 Output Gain
+58 Output Width
+59 Output Balance
+60 EQ Range
+61 EQ Range Mode
+62 Auto Gain
+63 Bypass
+64 Mode
+65 Quality
+66 Display Scale
+67 Analyzer Scale
+68 Show Freq Magnitude
+69 Analyzer Source
+70 Use New Auto Gain
+71 Nonlinearity Mode
+72 LF Exciter Active
+73 LF Exciter Amount
+74 LF Exciter Freq
+75 HF Exciter Active
+76 HF Exciter Amount
+77 HF Exciter Freq
+78 Analyzer Stereo
+79 Mixed Phase
+80 Fixed Latency Mode
+81 Program
+82 Bypass
+83 Wet
+84 Delta

@@ -1,0 +1,277 @@
+Zone "VST3: UADx API Vision Channel Strip (Universal Audio (UADx))" "API Vision Channel Strip"
+
+#Begin auto Generated section
+
+	Rotary1	FXParam 7  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "215 HP Flt" 
+	DisplayLower1	FXParamValueDisplay 7
+
+	RotaryPush1	FXParam 8 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 6  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "215 LP Flt" 
+	DisplayLower2	FXParamValueDisplay 6
+
+	RotaryPush2	FXParam 9 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 1  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Mic G" 
+	DisplayLower3	FXParamValueDisplay 1
+
+	RotaryPush3	FXParam 0 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 2  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Line G" 
+	DisplayLower4	FXParamValueDisplay 2
+
+	RotaryPush4	FXParam 4 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	FXParam 3 [ 0 1 ]
+	DisplayUpper5	FixedTextDisplay "Pad" 
+	DisplayLower5	FXParamValueDisplay 3
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	FXParam 5 [ 0 1 ]
+	DisplayUpper6	FixedTextDisplay "Cut Flt" 
+	DisplayLower6	FXParamValueDisplay 5
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	FXParam 46 [ 0 1 ]
+	DisplayUpper7	FixedTextDisplay "EQ Type" 
+	DisplayLower7	FXParamValueDisplay 46
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 47 [ 0 1 ]
+	DisplayUpper8	FixedTextDisplay "EQ On" 
+	DisplayLower8	FXParamValueDisplay 47
+
+
+	Shift+Rotary1	FXParam 35  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "560 8kHz" 
+	Shift+DisplayLower1	FXParamValueDisplay 35
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 34  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "560 16kHz" 
+	Shift+DisplayLower2	FXParamValueDisplay 34
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	FXParam 44 [ 0 1 ]
+	Shift+DisplayUpper5	FixedTextDisplay "EQ Predyn" 
+	Shift+DisplayLower5	FXParamValueDisplay 44
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	FXParam 45 [ 0 1 ]
+	Shift+DisplayUpper6	FixedTextDisplay "EQ Dyn SC" 
+	Shift+DisplayLower6	FXParamValueDisplay 45
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	FXParam 49 [ 0 1 ]
+	Option+DisplayUpper1	FixedTextDisplay "SC Link" 
+	Option+DisplayLower1	FXParamValueDisplay 49
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	FXParam 50 [ 0 1 ]
+	Option+DisplayUpper2	FixedTextDisplay "Pwr" 
+	Option+DisplayLower2	FXParamValueDisplay 50
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	FXParam 52 [ 0 1 ]
+	Option+DisplayUpper8	FixedTextDisplay "Bypass" 
+	Option+DisplayLower8	FXParamValueDisplay 52
+
+
+#End auto Generated section
+ZoneEnd
+0 In Sel
+1 Mic G
+2 Line G
+3 Pad
+4 Phase
+5 Cut Flt
+6 215 LP Flt
+7 215 HP Flt
+8 215 Dyn SC
+9 215 On
+10 235 Thresh
+11 235 Depth
+12 235 Att
+13 235 Rel
+14 235 R/H
+15 235 G/E
+16 235 On
+17 225 Thresh
+18 225 Ratio
+19 225 Att
+20 225 Rel
+21 225 Knee
+22 225 Type
+23 225 On
+24 550 HF F
+25 550 HF G
+26 550 HF Flt
+27 550 HMF F
+28 550 HMF G
+29 550 LMF F
+30 550 LMF G
+31 550 LF F
+32 550 LF G
+33 550 LF Flt
+34 560 16kHz
+35 560 8kHz
+36 560 4kHz
+37 560 2kHz
+38 560 1kHz
+39 560 500Hz
+40 560 250Hz
+41 560 125Hz
+42 560 63Hz
+43 560 31Hz
+44 EQ Predyn
+45 EQ Dyn SC
+46 EQ Type
+47 EQ On
+48 Lvl
+49 SC Link
+50 Pwr
+51 Mst Bypass
+52 Bypass
+53 Wet
+54 Delta

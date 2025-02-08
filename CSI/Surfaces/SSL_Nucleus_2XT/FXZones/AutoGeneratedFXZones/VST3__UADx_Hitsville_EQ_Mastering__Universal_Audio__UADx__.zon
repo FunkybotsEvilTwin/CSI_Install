@@ -1,0 +1,278 @@
+Zone "VST3: UADx Hitsville EQ Mastering (Universal Audio (UADx))" "Hitsville EQ Mastering"
+
+#Begin auto Generated section
+
+	Rotary1	FXParam 28 [ 0 0.13 0.25 0.38 0.5 0.63 0.75 0.88 1 ] RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "R1-G" 
+	DisplayLower1	FXParamValueDisplay 28
+
+	RotaryPush1	FXParam 29 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 31 [ 0 0.13 0.25 0.38 0.5 0.63 0.75 0.88 1 ] RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "R2-G" 
+	DisplayLower2	FXParamValueDisplay 31
+
+	RotaryPush2	FXParam 32 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 34 [ 0 0.13 0.25 0.38 0.5 0.63 0.75 0.88 1 ] RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "R3-G" 
+	DisplayLower3	FXParamValueDisplay 34
+
+	RotaryPush3	FXParam 35 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 37  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "R4-G" 
+	DisplayLower4	FXParamValueDisplay 37
+
+	RotaryPush4	FXParam 38 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 40 [ 0 0.13 0.25 0.38 0.5 0.63 0.75 0.88 1 ] RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "R5-G" 
+	DisplayLower5	FXParamValueDisplay 40
+
+	RotaryPush5	FXParam 41 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 43 [ 0 0.13 0.25 0.38 0.5 0.63 0.75 0.88 1 ] RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "R6-G" 
+	DisplayLower6	FXParamValueDisplay 43
+
+	RotaryPush6	FXParam 44 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 46 [ 0 0.13 0.25 0.38 0.5 0.63 0.75 0.88 1 ] RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "R7-G" 
+	DisplayLower7	FXParamValueDisplay 46
+
+	RotaryPush7	FXParam 47 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 27 [ 0 1 ] RingStyle=
+	DisplayUpper8	FixedTextDisplay "Right Spd" 
+	DisplayLower8	FXParamValueDisplay 27
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	FXParam 53 [ 0 1 ]
+	Shift+DisplayUpper8	FixedTextDisplay "Bypass" 
+	Shift+DisplayLower8	FXParamValueDisplay 53
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto Generated section
+ZoneEnd
+0 Ctrl Link
+1 Flt
+2 Left Byp
+3 Left Spd
+4 L1-G
+5 L1-Dip/Pk
+6 L1-F
+7 L2-G
+8 L2-Dip/Pk
+9 L2-F
+10 L3-G
+11 L3-Dip/Pk
+12 L3-F
+13 L4-G
+14 L4-Dip/Pk
+15 L4-F
+16 L5-G
+17 L5-Dip/Pk
+18 L5-F
+19 L6-G
+20 L6-Dip/Pk
+21 L6-F
+22 L7-G
+23 L7-Dip/Pk
+24 L7-F
+25 Left G
+26 Right Byp
+27 Right Spd
+28 R1-G
+29 R1-Dip/Pk
+30 R1-F
+31 R2-G
+32 R2-Dip/Pk
+33 R2-F
+34 R3-G
+35 R3-Dip/Pk
+36 R3-F
+37 R4-G
+38 R4-Dip/Pk
+39 R4-F
+40 R5-G
+41 R5-Dip/Pk
+42 R5-F
+43 R6-G
+44 R6-Dip/Pk
+45 R6-F
+46 R7-G
+47 R7-Dip/Pk
+48 R7-F
+49 Right G
+50 Mid Side
+51 Pwr
+52 Mst Bypass
+53 Bypass
+54 Wet
+55 Delta

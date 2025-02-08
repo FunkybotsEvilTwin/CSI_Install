@@ -1,0 +1,241 @@
+Zone "VST3: TR5 TASCAM 388 (IK Multimedia)" "TR5 TASCAM 388"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 6  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Mid Gain" 
+	DisplayLower1	FXParamValueDisplay 6
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 8  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Low Gain" 
+	DisplayLower2	FXParamValueDisplay 8
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush3	FXParam 14 [ 0 1 ] RingStyle=
+	DisplayUpper3	FixedTextDisplay "Trans" 
+	DisplayLower3	FXParamValueDisplay 14
+
+
+	Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush4	FXParam 13 [ 0 1 ] RingStyle=
+	DisplayUpper4	FixedTextDisplay "True ST" 
+	DisplayLower4	FXParamValueDisplay 13
+
+
+	Rotary5	FXParam 2  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Tape" 
+	DisplayLower5	FXParamValueDisplay 2
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	FXParam 11 [ 0 1 ] RingStyle=
+	DisplayUpper6	FixedTextDisplay "Repro" 
+	DisplayLower6	FXParamValueDisplay 11
+
+
+	Rotary7	FXParam 1  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Out" 
+	DisplayLower7	FXParamValueDisplay 1
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 16 [ 0 1 ]
+	DisplayUpper8	FixedTextDisplay "Bypass" 
+	DisplayLower8	FXParamValueDisplay 16
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Input
+1 Output
+2 Tape Type
+3 HF Rec Adjust
+4 High Gain
+5 High Freq
+6 Mid Gain
+7 Mid Freq
+8 Low Gain
+9 Low Freq
+10 Rec Level
+11 Input Repro
+12 Bias Level
+13 True Stereo
+14 Transport Modeling
+15 Bypass
+16 Bypass
+17 Wet
+18 Delta

@@ -1,0 +1,1311 @@
+Zone "VST3: Saturn 2 (FabFilter)" "Saturn 2"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 13  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Bass" 
+	DisplayLower1	FXParamValueDisplay 13
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 14  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Mid" 
+	DisplayLower2	FXParamValueDisplay 14
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 15  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Treble" 
+	DisplayLower3	FXParamValueDisplay 15
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 16  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Pres" 
+	DisplayLower4	FXParamValueDisplay 16
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 18  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Level" 
+	DisplayLower5	FXParamValueDisplay 18
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 19  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Pan" 
+	DisplayLower6	FXParamValueDisplay 19
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	FXParam 696 [ 0 1 ]
+	DisplayUpper7	FixedTextDisplay "Mode" 
+	DisplayLower7	FXParamValueDisplay 696
+
+	Rotary8	FXParam 698  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Quality" 
+	DisplayLower8	FXParamValueDisplay 698
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	FXParam 5  RingStyle=Fill
+	Shift+DisplayUpper6	FixedTextDisplay "Mix" 
+	Shift+DisplayLower6	FXParamValueDisplay 5
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 2  RingStyle=BoostCut
+	Shift+DisplayUpper7	FixedTextDisplay "Out" 
+	Shift+DisplayLower7	FXParamValueDisplay 2
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+RotaryPush8	FXParam 1088 [ 0 1 ]  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "Bypass" 
+	Shift+DisplayLower8	FXParamValueDisplay 1088
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Input Gain
+1 Input Pan
+2 Output Gain
+3 Output Pan
+4 Bypass
+5 Mix
+6 Num Active Bands
+7 Band 1 Feedback Amount
+8 Band 1 Feedback Frequency
+9 Band 1 Dynamics
+10 Band 1 Style
+11 Band 1 Drive
+12 Band 1 Drive Pan
+13 Band 1 Bass
+14 Band 1 Mid
+15 Band 1 Treble
+16 Band 1 Presence
+17 Band 1 Mix
+18 Band 1 Level
+19 Band 1 Pan
+20 Band 1 Enabled
+21 Band 1 State
+22 Band 1 Crossover Frequency
+23 Band 1 Crossover Slope
+24 Band 2 Feedback Amount
+25 Band 2 Feedback Frequency
+26 Band 2 Dynamics
+27 Band 2 Style
+28 Band 2 Drive
+29 Band 2 Drive Pan
+30 Band 2 Bass
+31 Band 2 Mid
+32 Band 2 Treble
+33 Band 2 Presence
+34 Band 2 Mix
+35 Band 2 Level
+36 Band 2 Pan
+37 Band 2 Enabled
+38 Band 2 State
+39 Band 2 Crossover Frequency
+40 Band 2 Crossover Slope
+41 Band 3 Feedback Amount
+42 Band 3 Feedback Frequency
+43 Band 3 Dynamics
+44 Band 3 Style
+45 Band 3 Drive
+46 Band 3 Drive Pan
+47 Band 3 Bass
+48 Band 3 Mid
+49 Band 3 Treble
+50 Band 3 Presence
+51 Band 3 Mix
+52 Band 3 Level
+53 Band 3 Pan
+54 Band 3 Enabled
+55 Band 3 State
+56 Band 3 Crossover Frequency
+57 Band 3 Crossover Slope
+58 Band 4 Feedback Amount
+59 Band 4 Feedback Frequency
+60 Band 4 Dynamics
+61 Band 4 Style
+62 Band 4 Drive
+63 Band 4 Drive Pan
+64 Band 4 Bass
+65 Band 4 Mid
+66 Band 4 Treble
+67 Band 4 Presence
+68 Band 4 Mix
+69 Band 4 Level
+70 Band 4 Pan
+71 Band 4 Enabled
+72 Band 4 State
+73 Band 4 Crossover Frequency
+74 Band 4 Crossover Slope
+75 Band 5 Feedback Amount
+76 Band 5 Feedback Frequency
+77 Band 5 Dynamics
+78 Band 5 Style
+79 Band 5 Drive
+80 Band 5 Drive Pan
+81 Band 5 Bass
+82 Band 5 Mid
+83 Band 5 Treble
+84 Band 5 Presence
+85 Band 5 Mix
+86 Band 5 Level
+87 Band 5 Pan
+88 Band 5 Enabled
+89 Band 5 State
+90 Band 5 Crossover Frequency
+91 Band 5 Crossover Slope
+92 Band 6 Feedback Amount
+93 Band 6 Feedback Frequency
+94 Band 6 Dynamics
+95 Band 6 Style
+96 Band 6 Drive
+97 Band 6 Drive Pan
+98 Band 6 Bass
+99 Band 6 Mid
+100 Band 6 Treble
+101 Band 6 Presence
+102 Band 6 Mix
+103 Band 6 Level
+104 Band 6 Pan
+105 Band 6 Enabled
+106 Band 6 State
+107 Band 6 Crossover Frequency
+108 Band 6 Crossover Slope
+109 Num Active XY Controllers
+110 XY Controller 1 Hor
+111 XY Controller 1 Ver
+112 XY Controller 1 Mode
+113 XY Controller 1 Range
+114 XY Controller 2 Hor
+115 XY Controller 2 Ver
+116 XY Controller 2 Mode
+117 XY Controller 2 Range
+118 XY Controller 3 Hor
+119 XY Controller 3 Ver
+120 XY Controller 3 Mode
+121 XY Controller 3 Range
+122 XY Controller 4 Hor
+123 XY Controller 4 Ver
+124 XY Controller 4 Mode
+125 XY Controller 4 Range
+126 XY Controller 5 Hor
+127 XY Controller 5 Ver
+128 XY Controller 5 Mode
+129 XY Controller 5 Range
+130 XY Controller 6 Hor
+131 XY Controller 6 Ver
+132 XY Controller 6 Mode
+133 XY Controller 6 Range
+134 Num Active XLFOs
+135 XLFO 1 Frequency
+136 XLFO 1 Frequency Offset
+137 XLFO 1 Balance
+138 XLFO 1 Phase Offset
+139 XLFO 1 Glide
+140 XLFO 1 Sync Mode
+141 XLFO 1 MIDI Trigger
+142 XLFO 1 Snap
+143 Num Active XLFO 1 Steps
+144 XLFO 1 Step 1 Value
+145 XLFO 1 Step 1 Glide
+146 XLFO 1 Step 1 Glide function
+147 XLFO 1 Step 1 Random
+148 XLFO 1 Step 2 Value
+149 XLFO 1 Step 2 Glide
+150 XLFO 1 Step 2 Glide function
+151 XLFO 1 Step 2 Random
+152 XLFO 1 Step 3 Value
+153 XLFO 1 Step 3 Glide
+154 XLFO 1 Step 3 Glide function
+155 XLFO 1 Step 3 Random
+156 XLFO 1 Step 4 Value
+157 XLFO 1 Step 4 Glide
+158 XLFO 1 Step 4 Glide function
+159 XLFO 1 Step 4 Random
+160 XLFO 1 Step 5 Value
+161 XLFO 1 Step 5 Glide
+162 XLFO 1 Step 5 Glide function
+163 XLFO 1 Step 5 Random
+164 XLFO 1 Step 6 Value
+165 XLFO 1 Step 6 Glide
+166 XLFO 1 Step 6 Glide function
+167 XLFO 1 Step 6 Random
+168 XLFO 1 Step 7 Value
+169 XLFO 1 Step 7 Glide
+170 XLFO 1 Step 7 Glide function
+171 XLFO 1 Step 7 Random
+172 XLFO 1 Step 8 Value
+173 XLFO 1 Step 8 Glide
+174 XLFO 1 Step 8 Glide function
+175 XLFO 1 Step 8 Random
+176 XLFO 1 Step 9 Value
+177 XLFO 1 Step 9 Glide
+178 XLFO 1 Step 9 Glide function
+179 XLFO 1 Step 9 Random
+180 XLFO 1 Step 10 Value
+181 XLFO 1 Step 10 Glide
+182 XLFO 1 Step 10 Glide function
+183 XLFO 1 Step 10 Random
+184 XLFO 1 Step 11 Value
+185 XLFO 1 Step 11 Glide
+186 XLFO 1 Step 11 Glide function
+187 XLFO 1 Step 11 Random
+188 XLFO 1 Step 12 Value
+189 XLFO 1 Step 12 Glide
+190 XLFO 1 Step 12 Glide function
+191 XLFO 1 Step 12 Random
+192 XLFO 1 Step 13 Value
+193 XLFO 1 Step 13 Glide
+194 XLFO 1 Step 13 Glide function
+195 XLFO 1 Step 13 Random
+196 XLFO 1 Step 14 Value
+197 XLFO 1 Step 14 Glide
+198 XLFO 1 Step 14 Glide function
+199 XLFO 1 Step 14 Random
+200 XLFO 1 Step 15 Value
+201 XLFO 1 Step 15 Glide
+202 XLFO 1 Step 15 Glide function
+203 XLFO 1 Step 15 Random
+204 XLFO 1 Step 16 Value
+205 XLFO 1 Step 16 Glide
+206 XLFO 1 Step 16 Glide function
+207 XLFO 1 Step 16 Random
+208 XLFO 2 Frequency
+209 XLFO 2 Frequency Offset
+210 XLFO 2 Balance
+211 XLFO 2 Phase Offset
+212 XLFO 2 Glide
+213 XLFO 2 Sync Mode
+214 XLFO 2 MIDI Trigger
+215 XLFO 2 Snap
+216 Num Active XLFO 2 Steps
+217 XLFO 2 Step 1 Value
+218 XLFO 2 Step 1 Glide
+219 XLFO 2 Step 1 Glide function
+220 XLFO 2 Step 1 Random
+221 XLFO 2 Step 2 Value
+222 XLFO 2 Step 2 Glide
+223 XLFO 2 Step 2 Glide function
+224 XLFO 2 Step 2 Random
+225 XLFO 2 Step 3 Value
+226 XLFO 2 Step 3 Glide
+227 XLFO 2 Step 3 Glide function
+228 XLFO 2 Step 3 Random
+229 XLFO 2 Step 4 Value
+230 XLFO 2 Step 4 Glide
+231 XLFO 2 Step 4 Glide function
+232 XLFO 2 Step 4 Random
+233 XLFO 2 Step 5 Value
+234 XLFO 2 Step 5 Glide
+235 XLFO 2 Step 5 Glide function
+236 XLFO 2 Step 5 Random
+237 XLFO 2 Step 6 Value
+238 XLFO 2 Step 6 Glide
+239 XLFO 2 Step 6 Glide function
+240 XLFO 2 Step 6 Random
+241 XLFO 2 Step 7 Value
+242 XLFO 2 Step 7 Glide
+243 XLFO 2 Step 7 Glide function
+244 XLFO 2 Step 7 Random
+245 XLFO 2 Step 8 Value
+246 XLFO 2 Step 8 Glide
+247 XLFO 2 Step 8 Glide function
+248 XLFO 2 Step 8 Random
+249 XLFO 2 Step 9 Value
+250 XLFO 2 Step 9 Glide
+251 XLFO 2 Step 9 Glide function
+252 XLFO 2 Step 9 Random
+253 XLFO 2 Step 10 Value
+254 XLFO 2 Step 10 Glide
+255 XLFO 2 Step 10 Glide function
+256 XLFO 2 Step 10 Random
+257 XLFO 2 Step 11 Value
+258 XLFO 2 Step 11 Glide
+259 XLFO 2 Step 11 Glide function
+260 XLFO 2 Step 11 Random
+261 XLFO 2 Step 12 Value
+262 XLFO 2 Step 12 Glide
+263 XLFO 2 Step 12 Glide function
+264 XLFO 2 Step 12 Random
+265 XLFO 2 Step 13 Value
+266 XLFO 2 Step 13 Glide
+267 XLFO 2 Step 13 Glide function
+268 XLFO 2 Step 13 Random
+269 XLFO 2 Step 14 Value
+270 XLFO 2 Step 14 Glide
+271 XLFO 2 Step 14 Glide function
+272 XLFO 2 Step 14 Random
+273 XLFO 2 Step 15 Value
+274 XLFO 2 Step 15 Glide
+275 XLFO 2 Step 15 Glide function
+276 XLFO 2 Step 15 Random
+277 XLFO 2 Step 16 Value
+278 XLFO 2 Step 16 Glide
+279 XLFO 2 Step 16 Glide function
+280 XLFO 2 Step 16 Random
+281 XLFO 3 Frequency
+282 XLFO 3 Frequency Offset
+283 XLFO 3 Balance
+284 XLFO 3 Phase Offset
+285 XLFO 3 Glide
+286 XLFO 3 Sync Mode
+287 XLFO 3 MIDI Trigger
+288 XLFO 3 Snap
+289 Num Active XLFO 3 Steps
+290 XLFO 3 Step 1 Value
+291 XLFO 3 Step 1 Glide
+292 XLFO 3 Step 1 Glide function
+293 XLFO 3 Step 1 Random
+294 XLFO 3 Step 2 Value
+295 XLFO 3 Step 2 Glide
+296 XLFO 3 Step 2 Glide function
+297 XLFO 3 Step 2 Random
+298 XLFO 3 Step 3 Value
+299 XLFO 3 Step 3 Glide
+300 XLFO 3 Step 3 Glide function
+301 XLFO 3 Step 3 Random
+302 XLFO 3 Step 4 Value
+303 XLFO 3 Step 4 Glide
+304 XLFO 3 Step 4 Glide function
+305 XLFO 3 Step 4 Random
+306 XLFO 3 Step 5 Value
+307 XLFO 3 Step 5 Glide
+308 XLFO 3 Step 5 Glide function
+309 XLFO 3 Step 5 Random
+310 XLFO 3 Step 6 Value
+311 XLFO 3 Step 6 Glide
+312 XLFO 3 Step 6 Glide function
+313 XLFO 3 Step 6 Random
+314 XLFO 3 Step 7 Value
+315 XLFO 3 Step 7 Glide
+316 XLFO 3 Step 7 Glide function
+317 XLFO 3 Step 7 Random
+318 XLFO 3 Step 8 Value
+319 XLFO 3 Step 8 Glide
+320 XLFO 3 Step 8 Glide function
+321 XLFO 3 Step 8 Random
+322 XLFO 3 Step 9 Value
+323 XLFO 3 Step 9 Glide
+324 XLFO 3 Step 9 Glide function
+325 XLFO 3 Step 9 Random
+326 XLFO 3 Step 10 Value
+327 XLFO 3 Step 10 Glide
+328 XLFO 3 Step 10 Glide function
+329 XLFO 3 Step 10 Random
+330 XLFO 3 Step 11 Value
+331 XLFO 3 Step 11 Glide
+332 XLFO 3 Step 11 Glide function
+333 XLFO 3 Step 11 Random
+334 XLFO 3 Step 12 Value
+335 XLFO 3 Step 12 Glide
+336 XLFO 3 Step 12 Glide function
+337 XLFO 3 Step 12 Random
+338 XLFO 3 Step 13 Value
+339 XLFO 3 Step 13 Glide
+340 XLFO 3 Step 13 Glide function
+341 XLFO 3 Step 13 Random
+342 XLFO 3 Step 14 Value
+343 XLFO 3 Step 14 Glide
+344 XLFO 3 Step 14 Glide function
+345 XLFO 3 Step 14 Random
+346 XLFO 3 Step 15 Value
+347 XLFO 3 Step 15 Glide
+348 XLFO 3 Step 15 Glide function
+349 XLFO 3 Step 15 Random
+350 XLFO 3 Step 16 Value
+351 XLFO 3 Step 16 Glide
+352 XLFO 3 Step 16 Glide function
+353 XLFO 3 Step 16 Random
+354 XLFO 4 Frequency
+355 XLFO 4 Frequency Offset
+356 XLFO 4 Balance
+357 XLFO 4 Phase Offset
+358 XLFO 4 Glide
+359 XLFO 4 Sync Mode
+360 XLFO 4 MIDI Trigger
+361 XLFO 4 Snap
+362 Num Active XLFO 4 Steps
+363 XLFO 4 Step 1 Value
+364 XLFO 4 Step 1 Glide
+365 XLFO 4 Step 1 Glide function
+366 XLFO 4 Step 1 Random
+367 XLFO 4 Step 2 Value
+368 XLFO 4 Step 2 Glide
+369 XLFO 4 Step 2 Glide function
+370 XLFO 4 Step 2 Random
+371 XLFO 4 Step 3 Value
+372 XLFO 4 Step 3 Glide
+373 XLFO 4 Step 3 Glide function
+374 XLFO 4 Step 3 Random
+375 XLFO 4 Step 4 Value
+376 XLFO 4 Step 4 Glide
+377 XLFO 4 Step 4 Glide function
+378 XLFO 4 Step 4 Random
+379 XLFO 4 Step 5 Value
+380 XLFO 4 Step 5 Glide
+381 XLFO 4 Step 5 Glide function
+382 XLFO 4 Step 5 Random
+383 XLFO 4 Step 6 Value
+384 XLFO 4 Step 6 Glide
+385 XLFO 4 Step 6 Glide function
+386 XLFO 4 Step 6 Random
+387 XLFO 4 Step 7 Value
+388 XLFO 4 Step 7 Glide
+389 XLFO 4 Step 7 Glide function
+390 XLFO 4 Step 7 Random
+391 XLFO 4 Step 8 Value
+392 XLFO 4 Step 8 Glide
+393 XLFO 4 Step 8 Glide function
+394 XLFO 4 Step 8 Random
+395 XLFO 4 Step 9 Value
+396 XLFO 4 Step 9 Glide
+397 XLFO 4 Step 9 Glide function
+398 XLFO 4 Step 9 Random
+399 XLFO 4 Step 10 Value
+400 XLFO 4 Step 10 Glide
+401 XLFO 4 Step 10 Glide function
+402 XLFO 4 Step 10 Random
+403 XLFO 4 Step 11 Value
+404 XLFO 4 Step 11 Glide
+405 XLFO 4 Step 11 Glide function
+406 XLFO 4 Step 11 Random
+407 XLFO 4 Step 12 Value
+408 XLFO 4 Step 12 Glide
+409 XLFO 4 Step 12 Glide function
+410 XLFO 4 Step 12 Random
+411 XLFO 4 Step 13 Value
+412 XLFO 4 Step 13 Glide
+413 XLFO 4 Step 13 Glide function
+414 XLFO 4 Step 13 Random
+415 XLFO 4 Step 14 Value
+416 XLFO 4 Step 14 Glide
+417 XLFO 4 Step 14 Glide function
+418 XLFO 4 Step 14 Random
+419 XLFO 4 Step 15 Value
+420 XLFO 4 Step 15 Glide
+421 XLFO 4 Step 15 Glide function
+422 XLFO 4 Step 15 Random
+423 XLFO 4 Step 16 Value
+424 XLFO 4 Step 16 Glide
+425 XLFO 4 Step 16 Glide function
+426 XLFO 4 Step 16 Random
+427 XLFO 5 Frequency
+428 XLFO 5 Frequency Offset
+429 XLFO 5 Balance
+430 XLFO 5 Phase Offset
+431 XLFO 5 Glide
+432 XLFO 5 Sync Mode
+433 XLFO 5 MIDI Trigger
+434 XLFO 5 Snap
+435 Num Active XLFO 5 Steps
+436 XLFO 5 Step 1 Value
+437 XLFO 5 Step 1 Glide
+438 XLFO 5 Step 1 Glide function
+439 XLFO 5 Step 1 Random
+440 XLFO 5 Step 2 Value
+441 XLFO 5 Step 2 Glide
+442 XLFO 5 Step 2 Glide function
+443 XLFO 5 Step 2 Random
+444 XLFO 5 Step 3 Value
+445 XLFO 5 Step 3 Glide
+446 XLFO 5 Step 3 Glide function
+447 XLFO 5 Step 3 Random
+448 XLFO 5 Step 4 Value
+449 XLFO 5 Step 4 Glide
+450 XLFO 5 Step 4 Glide function
+451 XLFO 5 Step 4 Random
+452 XLFO 5 Step 5 Value
+453 XLFO 5 Step 5 Glide
+454 XLFO 5 Step 5 Glide function
+455 XLFO 5 Step 5 Random
+456 XLFO 5 Step 6 Value
+457 XLFO 5 Step 6 Glide
+458 XLFO 5 Step 6 Glide function
+459 XLFO 5 Step 6 Random
+460 XLFO 5 Step 7 Value
+461 XLFO 5 Step 7 Glide
+462 XLFO 5 Step 7 Glide function
+463 XLFO 5 Step 7 Random
+464 XLFO 5 Step 8 Value
+465 XLFO 5 Step 8 Glide
+466 XLFO 5 Step 8 Glide function
+467 XLFO 5 Step 8 Random
+468 XLFO 5 Step 9 Value
+469 XLFO 5 Step 9 Glide
+470 XLFO 5 Step 9 Glide function
+471 XLFO 5 Step 9 Random
+472 XLFO 5 Step 10 Value
+473 XLFO 5 Step 10 Glide
+474 XLFO 5 Step 10 Glide function
+475 XLFO 5 Step 10 Random
+476 XLFO 5 Step 11 Value
+477 XLFO 5 Step 11 Glide
+478 XLFO 5 Step 11 Glide function
+479 XLFO 5 Step 11 Random
+480 XLFO 5 Step 12 Value
+481 XLFO 5 Step 12 Glide
+482 XLFO 5 Step 12 Glide function
+483 XLFO 5 Step 12 Random
+484 XLFO 5 Step 13 Value
+485 XLFO 5 Step 13 Glide
+486 XLFO 5 Step 13 Glide function
+487 XLFO 5 Step 13 Random
+488 XLFO 5 Step 14 Value
+489 XLFO 5 Step 14 Glide
+490 XLFO 5 Step 14 Glide function
+491 XLFO 5 Step 14 Random
+492 XLFO 5 Step 15 Value
+493 XLFO 5 Step 15 Glide
+494 XLFO 5 Step 15 Glide function
+495 XLFO 5 Step 15 Random
+496 XLFO 5 Step 16 Value
+497 XLFO 5 Step 16 Glide
+498 XLFO 5 Step 16 Glide function
+499 XLFO 5 Step 16 Random
+500 XLFO 6 Frequency
+501 XLFO 6 Frequency Offset
+502 XLFO 6 Balance
+503 XLFO 6 Phase Offset
+504 XLFO 6 Glide
+505 XLFO 6 Sync Mode
+506 XLFO 6 MIDI Trigger
+507 XLFO 6 Snap
+508 Num Active XLFO 6 Steps
+509 XLFO 6 Step 1 Value
+510 XLFO 6 Step 1 Glide
+511 XLFO 6 Step 1 Glide function
+512 XLFO 6 Step 1 Random
+513 XLFO 6 Step 2 Value
+514 XLFO 6 Step 2 Glide
+515 XLFO 6 Step 2 Glide function
+516 XLFO 6 Step 2 Random
+517 XLFO 6 Step 3 Value
+518 XLFO 6 Step 3 Glide
+519 XLFO 6 Step 3 Glide function
+520 XLFO 6 Step 3 Random
+521 XLFO 6 Step 4 Value
+522 XLFO 6 Step 4 Glide
+523 XLFO 6 Step 4 Glide function
+524 XLFO 6 Step 4 Random
+525 XLFO 6 Step 5 Value
+526 XLFO 6 Step 5 Glide
+527 XLFO 6 Step 5 Glide function
+528 XLFO 6 Step 5 Random
+529 XLFO 6 Step 6 Value
+530 XLFO 6 Step 6 Glide
+531 XLFO 6 Step 6 Glide function
+532 XLFO 6 Step 6 Random
+533 XLFO 6 Step 7 Value
+534 XLFO 6 Step 7 Glide
+535 XLFO 6 Step 7 Glide function
+536 XLFO 6 Step 7 Random
+537 XLFO 6 Step 8 Value
+538 XLFO 6 Step 8 Glide
+539 XLFO 6 Step 8 Glide function
+540 XLFO 6 Step 8 Random
+541 XLFO 6 Step 9 Value
+542 XLFO 6 Step 9 Glide
+543 XLFO 6 Step 9 Glide function
+544 XLFO 6 Step 9 Random
+545 XLFO 6 Step 10 Value
+546 XLFO 6 Step 10 Glide
+547 XLFO 6 Step 10 Glide function
+548 XLFO 6 Step 10 Random
+549 XLFO 6 Step 11 Value
+550 XLFO 6 Step 11 Glide
+551 XLFO 6 Step 11 Glide function
+552 XLFO 6 Step 11 Random
+553 XLFO 6 Step 12 Value
+554 XLFO 6 Step 12 Glide
+555 XLFO 6 Step 12 Glide function
+556 XLFO 6 Step 12 Random
+557 XLFO 6 Step 13 Value
+558 XLFO 6 Step 13 Glide
+559 XLFO 6 Step 13 Glide function
+560 XLFO 6 Step 13 Random
+561 XLFO 6 Step 14 Value
+562 XLFO 6 Step 14 Glide
+563 XLFO 6 Step 14 Glide function
+564 XLFO 6 Step 14 Random
+565 XLFO 6 Step 15 Value
+566 XLFO 6 Step 15 Glide
+567 XLFO 6 Step 15 Glide function
+568 XLFO 6 Step 15 Random
+569 XLFO 6 Step 16 Value
+570 XLFO 6 Step 16 Glide
+571 XLFO 6 Step 16 Glide function
+572 XLFO 6 Step 16 Random
+573 Num Active EGs
+574 EG 1 Delay
+575 EG 1 Range
+576 EG 1 Threshold
+577 EG 1 Triggering
+578 EG 1 Attack
+579 EG 1 Attack Slope
+580 EG 1 Decay
+581 EG 1 Decay Slope
+582 EG 1 Sustain
+583 EG 1 Hold
+584 EG 1 Release
+585 EG 1 Release Slope
+586 EG 2 Delay
+587 EG 2 Range
+588 EG 2 Threshold
+589 EG 2 Triggering
+590 EG 2 Attack
+591 EG 2 Attack Slope
+592 EG 2 Decay
+593 EG 2 Decay Slope
+594 EG 2 Sustain
+595 EG 2 Hold
+596 EG 2 Release
+597 EG 2 Release Slope
+598 EG 3 Delay
+599 EG 3 Range
+600 EG 3 Threshold
+601 EG 3 Triggering
+602 EG 3 Attack
+603 EG 3 Attack Slope
+604 EG 3 Decay
+605 EG 3 Decay Slope
+606 EG 3 Sustain
+607 EG 3 Hold
+608 EG 3 Release
+609 EG 3 Release Slope
+610 EG 4 Delay
+611 EG 4 Range
+612 EG 4 Threshold
+613 EG 4 Triggering
+614 EG 4 Attack
+615 EG 4 Attack Slope
+616 EG 4 Decay
+617 EG 4 Decay Slope
+618 EG 4 Sustain
+619 EG 4 Hold
+620 EG 4 Release
+621 EG 4 Release Slope
+622 EG 5 Delay
+623 EG 5 Range
+624 EG 5 Threshold
+625 EG 5 Triggering
+626 EG 5 Attack
+627 EG 5 Attack Slope
+628 EG 5 Decay
+629 EG 5 Decay Slope
+630 EG 5 Sustain
+631 EG 5 Hold
+632 EG 5 Release
+633 EG 5 Release Slope
+634 EG 6 Delay
+635 EG 6 Range
+636 EG 6 Threshold
+637 EG 6 Triggering
+638 EG 6 Attack
+639 EG 6 Attack Slope
+640 EG 6 Decay
+641 EG 6 Decay Slope
+642 EG 6 Sustain
+643 EG 6 Hold
+644 EG 6 Release
+645 EG 6 Release Slope
+646 Num Active EFs
+647 EF 1 Input
+648 EF 1 Mode
+649 EF 1 Attack
+650 EF 1 Release
+651 EF 2 Input
+652 EF 2 Mode
+653 EF 2 Attack
+654 EF 2 Release
+655 EF 3 Input
+656 EF 3 Mode
+657 EF 3 Attack
+658 EF 3 Release
+659 EF 4 Input
+660 EF 4 Mode
+661 EF 4 Attack
+662 EF 4 Release
+663 Num Active MIDI Sources
+664 MIDI Source 1 Input
+665 MIDI Source 1 Controller Number
+666 MIDI Source 1 Response Curve
+667 MIDI Source 2 Input
+668 MIDI Source 2 Controller Number
+669 MIDI Source 2 Response Curve
+670 MIDI Source 3 Input
+671 MIDI Source 3 Controller Number
+672 MIDI Source 3 Response Curve
+673 MIDI Source 4 Input
+674 MIDI Source 4 Controller Number
+675 MIDI Source 4 Response Curve
+676 MIDI Source 5 Input
+677 MIDI Source 5 Controller Number
+678 MIDI Source 5 Response Curve
+679 MIDI Source 6 Input
+680 MIDI Source 6 Controller Number
+681 MIDI Source 6 Response Curve
+682 MIDI Source 7 Input
+683 MIDI Source 7 Controller Number
+684 MIDI Source 7 Response Curve
+685 MIDI Source 8 Input
+686 MIDI Source 8 Controller Number
+687 MIDI Source 8 Response Curve
+688 MIDI Source 9 Input
+689 MIDI Source 9 Controller Number
+690 MIDI Source 9 Response Curve
+691 MIDI Source 10 Input
+692 MIDI Source 10 Controller Number
+693 MIDI Source 10 Response Curve
+694 Audition Signal
+695 Channel Mode
+696 Processing Mode
+697 Unrestricted Feedback
+698 High Quality Mode
+699 Receive Midi
+700 Num Active Slots
+701 Slot 1 Source
+702 Slot 1 Level
+703 Slot 1 Bypassed
+704 Slot 1 Inverted
+705 Slot 1 Target
+706 Slot 2 Source
+707 Slot 2 Level
+708 Slot 2 Bypassed
+709 Slot 2 Inverted
+710 Slot 2 Target
+711 Slot 3 Source
+712 Slot 3 Level
+713 Slot 3 Bypassed
+714 Slot 3 Inverted
+715 Slot 3 Target
+716 Slot 4 Source
+717 Slot 4 Level
+718 Slot 4 Bypassed
+719 Slot 4 Inverted
+720 Slot 4 Target
+721 Slot 5 Source
+722 Slot 5 Level
+723 Slot 5 Bypassed
+724 Slot 5 Inverted
+725 Slot 5 Target
+726 Slot 6 Source
+727 Slot 6 Level
+728 Slot 6 Bypassed
+729 Slot 6 Inverted
+730 Slot 6 Target
+731 Slot 7 Source
+732 Slot 7 Level
+733 Slot 7 Bypassed
+734 Slot 7 Inverted
+735 Slot 7 Target
+736 Slot 8 Source
+737 Slot 8 Level
+738 Slot 8 Bypassed
+739 Slot 8 Inverted
+740 Slot 8 Target
+741 Slot 9 Source
+742 Slot 9 Level
+743 Slot 9 Bypassed
+744 Slot 9 Inverted
+745 Slot 9 Target
+746 Slot 10 Source
+747 Slot 10 Level
+748 Slot 10 Bypassed
+749 Slot 10 Inverted
+750 Slot 10 Target
+751 Slot 11 Source
+752 Slot 11 Level
+753 Slot 11 Bypassed
+754 Slot 11 Inverted
+755 Slot 11 Target
+756 Slot 12 Source
+757 Slot 12 Level
+758 Slot 12 Bypassed
+759 Slot 12 Inverted
+760 Slot 12 Target
+761 Slot 13 Source
+762 Slot 13 Level
+763 Slot 13 Bypassed
+764 Slot 13 Inverted
+765 Slot 13 Target
+766 Slot 14 Source
+767 Slot 14 Level
+768 Slot 14 Bypassed
+769 Slot 14 Inverted
+770 Slot 14 Target
+771 Slot 15 Source
+772 Slot 15 Level
+773 Slot 15 Bypassed
+774 Slot 15 Inverted
+775 Slot 15 Target
+776 Slot 16 Source
+777 Slot 16 Level
+778 Slot 16 Bypassed
+779 Slot 16 Inverted
+780 Slot 16 Target
+781 Slot 17 Source
+782 Slot 17 Level
+783 Slot 17 Bypassed
+784 Slot 17 Inverted
+785 Slot 17 Target
+786 Slot 18 Source
+787 Slot 18 Level
+788 Slot 18 Bypassed
+789 Slot 18 Inverted
+790 Slot 18 Target
+791 Slot 19 Source
+792 Slot 19 Level
+793 Slot 19 Bypassed
+794 Slot 19 Inverted
+795 Slot 19 Target
+796 Slot 20 Source
+797 Slot 20 Level
+798 Slot 20 Bypassed
+799 Slot 20 Inverted
+800 Slot 20 Target
+801 Slot 21 Source
+802 Slot 21 Level
+803 Slot 21 Bypassed
+804 Slot 21 Inverted
+805 Slot 21 Target
+806 Slot 22 Source
+807 Slot 22 Level
+808 Slot 22 Bypassed
+809 Slot 22 Inverted
+810 Slot 22 Target
+811 Slot 23 Source
+812 Slot 23 Level
+813 Slot 23 Bypassed
+814 Slot 23 Inverted
+815 Slot 23 Target
+816 Slot 24 Source
+817 Slot 24 Level
+818 Slot 24 Bypassed
+819 Slot 24 Inverted
+820 Slot 24 Target
+821 Slot 25 Source
+822 Slot 25 Level
+823 Slot 25 Bypassed
+824 Slot 25 Inverted
+825 Slot 25 Target
+826 Slot 26 Source
+827 Slot 26 Level
+828 Slot 26 Bypassed
+829 Slot 26 Inverted
+830 Slot 26 Target
+831 Slot 27 Source
+832 Slot 27 Level
+833 Slot 27 Bypassed
+834 Slot 27 Inverted
+835 Slot 27 Target
+836 Slot 28 Source
+837 Slot 28 Level
+838 Slot 28 Bypassed
+839 Slot 28 Inverted
+840 Slot 28 Target
+841 Slot 29 Source
+842 Slot 29 Level
+843 Slot 29 Bypassed
+844 Slot 29 Inverted
+845 Slot 29 Target
+846 Slot 30 Source
+847 Slot 30 Level
+848 Slot 30 Bypassed
+849 Slot 30 Inverted
+850 Slot 30 Target
+851 Slot 31 Source
+852 Slot 31 Level
+853 Slot 31 Bypassed
+854 Slot 31 Inverted
+855 Slot 31 Target
+856 Slot 32 Source
+857 Slot 32 Level
+858 Slot 32 Bypassed
+859 Slot 32 Inverted
+860 Slot 32 Target
+861 Slot 33 Source
+862 Slot 33 Level
+863 Slot 33 Bypassed
+864 Slot 33 Inverted
+865 Slot 33 Target
+866 Slot 34 Source
+867 Slot 34 Level
+868 Slot 34 Bypassed
+869 Slot 34 Inverted
+870 Slot 34 Target
+871 Slot 35 Source
+872 Slot 35 Level
+873 Slot 35 Bypassed
+874 Slot 35 Inverted
+875 Slot 35 Target
+876 Slot 36 Source
+877 Slot 36 Level
+878 Slot 36 Bypassed
+879 Slot 36 Inverted
+880 Slot 36 Target
+881 Slot 37 Source
+882 Slot 37 Level
+883 Slot 37 Bypassed
+884 Slot 37 Inverted
+885 Slot 37 Target
+886 Slot 38 Source
+887 Slot 38 Level
+888 Slot 38 Bypassed
+889 Slot 38 Inverted
+890 Slot 38 Target
+891 Slot 39 Source
+892 Slot 39 Level
+893 Slot 39 Bypassed
+894 Slot 39 Inverted
+895 Slot 39 Target
+896 Slot 40 Source
+897 Slot 40 Level
+898 Slot 40 Bypassed
+899 Slot 40 Inverted
+900 Slot 40 Target
+901 Slot 41 Source
+902 Slot 41 Level
+903 Slot 41 Bypassed
+904 Slot 41 Inverted
+905 Slot 41 Target
+906 Slot 42 Source
+907 Slot 42 Level
+908 Slot 42 Bypassed
+909 Slot 42 Inverted
+910 Slot 42 Target
+911 Slot 43 Source
+912 Slot 43 Level
+913 Slot 43 Bypassed
+914 Slot 43 Inverted
+915 Slot 43 Target
+916 Slot 44 Source
+917 Slot 44 Level
+918 Slot 44 Bypassed
+919 Slot 44 Inverted
+920 Slot 44 Target
+921 Slot 45 Source
+922 Slot 45 Level
+923 Slot 45 Bypassed
+924 Slot 45 Inverted
+925 Slot 45 Target
+926 Slot 46 Source
+927 Slot 46 Level
+928 Slot 46 Bypassed
+929 Slot 46 Inverted
+930 Slot 46 Target
+931 Slot 47 Source
+932 Slot 47 Level
+933 Slot 47 Bypassed
+934 Slot 47 Inverted
+935 Slot 47 Target
+936 Slot 48 Source
+937 Slot 48 Level
+938 Slot 48 Bypassed
+939 Slot 48 Inverted
+940 Slot 48 Target
+941 Slot 49 Source
+942 Slot 49 Level
+943 Slot 49 Bypassed
+944 Slot 49 Inverted
+945 Slot 49 Target
+946 Slot 50 Source
+947 Slot 50 Level
+948 Slot 50 Bypassed
+949 Slot 50 Inverted
+950 Slot 50 Target
+951 Host Bypass
+952 Internal
+953 Internal
+954 Internal
+955 MIDI CC
+956 Pitch Bend
+957 Channel Pressure
+958 MIDI CC
+959 MIDI CC
+960 MIDI CC
+961 MIDI CC
+962 MIDI CC
+963 MIDI CC
+964 MIDI CC
+965 MIDI CC
+966 MIDI CC
+967 MIDI CC
+968 MIDI CC
+969 MIDI CC
+970 MIDI CC
+971 MIDI CC
+972 MIDI CC
+973 MIDI CC
+974 MIDI CC
+975 MIDI CC
+976 MIDI CC
+977 MIDI CC
+978 MIDI CC
+979 MIDI CC
+980 MIDI CC
+981 MIDI CC
+982 MIDI CC
+983 MIDI CC
+984 MIDI CC
+985 MIDI CC
+986 MIDI CC
+987 MIDI CC
+988 MIDI CC
+989 MIDI CC
+990 MIDI CC
+991 MIDI CC
+992 MIDI CC
+993 MIDI CC
+994 MIDI CC
+995 MIDI CC
+996 MIDI CC
+997 MIDI CC
+998 MIDI CC
+999 MIDI CC
+1000 MIDI CC
+1001 MIDI CC
+1002 MIDI CC
+1003 MIDI CC
+1004 MIDI CC
+1005 MIDI CC
+1006 MIDI CC
+1007 MIDI CC
+1008 MIDI CC
+1009 MIDI CC
+1010 MIDI CC
+1011 MIDI CC
+1012 MIDI CC
+1013 MIDI CC
+1014 MIDI CC
+1015 MIDI CC
+1016 MIDI CC
+1017 MIDI CC
+1018 MIDI CC
+1019 MIDI CC
+1020 MIDI CC
+1021 MIDI CC
+1022 MIDI CC
+1023 MIDI CC
+1024 MIDI CC
+1025 MIDI CC
+1026 MIDI CC
+1027 MIDI CC
+1028 MIDI CC
+1029 MIDI CC
+1030 MIDI CC
+1031 MIDI CC
+1032 MIDI CC
+1033 MIDI CC
+1034 MIDI CC
+1035 MIDI CC
+1036 MIDI CC
+1037 MIDI CC
+1038 MIDI CC
+1039 MIDI CC
+1040 MIDI CC
+1041 MIDI CC
+1042 MIDI CC
+1043 MIDI CC
+1044 MIDI CC
+1045 MIDI CC
+1046 MIDI CC
+1047 MIDI CC
+1048 MIDI CC
+1049 MIDI CC
+1050 MIDI CC
+1051 MIDI CC
+1052 MIDI CC
+1053 MIDI CC
+1054 MIDI CC
+1055 MIDI CC
+1056 MIDI CC
+1057 MIDI CC
+1058 MIDI CC
+1059 MIDI CC
+1060 MIDI CC
+1061 MIDI CC
+1062 MIDI CC
+1063 MIDI CC
+1064 MIDI CC
+1065 MIDI CC
+1066 MIDI CC
+1067 MIDI CC
+1068 MIDI CC
+1069 MIDI CC
+1070 MIDI CC
+1071 MIDI CC
+1072 MIDI CC
+1073 MIDI CC
+1074 MIDI CC
+1075 MIDI CC
+1076 MIDI CC
+1077 MIDI CC
+1078 MIDI CC
+1079 MIDI CC
+1080 MIDI CC
+1081 MIDI CC
+1082 MIDI CC
+1083 MIDI CC
+1084 MIDI CC
+1085 MIDI CC
+1086 MIDI CC
+1087 Internal
+1088 Bypass
+1089 Wet
+1090 Delta

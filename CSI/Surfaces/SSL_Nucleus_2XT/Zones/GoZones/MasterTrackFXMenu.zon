@@ -1,0 +1,36 @@
+Zone "MasterTrackFXMenu"
+
+    DisplayUpper|            FXMenuNameDisplay
+    DisplayLower|            FXBypassedDisplay
+    Rotary|                  NoAction
+    RotaryPush|              Reaper _S&M_TOGLFLOATFX|           // Float the FX window
+    InvertFB+Mute|           ToggleFXBypass
+    Left                     Bank MasterTrackFXMenu -1
+    Right                    Bank MasterTrackFXMenu 1
+    
+    DisplayUpper8            TrackNameDisplay
+    
+    Fader8                   TrackVolume
+    Hold+Select8             TrackVolume [ 0.716 ] Feedback=No  // Sets fader to unity gain
+    Touch+DisplayLower8      TrackVolumeDisplay 
+    Mute8                    Reaper 14
+    Solo8                    Reaper 40917                       // Toggle Stereo/Mono
+    Select8                  TrackUniqueSelect
+    RotaryPush8              AllSurfacesGoHome
+    
+    Select1                  NoAction
+    Select2                  NoAction
+    Select3                  NoAction
+    Select4                  NoAction
+    Select5                  NoAction
+    Select6                  NoAction
+    Select7                  NoAction
+    Solo1                    NoAction
+    Solo2                    NoAction
+    Solo3                    NoAction
+    Solo4                    NoAction
+    Solo5                    NoAction
+    Solo6                    NoAction
+    Solo7                    NoAction 
+
+ZoneEnd

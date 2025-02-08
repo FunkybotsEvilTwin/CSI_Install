@@ -1,0 +1,251 @@
+Zone "VST3: TR5 CSR Hall (IK Multimedia)" "TR5 CSR Hall"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 26 [ 0  1  ] 
+	Rotary1	FXParam 2  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Mix" 
+	DisplayLower1	FXParamValueDisplay 2
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 12  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Diff" 
+	DisplayLower2	FXParamValueDisplay 12
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 5  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Time" 
+	DisplayLower3	FXParamValueDisplay 5
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 6  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Low T" 
+	DisplayLower4	FXParamValueDisplay 6
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 8  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "HF" 
+	DisplayLower5	FXParamValueDisplay 8
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 9  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "HF Dmp" 
+	DisplayLower6	FXParamValueDisplay 9
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 0  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "In" 
+	DisplayLower7	FXParamValueDisplay 0
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 1  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Out" 
+	DisplayLower8	FXParamValueDisplay 1
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 16  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "Mod Mov" 
+	Shift+DisplayLower1	FXParamValueDisplay 16
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 17  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "Lo Cut F" 
+	Shift+DisplayLower2	FXParamValueDisplay 17
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 18  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "Lo Cut G" 
+	Shift+DisplayLower3	FXParamValueDisplay 18
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 19  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "Hi Cut F" 
+	Shift+DisplayLower4	FXParamValueDisplay 19
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 20  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "Hi Cut G" 
+	Shift+DisplayLower5	FXParamValueDisplay 20
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 21  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "Time L" 
+	Shift+DisplayLower6	FXParamValueDisplay 21
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 22  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "Level L" 
+	Shift+DisplayLower7	FXParamValueDisplay 22
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 23  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "Time R" 
+	Shift+DisplayLower8	FXParamValueDisplay 23
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 In Level
+1 Out Level
+2 Mix
+3 In Image
+4 Out Image
+5 Rvb Time
+6 Low Time
+7 Crossover
+8 High Freq
+9 High Damp
+10 Pre Delay
+11 Size
+12 Diffusion
+13 Buildup
+14 Disperse
+15 Modulation
+16 Mod Move
+17 Lo Cut F
+18 Lo Cut G
+19 Hi Cut F
+20 Hi Cut G
+21 Time L
+22 Level L
+23 Time R
+24 Level R
+25 Bypass
+26 Bypass
+27 Wet
+28 Delta

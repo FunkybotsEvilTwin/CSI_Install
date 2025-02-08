@@ -1,0 +1,266 @@
+Zone "VST3: VBC Rack (Slate Digital)" "VBC Rack"
+
+#Begin auto generated section
+
+	Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush1	NoAction
+	DisplayUpper1	NoAction
+	DisplayLower1	NoAction
+
+
+	Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush2	NoAction
+	DisplayUpper2	NoAction
+	DisplayLower2	NoAction
+
+
+	Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush3	NoAction
+	DisplayUpper3	NoAction
+	DisplayLower3	NoAction
+
+
+	Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush4	NoAction
+	DisplayUpper4	NoAction
+	DisplayLower4	NoAction
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	NoAction
+	DisplayUpper5	NoAction
+	DisplayLower5	NoAction
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	NoAction
+	DisplayUpper6	NoAction
+	DisplayLower6	NoAction
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	NoAction
+	DisplayUpper7	NoAction
+	DisplayLower7	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	NoAction
+	DisplayUpper8	NoAction
+	DisplayLower8	NoAction
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	FXParam 5 [ 0 1 ]
+	Shift+DisplayUpper1	FixedTextDisplay "Grey Bypass" 
+	Shift+DisplayLower1	FXParamValueDisplay 5
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	FXParam 11  RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "MU In R" 
+	Option+DisplayLower1	FXParamValueDisplay 11
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 21  RingStyle=Dot
+	Option+DisplayUpper2	FixedTextDisplay "MU Tresh R" 
+	Option+DisplayLower2	FXParamValueDisplay 21
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 8  RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "MU Mkp R" 
+	Option+DisplayLower3	FXParamValueDisplay 8
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 36  RingStyle=Dot
+	Option+DisplayUpper4	FixedTextDisplay "MU Att R" 
+	Option+DisplayLower4	FXParamValueDisplay 36
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	FXParam 28  RingStyle=Dot
+	Option+DisplayUpper5	FixedTextDisplay "MU Rel R" 
+	Option+DisplayLower5	FXParamValueDisplay 28
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 38  RingStyle=Dot
+	Option+DisplayUpper6	FixedTextDisplay "MU HPF R" 
+	Option+DisplayLower6	FXParamValueDisplay 38
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Red Att
+1 Grey Mkp
+2 Rack Process Sequence
+3 MU Rel L
+4 MU Stereo Link
+5 Grey Bypass
+6 Red Ratio
+7 MU Mix
+8 MU Mkp R
+9 Red Meter Selector
+10 MU Mode
+11 MU In R
+12 Red Tresh
+13 MU In L
+14 Grey Att
+15 Solo
+16 Grey Auto Rel
+17 MU Tresh L
+18 MU Att L
+19 Grey Rel
+20 Grey Ratio
+21 MU Tresh R
+22 Red Auto Rel
+23 Bypass
+24 Red Rel
+25 Grey Mix
+26 Red Mkp
+27 Red Mix
+28 MU Rel R
+29 MU Mkp L
+30 MU Bypass
+31 Red Drive
+32 MU Meter Selector
+33 Grey Meter Selector
+34 Grey HPF
+35 Red Bypass
+36 MU Att R
+37 Red HPF
+38 MU HPF R
+39 MU HPF L
+40 Grey Tresh
+41 Bypass
+42 Wet
+43 Delta

@@ -1,0 +1,299 @@
+Zone "VST: MH ChannelStrip (Metric Halo)" "MH ChannelStrip"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 43  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "EQ3" 
+	DisplayLower1	FXParamValueDisplay 43
+
+	RotaryPush1	FXParam 42 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 44  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "" 
+	DisplayLower2	FXParamValueDisplay 44
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 45  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "" 
+	DisplayLower3	FXParamValueDisplay 45
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 38  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "EQ2" 
+	DisplayLower4	FXParamValueDisplay 38
+
+	RotaryPush4	FXParam 37 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 39  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "" 
+	DisplayLower5	FXParamValueDisplay 39
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 40  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "" 
+	DisplayLower6	FXParamValueDisplay 40
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	FXParam 30 [ 0 1 ]
+	DisplayUpper7	FixedTextDisplay "EQ In" 
+	DisplayLower7	FXParamValueDisplay 30
+
+
+	Rotary8	FXParam 61  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Out" 
+	DisplayLower8	FXParamValueDisplay 61
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 23  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "Rel" 
+	Shift+DisplayLower1	FXParamValueDisplay 23
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	FXParam 26 [ 0 1 ]
+	Shift+DisplayUpper2	FixedTextDisplay "SC" 
+	Shift+DisplayLower2	FXParamValueDisplay 26
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	FXParam 24 [ 0 1 ]
+	Shift+DisplayUpper3	FixedTextDisplay "Return" 
+	Shift+DisplayLower3	FXParamValueDisplay 24
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	FXParam 25 [ 0 0.2 0.4 0.6 0.8 1 ] RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "Filter" 
+	Shift+DisplayLower4	FXParamValueDisplay 25
+
+
+	Shift+Rotary5	FXParam 27  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "SC Gain" 
+	Shift+DisplayLower5	FXParamValueDisplay 27
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 28  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "SC Freq" 
+	Shift+DisplayLower6	FXParamValueDisplay 28
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 29  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "SC Band" 
+	Shift+DisplayLower7	FXParamValueDisplay 29
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	FXParam 12  RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "SC Freq" 
+	Option+DisplayLower1	FXParamValueDisplay 12
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 13  RingStyle=Dot
+	Option+DisplayUpper2	FixedTextDisplay "GSC BW" 
+	Option+DisplayLower2	FXParamValueDisplay 13
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	FXParam 3 [ 0 1 ]
+	Option+DisplayUpper3	FixedTextDisplay "Phase" 
+	Option+DisplayLower3	FXParamValueDisplay 3
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	FXParam 4 [ 0 1 ]
+	Option+DisplayUpper4	FixedTextDisplay "Gate" 
+	Option+DisplayLower4	FXParamValueDisplay 4
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	FXParam 14 [ 0 1 ]
+	Option+DisplayUpper5	FixedTextDisplay "Comp" 
+	Option+DisplayLower5	FXParamValueDisplay 14
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	FXParam 30 [ 0 1 ]
+	Option+DisplayUpper6	FixedTextDisplay "EQ" 
+	Option+DisplayLower6	FXParamValueDisplay 30
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	FXParam 62 [ 0 1 ]
+	Option+DisplayUpper7	FixedTextDisplay "Limit" 
+	Option+DisplayLower7	FXParamValueDisplay 62
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 MstrByps
+1 In Gain
+2 ChnnlDly
+3 PhsInvrt
+4 GatEnbl
+5 GtThrshl
+6 GtAttck
+7 GateRls
+8 GtSCRtng
+9 GtSCFltr
+10 GtSCEnbl
+11 GatSCGn
+12 GtSCFrqn
+13 GtSCBndw
+14 CmpEnbl
+15 CmpPstEq
+16 CmpEnAtG
+17 CmpKnee
+18 CmpOtGn
+19 CmpChrct
+20 CmpThrsh
+21 CmpRati
+22 CmpAttck
+23 CmpRels
+24 CmpSCRtn
+25 CmpSCFlt
+26 CmpSCEnb
+27 CmpSCGn
+28 CmpSCFrq
+29 CmpSCBnd
+30 EQMstrEn
+31 EQ1FltrT
+32 EQ1Enbl
+33 EQ1Gain
+34 EQ1Frqnc
+35 EQ1Bndwd
+36 EQ2FltrT
+37 EQ2Enbl
+38 EQ2Gain
+39 EQ2Frqnc
+40 EQ2Bndwd
+41 EQ3FltrT
+42 EQ3Enbl
+43 EQ3Gain
+44 EQ3Frqnc
+45 EQ3Bndwd
+46 EQ4FltrT
+47 EQ4Enbl
+48 EQ4Gain
+49 EQ4Frqnc
+50 EQ4Bndwd
+51 EQ5FltrT
+52 EQ5Enbl
+53 EQ5Gain
+54 EQ5Frqnc
+55 EQ5Bndwd
+56 EQ6FltrT
+57 EQ6Enbl
+58 EQ6Gain
+59 EQ6Frqnc
+60 EQ6Bndwd
+61 MastrGn
+62 LmtEnbl
+63 LmtThrsh
+64 LstnPnt
+65 AnlyzrPn
+66 EQTFRng
+67 GtSCTFRn
+68 CmpSCTFR
+69 EQAnlyzr
+70 GtAnlyzr
+71 CmpAnlyz
+72 GtGRRng
+73 CmpGRRng
+74 Bypass
+75 Wet
+76 Delta

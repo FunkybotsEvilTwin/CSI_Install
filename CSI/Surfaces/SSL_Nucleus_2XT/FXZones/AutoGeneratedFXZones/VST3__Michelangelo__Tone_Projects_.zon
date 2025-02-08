@@ -1,0 +1,324 @@
+Zone "VST3: Michelangelo (Tone Projects)" "Michelangelo"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 2  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Cal" 
+	DisplayLower1	FXParamValueDisplay 2
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 65  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Tube C" 
+	DisplayLower2	FXParamValueDisplay 65
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 66  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Tube B" 
+	DisplayLower3	FXParamValueDisplay 66
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 63  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Spread" 
+	DisplayLower4	FXParamValueDisplay 63
+
+	RotaryPush4	FXParam 64 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 67  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Cross" 
+	DisplayLower5	FXParamValueDisplay 67
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 5  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Scale" 
+	DisplayLower6	FXParamValueDisplay 5
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	FXParam 0 [ 0 0.33 0.67 1 ]
+	DisplayUpper7	FixedTextDisplay "Qual" 
+	DisplayLower7	FXParamValueDisplay 0
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 99 [ 0 1 ]
+	DisplayUpper8	FixedTextDisplay "Bypass" 
+	DisplayLower8	FXParamValueDisplay 99
+
+
+	Shift+Rotary1	FXParam 59  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "LPF" 
+	Shift+DisplayLower1	FXParamValueDisplay 59
+
+	Shift+RotaryPush1	FXParam 60 [ 0 0.25 0.5 0.75 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 61  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "HPF" 
+	Shift+DisplayLower2	FXParamValueDisplay 61
+
+	Shift+RotaryPush2	FXParam 62 [ 0 0.25 0.5 0.75 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 43  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "Band 5" 
+	Shift+DisplayLower3	FXParamValueDisplay 43
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 44  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "" 
+	Shift+DisplayLower4	FXParamValueDisplay 44
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 51  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "Band 6" 
+	Shift+DisplayLower5	FXParamValueDisplay 51
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 52  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "" 
+	Shift+DisplayLower6	FXParamValueDisplay 52
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Quality
+1 bypass
+2 Calibration
+3 Aggression
+4 Auto Gain
+5 EQ Scale
+6 Low
+7 Low Freq Tweak
+8 Low Mid/Side
+9 Low Trans/Body
+10 Low Shift
+11 Mid
+12 Mid Freq Tweak
+13 Mid Mid/Side
+14 Mid Trans/Body
+15 Mid Shift
+16 High
+17 High Freq Tweak
+18 High Mid/Side
+19 High Trans/Body
+20 High Shift
+21 Air
+22 Air Freq Tweak
+23 Air Mid/Side
+24 Air Trans/Body
+25 Air Shift
+26 Low Saturation
+27 Mid Saturation
+28 High Saturation
+29 Air Saturation
+30 Low Dyn Threshold
+31 Low Dyn Below Threshold
+32 Low Dyn Range
+33 Mid Dyn Threshold
+34 Mid Dyn Below Threshold
+35 Mid Dyn Range
+36 High Dyn Threshold
+37 High Dyn Below Threshold
+38 High Dyn Range
+39 Air Dyn Threshold
+40 Air Dyn Below Threshold
+41 Air Dyn Range
+42 Trim
+43 Band5 Freq
+44 Band5 Gain
+45 Band5 Type
+46 Band5 Mid/Side
+47 Band5 Trans/Body
+48 Band5 Dyn Threshold
+49 Band5 Dyn Below Threshold
+50 Band5 Dyn Range
+51 band6 Freq
+52 band6 Gain
+53 band6 Type
+54 band6 Mid/Side
+55 band6 Trans/Body
+56 band6 Dyn Threshold
+57 band6 Dyn Below Threshold
+58 band6 Dyn Range
+59 Lowpass Freq
+60 Lowpass Type
+61 Highpass Freq
+62 Highpass Type
+63 Spread
+64 Spread Flip
+65 Tube Comp
+66 Tube Blend
+67 Crosstalk
+68 Input
+69 Output
+70 Show Options
+71 Low Trans Duration
+72 Low Trans Sensitivity
+73 Mid Trans Duration
+74 Mid Trans Sensitivity
+75 High Trans Duration
+76 High Trans Sensitivity
+77 Air Trans Duration
+78 Air Trans Sensitivity
+79 Band5 Trans Duration
+80 Band5 Trans Sensitivity
+81 Band6 Trans Duration
+82 Band6 Trans Sensitivity
+83 Low Dyn Attack
+84 Low Dyn Release
+85 Mid Dyn Attack
+86 Mid Dyn Release
+87 High Dyn Attack
+88 High Dyn Release
+89 Air Dyn Attack
+90 Air Dyn Release
+91 Band5 Dyn Attack
+92 Band5 Dyn Release
+93 Band6 Dyn Attack
+94 Band6 Dyn Release
+95 Low Bypass
+96 Mid Bypass
+97 High Bypass
+98 Air Bypass
+99 Bypass
+100 Wet
+101 Delta

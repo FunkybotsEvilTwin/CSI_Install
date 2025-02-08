@@ -1,0 +1,273 @@
+Zone "VST3: Weiss Compressor Limiter (Softube)" "Weiss Compressor Limiter"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 11  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Filter" 
+	DisplayLower1	FXParamValueDisplay 11
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush2	FXParam 41 [ 0 1 ] RingStyle=
+	DisplayUpper2	FixedTextDisplay "Gang" 
+	DisplayLower2	FXParamValueDisplay 41
+
+
+	Rotary3	FXParam 7  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Chan" 
+	DisplayLower3	FXParamValueDisplay 7
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush4	FXParam 35 [ 0 1 ] RingStyle=
+	DisplayUpper4	FixedTextDisplay "MS" 
+	DisplayLower4	FXParamValueDisplay 35
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	FXParam 38 [ 0 1 ] RingStyle=
+	DisplayUpper5	FixedTextDisplay "Par Comp" 
+	DisplayLower5	FXParamValueDisplay 38
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	FXParam 3 [ 0 1 ] RingStyle=
+	DisplayUpper6	FixedTextDisplay "S Lim" 
+	DisplayLower6	FXParamValueDisplay 3
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	NoAction
+	DisplayUpper7	NoAction
+	DisplayLower7	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 48 [ 0 1 ]
+	DisplayUpper8	FixedTextDisplay "Bypass" 
+	DisplayLower8	FXParamValueDisplay 48
+
+
+	Shift+Rotary1	FXParam 23  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "Filter" 
+	Shift+DisplayLower1	FXParamValueDisplay 23
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Input Gain
+1 Output Gain
+2 Limiter Gain
+3 Safety Limiter
+4 Safety Limiter Mode
+5 Bypass
+6 Monitor
+7 Channel
+8 Auto Make-Up
+9 Preview
+10 RMS
+11 Filter Type 1
+12 Bandwidth 1
+13 Center Frequency 1
+14 Attack 1
+15 Release Delay 1
+16 Release Fast 1
+17 Average 1
+18 Release Slow 1
+19 Soft Knee 1
+20 Threshold 1
+21 Ratio 1
+22 Gain Make-Up 1
+23 Filter Type 2
+24 Bandwidth 2
+25 Center Frequency 2
+26 Attack 2
+27 Release Delay 2
+28 Release Fast 2
+29 Average 2
+30 Release Slow 2
+31 Soft Knee 2
+32 Threshold 2
+33 Ratio 2
+34 Gain Make-Up 2
+35 MS Mode
+36 Sidechain Link
+37 Sidechain
+38 Parallel Compression
+39 Parallel Mix
+40 Dither
+41 Ganged
+42 Knee Range
+43 Frequency Zoom
+44 Auto Release 1
+45 Auto Release 2
+46 Sidechain Filtering
+47 Bypass
+48 Bypass
+49 Wet
+50 Delta

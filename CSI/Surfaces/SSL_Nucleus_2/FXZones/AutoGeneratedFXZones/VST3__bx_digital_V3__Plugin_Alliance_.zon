@@ -1,0 +1,352 @@
+Zone "VST3: bx_digital V3 (Plugin Alliance)" "bx_digital V3"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 126 [ 0  1  ] 
+	Rotary1	FXParam 0 [ 0 1 ] RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Bypass"
+	DisplayLower1	FXParamValueDisplay 0
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 1 [ 0 0.33 0.67 1 ] RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Bank"
+	DisplayLower2	FXParamValueDisplay 1
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 2 RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Input Gain"
+	DisplayLower3	FXParamValueDisplay 2
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 3 RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Output Gain"
+	DisplayLower4	FXParamValueDisplay 3
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 4 RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Stereo Width"
+	DisplayLower5	FXParamValueDisplay 4
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 5 RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Balance L/R"
+	DisplayLower6	FXParamValueDisplay 5
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 6 RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Pan Mid"
+	DisplayLower7	FXParamValueDisplay 6
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 7 RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Pan Side"
+	DisplayLower8	FXParamValueDisplay 7
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 8 [ 0 1 ] RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "Auto Solo"
+	Shift+DisplayLower1	FXParamValueDisplay 8
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 9 [ 0 0.5 1 ] RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "Modus"
+	Shift+DisplayLower2	FXParamValueDisplay 9
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 10 [ 0 1 ] RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "Swap L/R"
+	Shift+DisplayLower3	FXParamValueDisplay 10
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 11 [ 0 1 ] RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "Auto Listen Active"
+	Shift+DisplayLower4	FXParamValueDisplay 11
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 12 [ 0 0.17 0.33 0.5 0.67 0.83 1 ] RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "Auto Listen Mode"
+	Shift+DisplayLower5	FXParamValueDisplay 12
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 13 [ 0 1 ] RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "EQ Active"
+	Shift+DisplayLower6	FXParamValueDisplay 13
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 14 [ 0 1 ] RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "Link Channels"
+	Shift+DisplayLower7	FXParamValueDisplay 14
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 15 RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "Gain Scale Amount"
+	Shift+DisplayLower8	FXParamValueDisplay 15
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 16 [ 0 1 ] RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "Gain Scale Active"
+	Option+DisplayLower1	FXParamValueDisplay 16
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 17 RingStyle=Dot
+	Option+DisplayUpper2	FixedTextDisplay "Mono-Maker Frequency"
+	Option+DisplayLower2	FXParamValueDisplay 17
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 18 [ 0 1 ] RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "Mono-Maker Active"
+	Option+DisplayLower3	FXParamValueDisplay 18
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 19 [ 0 1 ] RingStyle=Dot
+	Option+DisplayUpper4	FixedTextDisplay "Solo 1"
+	Option+DisplayLower4	FXParamValueDisplay 19
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	FXParam 20 [ 0 1 ] RingStyle=Dot
+	Option+DisplayUpper5	FixedTextDisplay "Solo 2"
+	Option+DisplayLower5	FXParamValueDisplay 20
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 21 [ 0 1 ] RingStyle=Dot
+	Option+DisplayUpper6	FixedTextDisplay "Proportional Q 1"
+	Option+DisplayLower6	FXParamValueDisplay 21
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 22 [ 0 1 ] RingStyle=Dot
+	Option+DisplayUpper7	FixedTextDisplay "Proportional Q 2"
+	Option+DisplayLower7	FXParamValueDisplay 22
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary8	FXParam 23 [ 0 0.5 1 ] RingStyle=Dot
+	Option+DisplayUpper8	FixedTextDisplay "High-pass 1 Slope"
+	Option+DisplayLower8	FXParamValueDisplay 23
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+
+0 Bypass
+1 Bank
+2 Input Gain
+3 Output Gain
+4 Stereo Width
+5 Balance L/R
+6 Pan Mid
+7 Pan Side
+8 Auto Solo
+9 Modus
+10 Swap L/R
+11 Auto Listen Active
+12 Auto Listen Mode
+13 EQ Active
+14 Link Channels
+15 Gain Scale Amount
+16 Gain Scale Active
+17 Mono-Maker Frequency
+18 Mono-Maker Active
+19 Solo 1
+20 Solo 2
+21 Proportional Q 1
+22 Proportional Q 2
+23 High-pass 1 Slope
+24 High-pass 1 Frequency
+25 Low-pass 1 Slope
+26 Low-pass 1 Frequency
+27 High-pass 2 Slope
+28 High-pass 2 Frequency
+29 Low-pass 2 Slope
+30 Low-pass 2 Frequency
+31 EQ Band LF 1 Type
+32 EQ Band LF 1 Gain
+33 EQ Band LF 1 Q
+34 EQ Band LF 1 Frequency
+35 EQ Band LF 1 Active
+36 EQ Band LMF 1 Type
+37 EQ Band LMF 1 Gain
+38 EQ Band LMF 1 Q
+39 EQ Band LMF 1 Frequency
+40 EQ Band LMF 1 Active
+41 EQ Band MF 1 Type
+42 EQ Band MF 1 Gain
+43 EQ Band MF 1 Q
+44 EQ Band MF 1 Frequency
+45 EQ Band MF 1 Active
+46 EQ Band HMF 1 Type
+47 EQ Band HMF 1 Gain
+48 EQ Band HMF 1 Q
+49 EQ Band HMF 1 Frequency
+50 EQ Band HMF 1 Active
+51 EQ Band HF 1 Type
+52 EQ Band HF 1 Gain
+53 EQ Band HF 1 Q
+54 EQ Band HF 1 Frequency
+55 EQ Band HF 1 Active
+56 EQ Band LF 2 Type
+57 EQ Band LF 2 Gain
+58 EQ Band LF 2 Q
+59 EQ Band LF 2 Frequency
+60 EQ Band LF 2 Active
+61 EQ Band LMF 2 Type
+62 EQ Band LMF 2 Gain
+63 EQ Band LMF 2 Q
+64 EQ Band LMF 2 Frequency
+65 EQ Band LMF 2 Active
+66 EQ Band MF 2 Type
+67 EQ Band MF 2 Gain
+68 EQ Band MF 2 Q
+69 EQ Band MF 2 Frequency
+70 EQ Band MF 2 Active
+71 EQ Band HMF 2 Type
+72 EQ Band HMF 2 Gain
+73 EQ Band HMF 2 Q
+74 EQ Band HMF 2 Frequency
+75 EQ Band HMF 2 Active
+76 EQ Band HF 2 Type
+77 EQ Band HF 2 Gain
+78 EQ Band HF 2 Q
+79 EQ Band HF 2 Frequency
+80 EQ Band HF 2 Active
+81 Bass Shift 1 Tone
+82 Bass Shift 1 Gain
+83 Bass Shift 1 Active
+84 Presence Shift 1 Tone
+85 Presence Shift 1 Gain
+86 Presence Shift 1 Active
+87 Bass Shift 2 Tone
+88 Bass Shift 2 Gain
+89 Bass Shift 2 Active
+90 Presence Shift 2 Tone
+91 Presence Shift 2 Gain
+92 Presence Shift 2 Active
+93 Dynamic EQ 1 Position
+94 Dynamic EQ 1 Range
+95 Dynamic EQ 1 Frequency
+96 Dynamic EQ 1 Speed
+97 Dynamic EQ 1 Solo
+98 Dynamic EQ 1 Active
+99 Dynamic EQ 2 Position
+100 Dynamic EQ 2 Range
+101 Dynamic EQ 2 Frequency
+102 Dynamic EQ 2 Speed
+103 Dynamic EQ 2 Solo
+104 Dynamic EQ 2 Active
+105 Link High-Pass 1
+106 Link Low-Pass 1
+107 Link EQ Band LF 1
+108 Link EQ Band LMF 1
+109 Link EQ Band MF 1
+110 Link EQ Band HMF 1
+111 Link EQ Band HF 1
+112 Link Bass Shift 1
+113 Link Presence Shift 1
+114 Link Dynamic EQ 1
+115 Link High-Pass 2
+116 Link Low-Pass 2
+117 Link EQ Band LF 2
+118 Link EQ Band LMF 2
+119 Link EQ Band MF 2
+120 Link EQ Band HMF 2
+121 Link EQ Band HF 2
+122 Link Bass Shift 2
+123 Link Presence Shift 2
+124 Link Dynamic EQ 2
+125 Bypass
+126 Bypass
+127 Wet
+128 Delta

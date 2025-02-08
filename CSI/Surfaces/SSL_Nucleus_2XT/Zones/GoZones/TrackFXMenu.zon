@@ -1,0 +1,22 @@
+Zone TrackFXMenu
+
+    OnZoneActivation       Reaper 40913   // Track: Vertical scroll selected tracks into view
+    OnZoneDeactivation     ClearModifiers 
+
+    DisplayUpper|          TrackNameDisplay
+    DisplayLower|          FXMenuNameDisplay
+    Select|                TrackUniqueSelect
+    RotaryPush|            ShowFXSlot
+    RotaryPush|            GoFXSlot
+    Shift+RotaryPush|      Reaper _S&M_FXBYP|              //Bypass FX Slot
+				       
+    Up                     Bank TrackFXMenu -1
+    Down                   Bank TrackFXMenu 1
+				       
+    Esc                    AllSurfacesGoHome
+     
+// To unmap and close the focused FX returning to the previous zone. This prevents the unfocusing FX problem.
+
+    F2                     Reaper _RSa79773b81ca82d98b618f3bc8b79e3ba8616085a     // MT4U_FX_SHOW_HIDE_CloseFocused.eel
+    F2                     ClearFocusedFX
+ZoneEnd

@@ -1,0 +1,55 @@
+Zone Track
+
+    DisplayUpper|                            TrackNameDisplay
+    DisplayLower|                            FixedTextDisplay ""
+    
+    Touch+DisplayLower|                      TrackVolumeDisplay 
+    
+    Alt+DisplayLower1                        FixedTextDisplay "SIP"
+    Control+Alt+DisplayLower1                NoAction
+    
+    Fader|                                   TrackVolume
+    Flip+Fader|                              TrackPan
+    Flip+Rotary|                             TrackVolume
+    
+    Shift+Option+DisplayLower|               TrackAutoModeDisplay
+    Shift+Option+Select|                     CycleTrackAutoMode
+    
+    Solo|                                    TrackSolo
+    Hold+Solo|                               ClearAllSolo Feedback=No
+    Option+Solo1                             Reaper 40745                                                // Solo in front (dim solo)
+    
+    Alt+Solo|                                TrackSolo
+    Alt+Solo|                                Reaper _b34471a91fd4264dab539ecc8a9e94f1 Feedback=No    //Solo in place Selected track
+    
+    Mute|                                    TrackMute
+    Alt+Mute|                                TrackInvertPolarity 
+    Select|                                  TrackUniqueSelect
+    
+    Hold+Select|                             TrackVolume [ 0.716 ] Feedback=No                                // Sets fader to unity gain
+    Shift+Select|                            TrackRangeSelect    
+    Control+Select|                          TrackSelect
+    
+    Toggle+DisplayLower|                     TrackPanAutoRightDisplay
+    Alt+RotaryPush|                          ToggleChannel Feedback=No
+    Rotary|                                  TrackPanAutoLeft RingStyle=Dot
+    Toggle+Rotary|                           TrackPanAutoRight RingStyle=Dot
+     
+    RecordArm|                               TrackRecordArm
+    Control+Option+RecordArm|                CycleTrackInputMonitor Feedback=No
+    Control+Option+DisplayLower|             TrackInputMonitorDisplay
+     
+    VUMeter|                                 TrackOutputMeterMaxPeakLR 
+    
+    RotaryPush1                              LearnFocusedFX                    
+    RotaryPush2                              NoAction                
+    RotaryPush3                              NoAction                
+    RotaryPush4                              NoAction                
+    RotaryPush5                              NoAction                
+    RotaryPush6                              NoAction                
+    RotaryPush7                              NoAction                
+    RotaryPush8                              NoAction
+    Hold+RotaryPush8                         GoZone MasterTrackFXMenu Feedback=No    
+
+ 
+ZoneEnd

@@ -1,0 +1,263 @@
+Zone "VST3: TR5 Linear Phase EQ (IK Multimedia)" "TR5 Linear Phase EQ"
+
+#Begin auto generated section
+	Rotary1	FXParam 0 RingStyle=Fill
+	DisplayUpper1	FixedTextDisplay "Band 1 Gain"
+	DisplayLower1	FXParamValueDisplay 0
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 1 RingStyle=Fill
+	DisplayUpper2	FixedTextDisplay "Band 1 LP/HP Resonance"
+	DisplayLower2	FXParamValueDisplay 1
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 2 RingStyle=Fill
+	DisplayUpper3	FixedTextDisplay "Band 1 Active"
+	DisplayLower3	FXParamValueDisplay 2
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 3 RingStyle=Fill
+	DisplayUpper4	FixedTextDisplay "Band 1 Freq"
+	DisplayLower4	FXParamValueDisplay 3
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 4 RingStyle=Fill
+	DisplayUpper5	FixedTextDisplay "Band 1 Q (Peaking)"
+	DisplayLower5	FXParamValueDisplay 4
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 5 RingStyle=Fill
+	DisplayUpper6	FixedTextDisplay "Band 1 Q (Shelving)"
+	DisplayLower6	FXParamValueDisplay 5
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 6 RingStyle=Fill
+	DisplayUpper7	FixedTextDisplay "Band 2 Gain"
+	DisplayLower7	FXParamValueDisplay 6
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 7 RingStyle=Fill
+	DisplayUpper8	FixedTextDisplay "Band 2 LP/HP Resonance"
+	DisplayLower8	FXParamValueDisplay 7
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 8 RingStyle=Fill
+	Shift+DisplayUpper1	FixedTextDisplay "Band 2 Active"
+	Shift+DisplayLower1	FXParamValueDisplay 8
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 9 RingStyle=Fill
+	Shift+DisplayUpper2	FixedTextDisplay "Band 2 Freq"
+	Shift+DisplayLower2	FXParamValueDisplay 9
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 10 RingStyle=Fill
+	Shift+DisplayUpper3	FixedTextDisplay "Band 2 Q (Peaking)"
+	Shift+DisplayLower3	FXParamValueDisplay 10
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 11 RingStyle=Fill
+	Shift+DisplayUpper4	FixedTextDisplay "Band 2 Q (Shelving)"
+	Shift+DisplayLower4	FXParamValueDisplay 11
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 12 RingStyle=Fill
+	Shift+DisplayUpper5	FixedTextDisplay "Band 3 Gain"
+	Shift+DisplayLower5	FXParamValueDisplay 12
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 13 RingStyle=Fill
+	Shift+DisplayUpper6	FixedTextDisplay "Band 3 LP/HP Resonance"
+	Shift+DisplayLower6	FXParamValueDisplay 13
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 14 RingStyle=Fill
+	Shift+DisplayUpper7	FixedTextDisplay "Band 3 Active"
+	Shift+DisplayLower7	FXParamValueDisplay 14
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 15 RingStyle=Fill
+	Shift+DisplayUpper8	FixedTextDisplay "Band 3 Freq"
+	Shift+DisplayLower8	FXParamValueDisplay 15
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 16 RingStyle=Fill
+	Option+DisplayUpper1	FixedTextDisplay "Band 3 Q (Peaking)"
+	Option+DisplayLower1	FXParamValueDisplay 16
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 17 RingStyle=Fill
+	Option+DisplayUpper2	FixedTextDisplay "Band 3 Q (Shelving)"
+	Option+DisplayLower2	FXParamValueDisplay 17
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 18 RingStyle=Fill
+	Option+DisplayUpper3	FixedTextDisplay "Band 4 Gain"
+	Option+DisplayLower3	FXParamValueDisplay 18
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 19 RingStyle=Fill
+	Option+DisplayUpper4	FixedTextDisplay "Band 4 LP/HP Resonance"
+	Option+DisplayLower4	FXParamValueDisplay 19
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	FXParam 20 RingStyle=Fill
+	Option+DisplayUpper5	FixedTextDisplay "Band 4 Active"
+	Option+DisplayLower5	FXParamValueDisplay 20
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 21 RingStyle=Fill
+	Option+DisplayUpper6	FixedTextDisplay "Band 4 Freq"
+	Option+DisplayLower6	FXParamValueDisplay 21
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 22 RingStyle=Fill
+	Option+DisplayUpper7	FixedTextDisplay "Band 4 Q (Peaking)"
+	Option+DisplayLower7	FXParamValueDisplay 22
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary8	FXParam 23 RingStyle=Fill
+	Option+DisplayUpper8	FixedTextDisplay "Band 4 Q (Shelving)"
+	Option+DisplayLower8	FXParamValueDisplay 23
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+
+0 Band 1 Gain
+1 Band 1 LP/HP Resonance
+2 Band 1 Active
+3 Band 1 Freq
+4 Band 1 Q (Peaking)
+5 Band 1 Q (Shelving)
+6 Band 2 Gain
+7 Band 2 LP/HP Resonance
+8 Band 2 Active
+9 Band 2 Freq
+10 Band 2 Q (Peaking)
+11 Band 2 Q (Shelving)
+12 Band 3 Gain
+13 Band 3 LP/HP Resonance
+14 Band 3 Active
+15 Band 3 Freq
+16 Band 3 Q (Peaking)
+17 Band 3 Q (Shelving)
+18 Band 4 Gain
+19 Band 4 LP/HP Resonance
+20 Band 4 Active
+21 Band 4 Freq
+22 Band 4 Q (Peaking)
+23 Band 4 Q (Shelving)
+24 Band 5 Gain
+25 Band 5 LP/HP Resonance
+26 Band 5 Active
+27 Band 5 Freq
+28 Band 5 Q (Peaking)
+29 Band 5 Q (Shelving)
+30 Band 6 Gain
+31 Band 6 LP/HP Resonance
+32 Band 6 Active
+33 Band 6 Freq
+34 Band 6 Q (Peaking)
+35 Band 6 Q (Shelving)
+36 OutputLevel
+37 Bypass
+38 Bypass
+39 Wet
+40 Delta

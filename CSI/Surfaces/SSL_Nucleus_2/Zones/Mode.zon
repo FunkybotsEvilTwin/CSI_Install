@@ -1,0 +1,37 @@
+Zone Mode
+     
+     Up                            Reaper _S&M_CYCLACTION_8                     // CUSTOM - MD Toggle Latch/Touch           
+     Hold+Up                       Reaper 42022                                 // Global automation override: All automation in latch preview mode       
+     Down                          Reaper _f4647b0df163b04bb43a71ade5384e0e     // Custom: CUSTOM - MD Write automation to time selection      
+     Alt+Down                      Reaper 42017                                 // Automation: Write current values for actively-writing envelopes to entire envelope     
+     Left                          Reaper _bac997ef714f2c4bb3d268d62ac02937     // Custom: CUSTOM - MD write current automation to start of project
+     Right                         Reaper _2cffe502f5c81a43ad8cfc8acb1f61bc     // Custom: CUSTOM - MD write current automation to end of project
+                                   
+     Prev                          Reaper 40625                                 // Time selection: Set start point
+     Next                          Reaper 40626                                 // Time selection: Set end point
+     Cycle                         CycleTimeline
+     Alt+Cycle                     Reaper _S&M_CYCLACTION_9                     // CUSTOM  - Cycle through all tracks automation mode  
+     
+     F3                            Reaper 42019                                 // Track: Apply volume envelope to trim envelope, clear volume envelope
+     F4                            Reaper 42018                                 // Track: Apply trim envelope to volume envelope, clear trim envelope
+     
+     Rec                           Reaper _30e56ab101287e47a96c9d208bac3655     // Custom: CUSTOM - MD Arm all active envelopes on all tracks
+     Param                         Reaper 41152                                 // Envelope: Toggle show all envelopes for all tracks
+     Alt+Param                     Reaper _dcb3a419d0d95c4b8206fc26fd6c961d     // Custom: CUSTOM - MD Toggle display all visible envelopes in lanes for all tracks
+     
+     Scrub                         Reaper 40878                                 // Global automation override: All automation in trim/read mode
+     Scrub                         GoSubZone "Scrub" 
+     Scrub                         Reaper 41150                                 // Envelope: Hide all envelopes for all tracks
+     
+     InvertFB+Mode                 Reaper 40876                                 // Global automation override: No override (set automation modes per track)
+     InvertFB+Mode                 Reaper 41150                                 // Envelope: Hide all envelopes for all tracks    
+     
+      Mode                         LeaveSubZone
+     
+     
+// Assigment Display
+
+     Mode                          SendMIDIMessage "B0 4B 13" Feedback=No
+     Mode                          SendMIDIMessage "B0 4A 05" Feedback=No
+     
+ZoneEnd

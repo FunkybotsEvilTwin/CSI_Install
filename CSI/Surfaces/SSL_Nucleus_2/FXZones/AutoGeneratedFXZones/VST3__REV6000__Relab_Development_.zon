@@ -1,0 +1,342 @@
+Zone "VST3: REV6000 (Relab Development)"
+
+#Begin auto generated section
+
+	InvertFB+Param FXParam 50 [ 0  1  ] 
+	
+	Rotary1	FXParam 5
+	DisplayUpper1	FixedTextDisplay "Type"
+	DisplayLower1	FXParamValueDisplay 5
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 9
+	DisplayUpper2	FixedTextDisplay "Decay"
+	DisplayLower2	FXParamValueDisplay 9
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 10
+	DisplayUpper3	FixedTextDisplay "PDL"
+	DisplayLower3	FXParamValueDisplay 10
+
+	RotaryPush3 NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Rotary4	FXParam 11
+	DisplayUpper4	FixedTextDisplay ""
+	DisplayLower4	FXParamValueDisplay 11
+
+	RotaryPush4	FXParam 48 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Rotary5	FXParam 12
+	DisplayUpper5	FixedTextDisplay "Size"
+	DisplayLower5	FXParamValueDisplay 12
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 26
+	DisplayUpper6	FixedTextDisplay "Hi Cut"
+	DisplayLower6	FXParamValueDisplay 26
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	NoAction
+	DisplayUpper7	NoAction
+	DisplayLower7	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	NoAction
+	DisplayUpper8	NoAction
+	DisplayLower8	NoAction
+
+
+
+
+
+	Shift+Rotary1	FXParam 13
+	Shift+DisplayUpper1	FixedTextDisplay "E Sta"
+	Shift+DisplayLower1	FXParamValueDisplay 13
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction	
+	NullDisplay	NoAction
+
+	Shift+Rotary2	FXParam 14
+	Shift+DisplayUpper2	FixedTextDisplay "E Sto"
+	Shift+DisplayLower2	FXParamValueDisplay 14
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction	
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	FXParam 15 [ 0 1 ]
+	Shift+DisplayUpper3	FixedTextDisplay "Type"
+	Shift+DisplayLower3	FXParamValueDisplay 15
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction	
+	NullDisplay	NoAction
+
+	Shift+Rotary4	FXParam 16
+	Shift+DisplayUpper4	FixedTextDisplay "Diff"
+	Shift+DisplayLower4	FXParamValueDisplay 16
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction	
+	NullDisplay	NoAction
+
+	Shift+Rotary5	FXParam 12
+	Shift+DisplayUpper5	FixedTextDisplay "Size"
+	Shift+DisplayLower5	FXParamValueDisplay 12
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction	
+	NullDisplay	NoAction
+
+	Shift+Rotary6	FXParam 17
+	Shift+DisplayUpper6	FixedTextDisplay "Mod"
+	Shift+DisplayLower6	FXParamValueDisplay 17
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction	
+	NullDisplay	NoAction
+
+	Shift+Rotary7	FXParam 18
+	Shift+DisplayUpper7	FixedTextDisplay "Rate"
+	Shift+DisplayLower7	FXParamValueDisplay 18
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction	
+	NullDisplay	NoAction
+
+	Shift+Rotary8	FXParam 19
+	Shift+DisplayUpper8	FixedTextDisplay "Depth"
+	Shift+DisplayLower8	FXParamValueDisplay 19
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 32
+	Option+DisplayUpper1	FixedTextDisplay "Lo"
+	Option+DisplayLower1	FXParamValueDisplay 32
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 36
+	Option+DisplayUpper2	FixedTextDisplay ""
+	Option+DisplayLower2	FXParamValueDisplay 36
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 33
+	Option+DisplayUpper3	FixedTextDisplay "LM"
+	Option+DisplayLower3	FXParamValueDisplay 33
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 37
+	Option+DisplayUpper4	FixedTextDisplay ""
+	Option+DisplayLower4	FXParamValueDisplay 37
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	FXParam 34
+	Option+DisplayUpper5	FixedTextDisplay "HM"
+	Option+DisplayLower5	FXParamValueDisplay 34
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 38
+	Option+DisplayUpper6	FixedTextDisplay ""
+	Option+DisplayLower6	FXParamValueDisplay 38
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 35
+	Option+DisplayUpper7	FixedTextDisplay "Hi"
+	Option+DisplayLower7	FXParamValueDisplay 35
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary8	NoAction
+	Option+DisplayUpper	NoAction
+	Option+Displaylower	NoAction
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+		
+	Shift+Option+Rotary1	FXParam 39
+	Shift+Option+DisplayUpper1	FixedTextDisplay "Lo"
+	Shift+Option+DisplayLower1	FXParamValueDisplay 39
+
+	Shift+Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Option+Rotary2	FXParam 43
+	Shift+Option+DisplayUpper2	FixedTextDisplay ""
+	Shift+Option+DisplayLower2	FXParamValueDisplay 43
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Option+Rotary3	FXParam 40
+	Shift+Option+DisplayUpper3	FixedTextDisplay "LM"
+	Shift+Option+DisplayLower3	FXParamValueDisplay 40
+
+	Shift+Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Option+Rotary4	FXParam 44
+	Shift+Option+DisplayUpper4	FixedTextDisplay ""
+	Shift+Option+DisplayLower4	FXParamValueDisplay 44
+
+	Shift+Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Option+Rotary5	FXParam 41
+	Shift+Option+DisplayUpper5	FixedTextDisplay "HM"
+	Shift+Option+DisplayLower5	FXParamValueDisplay 41
+
+	Shift+Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Option+Rotary6	FXParam 45
+	Shift+Option+DisplayUpper6	FixedTextDisplay ""
+	Shift+Option+DisplayLower6	FXParamValueDisplay 45
+
+	Shift+Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Option+Rotary7	FXParam 42
+	Shift+Option+DisplayUpper7	FixedTextDisplay "Hi"
+	Shift+Option+DisplayLower7	FXParamValueDisplay 42
+
+	Shift+Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Option+Rotary8	NoAction
+	Shift+Option+DisplayUpper8	NoAction
+	Shift+Option+DisplayLower8	NoAction
+
+	Shift+Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+	FXParam 0 "Dry Level"
+	FXParam 1 "Early Level"
+	FXParam 2 "Reverb Level"
+	FXParam 3 "Input Level"
+	FXParam 4 "Output Level"
+	FXParam 5 "Location Type"
+	FXParam 6 "ER Lo Color"
+	FXParam 7 "ER Hi Color"
+	FXParam 8 "ER Decrease"
+	FXParam 9 "Decay"
+	FXParam 10 "Pre Delay"
+	FXParam 11 "Pre Delay (Sync)"
+	FXParam 12 "Reverb Size"
+	FXParam 13 "ER Start"
+	FXParam 14 "ER Stop"
+	FXParam 15 "Reverb Type"
+	FXParam 16 "Reverb Diffuse"
+	FXParam 17 "Modulation Type"
+	FXParam 18 "Modulation Rate"
+	FXParam 19 "Modulation Depth"
+	FXParam 20 "Output Format"
+	FXParam 21 "Center Channel"
+	FXParam 22 "Channel Decay Left"
+	FXParam 23 "Channel Decay Right"
+	FXParam 24 "Lo Cut"
+	FXParam 25 "Lo Damp"
+	FXParam 26 "Hi Cut"
+	FXParam 27 "Hi Soften"
+	FXParam 28 "Lo Cut Right"
+	FXParam 29 "Lo Damp Right"
+	FXParam 30 "Hi Cut Right"
+	FXParam 31 "Hi Soften Right"
+	FXParam 32 "Lo Decay"
+	FXParam 33 "Lo Mid Decay"
+	FXParam 34 "Hi Mid Decay"
+	FXParam 35 "Hi Decay"
+	FXParam 36 "Lo Xover"
+	FXParam 37 "Mid Xover"
+	FXParam 38 "Hi Xover"
+	FXParam 39 "Lo Decay Right"
+	FXParam 40 "L Mid Decay Right"
+	FXParam 41 "H Mid Decay Right"
+	FXParam 42 "Hi Decay Right"
+	FXParam 43 "Lo Xover Right"
+	FXParam 44 "Mid Xover Right"
+	FXParam 45 "Hi Xover Right"
+	FXParam 46 "delayCrossoverSwitch"
+	FXParam 47 "selectedChannel"
+	FXParam 48 "Delay Format"
+	FXParam 49 "Bypass"
+	FXParam 50 "Bypass"
+	FXParam 51 "Wet"
+	FXParam 52 "Delta"

@@ -1,0 +1,394 @@
+Zone "VST3: iZotope Ozone 7 Dynamic EQ (iZotope, Inc.)" "iZotope Ozone 7 Dynamic EQ"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 168 [ 0  1  ] 
+	Rotary1	FXParam 0 RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "GAIN: Input L (Locked)"
+	DisplayLower1	FXParamValueDisplay 0
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 1 RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "GAIN: Input L (Unlocked)"
+	DisplayLower2	FXParamValueDisplay 1
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 2 RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "GAIN: Input R (Unlocked)"
+	DisplayLower3	FXParamValueDisplay 2
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 3 RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "GAIN: Output L (Locked)"
+	DisplayLower4	FXParamValueDisplay 3
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 4 RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "GAIN: Ouput L (Unlocked)"
+	DisplayLower5	FXParamValueDisplay 4
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 5 RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "GAIN: Output R (Unlocked)"
+	DisplayLower6	FXParamValueDisplay 5
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 6 RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Global Bypass"
+	DisplayLower7	FXParamValueDisplay 6
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 7 RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Global Dirty Flag"
+	DisplayLower8	FXParamValueDisplay 7
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 8 RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "DYNEQ: Bypass"
+	Shift+DisplayLower1	FXParamValueDisplay 8
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 9 RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "DYNEQ: St/M/L Frequency 1"
+	Shift+DisplayLower2	FXParamValueDisplay 9
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 10 RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "DYNEQ: St/M/L Gain 1"
+	Shift+DisplayLower3	FXParamValueDisplay 10
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 11 RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "DYNEQ: St/M/L Offset Gain 1"
+	Shift+DisplayLower4	FXParamValueDisplay 11
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 12 RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "DYNEQ: St/M/L Q 1"
+	Shift+DisplayLower5	FXParamValueDisplay 12
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 13 RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "DYNEQ: St/M/L Threshold 1"
+	Shift+DisplayLower6	FXParamValueDisplay 13
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 14 RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "DYNEQ: St/M/L Enable 1"
+	Shift+DisplayLower7	FXParamValueDisplay 14
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 15 RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "DYNEQ: St/M/L Shape 1"
+	Shift+DisplayLower8	FXParamValueDisplay 15
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 16 RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "DYNEQ: St/M/L Inverse Mode 1"
+	Option+DisplayLower1	FXParamValueDisplay 16
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 17 RingStyle=Dot
+	Option+DisplayUpper2	FixedTextDisplay "DYNEQ: St/M/L Attack 1"
+	Option+DisplayLower2	FXParamValueDisplay 17
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 18 RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "DYNEQ: St/M/L Release 1"
+	Option+DisplayLower3	FXParamValueDisplay 18
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 19 RingStyle=Dot
+	Option+DisplayUpper4	FixedTextDisplay "DYNEQ: St/M/L Auto Attack 1"
+	Option+DisplayLower4	FXParamValueDisplay 19
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	FXParam 20 RingStyle=Dot
+	Option+DisplayUpper5	FixedTextDisplay "DYNEQ: St/M/L Auto Release 1"
+	Option+DisplayLower5	FXParamValueDisplay 20
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 21 RingStyle=Dot
+	Option+DisplayUpper6	FixedTextDisplay "DYNEQ: St/M/L Auto Attack/Release 1"
+	Option+DisplayLower6	FXParamValueDisplay 21
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 22 RingStyle=Dot
+	Option+DisplayUpper7	FixedTextDisplay "DYNEQ: St/M/L Frequency 2"
+	Option+DisplayLower7	FXParamValueDisplay 22
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary8	FXParam 23 RingStyle=Dot
+	Option+DisplayUpper8	FixedTextDisplay "DYNEQ: St/M/L Gain 2"
+	Option+DisplayLower8	FXParamValueDisplay 23
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+
+0 GAIN: Input L (Locked)
+1 GAIN: Input L (Unlocked)
+2 GAIN: Input R (Unlocked)
+3 GAIN: Output L (Locked)
+4 GAIN: Ouput L (Unlocked)
+5 GAIN: Output R (Unlocked)
+6 Global Bypass
+7 Global Dirty Flag
+8 DYNEQ: Bypass
+9 DYNEQ: St/M/L Frequency 1
+10 DYNEQ: St/M/L Gain 1
+11 DYNEQ: St/M/L Offset Gain 1
+12 DYNEQ: St/M/L Q 1
+13 DYNEQ: St/M/L Threshold 1
+14 DYNEQ: St/M/L Enable 1
+15 DYNEQ: St/M/L Shape 1
+16 DYNEQ: St/M/L Inverse Mode 1
+17 DYNEQ: St/M/L Attack 1
+18 DYNEQ: St/M/L Release 1
+19 DYNEQ: St/M/L Auto Attack 1
+20 DYNEQ: St/M/L Auto Release 1
+21 DYNEQ: St/M/L Auto Attack/Release 1
+22 DYNEQ: St/M/L Frequency 2
+23 DYNEQ: St/M/L Gain 2
+24 DYNEQ: St/M/L Offset Gain 2
+25 DYNEQ: St/M/L Q 2
+26 DYNEQ: St/M/L Threshold 2
+27 DYNEQ: St/M/L Enable
+28 DYNEQ: St/M/L Shape 2
+29 DYNEQ: St/M/L Inverse Mode 2
+30 DYNEQ: St/M/L Attack 2
+31 DYNEQ: St/M/L Release 2
+32 DYNEQ: St/M/L Auto Attack 2
+33 DYNEQ: St/M/L Auto Release 2
+34 DYNEQ: St/M/L Auto Attack/Release 2
+35 DYNEQ: St/M/L Frequency 3
+36 DYNEQ: St/M/L Gain 3
+37 DYNEQ: St/M/L Offset Gain 3
+38 DYNEQ: St/M/L Q 3
+39 DYNEQ: St/M/L Threshold 3
+40 DYNEQ: St/M/L Enable 3
+41 DYNEQ: St/M/L Shape 3
+42 DYNEQ: St/M/L Inverse Mode 3
+43 DYNEQ: St/M/L Attack 3
+44 DYNEQ: St/M/L Release 3
+45 DYNEQ: St/M/L Auto Attack 3
+46 DYNEQ: St/M/L Auto Release 3
+47 DYNEQ: St/M/L Auto Attack/Release 3
+48 DYNEQ: St/M/L Frequency 4
+49 DYNEQ: St/M/L Gain 4
+50 DYNEQ: St/M/L Offset Gain 4
+51 DYNEQ: St/M/L Q 4
+52 DYNEQ: St/M/L Threshold 4
+53 DYNEQ: St/M/L Enable 4
+54 DYNEQ: St/M/L Shape 4
+55 DYNEQ: St/M/L Inverse Mode 4
+56 DYNEQ: St/M/L Attack 4
+57 DYNEQ: St/M/L Release 4
+58 DYNEQ: St/M/L Auto Attack 4
+59 DYNEQ: St/M/L Auto Release 4
+60 DYNEQ: St/M/L Auto Attack/Release 4
+61 DYNEQ: St/M/L Frequency 5
+62 DYNEQ: St/M/L Gain 5
+63 DYNEQ: St/M/L Offset Gain 5
+64 DYNEQ: St/M/L Q 5
+65 DYNEQ: St/M/L Threshold 5
+66 DYNEQ: St/M/L Enable 5
+67 DYNEQ: St/M/L Shape 5
+68 DYNEQ: St/M/L Inverse Mode 5
+69 DYNEQ: St/M/L Attack 5
+70 DYNEQ: St/M/L Release 5
+71 DYNEQ: St/M/L Auto Attack 5
+72 DYNEQ: St/M/L Auto Release 5
+73 DYNEQ: St/M/L Auto Attack/Release 5
+74 DYNEQ: St/M/L Frequency 6
+75 DYNEQ: St/M/L Gain 6
+76 DYNEQ: St/M/L Offset Gain 6
+77 DYNEQ: St/M/L Q 6
+78 DYNEQ: St/M/L Threshold 6
+79 DYNEQ: St/M/L Enable 6
+80 DYNEQ: St/M/L Shape 6
+81 DYNEQ: St/M/L Inverse Mode 6
+82 DYNEQ: St/M/L Attack 6
+83 DYNEQ: St/M/L Release 6
+84 DYNEQ: St/M/L Auto Attack 6
+85 DYNEQ: St/M/L Auto Release 6
+86 DYNEQ: St/M/L Auto Attack/Release 6
+87 DYNEQ: S/R Frequency 1
+88 DYNEQ: S/R Gain 1
+89 DYNEQ: S/R Offset Gain 1
+90 DYNEQ: S/R Q 1
+91 DYNEQ: S/R Threshold 1
+92 DYNEQ: S/R Enable 1
+93 DYNEQ: S/R Shape 1
+94 DYNEQ: S/R Inverse Mode 1
+95 DYNEQ: S/R Attack 1
+96 DYNEQ: S/R Release 1
+97 DYNEQ: S/R Auto Attack 1
+98 DYNEQ: S/R Auto Release 1
+99 DYNEQ: S/R Auto Attack/Release 1
+100 DYNEQ: S/R Frequency 2
+101 DYNEQ: S/R Gain 2
+102 DYNEQ: S/R Offset Gain 2
+103 DYNEQ: S/R Q 2
+104 DYNEQ: S/R Threshold 2
+105 DYNEQ: S/R Enable 2
+106 DYNEQ: S/R Shape 2
+107 DYNEQ: S/R Inverse Mode 2
+108 DYNEQ: S/R Attack 2
+109 DYNEQ: S/R Release 2
+110 DYNEQ: S/R Auto Attack 2
+111 DYNEQ: S/R Auto Release 2
+112 DYNEQ: S/R Auto Attack/Release 2
+113 DYNEQ: S/R Frequency 3
+114 DYNEQ: S/R Gain 3
+115 DYNEQ: S/R Offset Gain 3
+116 DYNEQ: S/R Q 3
+117 DYNEQ: S/R Threshold 3
+118 DYNEQ: S/R Enable 3
+119 DYNEQ: S/R Shape 3
+120 DYNEQ: S/R Inverse Mode 3
+121 DYNEQ: S/R Attack 3
+122 DYNEQ: S/R Release 3
+123 DYNEQ: S/R Auto Attack 3
+124 DYNEQ: S/R Auto Release 3
+125 DYNEQ: S/R Auto Attack/Release 3
+126 DYNEQ: S/R Frequency 4
+127 DYNEQ: S/R Gain 4
+128 DYNEQ: S/R Offset Gain 4
+129 DYNEQ: S/R Q 4
+130 DYNEQ: S/R Threshold 4
+131 DYNEQ: S/R Band Enable 4
+132 DYNEQ: S/R Shape 4
+133 DYNEQ: S/R Inverse Mode 4
+134 DYNEQ: S/R Attack 4
+135 DYNEQ: S/R Release 4
+136 DYNEQ: S/R Auto Attack 4
+137 DYNEQ: S/R Auto Release 4
+138 DYNEQ: S/R Auto Attack/Release 4
+139 DYNEQ: S/R Frequency 5
+140 DYNEQ: S/R Gain 5
+141 DYNEQ: S/R Offset Gain 5
+142 DYNEQ: S/R Q 5
+143 DYNEQ: S/R Threshold 5
+144 DYNEQ: S/R Enable 5
+145 DYNEQ: S/R Shape 5
+146 DYNEQ: S/R Inverse Mode 5
+147 DYNEQ: S/R Attack 5
+148 DYNEQ: S/R Release 5
+149 DYNEQ: S/R Auto Attack 5
+150 DYNEQ: S/R Auto Release 5
+151 DYNEQ: S/R Auto Attack/Release 5
+152 DYNEQ: S/R Frequency 6
+153 DYNEQ: S/R Gain 6
+154 DYNEQ: S/R Offset Gain 6
+155 DYNEQ: S/R Q 6
+156 DYNEQ: S/R Threshold 6
+157 DYNEQ: S/R Band Enable 6
+158 DYNEQ: S/R Shape 6
+159 DYNEQ: S/R Inverse Mode 6
+160 DYNEQ: S/R Attack 6
+161 DYNEQ: S/R Release 6
+162 DYNEQ: S/R Auto Attack 6
+163 DYNEQ: S/R Auto Release 6
+164 DYNEQ: S/R Auto Attack/Release 6
+165 DYNEQ: Mid/Left Processing Bypass
+166 DYNEQ: Side/Right Processing Bypass
+167 DYNEQ: Processing Mode
+168 Bypass
+169 Wet
+170 Delta

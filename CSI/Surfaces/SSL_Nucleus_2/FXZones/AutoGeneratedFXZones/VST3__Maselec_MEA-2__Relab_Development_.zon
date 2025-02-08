@@ -1,0 +1,327 @@
+Zone "VST3: Maselec MEA-2 (Relab Development)" "Maselec MEA-2"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 53 [ 0  1  ] 
+
+
+	Rotary1	FXParam 5  RingStyle=Fill
+	DisplayUpper1	FixedTextDisplay "Band 1" 
+	DisplayLower1	FXParamValueDisplay 5
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary2	FXParam 6  RingStyle=Fill
+	DisplayUpper2	FixedTextDisplay "" 
+	DisplayLower2	FXParamValueDisplay 6
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+	Rotary3	FXParam 11  RingStyle=Fill
+	DisplayUpper3	FixedTextDisplay "Band 2" 
+	DisplayLower3	FXParamValueDisplay 11
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary4	FXParam 12  RingStyle=Fill
+	DisplayUpper4	FixedTextDisplay "" 
+	DisplayLower4	FXParamValueDisplay 12
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary5	FXParam 17  RingStyle=Fill
+	DisplayUpper5	FixedTextDisplay "Band 3" 
+	DisplayLower5	FXParamValueDisplay 17
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary6	FXParam 18  RingStyle=Fill
+	DisplayUpper6	FixedTextDisplay "" 
+	DisplayLower6	FXParamValueDisplay 18
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary7	FXParam 23  RingStyle=Fill
+	DisplayUpper7	FixedTextDisplay "Band 4" 
+	DisplayLower7	FXParamValueDisplay 23
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Rotary8	FXParam 24  RingStyle=Fill
+	DisplayUpper8	FixedTextDisplay "" 
+	DisplayLower8	FXParamValueDisplay 24
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary1	FXParam 4  RingStyle=Fill
+	Shift+DisplayUpper1	FixedTextDisplay "Band 1" 
+	Shift+DisplayLower1	FXParamValueDisplay 4
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	FXParam 8 [ 0 1 ]
+	Shift+DisplayUpper2	FixedTextDisplay "Link" 
+	Shift+DisplayLower2	FXParamValueDisplay 8
+
+
+
+
+	Shift+Rotary3	FXParam 10  RingStyle=Fill
+	Shift+DisplayUpper3	FixedTextDisplay "Band 2" 
+	Shift+DisplayLower3	FXParamValueDisplay 10
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	FXParam 14 [ 0 1 ]
+	Shift+DisplayUpper4	FixedTextDisplay "Link" 
+	Shift+DisplayLower4	FXParamValueDisplay 14
+
+
+
+
+	Shift+Rotary5	FXParam 16  RingStyle=Fill
+	Shift+DisplayUpper5	FixedTextDisplay "Band 3" 
+	Shift+DisplayLower5	FXParamValueDisplay 16
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	FXParam 20 [ 0 1 ]
+	Shift+DisplayUpper6	FixedTextDisplay "Link" 
+	Shift+DisplayLower6	FXParamValueDisplay 20
+
+
+
+
+	Shift+Rotary7	FXParam 22  RingStyle=Fill
+	Shift+DisplayUpper7	FixedTextDisplay "Band 4" 
+	Shift+DisplayLower7	FXParamValueDisplay 22
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	FXParam 26 [ 0 1 ]
+	Shift+DisplayUpper8	FixedTextDisplay "Link" 
+	Shift+DisplayLower8	FXParamValueDisplay 26
+
+
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	FXParam 9 [ 0 1 ] RingStyle=Fill
+	Option+DisplayUpper1	FixedTextDisplay "Solo 1" 
+	Option+DisplayLower1	FXParamValueDisplay 9
+
+
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	FXParam 15 [ 0 1 ] RingStyle=
+	Option+DisplayUpper2	FixedTextDisplay "Solo 2" 
+	Option+DisplayLower2	FXParamValueDisplay 15
+
+
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	FXParam 21 [ 0 1 ] RingStyle=
+	Option+DisplayUpper3	FixedTextDisplay "Solo 3" 
+	Option+DisplayLower3	FXParamValueDisplay 21
+
+
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	FXParam 27 [ 0 1 ] RingStyle=
+	Option+DisplayUpper4	FixedTextDisplay "Solo 4" 
+	Option+DisplayLower4	FXParamValueDisplay 27
+
+
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	FXParam 33 [ 0 1 ] RingStyle=
+	Option+DisplayUpper5	FixedTextDisplay "Solo 5" 
+	Option+DisplayLower5	FXParamValueDisplay 33
+
+
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	FXParam 39 [ 0 1 ] RingStyle=
+	Option+DisplayUpper6	FixedTextDisplay "Solo 6" 
+	Option+DisplayLower6	FXParamValueDisplay 39
+
+
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	FXParam 45 [ 0 1 ] RingStyle=Fill
+	Option+DisplayUpper7	FixedTextDisplay "Solo 7" 
+	Option+DisplayLower7	FXParamValueDisplay 45
+
+
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	FXParam 51 [ 0 1 ] RingStyle=
+	Option+DisplayUpper8	FixedTextDisplay "Solo 8" 
+	Option+DisplayLower8	FXParamValueDisplay 51
+
+
+
+
+#End auto generated section
+ZoneEnd
+0 Balance
+1 Gain
+2 Active Left
+3 Active Right
+4 L/M Low Band 1 dB/Oct
+5 L/M Low Band 1 Frequency
+6 L/M Low Band 1 Cut/Boost
+7 L/M Low Band 1 Mode
+8 L/M Low Band 1 Link
+9 L/M Low Band 1 Solo
+10 L/M Low Band 2 dB/Oct
+11 L/M Low Band 2 Frequency
+12 L/M Low Band 2 Cut/Boost
+13 L/M Low Band 2 Mode
+14 L/M Low Band 2 Link
+15 L/M Low Band 2 Solo
+16 L/M High Band 1 dB/Oct
+17 L/M High Band 1 Frequency
+18 L/M High Band 1 Cut/Boost
+19 L/M High Band 1 Mode
+20 L/M High Band 1 Link
+21 L/M High Band 1 Solo
+22 L/M High Band 2 dB/Oct
+23 L/M High Band 2 Frequency
+24 L/M High Band 2 Cut/Boost
+25 L/M High Band 2 Mode
+26 L/M High Band 2 Link
+27 L/M High Band 2 Solo
+28 R/S Low Band 1 dB/Oct
+29 R/S Low Band 1 Frequency
+30 R/S Low Band 1 Cut/Boost
+31 R/S Low Band 1 Mode
+32 R/S Low Band 1 Link
+33 R/S Low Band 1 Solo
+34 R/S Low Band 2 dB/Oct
+35 R/S Low Band 2 Frequency
+36 R/S Low Band 2 Cut/Boost
+37 R/S Low Band 2 Mode
+38 R/S Low Band 2 Link
+39 R/S Low Band 2 Solo
+40 R/S High Band 1 dB/Oct
+41 R/S High Band 1 Frequency
+42 R/S High Band 1 Cut/Boost
+43 R/S High Band 1 Mode
+44 R/S High Band 1 Link
+45 R/S High Band 1 Solo
+46 R/S High Band 2 dB/Oct
+47 R/S High Band 2 Frequency
+48 R/S High Band 2 Cut/Boost
+49 R/S High Band 2 Mode
+50 R/S High Band 2 Link
+51 R/S High Band 2 Solo
+52 Bypass
+53 Bypass
+54 Wet
+55 Delta

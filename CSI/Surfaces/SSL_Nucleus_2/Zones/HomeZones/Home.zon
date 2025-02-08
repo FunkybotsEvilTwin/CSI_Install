@@ -1,0 +1,179 @@
+Zone Home
+    OnInitialization         ToggleRestrictTextLength 6
+    
+    IncludedZones
+      Track
+    IncludedZonesEnd 
+ 
+    SubZones
+     "Scrub"
+     "Mode"
+     "FXMode"
+    SubZonesEnd
+
+
+/////////////////////////////////////////////////////////NOTES////////////////////////////////////////////////////////
+// For use with CSI version 7.0                                                                                     //
+//                                                                                                                  //
+// This surface relies heavily upon third-party scripts. In order to get these zone files to function as designed,  //
+// you would need to locate these third-party scripts (they are documented in the comments and readily available),  //
+// install them on your Reaper instance, then update the long string with the Command ID from your Reaper action    //
+// list. Once you do that, these zones will work as intended.                                                       //
+//                                                                                                                  //
+// Additionally, you can of course, modify the mapping to your liking and not use third-party scripts at all.       //
+// Thanks to MixR for providing these files.                                                                        //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//  Track Buttons Assign
+ 
+    Instrument                     Reaper _RS4e6cbe8d54af7b17bb872a2012dccfec17e7647f          // MT4U_F_FX1.eel
+    Alt+Instrument                 Reaper _RS8e8526d3b5953ac25b2dcdb01142dee228438331          // MT4U_F_FX1_Add.eel
+    Plugin                         GoZone SelectedTrackFXMenu                                  
+    Hold+Plugin                    GoZone TrackFXMenu Feedback=No                              
+    EQ                             Reaper _RSaf64797924604bbe143b610b88a813a9578036bf          // MT4U_F_EQ.eel   
+    Alt+EQ                         Reaper _RS1775f56c7275cc4bc288ebc4b269ac7a03d51b97          // MT4U_F_EQ_Add.eel
+    Pan                            GoZone TrackReceive
+    Send                           GoZone TrackSend
+    Hold+Send                      GoZone SelectedTrackSend Feedback=No
+    Track                          GoZone Folder  
+    Hold+Track                     GoZone VCA Feedback=No                       
+    Press7                         Reaper _RS22fada72458a97c4ca544a226a97f86f6400e8ff          // MT4U_F_FX2.eel
+    Alt+Press7                     Reaper _RS45912c74476d96532f96b2c21caf1862854ee138          // MT4U_F_FX2_Add.eel
+    Press8                         Reaper _RS11370f8deb55aa4a0c2fc11ab98bc34c296e7c35          // MT4U_F_FX3.eel
+    Alt+Press8                     Reaper _RSc27c99a782f310c6d336a6458be3a5426106da0a          // MT4U_F_FX3_Add.eel
+    Press9                         Reaper 40939                                                // Select Track 1
+    Press9                         Bank -2000
+    Press9                         Reaper _SWSSNAPSHOT_GET1                                    // SWS: Recall snapshot 1
+    Press10                        Reaper 40939                                                // Select Track 1
+    Press10                        Bank -2000
+    Press10                        Reaper _SWSSNAPSHOT_GET2                                    // SWS: Recall snapshot 2
+    Press11                        Reaper 40939                                                // Select Track 1
+    Press11                        Bank -2000                              
+    Press11                        Reaper _SWSSNAPSHOT_GET3                                    // SWS: Recall snapshot 3     
+    Press12                        Reaper 40939                                                // Select Track 1
+    Press12                        Bank -2000
+    Press12                        Reaper _SWSSNAPSHOT_GET4                                    // SWS: Recall snapshot 4
+    Press13                        Reaper 40939                                                // Select Track 1
+    Press13                        Bank -2000
+    Press13                        Reaper _SWSSNAPSHOT_GET5                                    // SWS: Recall snapshot 5
+    Press14                        Reaper 40939                                                // Select Track 1
+    Press14                        Bank -2000     
+    Press14                        Reaper _SWSSNAPSHOT_GET6                                    // SWS: Recall snapshot 6
+    Press15                        Reaper 40939                                                // Select Track 1   
+    Press15                        Bank -2000     
+    Press15                        Reaper _SWSSNAPSHOT_GET7                                    // SWS: Recall snapshot 7     
+    Press16                        Reaper _SWSTL_SHOWALL                                       // SWS: Show all tracks
+
+     
+// Fader Banks and Display
+
+    BankLeft                       Bank Track -16
+    BankRight                      Bank Track 16
+    Ctrl+BankLeft                  Bank Track -8
+    Ctrl+BankRight                 Bank Track 8
+    ChannelLeft                    Bank Track -1                                        
+    ChannelRight                   Bank Track 1 
+    Flip                           Flip
+    Param                          GoSubZone "FXMode"
+     Alt+Param                     ToggleEnableFocusedFXMapping
+
+    
+// Assigment Display
+     
+    Pan                            SendMIDIMessage "B0 4B 10" Feedback=No
+    Pan                            SendMIDIMessage "B0 4A 4E" Feedback=No
+    Send                           SendMIDIMessage "B0 4B 13" Feedback=No
+    Send                           SendMIDIMessage "B0 4A 4E" Feedback=No
+    Track                          SendMIDIMessage "B0 4B 06" Feedback=No
+    Track                          SendMIDIMessage "B0 4A 4C" Feedback=No
+    Hold+Track                     SendMIDIMessage "B0 4B 15" Feedback=No
+    Hold+Track                     SendMIDIMessage "B0 4A 03" Feedback=No
+    Plugin                         SendMIDIMessage "B0 4B 10" Feedback=No
+    Plugin                         SendMIDIMessage "B0 4A 4E" Feedback=No
+    Hold+Plugin                    SendMIDIMessage "B0 4B 10" Feedback=No
+    Hold+Plugin                    SendMIDIMessage "B0 4A 4E" Feedback=No
+    Esc                            SendMIDIMessage "B0 4B 13" Feedback=No
+    Esc                            SendMIDIMessage "B0 4A 05" Feedback=No
+    F3                             SendMIDIMessage "B0 4B 4C" Feedback=No
+    F3                             SendMIDIMessage "B0 4A 4E" Feedback=No
+    Mode                           SendMIDIMessage "B0 4B 01" Feedback=No
+    Mode                           SendMIDIMessage "B0 4A 14" Feedback=No
+     
+
+// Functions
+
+    F1                             Reaper 40078                                                        // View: Toggle mixer visible 
+    F2                             Reaper _S&M_WNCLS3                                                  // SWS/S&M: Close all floating FX windows
+    F3                             LearnFocusedFX                                                      
+    F4                             Reaper _RS635b27b648e6951856fb6df5775548fa9d835b1d                  // MT4U_F_Spectrum_Analyzer_Master.eel
+     
+     
+// To unmap and close the focused FX returning to the previous zone. This prevents the unfocusing FX problem.
+
+     F2                            Reaper _RSa79773b81ca82d98b618f3bc8b79e3ba8616085a Feedback=No      // MT4U_FX_SHOW_HIDE_CloseFocused.eel
+     F2                            ClearFocusedFX Feedback=No
+
+
+// To swap the focused FX with the next/prev on our list
+
+     Alt+Left                      ClearFocusedFX Feedback=No
+     InvertFB+Alt+Left             Reaper _RS309093bc433baa2c16653dcd6dadbcf10adb254a                  // MT4U_FX_Focused_Swap_Prev.eel
+     Alt+Right                     ClearFocusedFX Feedback=No
+     InvertFB+Alt+Right            Reaper _RS4f294371881c4f9d078530109fc0ed9f7b47eb92                  // MT4U_FX_Focused_Swap_Next.eel
+     Alt+Up                        Reaper _RS3a627b642d80553ce6ba41e73e163a20948e5088 Feedback=No      // MT4U_FX_Focused_PrevInCat.eel
+     Alt+Down                      Reaper _RSd9e59f8ff8cdc2fead386104aab20c1e6ba42077 Feedback=No      // MT4U_FX_Focused_NextInCat.eel
+     Hold+Alt+Down                 Reaper _RSd6c4c46e90bd80bdd6eff4f0a74bd23812c4eb07 Feedback=No      // MT4U_FX_Focused_Add.eel
+
+
+// Modifiers Section
+
+    Shift                          Shift   
+    Option                         Option  
+    Control                        Control 
+    Alt                            Alt   
+   
+   
+// Utilities Section
+    
+    Save                           SaveProject 
+    Undo                           Undo
+    Hold+Undo                      Reaper 40072                                                        // View: Show undo history window
+    Shift+Undo                     Redo
+    Enter                          Enter
+    Esc                            AllSurfacesGoHome        
+
+
+// Transport Buttons
+ 
+    Prev                           Reaper _RSc6ef40525beeb5f10e72687d9ce187ff806e9fc1                  // Move cursor to previous clip                                          
+    Next                           Reaper _RS4c53c5517b7406a10cbafba8aca2a7314eed5fac                  // Move curso to next clip                                     
+    Shift+Prev                     Reaper 40630                                                        // Go to start of time selection
+    Shift+Next                     Reaper 40631                                                        // Go to end of time selection           
+    Stop                           Stop                                                                
+    Hold+Stop                      Reaper 40042 Feedback=No                                            // Return to Zero
+    Play                           Play        
+    Rec                            Record 
+    Cycle                          CycleTimeline
+
+
+// Jogwheel and Navigation
+
+    Scrub                          GoSubZone "Scrub"       
+    Decrease+JogWheel              Reaper 40840                                                        // Move edit cursor back one measure (no seek)  
+    Increase+JogWheel              Reaper 40839                                                        // Move edit cursor forward one measure (no seek)                                                          
+    Control+Alt+Decrease+JogWheel  Reaper 40138                                                        // Scroll view up
+    Control+Alt+Increase+JogWheel  Reaper 40139                                                        // Scroll view down 
+    Control+Decrease+JogWheel      Reaper 40112                                                        // Zoom out vertical   
+    Control+Increase+JogWheel      Reaper 40111                                                        // Zoom in vertical
+    Alt+Decrease+JogWheel          Reaper 1011                                                         // Zoom out horizontal           
+    Alt+Increase+JogWheel          Reaper 1012                                                         // Zoom in horizontal      
+    Left                           Reaper _SWS_SCROLL_L10                                              // SWS: Scroll left 10%
+    Right                          Reaper _SWS_SCROLL_R10                                              // SWS: Scroll right 10%   
+    Up                             Reaper _XENAKIOS_TVPAGEUP                                           // Xenakios/SWS: Scroll track view up (page)
+    Down                           Reaper _XENAKIOS_TVPAGEDOWN                                         // Xenakios-SWS: Scroll track view down  
+    Mode                           GoSubZone "Mode"                                                    
+    Mode                           Reaper 40881 Feedback=No                                            // Global automation override: All automation in latch mode
+    Mode                           Reaper _2f83d0ddd7de04438a50c836d74ae8aa Feedback=No                // ***Custom: CUSTOM - MD Show all Send envelopes for all tracks***
+                                
+ZoneEnd

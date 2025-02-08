@@ -1,0 +1,261 @@
+Zone "VST3: Analog Channel AC101 (McDSP)" "Analog Channel AC101"
+
+#Begin auto generated section
+
+	InvertFB+Param FXParam 11 [ 0  1  ] 
+	#Cell 1  
+	Rotary1 FXParam 0 RingStyle=Dot
+	DisplayUpper1 FixedTextDisplay "Input" 
+	DisplayLower1 FXParamValueDisplay 0 
+
+	RotaryPush1 NoAction
+	DisplayUpper1 NullDisplay
+	DisplayLower1 NullDisplay
+
+
+	#Cell 2  
+	Rotary2 FXParam 1 RingStyle=Dot
+	DisplayUpper2 FixedTextDisplay "Output" 
+	DisplayLower2 FXParamValueDisplay 1 
+
+	RotaryPush2 NoAction
+	DisplayUpper2 NullDisplay
+	DisplayLower2 NullDisplay
+
+
+	#Cell 3  
+	Rotary3 NoAction
+	NullDisplay NoAction 
+	NullDisplay NoAction
+
+	RotaryPush3 FXParam 2 [ 0 1 ] RingStyle=Dot
+	DisplayUpper3 FixedTextDisplay "Auto" 
+	DisplayLower3 FXParamValueDisplay 2 
+
+
+	#Cell 4  
+	Rotary4 NoAction
+	DisplayUpper4 NoAction
+	DisplayLower4 NoAction
+
+	RotaryPush4 NoAction
+	DisplayUpper4 NullDisplay
+	DisplayLower4 NullDisplay
+
+
+	#Cell 5  
+	Rotary5 FXParam 3 RingStyle=Dot
+	DisplayUpper5 FixedTextDisplay "Drive" 
+	DisplayLower5 FXParamValueDisplay 3 
+
+	RotaryPush5 NoAction
+	DisplayUpper5 NullDisplay
+	DisplayLower5 NullDisplay
+
+
+	#Cell 6  
+	Rotary6 FXParam 4 RingStyle=Dot
+	DisplayUpper6 FixedTextDisplay "Curve" 
+	DisplayLower6 FXParamValueDisplay 4 
+
+	RotaryPush6 NoAction
+	DisplayUpper6 NullDisplay
+	DisplayLower6 NullDisplay
+
+
+	#Cell 7  
+	Rotary7 FXParam 5 RingStyle=Dot
+	DisplayUpper7 FixedTextDisplay "Attack" 
+	DisplayLower7 FXParamValueDisplay 5 
+
+	RotaryPush7 NoAction
+	DisplayUpper7 NullDisplay
+	DisplayLower7 NullDisplay
+
+
+	#Cell 8  
+	Rotary8 FXParam 6 RingStyle=Dot
+	DisplayUpper8 FixedTextDisplay "Release" 
+	DisplayLower8 FXParamValueDisplay 6 
+
+	RotaryPush8 NoAction
+	DisplayUpper8 NullDisplay
+	DisplayLower8 NullDisplay
+
+
+	#Cell 1 Shift+ 
+	Shift+Rotary1 FXParam 8 RingStyle=Dot
+	Shift+DisplayUpper1 FixedTextDisplay "UI Scale" 
+	Shift+DisplayLower1 FXParamValueDisplay 8 
+
+	Shift+RotaryPush1 NoAction
+	Shift+DisplayUpper1 NullDisplay
+	Shift+DisplayLower1 NullDisplay
+
+
+	#Cell 2 Shift+ 
+	Shift+Rotary2 FXParam 9 RingStyle=Dot
+	Shift+DisplayUpper2 FixedTextDisplay "Phase Right" 
+	Shift+DisplayLower2 FXParamValueDisplay 9 
+
+	Shift+RotaryPush2 NoAction
+	Shift+DisplayUpper2 NullDisplay
+	Shift+DisplayLower2 NullDisplay
+
+
+	#Cell 3 Shift+ 
+	Shift+Rotary3 FXParam 10 RingStyle=Dot
+	Shift+DisplayUpper3 FixedTextDisplay "Bypass" 
+	Shift+DisplayLower3 FXParamValueDisplay 10 
+
+	Shift+RotaryPush3 NoAction
+	Shift+DisplayUpper3 NullDisplay
+	Shift+DisplayLower3 NullDisplay
+
+
+	#Cell 4 Shift+ 
+	Shift+Rotary4 FXParam 11 RingStyle=Dot
+	Shift+DisplayUpper4 FixedTextDisplay "Bypass" 
+	Shift+DisplayLower4 FXParamValueDisplay 11 
+
+	Shift+RotaryPush4 NoAction
+	Shift+DisplayUpper4 NullDisplay
+	Shift+DisplayLower4 NullDisplay
+
+
+	#Cell 5 Shift+ 
+	Shift+Rotary5 FXParam 12 RingStyle=Dot
+	Shift+DisplayUpper5 FixedTextDisplay "Wet" 
+	Shift+DisplayLower5 FXParamValueDisplay 12 
+
+	Shift+RotaryPush5 NoAction
+	Shift+DisplayUpper5 NullDisplay
+	Shift+DisplayLower5 NullDisplay
+
+
+	#Cell 6 Shift+ 
+	Shift+Rotary6 FXParam 13 RingStyle=Dot
+	Shift+DisplayUpper6 FixedTextDisplay "Delta" 
+	Shift+DisplayLower6 FXParamValueDisplay 13 
+
+	Shift+RotaryPush6 NoAction
+	Shift+DisplayUpper6 NullDisplay
+	Shift+DisplayLower6 NullDisplay
+
+
+	#Cell 7 Shift+ 
+	Shift+Rotary7 NoAction
+	Shift+DisplayUpper7 NoAction
+	Shift+DisplayLower7 NoAction
+
+	Shift+RotaryPush7 NoAction
+	Shift+DisplayUpper7 NullDisplay
+	Shift+DisplayLower7 NullDisplay
+
+
+	#Cell 8 Shift+ 
+	Shift+Rotary8 NoAction
+	Shift+DisplayUpper8 NoAction
+	Shift+DisplayLower8 NoAction
+
+	Shift+RotaryPush8 NoAction
+	Shift+DisplayUpper8 NullDisplay
+	Shift+DisplayLower8 NullDisplay
+
+
+	#Cell 1 Option+ 
+	Option+Rotary1 NoAction
+	Option+DisplayUpper1 NoAction
+	Option+DisplayLower1 NoAction
+
+	Option+RotaryPush1 NoAction
+	Option+DisplayUpper1 NullDisplay
+	Option+DisplayLower1 NullDisplay
+
+
+	#Cell 2 Option+ 
+	Option+Rotary2 NoAction
+	Option+DisplayUpper2 NoAction
+	Option+DisplayLower2 NoAction
+
+	Option+RotaryPush2 NoAction
+	Option+DisplayUpper2 NullDisplay
+	Option+DisplayLower2 NullDisplay
+
+
+	#Cell 3 Option+ 
+	Option+Rotary3 NoAction
+	Option+DisplayUpper3 NoAction
+	Option+DisplayLower3 NoAction
+
+	Option+RotaryPush3 NoAction
+	Option+DisplayUpper3 NullDisplay
+	Option+DisplayLower3 NullDisplay
+
+
+	#Cell 4 Option+ 
+	Option+Rotary4 NoAction
+	Option+DisplayUpper4 NoAction
+	Option+DisplayLower4 NoAction
+
+	Option+RotaryPush4 NoAction
+	Option+DisplayUpper4 NullDisplay
+	Option+DisplayLower4 NullDisplay
+
+
+	#Cell 5 Option+ 
+	Option+Rotary5 NoAction
+	Option+DisplayUpper5 NoAction
+	Option+DisplayLower5 NoAction
+
+	Option+RotaryPush5 NoAction
+	Option+DisplayUpper5 NullDisplay
+	Option+DisplayLower5 NullDisplay
+
+
+	#Cell 6 Option+ 
+	Option+Rotary6 NoAction
+	Option+DisplayUpper6 NoAction
+	Option+DisplayLower6 NoAction
+
+	Option+RotaryPush6 NoAction
+	Option+DisplayUpper6 NullDisplay
+	Option+DisplayLower6 NullDisplay
+
+
+	#Cell 7 Option+ 
+	Option+Rotary7 NoAction
+	Option+DisplayUpper7 NoAction
+	Option+DisplayLower7 NoAction
+
+	Option+RotaryPush7 NoAction
+	Option+DisplayUpper7 NullDisplay
+	Option+DisplayLower7 NullDisplay
+
+
+	#Cell 8 Option+ 
+	Option+Rotary8 NoAction
+	Option+DisplayUpper8 NoAction
+	Option+DisplayLower8 NoAction
+
+	Option+RotaryPush8 NoAction
+	Option+DisplayUpper8 NullDisplay
+	Option+DisplayLower8 NullDisplay
+
+
+#End auto generated section
+ZoneEnd
+0 Input
+1 Output
+2 Auto
+3 Drive
+4 Curve
+5 Attack
+6 Release
+7 Phase
+8 UI Scale
+9 Phase Right
+10 Bypass
+11 Bypass
+12 Wet
+13 Delta

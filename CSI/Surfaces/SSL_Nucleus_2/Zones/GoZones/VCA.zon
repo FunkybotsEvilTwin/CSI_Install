@@ -1,0 +1,33 @@
+Zone "VCA"
+
+       
+    DisplayUpper|             			TrackNameDisplay
+    Touch+DisplayLower|       			TrackVolumeDisplay
+    DisplayLower|             			TrackVCALeaderDisplay
+
+    Fader|                    			TrackVolume 
+    Rotary|                   			NoAction
+	RotaryPush|							TrackUniqueSelect
+	Hold+RotaryPush|					Reaper 41982				// Envelope: Apply all VCAs from selected tracks to grouped tracks and reset volume/pan/mute
+
+ 	Option+DisplayLower|      			TrackAutoModeDisplay
+	Option+Select|		 	  			CycleTrackAutoMode
+
+    Solo|                               TrackSolo
+	Hold+Solo|			    			ClearAllSolo Feedback=No
+    Mute|                               TrackMute
+    Select|                             TrackUniqueSelect
+	Hold+Select|                     	TrackVolume [ 0.716 ] Feedback=No  		// Sets fader to unity gain
+    Shift+Select|                       TrackRangeSelect Feedback=No    
+    Control+Select|                     TrackSelect
+	Alt+Select|			    			TrackToggleVCASpill
+	
+    VUMeter|                  			TrackOutputMeterAverageLR   
+    
+    BankLeft                 			Bank VCA -16
+    BankRight                 			Bank VCA 16
+   	ChannelLeft               			Bank VCA -1
+    ChannelRight              			Bank VCA 1
+
+
+ZoneEnd

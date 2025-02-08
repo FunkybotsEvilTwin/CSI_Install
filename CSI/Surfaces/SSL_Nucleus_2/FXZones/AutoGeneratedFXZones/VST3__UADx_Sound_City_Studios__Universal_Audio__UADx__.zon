@@ -1,0 +1,283 @@
+Zone "VST3: UADx Sound City Studios (Universal Audio (UADx))" "Sound City Studios"
+
+#Begin auto Generated section
+	InvertFB+Param FXParam 58 [ 0  1  ] 
+	Rotary1	FXParam 10  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Close" 
+	DisplayLower1	FXParamValueDisplay 10
+
+	RotaryPush1	FXParam 8 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 19  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Rm 1" 
+	DisplayLower2	FXParamValueDisplay 19
+
+	RotaryPush2	FXParam 17 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 28  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Rm 2" 
+	DisplayLower3	FXParamValueDisplay 28
+
+	RotaryPush3	FXParam 26 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush4	NoAction
+	DisplayUpper4	NoAction
+	DisplayLower4	NoAction
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	NoAction
+	DisplayUpper5	NoAction
+	DisplayLower5	NoAction
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	NoAction
+	DisplayUpper6	NoAction
+	DisplayLower6	NoAction
+
+
+	Rotary7	FXParam 29  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Rvb PD" 
+	DisplayLower7	FXParamValueDisplay 29
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 30  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Rvb Mix" 
+	DisplayLower8	FXParamValueDisplay 30
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto Generated section
+ZoneEnd
+0 Mode
+1 Src
+2 Close Mic
+3 Close Dist
+4 Close Align
+5 Close Hi Cut
+6 Close Lo Cut
+7 Close Invert
+8 Close Mute
+9 Close Bal
+10 Close G
+11 Rm 1 Mic
+12 Rm 1 Dist
+13 Rm 1 Align
+14 Rm 1 Hi Cut
+15 Rm 1 Lo Cut
+16 Rm 1 Invert
+17 Rm 1 Mute
+18 Rm 1 Bal
+19 Rm 1 G
+20 Rm 2 Mic
+21 Rm 2 Dist
+22 Rm 2 Align
+23 Rm 2 Hi Cut
+24 Rm 2 Lo Cut
+25 Rm 2 Invert
+26 Rm 2 Mute
+27 Rm 2 Bal
+28 Rm 2 G
+29 Rvb PD
+30 Rvb Mix
+31 Rvb Wet Solo
+32 L/R Swap
+33 Mono Sum
+34 Lvl
+35 Bypass
+36 Effects Order
+37 EQ In
+38 EQ Lo F
+39 EQ Lo G
+40 EQ Mid F
+41 EQ Mid G
+42 EQ Hi F
+43 EQ Hi G
+44 Dyn In
+45 Dyn Mode
+46 Dyn Amt
+47 Dyn SC Link
+48 Dyn SC Filt
+49 Dyn Mix
+50 Chamber In
+51 Chamber Amt
+52 Chamber Mic
+53 Chamber Dk
+54 Chamber PreDly
+55 Chamber Width
+56 Pwr
+57 Mst Bypass
+58 Bypass
+59 Wet
+60 Delta

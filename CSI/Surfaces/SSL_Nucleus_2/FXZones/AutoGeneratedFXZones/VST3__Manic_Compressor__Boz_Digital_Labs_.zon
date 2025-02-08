@@ -1,0 +1,283 @@
+Zone "VST3: Manic Compressor (Boz Digital Labs)" "Manic Compressor"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 56 [ 0  1  ] 
+
+
+	Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush1	FXParam 9 [ 0 0.2 0.4 0.6 0.8 1 ]
+	DisplayUpper1	FixedTextDisplay "Type" 
+	DisplayLower1	FXParamValueDisplay 9
+
+
+	Rotary2	FXParam 8  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Drive" 
+	DisplayLower2	FXParamValueDisplay 8
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 10  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Att" 
+	DisplayLower3	FXParamValueDisplay 10
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 11  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Rel" 
+	DisplayLower4	FXParamValueDisplay 11
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 12  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Thresh" 
+	DisplayLower5	FXParamValueDisplay 12
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 13  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Ratio" 
+	DisplayLower6	FXParamValueDisplay 13
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 16  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Loud" 
+	DisplayLower7	FXParamValueDisplay 16
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 14  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Knee" 
+	DisplayLower8	FXParamValueDisplay 14
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 43  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "SC Low" 
+	Shift+DisplayLower1	FXParamValueDisplay 43
+
+	Shift+RotaryPush1	FXParam 40 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 42  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "" 
+	Shift+DisplayLower2	FXParamValueDisplay 42
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 44  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "" 
+	Shift+DisplayLower3	FXParamValueDisplay 44
+
+	Shift+RotaryPush3	FXParam 41 [ 0 0.5 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 48  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "SC Mid" 
+	Shift+DisplayLower4	FXParamValueDisplay 48
+
+	Shift+RotaryPush4	FXParam 45 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 47  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "" 
+	Shift+DisplayLower5	FXParamValueDisplay 47
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 49  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "" 
+	Shift+DisplayLower6	FXParamValueDisplay 49
+
+	Shift+RotaryPush6	FXParam 46 [ 0 0.5 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 53  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "SC High" 
+	Shift+DisplayLower7	FXParamValueDisplay 53
+
+	Shift+RotaryPush7	FXParam 50 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 52  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "" 
+	Shift+DisplayLower8	FXParamValueDisplay 52
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 30  RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "Tone Low" 
+	Option+DisplayLower1	FXParamValueDisplay 30
+
+	Option+RotaryPush1	FXParam 31 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 29  RingStyle=Dot
+	Option+DisplayUpper2	FixedTextDisplay "" 
+	Option+DisplayLower2	FXParamValueDisplay 29
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 28  RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "" 
+	Option+DisplayLower3	FXParamValueDisplay 28
+
+	Option+RotaryPush3	FXParam 27 [ 0 0.5 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 25  RingStyle=Dot
+	Option+DisplayUpper4	FixedTextDisplay "Tone Mid" 
+	Option+DisplayLower4	FXParamValueDisplay 25
+
+	Option+RotaryPush4	FXParam 26 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	FXParam 24  RingStyle=Dot
+	Option+DisplayUpper5	FixedTextDisplay "" 
+	Option+DisplayLower5	FXParamValueDisplay 24
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 23  RingStyle=Dot
+	Option+DisplayUpper6	FixedTextDisplay "" 
+	Option+DisplayLower6	FXParamValueDisplay 23
+
+	Option+RotaryPush6	FXParam 22 [ 0 1 ] RingStyle=
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 35  RingStyle=Dot
+	Option+DisplayUpper7	FixedTextDisplay "Tone High" 
+	Option+DisplayLower7	FXParamValueDisplay 35
+
+	Option+RotaryPush7	FXParam 36 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary8	FXParam 34  RingStyle=Dot
+	Option+DisplayUpper8	FixedTextDisplay "" 
+	Option+DisplayLower8	FXParamValueDisplay 34
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Preset
+1 Bypass
+2 Master Volume
+3 Mix Mode Enable
+4 Wet Level
+5 Wet Out Enable
+6 Dry Level
+7 Dry Out Enable
+8 Input Drive
+9 Comp Type
+10 Attack
+11 Release
+12 Threshold
+13 Ratio
+14 Knee
+15 Auto Makeup Gain
+16 Loud Relief
+17 Stereo Mode
+18 Mid/Side Pan
+19 Tone - Enable
+20 Tone - Location
+21 Tone - Pre/Post
+22 Tone - Mid Band Type
+23 Tone - Mid Gain
+24 Tone - Mid Freq
+25 Tone - Mid Resonance
+26 Tone - Mid Enable
+27 Tone Low Type
+28 Tone - Low Gain
+29 Tone - Low Freq
+30 Tone - Low Q
+31 Tone - Low Enable
+32 Tone - High Band Type
+33 Tone - High Freq Gain
+34 Tone - High Freq
+35 Tone - High Q
+36 Tone - High Enable
+37 Beef
+38 SC - Enable
+39 SC - Listen
+40 SC - Enable Low
+41 SC - Filt Type Low
+42 SC - Frequency Low
+43 SC - Resonance Low
+44 SC - Gain Low
+45 SC - Enable Mid
+46 SC - Filt Type Mid
+47 SC - Frequency Mid
+48 SC - Q Mid
+49 SC - Gain Mid
+50 SC - Enable High
+51 SC - Filt Type High
+52 SC - Frequency High
+53 SC - Q High
+54 SC - Gain High
+55 SC - Source
+56 Bypass
+57 Wet
+58 Delta

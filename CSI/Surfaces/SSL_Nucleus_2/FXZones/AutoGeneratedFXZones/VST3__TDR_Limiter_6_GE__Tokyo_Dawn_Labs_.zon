@@ -1,0 +1,307 @@
+Zone "VST3: TDR Limiter 6 GE (Tokyo Dawn Labs)" "TDR Limiter 6 GE"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 82 [ 0  1  ] 
+	Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush1	FXParam 0 [ 0 1 ]
+	DisplayUpper1	FixedTextDisplay "C " 
+	DisplayLower1	FXParamValueDisplay 0
+
+
+	Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush2	FXParam 2 [ 0 1 ]
+	DisplayUpper2	FixedTextDisplay "C MS " 
+	DisplayLower2	FXParamValueDisplay 2
+
+
+	Rotary3	FXParam 4  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "C G" 
+	DisplayLower3	FXParamValueDisplay 4
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 5  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "C Width G" 
+	DisplayLower4	FXParamValueDisplay 5
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 6  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "C Th" 
+	DisplayLower5	FXParamValueDisplay 6
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 7  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "C Width Th" 
+	DisplayLower6	FXParamValueDisplay 7
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 8  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "C Ratio" 
+	DisplayLower7	FXParamValueDisplay 8
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 9  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "C Att" 
+	DisplayLower8	FXParamValueDisplay 9
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 39  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "HF Lim Type" 
+	Shift+DisplayLower1	FXParamValueDisplay 39
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 41  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "HF Lim Dry " 
+	Shift+DisplayLower2	FXParamValueDisplay 41
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	FXParam 45 [ 0 1 ]
+	Shift+DisplayUpper3	FixedTextDisplay "Clp " 
+	Shift+DisplayLower3	FXParamValueDisplay 45
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	FXParam 47 [ 0 1 ]
+	Shift+DisplayUpper4	FixedTextDisplay "Clp MS " 
+	Shift+DisplayLower4	FXParamValueDisplay 47
+
+
+	Shift+Rotary5	FXParam 48  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "Clp G" 
+	Shift+DisplayLower5	FXParamValueDisplay 48
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 49  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "Clp Width G" 
+	Shift+DisplayLower6	FXParamValueDisplay 49
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 50  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "Clp Th" 
+	Shift+DisplayLower7	FXParamValueDisplay 50
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 51  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "Clp Width Th" 
+	Shift+DisplayLower8	FXParamValueDisplay 51
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 20  RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "Pk Lim Th" 
+	Option+DisplayLower1	FXParamValueDisplay 20
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 21  RingStyle=Dot
+	Option+DisplayUpper2	FixedTextDisplay "Pk Lim Width Th" 
+	Option+DisplayLower2	FXParamValueDisplay 21
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	FXParam 23 [ 0 1 ] RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "Pk Lim MB" 
+	Option+DisplayLower3	FXParamValueDisplay 23
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	FXParam 22 [ 0 1 ]
+	Option+DisplayUpper4	FixedTextDisplay "Pk Lim B. Wall" 
+	Option+DisplayLower4	FXParamValueDisplay 22
+
+
+	Option+Rotary5	FXParam 24  RingStyle=Dot
+	Option+DisplayUpper5	FixedTextDisplay "Pk Lim Look" 
+	Option+DisplayLower5	FXParamValueDisplay 24
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 25  RingStyle=Dot
+	Option+DisplayUpper6	FixedTextDisplay "Pk Lim Foc" 
+	Option+DisplayLower6	FXParamValueDisplay 25
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 26  RingStyle=Dot
+	Option+DisplayUpper7	FixedTextDisplay "Pk Lim Rel" 
+	Option+DisplayLower7	FXParamValueDisplay 26
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary8	FXParam 28  RingStyle=Dot
+	Option+DisplayUpper8	FixedTextDisplay "Pk Lim Dry" 
+	Option+DisplayLower8	FXParamValueDisplay 28
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 C 
+1 C Visible
+2 C MS 
+3 C Mode
+4 C G
+5 C Width G
+6 C Th
+7 C Width Th
+8 C Ratio
+9 C Att
+10 C Rel
+11 C DryMix Mode
+12 C Dry 
+13 C Dry Mix
+14 C Meter Scale
+15 Pk Lim 
+16 Pk Lim Visible
+17 Pk Lim MS 
+18 Pk Lim G
+19 Pk Lim Width G
+20 Pk Lim Th
+21 Pk Lim Width Th
+22 Pk Lim B. Wall
+23 Pk Lim MB
+24 Pk Lim Look
+25 Pk Lim Foc
+26 Pk Lim Rel
+27 Pk Lim DryMix Mode
+28 Pk Lim Dry 
+29 Pk Lim Dry Mix
+30 Pk Lim Meter Scale
+31 HF Lim 
+32 HF Lim Visible
+33 HF Lim MS 
+34 HF Lim Th
+35 HF Lim Width Th
+36 HF Lim Range
+37 HF Lim Width Range
+38 HF Lim Freq
+39 HF Lim Type
+40 HF Lim Dry Mix Mode
+41 HF Lim Dry 
+42 HF Lim Dry Mix
+43 HF Lim Meter Scale
+44 HF Lim Solo
+45 Clp 
+46 Clp Visible
+47 Clp MS 
+48 Clp G
+49 Clp Width G
+50 Clp Th
+51 Clp Width Th
+52 Clp Mode
+53 Clp Sep
+54 Clp Knee
+55 Clp Dry Mix Mode
+56 Clp Dry 
+57 Clp Dry Mix
+58 Clp Meter Scale
+59 Out Drive
+60 Out Ceil TP
+61 Out Ceil PCM
+62 Out Lim PCM
+63 Out Meter Scale
+64 Meter 
+65 Meter Visible
+66 Meter Configuration View
+67 Meter Pk Range
+68 Meter EBU Range
+69 Meter EBU Scale
+70 Meter EBU Zero
+71 Meter Pk Display
+72 Meter Loudness Display
+73 Module Order
+74 Delta
+75 Bypass
+76 Auto Pad
+77 Quality
+78 Channels
+79 Dithering
+80 MasterBypass
+81 Program
+82 Bypass
+83 Wet
+84 Delta

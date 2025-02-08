@@ -1,0 +1,261 @@
+Zone "VST3: TR5 White Channel (IK Multimedia)" "TR5 White Channel"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 35 [ 0  1  ] 
+	Rotary1	FXParam 0 RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Comp On"
+	DisplayLower1	FXParamValueDisplay 0
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 1 RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Eq On"
+	DisplayLower2	FXParamValueDisplay 1
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 2 RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "FLT In"
+	DisplayLower3	FXParamValueDisplay 2
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 3 RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Eq Pre"
+	DisplayLower4	FXParamValueDisplay 3
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 4 RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Eq SC"
+	DisplayLower5	FXParamValueDisplay 4
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 5 RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "FLT SC"
+	DisplayLower6	FXParamValueDisplay 5
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 6 RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "HP Freq"
+	DisplayLower7	FXParamValueDisplay 6
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 7 RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "LP Freq"
+	DisplayLower8	FXParamValueDisplay 7
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 8 RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "HF Gain"
+	Shift+DisplayLower1	FXParamValueDisplay 8
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 9 RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "HF Freq"
+	Shift+DisplayLower2	FXParamValueDisplay 9
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 10 RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "HMF Gain"
+	Shift+DisplayLower3	FXParamValueDisplay 10
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 11 RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "HMF Freq"
+	Shift+DisplayLower4	FXParamValueDisplay 11
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 12 RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "HMF Q"
+	Shift+DisplayLower5	FXParamValueDisplay 12
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 13 RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "LMF Gain"
+	Shift+DisplayLower6	FXParamValueDisplay 13
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 14 RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "LMF Freq"
+	Shift+DisplayLower7	FXParamValueDisplay 14
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 15 RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "LMF Q"
+	Shift+DisplayLower8	FXParamValueDisplay 15
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	FXParam 16 RingStyle=Dot
+	Option+DisplayUpper1	FixedTextDisplay "LF Gain"
+	Option+DisplayLower1	FXParamValueDisplay 16
+
+	Option+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary2	FXParam 17 RingStyle=Dot
+	Option+DisplayUpper2	FixedTextDisplay "LF Freq"
+	Option+DisplayLower2	FXParamValueDisplay 17
+
+	Option+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary3	FXParam 18 RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "HF Bell"
+	Option+DisplayLower3	FXParamValueDisplay 18
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary4	FXParam 19 RingStyle=Dot
+	Option+DisplayUpper4	FixedTextDisplay "LF Bell"
+	Option+DisplayLower4	FXParamValueDisplay 19
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary5	FXParam 20 RingStyle=Dot
+	Option+DisplayUpper5	FixedTextDisplay "G"
+	Option+DisplayLower5	FXParamValueDisplay 20
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 21 RingStyle=Dot
+	Option+DisplayUpper6	FixedTextDisplay "In Gain"
+	Option+DisplayLower6	FXParamValueDisplay 21
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 22 RingStyle=Dot
+	Option+DisplayUpper7	FixedTextDisplay "Out Gain"
+	Option+DisplayLower7	FXParamValueDisplay 22
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary8	FXParam 23 RingStyle=Dot
+	Option+DisplayUpper8	FixedTextDisplay "Threshold (Comp)"
+	Option+DisplayLower8	FXParamValueDisplay 23
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+
+0 Comp On
+1 Eq On
+2 FLT In
+3 Eq Pre
+4 Eq SC
+5 FLT SC
+6 HP Freq
+7 LP Freq
+8 HF Gain
+9 HF Freq
+10 HMF Gain
+11 HMF Freq
+12 HMF Q
+13 LMF Gain
+14 LMF Freq
+15 LMF Q
+16 LF Gain
+17 LF Freq
+18 HF Bell
+19 LF Bell
+20 G
+21 In Gain
+22 Out Gain
+23 Threshold (Comp)
+24 Ratio
+25 Release (Comp)
+26 Fast (Comp)
+27 Hard
+28 Threshold (Exp)
+29 Hold (Exp)
+30 Range
+31 Release (Exp)
+32 Fast (Exp)
+33 Gate/Exp
+34 Bypass
+35 Bypass
+36 Wet
+37 Delta

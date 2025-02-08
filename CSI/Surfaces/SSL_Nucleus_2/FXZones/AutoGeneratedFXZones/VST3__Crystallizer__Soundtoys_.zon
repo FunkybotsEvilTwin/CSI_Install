@@ -1,0 +1,250 @@
+Zone "VST3: Crystallizer (Soundtoys)" "Crystallizer"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 24 [ 0  1  ] 
+
+	Rotary1	FXParam 3  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Mix" 
+	DisplayLower1	FXParamValueDisplay 3
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 14  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Pitch" 
+	DisplayLower2	FXParamValueDisplay 14
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 16  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Splice" 
+	DisplayLower3	FXParamValueDisplay 16
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 18  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Delay" 
+	DisplayLower4	FXParamValueDisplay 18
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 5  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Regen" 
+	DisplayLower5	FXParamValueDisplay 5
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 20  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Thresh" 
+	DisplayLower6	FXParamValueDisplay 20
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	FXParam 9 [ 0 1 ] RingStyle=
+	DisplayUpper7	FixedTextDisplay "Direct" 
+	DisplayLower7	FXParamValueDisplay 9
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 10 [ 0 1 ] RingStyle=
+	DisplayUpper8	FixedTextDisplay "Sync" 
+	DisplayLower8	FXParamValueDisplay 10
+
+
+	Shift+Rotary1	FXParam 15  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "Pitch" 
+	Shift+DisplayLower1	FXParamValueDisplay 15
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 17  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "Splice" 
+	Shift+DisplayLower2	FXParamValueDisplay 17
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 19  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "Delay" 
+	Shift+DisplayLower3	FXParamValueDisplay 19
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 13  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "Smoothing" 
+	Shift+DisplayLower4	FXParamValueDisplay 13
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 6  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "LowCut" 
+	Shift+DisplayLower5	FXParamValueDisplay 6
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 7  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "HighCut" 
+	Shift+DisplayLower6	FXParamValueDisplay 7
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 21  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "Att" 
+	Shift+DisplayLower7	FXParamValueDisplay 21
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 22  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "Rel" 
+	Shift+DisplayLower8	FXParamValueDisplay 22
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Bypass
+1 InputGain
+2 OutputGain
+3 Mix
+4 InOutMode
+5 Regenerate
+6 LowCut
+7 HighCut
+8 GateDuck
+9 Direction
+10 SyncMode
+11 FBMode
+12 DuckMode
+13 Smoothing
+14 Pitch
+15 PitchOffset
+16 SpliceValue
+17 SpliceOffset
+18 DelayValue
+19 DelayOffset
+20 Threshold
+21 Attack
+22 Release
+23 Tempo
+24 Bypass
+25 Wet
+26 Delta

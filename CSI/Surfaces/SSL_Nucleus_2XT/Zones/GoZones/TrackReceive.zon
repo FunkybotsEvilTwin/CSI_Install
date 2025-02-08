@@ -1,0 +1,42 @@
+Zone TrackReceive
+
+//Pan Mode
+
+    OnTrackSelection                        Reaper _RS8a2f2f022ffebde85f32fa3643a3bad6b10588bc    // MT4U_F_Load.eel
+    
+    DisplayUpper|                           TrackNameDisplay
+    DisplayLower|                           TrackPanDisplay
+    Touch+DisplayLower|                     TrackVolumeDisplay 
+    
+    Fader|                                  TrackVolume
+    Flip+Fader|                             TrackPan
+    Flip+Rotary|                            TrackVolume
+    
+    Shift+Option+DisplayLower|              TrackAutoModeDisplay
+    Shift+Option+Select|                    CycleTrackAutoMode
+    
+    Solo|                                   TrackSolo
+    Hold+Solo|                              ClearAllSolo Feedback=No 
+    Mute|                                   TrackMute
+    Select|                                 TrackUniqueSelect
+    
+    Hold+Select|                            TrackPan [ 0.5 ] Feedback=No             // Centers Pan
+    Hold+Select|                            TrackPanL [ 0 ]     Feedback=No          // Left Pan
+    Hold+Select|                            TrackPanR [ 1 ]     Feedback=No          // Right Pan
+    Hold+Select|                            TrackPanWidth [ 1 ] Feedback=No          // Right Pan
+    
+    Shift+Select|                           TrackRangeSelect    
+    Control+Select|                         TrackSelect
+    
+    Toggle+DisplayLower|                    TrackPanAutoRightDisplay
+    RotaryPush|                             ToggleChannel
+    Rotary|                                 TrackPanAutoLeft RingStyle=Dot
+    Toggle+Rotary|                          TrackPanAutoRight RingStyle=Dot
+    
+    RecordArm|                              TrackRecordArm
+    Control+Option+RecordArm|               CycleTrackInputMonitor
+    Control+Option+DisplayLower|            TrackInputMonitorDisplay
+    
+    VUMeter|                                TrackOutputMeterAverageLR   
+         
+ZoneEnd

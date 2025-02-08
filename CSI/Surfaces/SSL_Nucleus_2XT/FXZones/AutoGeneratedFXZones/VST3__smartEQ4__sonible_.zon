@@ -1,0 +1,539 @@
+Zone "VST3: smartEQ4 (sonible)" "smartEQ4"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 309  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "MS" 
+	DisplayLower1	FXParamValueDisplay 309
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 308  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Out" 
+	DisplayLower2	FXParamValueDisplay 308
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush3	FXParam 306 [ 0 1 ] RingStyle=
+	DisplayUpper3	FixedTextDisplay "Auto Mkp" 
+	DisplayLower3	FXParamValueDisplay 306
+
+
+	Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush4	NoAction
+	DisplayUpper4	NoAction
+	DisplayLower4	NoAction
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	NoAction
+	DisplayUpper5	NoAction
+	DisplayLower5	NoAction
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	NoAction
+	DisplayUpper6	NoAction
+	DisplayLower6	NoAction
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	NoAction
+	DisplayUpper7	NoAction
+	DisplayLower7	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	FXParam 314 [ 0 1 ]
+	DisplayUpper8	FixedTextDisplay "Bypass" 
+	DisplayLower8	FXParamValueDisplay 314
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Band 1 - On/Off
+1 Band 1 - Attack
+2 Band 1 - Channel Mode
+3 Band 1 - Dynamic On/Off
+4 Band 1 - Dynamic Gain Range
+5 Band 1 - Frequency
+6 Band 1 - Gain
+7 Band 1 - Quality
+8 Band 1 - Ratio
+9 Band 1 - Release
+10 Band 1 - Threshold
+11 Band 1 - Type
+12 Band 2 - On/Off
+13 Band 2 - Attack
+14 Band 2 - Channel Mode
+15 Band 2 - Dynamic On/Off
+16 Band 2 - Dynamic Gain Range
+17 Band 2 - Frequency
+18 Band 2 - Gain
+19 Band 2 - Quality
+20 Band 2 - Ratio
+21 Band 2 - Release
+22 Band 2 - Threshold
+23 Band 2 - Type
+24 Band 3 - On/Off
+25 Band 3 - Attack
+26 Band 3 - Channel Mode
+27 Band 3 - Dynamic On/Off
+28 Band 3 - Dynamic Gain Range
+29 Band 3 - Frequency
+30 Band 3 - Gain
+31 Band 3 - Quality
+32 Band 3 - Ratio
+33 Band 3 - Release
+34 Band 3 - Threshold
+35 Band 3 - Type
+36 Band 4 - On/Off
+37 Band 4 - Attack
+38 Band 4 - Channel Mode
+39 Band 4 - Dynamic On/Off
+40 Band 4 - Dynamic Gain Range
+41 Band 4 - Frequency
+42 Band 4 - Gain
+43 Band 4 - Quality
+44 Band 4 - Ratio
+45 Band 4 - Release
+46 Band 4 - Threshold
+47 Band 4 - Type
+48 Band 5 - On/Off
+49 Band 5 - Attack
+50 Band 5 - Channel Mode
+51 Band 5 - Dynamic On/Off
+52 Band 5 - Dynamic Gain Range
+53 Band 5 - Frequency
+54 Band 5 - Gain
+55 Band 5 - Quality
+56 Band 5 - Ratio
+57 Band 5 - Release
+58 Band 5 - Threshold
+59 Band 5 - Type
+60 Band 6 - On/Off
+61 Band 6 - Attack
+62 Band 6 - Channel Mode
+63 Band 6 - Dynamic On/Off
+64 Band 6 - Dynamic Gain Range
+65 Band 6 - Frequency
+66 Band 6 - Gain
+67 Band 6 - Quality
+68 Band 6 - Ratio
+69 Band 6 - Release
+70 Band 6 - Threshold
+71 Band 6 - Type
+72 Band 7 - On/Off
+73 Band 7 - Attack
+74 Band 7 - Channel Mode
+75 Band 7 - Dynamic On/Off
+76 Band 7 - Dynamic Gain Range
+77 Band 7 - Frequency
+78 Band 7 - Gain
+79 Band 7 - Quality
+80 Band 7 - Ratio
+81 Band 7 - Release
+82 Band 7 - Threshold
+83 Band 7 - Type
+84 Band 8 - On/Off
+85 Band 8 - Attack
+86 Band 8 - Channel Mode
+87 Band 8 - Dynamic On/Off
+88 Band 8 - Dynamic Gain Range
+89 Band 8 - Frequency
+90 Band 8 - Gain
+91 Band 8 - Quality
+92 Band 8 - Ratio
+93 Band 8 - Release
+94 Band 8 - Threshold
+95 Band 8 - Type
+96 Band 9 - On/Off
+97 Band 9 - Attack
+98 Band 9 - Channel Mode
+99 Band 9 - Dynamic On/Off
+100 Band 9 - Dynamic Gain Range
+101 Band 9 - Frequency
+102 Band 9 - Gain
+103 Band 9 - Quality
+104 Band 9 - Ratio
+105 Band 9 - Release
+106 Band 9 - Threshold
+107 Band 9 - Type
+108 Band 10 - On/Off
+109 Band 10 - Attack
+110 Band 10 - Channel Mode
+111 Band 10 - Dynamic On/Off
+112 Band 10 - Dynamic Gain Range
+113 Band 10 - Frequency
+114 Band 10 - Gain
+115 Band 10 - Quality
+116 Band 10 - Ratio
+117 Band 10 - Release
+118 Band 10 - Threshold
+119 Band 10 - Type
+120 Band 11 - On/Off
+121 Band 11 - Attack
+122 Band 11 - Channel Mode
+123 Band 11 - Dynamic On/Off
+124 Band 11 - Dynamic Gain Range
+125 Band 11 - Frequency
+126 Band 11 - Gain
+127 Band 11 - Quality
+128 Band 11 - Ratio
+129 Band 11 - Release
+130 Band 11 - Threshold
+131 Band 11 - Type
+132 Band 12 - On/Off
+133 Band 12 - Attack
+134 Band 12 - Channel Mode
+135 Band 12 - Dynamic On/Off
+136 Band 12 - Dynamic Gain Range
+137 Band 12 - Frequency
+138 Band 12 - Gain
+139 Band 12 - Quality
+140 Band 12 - Ratio
+141 Band 12 - Release
+142 Band 12 - Threshold
+143 Band 12 - Type
+144 Band 13 - On/Off
+145 Band 13 - Attack
+146 Band 13 - Channel Mode
+147 Band 13 - Dynamic On/Off
+148 Band 13 - Dynamic Gain Range
+149 Band 13 - Frequency
+150 Band 13 - Gain
+151 Band 13 - Quality
+152 Band 13 - Ratio
+153 Band 13 - Release
+154 Band 13 - Threshold
+155 Band 13 - Type
+156 Band 14 - On/Off
+157 Band 14 - Attack
+158 Band 14 - Channel Mode
+159 Band 14 - Dynamic On/Off
+160 Band 14 - Dynamic Gain Range
+161 Band 14 - Frequency
+162 Band 14 - Gain
+163 Band 14 - Quality
+164 Band 14 - Ratio
+165 Band 14 - Release
+166 Band 14 - Threshold
+167 Band 14 - Type
+168 Band 15 - On/Off
+169 Band 15 - Attack
+170 Band 15 - Channel Mode
+171 Band 15 - Dynamic On/Off
+172 Band 15 - Dynamic Gain Range
+173 Band 15 - Frequency
+174 Band 15 - Gain
+175 Band 15 - Quality
+176 Band 15 - Ratio
+177 Band 15 - Release
+178 Band 15 - Threshold
+179 Band 15 - Type
+180 Band 16 - On/Off
+181 Band 16 - Attack
+182 Band 16 - Channel Mode
+183 Band 16 - Dynamic On/Off
+184 Band 16 - Dynamic Gain Range
+185 Band 16 - Frequency
+186 Band 16 - Gain
+187 Band 16 - Quality
+188 Band 16 - Ratio
+189 Band 16 - Release
+190 Band 16 - Threshold
+191 Band 16 - Type
+192 Band 17 - On/Off
+193 Band 17 - Attack
+194 Band 17 - Channel Mode
+195 Band 17 - Dynamic On/Off
+196 Band 17 - Dynamic Gain Range
+197 Band 17 - Frequency
+198 Band 17 - Gain
+199 Band 17 - Quality
+200 Band 17 - Ratio
+201 Band 17 - Release
+202 Band 17 - Threshold
+203 Band 17 - Type
+204 Band 18 - On/Off
+205 Band 18 - Attack
+206 Band 18 - Channel Mode
+207 Band 18 - Dynamic On/Off
+208 Band 18 - Dynamic Gain Range
+209 Band 18 - Frequency
+210 Band 18 - Gain
+211 Band 18 - Quality
+212 Band 18 - Ratio
+213 Band 18 - Release
+214 Band 18 - Threshold
+215 Band 18 - Type
+216 Band 19 - On/Off
+217 Band 19 - Attack
+218 Band 19 - Channel Mode
+219 Band 19 - Dynamic On/Off
+220 Band 19 - Dynamic Gain Range
+221 Band 19 - Frequency
+222 Band 19 - Gain
+223 Band 19 - Quality
+224 Band 19 - Ratio
+225 Band 19 - Release
+226 Band 19 - Threshold
+227 Band 19 - Type
+228 Band 20 - On/Off
+229 Band 20 - Attack
+230 Band 20 - Channel Mode
+231 Band 20 - Dynamic On/Off
+232 Band 20 - Dynamic Gain Range
+233 Band 20 - Frequency
+234 Band 20 - Gain
+235 Band 20 - Quality
+236 Band 20 - Ratio
+237 Band 20 - Release
+238 Band 20 - Threshold
+239 Band 20 - Type
+240 Band 21 - On/Off
+241 Band 21 - Attack
+242 Band 21 - Channel Mode
+243 Band 21 - Dynamic On/Off
+244 Band 21 - Dynamic Gain Range
+245 Band 21 - Frequency
+246 Band 21 - Gain
+247 Band 21 - Quality
+248 Band 21 - Ratio
+249 Band 21 - Release
+250 Band 21 - Threshold
+251 Band 21 - Type
+252 Band 22 - On/Off
+253 Band 22 - Attack
+254 Band 22 - Channel Mode
+255 Band 22 - Dynamic On/Off
+256 Band 22 - Dynamic Gain Range
+257 Band 22 - Frequency
+258 Band 22 - Gain
+259 Band 22 - Quality
+260 Band 22 - Ratio
+261 Band 22 - Release
+262 Band 22 - Threshold
+263 Band 22 - Type
+264 Band 23 - On/Off
+265 Band 23 - Attack
+266 Band 23 - Channel Mode
+267 Band 23 - Dynamic On/Off
+268 Band 23 - Dynamic Gain Range
+269 Band 23 - Frequency
+270 Band 23 - Gain
+271 Band 23 - Quality
+272 Band 23 - Ratio
+273 Band 23 - Release
+274 Band 23 - Threshold
+275 Band 23 - Type
+276 Band 24 - On/Off
+277 Band 24 - Attack
+278 Band 24 - Channel Mode
+279 Band 24 - Dynamic On/Off
+280 Band 24 - Dynamic Gain Range
+281 Band 24 - Frequency
+282 Band 24 - Gain
+283 Band 24 - Quality
+284 Band 24 - Ratio
+285 Band 24 - Release
+286 Band 24 - Threshold
+287 Band 24 - Type
+288 Smart Weight 1 - On/Off
+289 Smart Weight 1 - Adaptive
+290 Smart Weight 1 - Frequency
+291 Smart Weight 1 - Mode
+292 Smart Weight 1 - Slope Upper
+293 Smart Weight 1 - Slope Lower
+294 Smart Weight 1 - Smoothing
+295 Smart Weight 1 - Strength
+296 Smart Weight 1 - Width
+297 Smart Weight 2 - On/Off
+298 Smart Weight 2 - Adaptive
+299 Smart Weight 2 - Frequency
+300 Smart Weight 2 - Mode
+301 Smart Weight 2 - Slope Upper
+302 Smart Weight 2 - Slope Lower
+303 Smart Weight 2 - Smoothing
+304 Smart Weight 2 - Strength
+305 Smart Weight 2 - Width
+306 Auto Gain On/Off
+307 Bypass On/Off
+308 Output Gain
+309 Mid/Side Balance
+310 Side Pan
+311 Mid/Side Solo
+312 Learn On/Off
+313 Profile
+314 Bypass
+315 Wet
+316 Delta

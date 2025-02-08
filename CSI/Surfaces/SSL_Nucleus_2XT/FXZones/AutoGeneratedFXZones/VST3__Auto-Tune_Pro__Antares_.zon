@@ -1,0 +1,338 @@
+Zone "VST3: Auto-Tune Pro (Antares)" "Auto-Tune Pro"
+
+#Begin auto generated section
+
+	Rotary1	FXParam 4  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Speed" 
+	DisplayLower1	FXParamValueDisplay 4
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 90  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Flex" 
+	DisplayLower2	FXParamValueDisplay 90
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 62  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Vibrato" 
+	DisplayLower3	FXParamValueDisplay 62
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 61  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Human" 
+	DisplayLower4	FXParamValueDisplay 61
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	NoAction
+	DisplayUpper5	NoAction
+	DisplayLower5	NoAction
+
+
+	Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush6	NoAction
+	DisplayUpper6	NoAction
+	DisplayLower6	NoAction
+
+
+	Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush7	NoAction
+	DisplayUpper7	NoAction
+	DisplayLower7	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	NoAction
+	DisplayUpper8	NoAction
+	DisplayLower8	NoAction
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	NoAction
+	Shift+DisplayUpper1	NoAction
+	Shift+DisplayLower1	NoAction
+
+
+	Shift+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush2	NoAction
+	Shift+DisplayUpper2	NoAction
+	Shift+DisplayLower2	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	NoAction
+	Shift+DisplayUpper3	NoAction
+	Shift+DisplayLower3	NoAction
+
+
+	Shift+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush4	NoAction
+	Shift+DisplayUpper4	NoAction
+	Shift+DisplayLower4	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	NoAction
+	Shift+DisplayUpper6	NoAction
+	Shift+DisplayLower6	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	NoAction
+	Shift+DisplayUpper8	NoAction
+	Shift+DisplayLower8	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Correction Mode
+1 Scale
+2 Key
+3 Detune
+4 Retune Speed
+5 Vibrato Shape
+6 Vibrato Pitch
+7 Vibrato Rate
+8 Re-Track ARA
+9 Tracking
+10 Input Type
+11 Use Classic Mode DSP
+12 n/a
+13 n/a
+14 n/a
+15 n/a
+16 Graph Tool
+17 n/a
+18 n/a
+19 n/a
+20 n/a
+21 n/a
+22 n/a
+23 n/a
+24 Tie Waveform to Graph
+25 n/a
+26 n/a
+27 n/a
+28 Track Pitch
+29 n/a
+30 n/a
+31 Object Retune Speed
+32 n/a
+33 Advanced View
+34 L/R Ref
+35 n/a
+36 Learn Scale from MIDI
+37 Target Notes via MIDI
+38 n/a
+39 n/a
+40 n/a
+41 n/a
+42 n/a
+43 n/a
+44 Ignore Vibrato
+45 Show Waveform
+46 V.Onset Delay
+47 Vibrato Amplitude
+48 Vibrato Formant
+49 Vibrato Variation
+50 V.Onset Rate
+51 Object Adjust Vibrato
+52 Hold Note Shown
+53 Keyboard Edits
+54 Keyboard Mode
+55 n/a
+56 n/a
+57 n/a
+58 MIDI Octaves
+59 n/a
+60 n/a
+61 Humanize
+62 Natural Vibrato
+63 n/a
+64 Snap to Note
+65 n/a
+66 Clock Source
+67 Auto-Scroll
+68 Show Info Bar
+69 n/a
+70 Formant Correction
+71 Throat Length
+72 Show Lanes
+73 Number of Notes
+74 Transpose
+75 Object Throat Length
+76 Show MIDI
+77 n/a
+78 Time Display
+79 Enable Time Control
+80 Track Pitch + Time
+81 n/a
+82 n/a
+83 n/a
+84 n/a
+85 n/a
+86 n/a
+87 n/a
+88 n/a
+89 Master Bypass
+90 Flex-Tune
+91 Latency Removal
+92 Wet-Dry Mix
+93 n/a
+94 n/a
+95 n/a
+96 n/a
+97 n/a
+98 n/a
+99 n/a
+100 n/a
+101 n/a
+102 n/a
+103 n/a
+104 n/a
+105 n/a
+106 n/a
+107 n/a
+108 n/a
+109 n/a
+110 n/a
+111 n/a
+112 n/a
+113 Bypass
+114 Wet
+115 Delta

@@ -1,0 +1,11 @@
+Zone "MasterTrackFXMenu"
+
+	Left            	    	Bank MasterTrackFXMenu -1
+	Right           	    	Bank MasterTrackFXMenu 1
+	BankLeft                	Bank Track -8
+    BankRight               	Bank Track 8
+    ChannelLeft             	Bank Track -1                                        
+    ChannelRight            	Bank Track 1 
+
+	
+ZoneEnd

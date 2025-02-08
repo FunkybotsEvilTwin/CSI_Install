@@ -1,0 +1,357 @@
+Zone "VST3: Channel G Console (McDSP)" "Channel G Console"
+
+	InvertFB+Param FXParam 69 [ 0  1  ] 
+
+	Rotary1	FXParam 2  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=BoostCut
+	DisplayUpper1	FixedTextDisplay "In"
+	DisplayLower1	FXParamValueDisplay 2
+
+	RotaryPush1	FXParam 2 [ 0.5001 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 55  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "HPF"
+	DisplayLower2	FXParamValueDisplay 55
+
+	RotaryPush2	FXParam 58 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 31  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Low "
+	DisplayLower3	FXParamValueDisplay 31
+
+	RotaryPush3	FXParam 35 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 32  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=BoostCut
+	DisplayUpper4	FixedTextDisplay ""
+	DisplayLower4	FXParamValueDisplay 32
+
+	RotaryPush4	FXParam 32 [ 0.5001 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 36  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "LM"
+	DisplayLower5	FXParamValueDisplay 36
+
+	RotaryPush5	FXParam 39 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 37  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=BoostCut
+	DisplayUpper6	FixedTextDisplay ""
+	DisplayLower6	FXParamValueDisplay 37
+
+	RotaryPush6	FXParam 37 [ 0.5001 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 40  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Mid"
+	DisplayLower7	FXParamValueDisplay 40
+
+	RotaryPush7	FXParam 43 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 41  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=BoostCut
+	DisplayUpper8	FixedTextDisplay ""
+	DisplayLower8	FXParamValueDisplay 41
+
+	RotaryPush8	FXParam 41 [ 0.5001 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush1	FXParam 57 [ 0 1 ]
+	Shift+DisplayUpper1	FixedTextDisplay "Mode"
+	Shift+DisplayLower1	FXParamValueDisplay 57
+
+
+	Shift+Rotary2	FXParam 56  RingStyle=Fill
+	Shift+DisplayUpper2	FixedTextDisplay "HPF Q"
+	Shift+DisplayLower2	FXParamValueDisplay 56
+
+	Shift+RotaryPush2 NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush3	FXParam 34 [ 0 1 ]
+	Shift+DisplayUpper3	FixedTextDisplay "Low"
+	Shift+DisplayLower3	FXParamValueDisplay 34
+
+
+	Shift+Rotary4	FXParam 33  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=Fill
+	Shift+DisplayUpper4	FixedTextDisplay "Low Q"
+	Shift+DisplayLower4	FXParamValueDisplay 33
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	NoAction
+	Shift+DisplayUpper5	NoAction
+	Shift+DisplayLower5	NoAction
+
+
+	Shift+Rotary6	FXParam 38  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=Fill
+	Shift+DisplayUpper6	FixedTextDisplay "LM Q"
+	Shift+DisplayLower6	FXParamValueDisplay 38
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush7	NoAction
+	Shift+DisplayUpper7	NoAction
+	Shift+DisplayLower7	NoAction
+
+
+	Shift+Rotary8	FXParam 42  [  (0.00025,0.001,0.004,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.2,0.6) ] RingStyle=Fill
+	Shift+DisplayUpper8	FixedTextDisplay "Mid Q"
+	Shift+DisplayLower8	FXParamValueDisplay 42
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1 NoAction
+	Option+NullDisplay	
+	Option+NullDisplay
+
+    Option+RotaryPush1	FXParam 19 [ 0 1 ]
+	Option+DisplayUpper1	FixedTextDisplay "Gate"
+	Option+DisplayLower1 FXParamValueDisplay 19
+
+	Option+Rotary2 NoAction
+	Option+NullDisplay	
+	Option+NullDisplay
+
+	Option+RotaryPush2	FXParam 12 [ 0.00 0.50 1.00 ]
+	Option+DisplayUpper2	FixedTextDisplay "Key"
+	Option+DisplayLower2	FXParamValueDisplay 12
+	
+	
+	Option+Rotary3	FXParam 13  RingStyle=Dot
+	Option+DisplayUpper3	FixedTextDisplay "Thres"
+	Option+DisplayLower3	FXParamValueDisplay 13
+
+	Option+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+	
+	
+	Option+Rotary4	FXParam 14  RingStyle=Dot
+	Option+DisplayUpper4	FixedTextDisplay "Ratio"
+	Option+DisplayLower4	FXParamValueDisplay 14
+
+	Option+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+	
+	
+	Option+Rotary5	FXParam 18  RingStyle=Dot
+	Option+DisplayUpper5	FixedTextDisplay "Range"
+	Option+DisplayLower5	FXParamValueDisplay 18
+
+	Option+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary6	FXParam 15  RingStyle=Dot
+	Option+DisplayUpper6	FixedTextDisplay "	Att"
+	Option+DisplayLower6	FXParamValueDisplay 15
+
+	Option+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary7	FXParam 17  RingStyle=Dot
+	Option+DisplayUpper7	FixedTextDisplay "Rel"
+	Option+DisplayLower7	FXParamValueDisplay 17
+
+	Option+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+	
+	
+	Option+Rotary8	FXParam 16  RingStyle=Dot
+	Option+DisplayUpper8	FixedTextDisplay "Hold"
+	Option+DisplayLower8	FXParamValueDisplay 16
+
+	Option+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+	
+	Shift+Option+Rotary1 NoAction
+	Shift+Option+NullDisplay	
+	Shift+Option+NullDisplay
+
+	Shift+Option+RotaryPush1	FXParam  21 [ 0 1 ]
+	Shift+Option+DisplayUpper1	FixedTextDisplay "Flt In"
+	Shift+Option+DisplayLower1 FXParamValueDisplay 21
+
+	Shift+Option+Rotary2 NoAction
+	Shift+Option+NullDisplay	NoAction
+	Shift+Option+NullDisplay	NoAction
+
+	Shift+Option+RotaryPush2	FXParam  22 [ 0 1 ]
+	Shift+Option+DisplayUpper2	FixedTextDisplay "InLine"
+	Shift+Option+DisplayLower2	FXParamValueDisplay 22
+	
+	Shift+Option+Rotary3 FXParam 23
+	Shift+Option+DisplayUpper3	FixedTextDisplay "HPF"
+	Shift+Option+DisplayLower3	FXParamValueDisplay 23
+
+	Shift+Option+RotaryPush3	FXParam  26 [ 0 1 ]
+	Shift+Option+NullDisplay	NoAction
+	Shift+Option+NullDisplay	NoAction	
+	
+	Shift+Option+Rotary4 FXParam 24 RingStyle=Fill
+	Shift+Option+DisplayUpper4	FixedTextDisplay "HPF Q"
+	Shift+Option+DisplayLower4	FXParamValueDisplay 24
+
+	Shift+Option+RotaryPush4	NoAction
+	Shift+Option+DisplayUpper4	NoAction
+	Shift+Option+DisplayLower4	NoAction
+	
+	Shift+Option+Rotary5 NoAction
+	Shift+Option+NullDisplay	NoAction
+	Shift+Option+NullDisplay	NoAction
+
+	Shift+Option+RotaryPush5	FXParam  25 [ 0 1 ]
+	Shift+Option+DisplayUpper5	FixedTextDisplay ""
+	Shift+Option+DisplayLower5	FXParamValueDisplay 25
+	
+	Shift+Option+Rotary6 FXParam 27
+	Shift+Option+DisplayUpper6	FixedTextDisplay "LPF"
+	Shift+Option+DisplayLower6	FXParamValueDisplay 27
+
+	Shift+Option+RotaryPush6 FXParam 30 [ 0 1 ]
+	Shift+Option+NullDisplay	NoAction
+	Shift+Option+NullDisplay	NoAction
+	
+	Shift+Option+Rotary7 FXParam 28 RingStyle=Fill
+	Shift+Option+DisplayUpper7	FixedTextDisplay "LPF Q"
+	Shift+Option+DisplayLower7	FXParamValueDisplay 28
+
+	Shift+Option+RotaryPush7	NoAction
+	Shift+Option+NullDisplay	NoAction
+	Shift+Option+NullDisplay	NoAction
+	
+	Shift+Option+Rotary8 NoAction
+	Shift+Option+NullDisplay	NoAction	
+	Shift+Option+NullDisplay	NoAction
+
+	Shift+Option+RotaryPush8	FXParam  29 [ 0 1 ]
+	Shift+Option+DisplayUpper8	FixedTextDisplay ""
+	Shift+Option+DisplayLower8	FXParamValueDisplay 29
+
+	
+ZoneEnd
+
+FXParam 0 "Output"
+	FXParam 1 "Phase"
+	FXParam 2 "Input"
+	FXParam 3 "Comp Knee"
+	FXParam 4 "EQ Mode"
+	FXParam 5 "Comp Key"
+	FXParam 6 "Comp Threshold"
+	FXParam 7 "Comp Ratio"
+	FXParam 8 "Comp Attack"
+	FXParam 9 "Comp Release"
+	FXParam 10 "Comp Gain"
+	FXParam 11 "Comp Enable"
+	FXParam 12 "Exp/Gate Key"
+	FXParam 13 "Exp/Gate Threshold"
+	FXParam 14 "Exp/Gate Ratio"
+	FXParam 15 "Exp/Gate Attack"
+	FXParam 16 "Exp/Gate Hold"
+	FXParam 17 "Exp/Gate Release"
+	FXParam 18 "Exp/Gate Range"
+	FXParam 19 "Exp/Gate Enable"
+	FXParam 20 "Display Page"
+	FXParam 21 "Dynamics Filters Input"
+	FXParam 22 "Dynamics Filters Inline"
+	FXParam 23 "Dynamics HPF Frequency"
+	FXParam 24 "Dynamics HPF Q"
+	FXParam 25 "Dynamics HPF Mode"
+	FXParam 26 "Dynamics HPF Enable"
+	FXParam 27 "Dynamics LPF Frequency"
+	FXParam 28 "Dynamics LPF Q"
+	FXParam 29 "Dynamics LPF Mode"
+	FXParam 30 "Dynamics LPF Enable"
+	FXParam 31 "LF Frequency"
+	FXParam 32 "LF Gain"
+	FXParam 33 "LF Q"
+	FXParam 34 "LF Mode"
+	FXParam 35 "LF Enable"
+	FXParam 36 "LMF Frequency"
+	FXParam 37 "LMF Gain"
+	FXParam 38 "LMF Q"
+	FXParam 39 "LMF Enable"
+	FXParam 40 "MF Frequency"
+	FXParam 41 "MF Gain"
+	FXParam 42 "MF Q"
+	FXParam 43 "MF Enable"
+	FXParam 44 "HMF Frequency"
+	FXParam 45 "HMF Gain"
+	FXParam 46 "HMF Q"
+	FXParam 47 "HMF Enable"
+	FXParam 48 "HF Frequency"
+	FXParam 49 "HF Gain"
+	FXParam 50 "HF Q"
+	FXParam 51 "HF Mode"
+	FXParam 52 "HF Enable"
+	FXParam 53 "EQ Enable"
+	FXParam 54 "Comp Pre/Post"
+	FXParam 55 "HPF Frequency"
+	FXParam 56 "HPF Q"
+	FXParam 57 "HPF Mode"
+	FXParam 58 "HPF Enable"
+	FXParam 59 "LPF Frequency"
+	FXParam 60 "LPF Q"
+	FXParam 61 "LPF Mode"
+	FXParam 62 "LPF Enable"
+	FXParam 63 "Control Page"
+	FXParam 64 "RTA Enable"
+	FXParam 65 "Plot Page"
+	FXParam 66 "UI Scale"
+	FXParam 67 "Phase Right"
+	FXParam 68 "Bypass"
+	FXParam 69 "Bypass"
+	FXParam 70 "Wet"
+	FXParam 71 "Delta"

@@ -1,0 +1,241 @@
+Zone "VST3: S-Drive (Modern Music Solutions)" "S-Drive"
+	OnZoneActivation 	ToggleUseLocalModifiers
+	Plugin      		ClearFXSlot
+
+#Begin auto generated section
+
+	Rotary1 NoAction 
+	RotaryPush1 NoAction 
+	Fader1 NoAction 
+	DisplayUpper1 NoAction 
+	DisplayLower1 NoAction 
+
+
+	Rotary2 NoAction 
+	RotaryPush2 NoAction 
+	Fader2 NoAction 
+	DisplayUpper2 NoAction 
+	DisplayLower2 NoAction 
+
+
+	Rotary3 NoAction 
+	RotaryPush3 NoAction 
+	Fader3 NoAction 
+	DisplayUpper3 NoAction 
+	DisplayLower3 NoAction 
+
+
+	Rotary4 NoAction 
+	RotaryPush4 NoAction 
+	Fader4 NoAction 
+	DisplayUpper4 NoAction 
+	DisplayLower4 NoAction 
+
+
+	Rotary5 NoAction 
+	RotaryPush5 NoAction 
+	Fader5 NoAction 
+	DisplayUpper5 NoAction 
+	DisplayLower5 NoAction 
+
+
+	Rotary6 NoAction 
+	RotaryPush6 NoAction 
+	Fader6 NoAction 
+	DisplayUpper6 NoAction 
+	DisplayLower6 NoAction 
+
+
+	Rotary7 NoAction 
+	RotaryPush7 NoAction 
+	Fader7 NoAction 
+	DisplayUpper7 NoAction 
+	DisplayLower7 NoAction 
+
+
+	Rotary8 NoAction 
+	RotaryPush8 NoAction 
+	Fader8 NoAction 
+	DisplayUpper8 NoAction 
+	DisplayLower8 NoAction 
+
+
+
+
+	Shift+Rotary1 NoAction 
+	Shift+RotaryPush1 NoAction 
+	Shift+Fader1 NoAction 
+	Shift+DisplayUpper1 NoAction 
+	Shift+DisplayLower1 NoAction 
+
+
+	Shift+Rotary2 NoAction 
+	Shift+RotaryPush2 NoAction 
+	Shift+Fader2 NoAction 
+	Shift+DisplayUpper2 NoAction 
+	Shift+DisplayLower2 NoAction 
+
+
+	Shift+Rotary3 NoAction 
+	Shift+RotaryPush3 NoAction 
+	Shift+Fader3 NoAction 
+	Shift+DisplayUpper3 NoAction 
+	Shift+DisplayLower3 NoAction 
+
+
+	Shift+Rotary4 NoAction 
+	Shift+RotaryPush4 NoAction 
+	Shift+Fader4 NoAction 
+	Shift+DisplayUpper4 NoAction 
+	Shift+DisplayLower4 NoAction 
+
+
+	Shift+Rotary5 NoAction 
+	Shift+RotaryPush5 NoAction 
+	Shift+Fader5 NoAction 
+	Shift+DisplayUpper5 NoAction 
+	Shift+DisplayLower5 NoAction 
+
+
+	Shift+Rotary6 NoAction 
+	Shift+RotaryPush6 NoAction 
+	Shift+Fader6 NoAction 
+	Shift+DisplayUpper6 NoAction 
+	Shift+DisplayLower6 NoAction 
+
+
+	Shift+Rotary7 NoAction 
+	Shift+RotaryPush7 NoAction 
+	Shift+Fader7 NoAction 
+	Shift+DisplayUpper7 NoAction 
+	Shift+DisplayLower7 NoAction 
+
+
+	Shift+Rotary8 NoAction 
+	Shift+RotaryPush8 NoAction 
+	Shift+Fader8 NoAction 
+	Shift+DisplayUpper8 NoAction 
+	Shift+DisplayLower8 NoAction 
+
+
+
+
+	Option+Rotary1 NoAction 
+	Option+RotaryPush1 NoAction 
+	Option+Fader1 NoAction 
+	Option+DisplayUpper1 NoAction 
+	Option+DisplayLower1 NoAction 
+
+
+	Option+Rotary2 NoAction 
+	Option+RotaryPush2 NoAction 
+	Option+Fader2 NoAction 
+	Option+DisplayUpper2 NoAction 
+	Option+DisplayLower2 NoAction 
+
+
+	Option+Rotary3 NoAction 
+	Option+RotaryPush3 NoAction 
+	Option+Fader3 NoAction 
+	Option+DisplayUpper3 NoAction 
+	Option+DisplayLower3 NoAction 
+
+
+	Option+Rotary4 NoAction 
+	Option+RotaryPush4 NoAction 
+	Option+Fader4 NoAction 
+	Option+DisplayUpper4 NoAction 
+	Option+DisplayLower4 NoAction 
+
+
+	Option+Rotary5 NoAction 
+	Option+RotaryPush5 NoAction 
+	Option+Fader5 NoAction 
+	Option+DisplayUpper5 NoAction 
+	Option+DisplayLower5 NoAction 
+
+
+	Option+Rotary6 NoAction 
+	Option+RotaryPush6 NoAction 
+	Option+Fader6 NoAction 
+	Option+DisplayUpper6 NoAction 
+	Option+DisplayLower6 NoAction 
+
+
+	Option+Rotary7 NoAction 
+	Option+RotaryPush7 NoAction 
+	Option+Fader7 NoAction 
+	Option+DisplayUpper7 NoAction 
+	Option+DisplayLower7 NoAction 
+
+
+	Option+Rotary8 NoAction 
+	Option+RotaryPush8 NoAction 
+	Option+Fader8 NoAction 
+	Option+DisplayUpper8 NoAction 
+	Option+DisplayLower8 NoAction 
+
+
+
+
+	Shift+Option+Rotary1 NoAction 
+	Shift+Option+RotaryPush1 NoAction 
+	Shift+Option+Fader1 NoAction 
+	Shift+Option+DisplayUpper1 NoAction 
+	Shift+Option+DisplayLower1 NoAction 
+
+
+	Shift+Option+Rotary2 NoAction 
+	Shift+Option+RotaryPush2 NoAction 
+	Shift+Option+Fader2 NoAction 
+	Shift+Option+DisplayUpper2 NoAction 
+	Shift+Option+DisplayLower2 NoAction 
+
+
+	Shift+Option+Rotary3 NoAction 
+	Shift+Option+RotaryPush3 NoAction 
+	Shift+Option+Fader3 NoAction 
+	Shift+Option+DisplayUpper3 NoAction 
+	Shift+Option+DisplayLower3 NoAction 
+
+
+	Shift+Option+Rotary4 NoAction 
+	Shift+Option+RotaryPush4 NoAction 
+	Shift+Option+Fader4 NoAction 
+	Shift+Option+DisplayUpper4 NoAction 
+	Shift+Option+DisplayLower4 NoAction 
+
+
+	Shift+Option+Rotary5 NoAction 
+	Shift+Option+RotaryPush5 NoAction 
+	Shift+Option+Fader5 NoAction 
+	Shift+Option+DisplayUpper5 NoAction 
+	Shift+Option+DisplayLower5 NoAction 
+
+
+	Shift+Option+Rotary6 NoAction 
+	Shift+Option+RotaryPush6 NoAction 
+	Shift+Option+Fader6 NoAction 
+	Shift+Option+DisplayUpper6 NoAction 
+	Shift+Option+DisplayLower6 NoAction 
+
+
+	Shift+Option+Rotary7 NoAction 
+	Shift+Option+RotaryPush7 NoAction 
+	Shift+Option+Fader7 NoAction 
+	Shift+Option+DisplayUpper7 NoAction 
+	Shift+Option+DisplayLower7 NoAction 
+
+
+	Shift+Option+Rotary8 NoAction 
+	Shift+Option+RotaryPush8 NoAction 
+	Shift+Option+Fader8 NoAction 
+	Shift+Option+DisplayUpper8 NoAction 
+	Shift+Option+DisplayLower8 NoAction 
+
+
+
+#End auto generated section
+
+	OnZoneDeactivation 	ToggleUseLocalModifiers
+ZoneEnd

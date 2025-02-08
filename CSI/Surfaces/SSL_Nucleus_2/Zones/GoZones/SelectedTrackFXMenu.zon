@@ -1,0 +1,30 @@
+Zone "SelectedTrackFXMenu"
+
+	ChannelLeft		    		Reaper 40286	//Track: Go To Previous Track
+	ChannelRight		    	Reaper 40285	//Track: Go To Next Track
+	BankLeft					Bank Track -8
+	BankRight					Bank Track 8
+	
+	OnZoneDeactivation 	    	HideFXSlot
+	OnZoneDeactivation	    	ClearModifiers
+	
+	Esc			    			AllSurfacesGoHome
+	
+	// To unmap and close the focused FX returning to the previous zone. This prevents the unfocusing FX problem.
+
+	F2                      	Reaper _RSa79773b81ca82d98b618f3bc8b79e3ba8616085a     // MT4U_FX_SHOW_HIDE_CloseFocused.eel
+	F2                      	ClearFocusedFX Feedback=No
+	
+	// Now the actual plug-in movers.
+
+	Up             	      		Reaper _RS95211454bfbef97e0215b0b918446426978d0014      // MT4U_FX_MENU_MoveUp.eel
+	Down      		      		Reaper _RScab515c7031f31eec2ec211302e3ca346798462d      // MT4U_FX_MENU_MoveDown.eel
+	
+	// To swap the focused FX with the next/prev on our list
+
+	Alt+ChannelLeft          	ClearFocusedFX Feedback=No Feedback=No
+	Control+Alt+ChannelLeft   	Reaper _RS20a3b18140b5bb47c52beb9c27b387270d07a1f1   // MT4U_FX_FOCUSED_Prev.eel
+	Alt+ChannelRight       	    ClearFocusedFX Feedback=No Feedback=No
+	Control+Alt+ChannelRight  	Reaper _RS14225070f26ef670af7ca2ec077792ae9f389f05   // MT4U_FX_FOCUSED_Next.eel
+	
+ZoneEnd

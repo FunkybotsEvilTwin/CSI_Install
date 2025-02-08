@@ -1,0 +1,304 @@
+Zone "VST3: Unisum (Tone Projects)" "Unisum"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 79 [ 0  1  ] 
+	Rotary1	FXParam 19  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Thresh" 
+	DisplayLower1	FXParamValueDisplay 19
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 21  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Ratio" 
+	DisplayLower2	FXParamValueDisplay 21
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 23  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Att" 
+	DisplayLower3	FXParamValueDisplay 23
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 25  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Rel" 
+	DisplayLower4	FXParamValueDisplay 25
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 29  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Knee" 
+	DisplayLower5	FXParamValueDisplay 29
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 27  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Rel Cur" 
+	DisplayLower6	FXParamValueDisplay 27
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 4  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Mkp" 
+	DisplayLower7	FXParamValueDisplay 4
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 5  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Mix" 
+	DisplayLower8	FXParamValueDisplay 5
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 9  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "SCHP" 
+	Shift+DisplayLower1	FXParamValueDisplay 9
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 13  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "SC Em" 
+	Shift+DisplayLower2	FXParamValueDisplay 13
+
+	Shift+RotaryPush2	FXParam 15 [ 0 1 ]
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 31  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "Relax" 
+	Shift+DisplayLower3	FXParamValueDisplay 31
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 33  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "GR Lim" 
+	Shift+DisplayLower4	FXParamValueDisplay 33
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush5	FXParam 68 [ 0 1 ]
+	Shift+DisplayUpper5	FixedTextDisplay "Hygge" 
+	Shift+DisplayLower5	FXParamValueDisplay 68
+
+
+	Shift+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush6	FXParam 7 [ 0 1 ]
+	Shift+DisplayUpper6	FixedTextDisplay "Solo" 
+	Shift+DisplayLower6	FXParamValueDisplay 7
+
+
+	Shift+Rotary7	FXParam 65  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "Link" 
+	Shift+DisplayLower7	FXParamValueDisplay 65
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+RotaryPush8	FXParam 2 [ 0 1 ]
+	Shift+DisplayUpper8	FixedTextDisplay "Link" 
+	Shift+DisplayLower8	FXParamValueDisplay 2
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 RMS Peak Link
+1 MS Mode
+2 Link Parameters
+3 Quality
+4 Makeup Gain
+5 Mix Ch1
+6 Mix Ch2
+7 Solo Ch1
+8 Solo Ch2
+9 SC Highpass
+10 SC Highpass Ch2
+11 SC EQ Type
+12 SC EQ Type Ch2
+13 SC Emphasis
+14 SC Emphasis Ch2
+15 SC Emphasis/Dip Soft
+16 SC Emphasis/Dip Soft Ch2
+17 SC Lowpass
+18 SC Lowpass Ch2
+19 Threshold
+20 Threshold Ch2
+21 Ratio
+22 Ratio Ch2
+23 Attack
+24 Attack Ch2
+25 Release
+26 Release Ch2
+27 Release Curve
+28 Release Curve Ch2
+29 Knee
+30 Knee Ch2
+31 Relax
+32 Relax Ch2
+33 GR Limit
+34 GR Limit Ch2
+35 Freq 1
+36 Freq 2
+37 Low RMS Speed
+38 Mid RMS Speed
+39 High RMS Speed
+40 Low Weight
+41 Mid Weight
+42 High Weight
+43 Low xRatio
+44 Mid xRatio
+45 High xRatio
+46 +2nd Att
+47 +2nd Rel
+48 2nd Env Mix
+49 Env Smooth
+50 Attack Mods
+51 Release Mods
+52 xAtt Crossover Level
+53 Quiet xAtt
+54 Loud xAtt
+55 xRel Crossover Level
+56 Quiet xRel
+57 Loud xRel
+58 Transient Attack Override
+59 Transient Release Override
+60 Memory Effect Attack
+61 Memory Effect Release
+62 Peak Level Low
+63 Peak Level Mid
+64 Peak Level high
+65 Channel Link Amount
+66 Makeup Gain Ch2
+67 Zoom Meter
+68 Hygge Ch1
+69 Hygge Ch2
+70 Bypass
+71 Channel Link Bias
+72 Channel Link Filter
+73 Channel Link Limit
+74 Meter Mode
+75 xMem Speed
+76 xRatio Speed
+77 Show tooltips
+78 Show Style editor
+79 Bypass
+80 Wet
+81 Delta

@@ -1,0 +1,22 @@
+Zone Home
+	OnInitialization		ToggleRestrictTextLength 6
+
+
+        IncludedZones
+			Track
+        IncludedZonesEnd 
+	
+/////////////////////////////////////////////////////////NOTES////////////////////////////////////////////////////////
+// For use with CSI version 7.0                                                                                     //
+//                                                                                                                  //
+// This surface relies heavily upon third-party scripts. In order to get these zone files to function as designed,  //
+// you would need to locate these third-party scripts (they are documented in the comments and readily available),  //
+// install them on your Reaper instance, then update the long string with the Command ID from your Reaper action    //
+// list. Once you do that, these zones will work as intended.                                                       //
+//                                                                                                                  //
+// Additionally, you can of course, modify the mapping to your liking and not use third-party scripts at all.       //
+// Thanks to MixR for providing these files.                                                                        //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	
+ZoneEnd

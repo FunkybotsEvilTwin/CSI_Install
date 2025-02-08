@@ -1,0 +1,77 @@
+Zone SelectedTrackFXMenu
+
+    OnZoneDeactivation       HideFXSlot
+    OnZoneDeactivation       ClearModifiers
+
+    DisplayUpper|               TrackNameDisplay
+    DisplayUpper2               NoAction
+    DisplayUpper3               NoAction
+    DisplayUpper4               NoAction
+    DisplayUpper5               NoAction
+    DisplayUpper6               NoAction
+    DisplayUpper7               NoAction
+    DisplayUpper8               NoAction
+    DisplayLower|               FXMenuNameDisplay
+
+    Rotary|                     NoAction
+    RotaryPush|                 Reaper _S&M_TOGLFLOATFX|        //Float the FX window
+    Mute|                       Reaper _S&M_FXBYP|              //Bypass FX Slot
+    Option+Mute|                Reaper _S&M_FXOFF|              //Offline FX slot
+    RotaryPush|                 GoFXSlot
+    Left                        Bank SelectedTrackFXMenu -8
+    Right                       Bank SelectedTrackFXMenu 8
+
+    ChannelLeft                 Reaper 40286   //Track: Go To Previous Track
+    ChannelRight                Reaper 40285   //Track: Go To Next Track
+    BankLeft                    Bank Track -8
+    BankRight                   Bank Track 8
+    Esc                         AllSurfacesGoHome
+     
+// To unmap and close the focused FX returning to the previous zone. This prevents the unfocusing FX problem.
+
+     F2                         Reaper _RSa79773b81ca82d98b618f3bc8b79e3ba8616085a     // MT4U_FX_SHOW_HIDE_CloseFocused.eel
+     F2                         ClearFocusedFX
+
+// These lines provide the Prev/Next plug-in for each slot in the chain.
+
+     Alt+Increase+Rotary1        Reaper _RSc545ff69f595f1cae309546bcdb9179f7429c0e3      // MT4U_FX_MENU_Next_01.eel
+     Alt+Increase+Rotary2        Reaper _RS5439e90ffa8d42ed4c792c6b3a3ea73cf00fba3b      // MT4U_FX_MENU_Next_02.eel
+     Alt+Increase+Rotary3        Reaper _RS68d54e0a0cfd883a7a32300ad232da0b0b014582      // MT4U_FX_MENU_Next_03.eel
+     Alt+Increase+Rotary4        Reaper _RS03d759a19dd784936c0623261989a9d068b506b9      // MT4U_FX_MENU_Next_04.eel
+     Alt+Increase+Rotary5        Reaper _RSb2361f8e123048bd39d7939940b69a1bf42c9548      // MT4U_FX_MENU_Next_05.eel
+     Alt+Increase+Rotary6        Reaper _RS85f1b59aeae81a32fefe19bf6450a0fa211a6481      // MT4U_FX_MENU_Next_06.eel
+     Alt+Increase+Rotary7        Reaper _RSef0d0b1af31dc05cb612426330c91fe07772ba69      // MT4U_FX_MENU_Next_07.eel
+     Alt+Increase+Rotary8        Reaper _RS1f833e289409ee010d55aef22db12d40c2682bbc      // MT4U_FX_MENU_Next_08.eel
+     Alt+Decrease+Rotary1        Reaper _RS94465c3306bb9b3c9d55b8c7178f5ed761470a11      // MT4U_FX_MENU_Prev_01.eel  
+     Alt+Decrease+Rotary2        Reaper _RSa53d4aacb8b072d7a6ab0396a9defe16ad65cdb9      // MT4U_FX_MENU_Prev_02.eel  
+     Alt+Decrease+Rotary3        Reaper _RS074637b1b554af8249c502f39f5ed701aa8f31e9      // MT4U_FX_MENU_Prev_03.eel  
+     Alt+Decrease+Rotary4        Reaper _RS6c27b24ff350d5e37917f5d04efe37a8cbddc3c8      // MT4U_FX_MENU_Prev_04.eel  
+     Alt+Decrease+Rotary5        Reaper _RSe93b961d483b93912ed350205563a80bf3d1ca4f      // MT4U_FX_MENU_Prev_05.eel  
+     Alt+Decrease+Rotary6        Reaper _RSc5afaed8eff8f9fe6fadd2aef6113d8fa8cf64e4      // MT4U_FX_MENU_Prev_06.eel  
+     Alt+Decrease+Rotary7        Reaper _RSebb16895b121c261b4738e73ad6fc42db29f0909      // MT4U_FX_MENU_Prev_07.eel  
+     Alt+Decrease+Rotary8        Reaper _RS8cdd865f8ede7ec4e95a7f433bea329f780d1362      // MT4U_FX_MENU_Prev_08.eel  
+
+// FX Selection. These allow us to select a plug-in, so we can move it up or down whithin the chain.
+
+     Select1                  Reaper _RS5a050d77bb0db671a322ab6afeea1c473e23922b      // MT4U_FX_MENU_Sel_01.eel
+     Select2                  Reaper _RS943d149b67e3955639628ad3fcba5ecb09ef0a0e      // MT4U_FX_MENU_Sel_02.eel
+     Select3                  Reaper _RS9c174a048d6852aac1146045de404f785820876b      // MT4U_FX_MENU_Sel_03.eel
+     Select4                  Reaper _RSc39ebef0a88dcbbb01c9a266ca09f1086bfd06ad      // MT4U_FX_MENU_Sel_04.eel
+     Select5                  Reaper _RS50b6875f1a9ec9faec87346b6116d0a98007f32f      // MT4U_FX_MENU_Sel_05.eel
+     Select6                  Reaper _RS9cfda924b0efc46db8d57a8bd41e7375304c370e      // MT4U_FX_MENU_Sel_06.eel
+     Select7                  Reaper _RS306c3f85913dbdd73e5ad305d2d2b68d63aebad7      // MT4U_FX_MENU_Sel_07.eel
+     Select8                  Reaper _RS0088ef7ea422f2bb69a043a6065cb578405e4fa0      // MT4U_FX_MENU_Sel_08.eel
+
+// To delete a plug-in.
+
+     Hold+Select1             Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630 Feedback=No      // MT4U_FX_MENU_Del.eel
+     Hold+Select2             Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630 Feedback=No      // MT4U_FX_MENU_Del.eel
+     Hold+Select3             Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630 Feedback=No      // MT4U_FX_MENU_Del.eel
+     Hold+Select4             Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630 Feedback=No      // MT4U_FX_MENU_Del.eel
+     Hold+Select5             Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630 Feedback=No      // MT4U_FX_MENU_Del.eel
+     Hold+Select6             Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630 Feedback=No      // MT4U_FX_MENU_Del.eel
+     Hold+Select7             Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630 Feedback=No      // MT4U_FX_MENU_Del.eel
+     Hold+Select8             Reaper _RS6d8c8a3ec1b91ea74ddbe140f8206376b571e630 Feedback=No      // MT4U_FX_MENU_Del.eel
+
+
+ZoneEnd

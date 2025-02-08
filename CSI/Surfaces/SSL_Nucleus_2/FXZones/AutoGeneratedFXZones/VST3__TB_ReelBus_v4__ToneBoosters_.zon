@@ -1,0 +1,293 @@
+Zone "VST3: TB_ReelBus_v4 (ToneBoosters)" "TB_ReelBus_v4"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 68 [ 0  1  ] 
+	Rotary1	FXParam 61  RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "M hys" 
+	DisplayLower1	FXParamValueDisplay 61
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary2	FXParam 63  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "M WnF" 
+	DisplayLower2	FXParamValueDisplay 63
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 60  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "M drive" 
+	DisplayLower3	FXParamValueDisplay 60
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 62  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "M comp" 
+	DisplayLower4	FXParamValueDisplay 62
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 64  RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "M noise" 
+	DisplayLower5	FXParamValueDisplay 64
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 2  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "spd" 
+	DisplayLower6	FXParamValueDisplay 2
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 0  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Amt" 
+	DisplayLower7	FXParamValueDisplay 0
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 4  RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "Out gain" 
+	DisplayLower8	FXParamValueDisplay 4
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 1  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "Thresh" 
+	Shift+DisplayLower1	FXParamValueDisplay 1
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 5  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "Sat" 
+	Shift+DisplayLower2	FXParamValueDisplay 5
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 6  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "Sat mode" 
+	Shift+DisplayLower3	FXParamValueDisplay 6
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 11  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "W&F Amt" 
+	Shift+DisplayLower4	FXParamValueDisplay 11
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 12  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "W&F spd" 
+	Shift+DisplayLower5	FXParamValueDisplay 12
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 7  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "hys" 
+	Shift+DisplayLower6	FXParamValueDisplay 7
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 8  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "Mkp" 
+	Shift+DisplayLower7	FXParamValueDisplay 8
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 13  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "Wear" 
+	Shift+DisplayLower8	FXParamValueDisplay 13
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 Amt
+1 Thresh
+2 spd
+3 Mode
+4 Out gain
+5 Sat
+6 Sat mode
+7 hys
+8 Mkp
+9 comp
+10 Spectrum
+11 W&F Amt
+12 W&F spd
+13 Wear
+14 Hiss enable
+15 Hiss level
+16 Asp. enbl
+17 Asp. levl
+18 Fl enable
+19 Fl delay
+20 Fl Amt
+21 Fl HPF
+22 Fl LPF
+23 Fl duration
+24 Fl mode
+25 Fl tempo
+26 Fl depth
+27 Fl phase
+28 Echo1 enable
+29 Echo1 sync
+30 Echo1 delay
+31 Echo1 Amt
+32 Echo1 HPF
+33 Echo1 LPF
+34 Echo1 mode
+35 Echo1 tempo
+36 Echo2 enable
+37 Echo1 sync
+38 Echo2 delay
+39 Echo2 Amt
+40 Echo2 HPF
+41 Echo2 LPF
+42 Echo2 mode
+43 Echo2 tempo
+44 PreEmp F0
+45 PreEmp G0
+46 PreEmp Q0
+47 PreEmp A0
+48 PreEmp F1
+49 PreEmp G1
+50 PreEmp Q1
+51 PreEmp A1
+52 PreEmp F2
+53 PreEmp G2
+54 PreEmp Q2
+55 PreEmp A2
+56 Transport mode
+57 Transport start
+58 Transport stop
+59 Tab index
+60 M drive
+61 M hys
+62 M comp
+63 M WnF
+64 M noise
+65 HQ mode
+66 Bypass
+67 Program
+68 Bypass
+69 Wet
+70 Delta

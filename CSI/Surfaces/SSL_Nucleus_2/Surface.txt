@@ -1,0 +1,636 @@
+StepSize
+    RotaryWidgetClass   0.003
+    JogWheelWidgetClass 0.003
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass   	Dec 	41     	42    	43    	44    	45    	46    	47		48		49		4a		4b		4c		4d		4e		4f				  
+    RotaryWidgetClass   	Inc 	01     	02    	03    	04    	05    	06    	07		08		09		0a		0b		0c  	0d		0e		0f
+    RotaryWidgetClass   	Val 	0.0025	0.003	0.004	0.04	0.04	0.04	0.05	0.05	0.05	0.06	0.06	0.08 	0.1		0.2		0.6
+AccelerationValuesEnd
+
+Widget Instrument
+	Press 90 2D 7F 90 2D 00
+	FB_TwoState 90 2D 7f 90 2D 00
+WidgetEnd
+
+Widget Plugin
+	Press 90 2B 7F 90 2B 00
+	FB_TwoState 90 2B 7F 90 2B 00
+WidgetEnd
+
+Widget EQ
+	Press 90 2C 7F 90 2C 00
+	FB_TwoState 90 2C 7F 90 2C 00
+WidgetEnd
+
+Widget Pan
+	Press 90 2A 7F 90 2A 00
+	FB_TwoState 90 2A 7F 90 2A 00
+WidgetEnd
+
+Widget Send
+	Press 90 29 7F 90 29 00
+	FB_TwoState 90 29 7F 90 29 00
+WidgetEnd
+
+Widget Track
+	Press 90 28 7F 90 28 00
+	FB_TwoState 90 28 7F 90 28 00
+WidgetEnd
+
+Widget Press7
+	Press 90 33 7F 90 33 00
+	FB_TwoState 90 33 7F 90 33 00
+WidgetEnd
+
+Widget Press8
+	Press 90 58 7F 90 58 00
+	FB_TwoState 90 58 7F 90 58 00
+WidgetEnd
+
+Widget Press9
+	Press 90 3E 7F 90 3E 00
+	FB_TwoState 90 3E 7F 90 3E 00
+WidgetEnd
+
+Widget Press10
+	Press 90 3F 7F 90 3F 00
+	FB_TwoState 90 3F 7F 90 3F 00
+WidgetEnd
+
+Widget Press11
+	Press 90 40 7F 90 40 00
+	FB_TwoState 90 40 7F 90 40 00
+WidgetEnd
+
+Widget Press12
+	Press 90 41 7F 90 41 00
+	FB_TwoState 90 41 7F 90 41 00
+WidgetEnd
+
+Widget Press13
+	Press 90 3A 7F 90 3A 00
+	FB_TwoState 90 3A 7F 90 3A 00
+WidgetEnd
+
+Widget Press14
+	Press 90 3B 7F 90 3B 00
+	FB_TwoState 90 3B 7F 90 3B 00
+WidgetEnd
+
+Widget Press15
+	Press 90 3C 7F 90 3C 00
+	FB_TwoState 90 3C 7F 90 3C 00
+WidgetEnd
+
+Widget Press16
+	Press 90 3D 7F 90 3D 00
+	FB_TwoState 90 3D 7F 90 3D 00
+WidgetEnd
+
+Widget Param
+	Press 90 34 7F 90 34 00
+	FB_TwoState 90 34 7F 90 34 00
+WidgetEnd
+
+Widget Shift
+	Press 90 46 7F 90 46 00
+WidgetEnd
+
+Widget Option
+	Press 90 47 7F 90 47 00
+WidgetEnd
+
+Widget Control
+	Press 90 48 7F 90 48 00
+WidgetEnd
+
+Widget Alt
+	Press 90 49 7F 90 49 00
+WidgetEnd
+
+Widget Flip
+	Press 90 32 7F 90 32 00
+	FB_TwoState 90 32 7F 90 32 00
+WidgetEnd
+
+Widget Read/Off
+	Press 90 4A 7F 90 4A 00
+	FB_TwoState 90 4A 7F 90 4A 00
+WidgetEnd
+
+Widget Write
+	Press 90 4B 7F 90 4B 00
+	FB_TwoState 90 4B 7F 90 4B 00
+WidgetEnd
+
+Widget Touch
+	Press 90 4D 7F 90 4D 00
+	FB_TwoState 90 4D 7F 90 4D 00
+WidgetEnd
+
+Widget Latch
+	Press 90 4E 7F 90 4E 00
+	FB_TwoState 90 4E 7F 90 4E 00
+WidgetEnd
+
+Widget RecordArm1
+	Press 90 00 7F 90 00 00
+	FB_TwoState 90 00 7F 90 00 00
+WidgetEnd
+
+Widget RecordArm2
+	Press 90 01 7F 90 01 00
+	FB_TwoState 90 01 7F 90 01 00
+WidgetEnd
+
+Widget RecordArm3
+	Press 90 02 7F 90 02 00
+	FB_TwoState 90 02 7F 90 02 00
+WidgetEnd
+
+Widget RecordArm4
+	Press 90 03 7F 90 03 00
+	FB_TwoState 90 03 7F 90 03 00
+WidgetEnd
+
+Widget RecordArm5
+	Press 90 04 7F 90 04 00
+	FB_TwoState 90 04 7F 90 04 00
+WidgetEnd
+
+Widget RecordArm6
+	Press 90 05 7F 90 05 00
+	FB_TwoState 90 05 7F 90 05 00
+WidgetEnd
+
+Widget RecordArm7
+	Press 90 06 7F 90 06 00
+	FB_TwoState 90 06 7F 90 06 00
+WidgetEnd
+
+Widget RecordArm8
+	Press 90 07 7F 90 07 00
+	FB_TwoState 90 07 7F 90 07 00
+WidgetEnd
+
+Widget F1
+	Press 90 36 7F 90 36 00
+	FB_TwoState 90 36 7F 90 36 00
+WidgetEnd
+
+Widget F2
+	Press 90 37 7F 90 37 00
+	FB_TwoState 90 37 7F 90 37 00
+WidgetEnd
+
+Widget F3
+	Press 90 38 7F 90 38 00
+	FB_TwoState 90 38 7F 90 38 00
+WidgetEnd
+
+Widget F4
+	Press 90 39 7F 90 39 00
+	FB_TwoState 90 39 7F 90 39 00
+WidgetEnd
+
+Widget BankLeft
+	Press 90 2E 7F 90 2E 00
+WidgetEnd
+
+Widget BankRight
+	Press 90 2F 7F 90 2F 00
+WidgetEnd
+
+Widget ChannelLeft
+	Press 90 30 7F 90 30 00
+WidgetEnd
+
+Widget ChannelRight
+	Press 90 31 7F 90 31 00
+WidgetEnd
+
+Widget Up
+	Press 90 60 7F 90 60 00
+WidgetEnd
+
+Widget Down
+	Press 90 61 7F 90 61 00
+WidgetEnd
+
+Widget Left
+	Press 90 62 7F 90 62 00
+WidgetEnd
+
+Widget Right
+	Press 90 63 7F 90 63 00
+WidgetEnd
+
+Widget Mode
+	Press 90 64 7F 90 64 00
+	FB_TwoState 90 64 7F 90 64 00
+WidgetEnd
+
+Widget Prev
+	Press 90 5B 7F 90 5B 00
+WidgetEnd
+
+Widget Next
+	Press 90 5C 7F 90 5C 00
+WidgetEnd
+
+Widget Cycle
+	Press 90 56 7F 90 56 00
+	FB_TwoState 90 56 7F 90 56 00
+WidgetEnd
+
+Widget Scrub
+	Press 90 65 7F 90 65 00
+	FB_TwoState 90 65 7F 90 65 00
+WidgetEnd
+
+Widget JogWheel
+	Encoder b0 3C 7f
+WidgetEnd
+
+Widget Play
+	Press 90 5E 7F 90 5E 00
+	FB_TwoState 90 5E 7F 90 5E 00
+WidgetEnd
+
+Widget Stop
+	Press 90 5D 7F 90 5D 00
+	FB_TwoState 90 5D 7F 90 5D 00
+WidgetEnd
+
+Widget Rec
+	Press 90 5F 7F 90 5F 00
+	FB_TwoState 90 5F 7F 90 5F 00
+WidgetEnd
+
+Widget Save
+	Press 90 50 7F 90 50 00
+	FB_TwoState 90 50 7F 90 50 00
+WidgetEnd
+
+Widget Undo
+	Press 90 51 7F 90 51 00
+WidgetEnd
+
+Widget Enter
+	Press 90 53 7F 90 53 00
+WidgetEnd
+
+Widget Esc
+	Press 90 52 7F 90 52 00
+	FB_TwoState 90 52 7F 90 52 00
+WidgetEnd
+
+Widget Mute1
+	Press 90 10 7F 90 10 00
+	FB_TwoState 90 10 7F 90 10 00
+WidgetEnd
+
+Widget Mute2
+	Press 90 11 7F 90 11 00
+	FB_TwoState 90 11 7F 90 11 00
+WidgetEnd
+
+Widget Mute3
+	Press 90 12 7F 90 12 00
+	FB_TwoState 90 12 7F 90 12 00
+WidgetEnd
+
+Widget Mute4
+	Press 90 13 7F 90 13 00
+	FB_TwoState 90 13 7F 90 13 00
+WidgetEnd
+
+Widget Mute5
+	Press 90 14 7F 90 14 00
+	FB_TwoState 90 14 7F 90 14 00
+WidgetEnd
+
+Widget Mute6
+	Press 90 15 7F 90 15 00
+	FB_TwoState 90 15 7F 90 15 00
+WidgetEnd
+
+Widget Mute7
+	Press 90 16 7F 90 16 00
+	FB_TwoState 90 16 7F 90 16 00
+WidgetEnd
+
+Widget Mute8
+	Press 90 17 7F 90 17 00
+	FB_TwoState 90 17 7F 90 17 00
+WidgetEnd
+
+Widget Solo1
+	Press 90 08 7F 90 08 00
+	FB_TwoState 90 08 7F 90 08 00
+WidgetEnd
+
+Widget Solo2
+	Press 90 09 7F 90 09 00
+	FB_TwoState 90 09 7F 90 09 00
+WidgetEnd
+
+Widget Solo3
+	Press 90 0A 7F 90 0A 00
+	FB_TwoState 90 0A 7F 90 0A 00
+WidgetEnd
+
+Widget Solo4
+	Press 90 0B 7F 90 0B 00
+	FB_TwoState 90 0B 7F 90 0B 00
+WidgetEnd
+
+Widget Solo5
+	Press 90 0C 7F 90 0C 00
+	FB_TwoState 90 0C 7F 90 0C 00
+WidgetEnd
+
+Widget Solo6
+	Press 90 0D 7F 90 0D 00
+	FB_TwoState 90 0D 7F 90 0D 00
+WidgetEnd
+
+Widget Solo7
+	Press 90 0E 7F 90 0E 00
+	FB_TwoState 90 0E 7F 90 0E 00
+WidgetEnd
+
+Widget Solo8
+	Press 90 0F 7F 90 0F 00
+	FB_TwoState 90 0F 7F 90 0F 00
+WidgetEnd
+
+Widget Select1
+	Press 90 18 7F 90 18 00
+	FB_TwoState 90 18 7F 90 18 00
+WidgetEnd
+
+Widget Select2
+	Press 90 19 7F 90 19 00
+	FB_TwoState 90 19 7F 90 19 00
+WidgetEnd
+
+Widget Select3
+	Press 90 1A 7F 90 1A 00
+	FB_TwoState 90 1A 7F 90 1A 00
+WidgetEnd
+
+Widget Select4
+	Press 90 1B 7F 90 1B 00
+	FB_TwoState 90 1B 7F 90 1B 00
+WidgetEnd
+
+Widget Select5
+	Press 90 1C 7F 90 1C 00
+	FB_TwoState 90 1C 7F 90 1C 00
+WidgetEnd
+
+Widget Select6
+	Press 90 1D 7F 90 1D 00
+	FB_TwoState 90 1D 7F 90 1D 00
+WidgetEnd
+
+Widget Select7
+	Press 90 1E 7F 90 1E 00
+	FB_TwoState 90 1E 7F 90 1E 00
+WidgetEnd
+
+Widget Select8
+	Press 90 1F 7F 90 1F 00
+	FB_TwoState 90 1F 7F 90 1F 00
+WidgetEnd
+
+Widget RotaryPush1
+	Press 90 20 7F 90 20 00
+	FB_TwoState 90 20 7F 90 20 00
+WidgetEnd
+
+Widget RotaryPush2
+	Press 90 21 7F 90 21 00
+	FB_TwoState 90 21 7F 90 21 00
+WidgetEnd
+
+Widget RotaryPush3
+	Press 90 22 7F 90 22 00
+	FB_TwoState 90 22 7F 90 22 00
+WidgetEnd
+
+Widget RotaryPush4
+	Press 90 23 7F 90 23 00
+	FB_TwoState 90 23 7F 90 23 00
+WidgetEnd
+
+Widget RotaryPush5
+	Press 90 24 7F 90 24 00
+	FB_TwoState 90 24 7F 90 24 00
+WidgetEnd
+
+Widget RotaryPush6
+	Press 90 25 7F 90 25 00
+	FB_TwoState 90 25 7F 90 25 00
+WidgetEnd
+
+Widget RotaryPush7
+	Press 90 26 7F 90 26 00
+	FB_TwoState 90 26 7F 90 26 00
+WidgetEnd
+
+Widget RotaryPush8
+	Press 90 27 7F 90 27 00
+	FB_TwoState 90 27 7F 90 27 00
+WidgetEnd
+
+Widget Rotary1 RotaryWidgetClass
+	Encoder b0 10 7f
+	FB_Encoder b0 10 7f
+WidgetEnd
+
+Widget Rotary2 RotaryWidgetClass
+	Encoder b0 11 7f
+	FB_Encoder b0 11 7f
+WidgetEnd
+
+Widget Rotary3 RotaryWidgetClass
+	Encoder b0 12 7f
+	FB_Encoder b0 12 7f
+WidgetEnd
+
+Widget Rotary4 RotaryWidgetClass
+	Encoder b0 13 7f
+	FB_Encoder b0 13 7f
+WidgetEnd
+
+Widget Rotary5 RotaryWidgetClass
+	Encoder b0 14 7f
+	FB_Encoder b0 14 7f
+WidgetEnd
+
+Widget Rotary6 RotaryWidgetClass
+	Encoder b0 15 7f
+	FB_Encoder b0 15 7f
+WidgetEnd
+
+Widget Rotary7 RotaryWidgetClass
+	Encoder b0 16 7f
+	FB_Encoder b0 16 7f
+WidgetEnd
+
+Widget Rotary8 RotaryWidgetClass
+	Encoder b0 17 7f
+	FB_Encoder b0 17 7f
+WidgetEnd
+
+Widget Fader1
+	Fader14Bit e0 70 7f
+	FB_Fader14Bit e0 70 7f
+	Touch 90 68 7f 90 68 00
+WidgetEnd
+
+Widget Fader2
+	Fader14Bit e1 70 7f
+	FB_Fader14Bit e1 70 7f
+	Touch 90 69 7f 90 69 00
+WidgetEnd
+
+Widget Fader3
+	Fader14Bit e2 70 7f
+	FB_Fader14Bit e2 70 7f
+	Touch 90 6a 7f 90 6a 00
+WidgetEnd
+
+Widget Fader4
+	Fader14Bit e3 70 7f
+	FB_Fader14Bit e3 70 7f
+	Touch 90 6b 7f 90 6b 00
+WidgetEnd
+
+Widget Fader5
+	Fader14Bit e4 70 7f
+	FB_Fader14Bit e4 70 7f
+	Touch 90 6c 7f 90 6c 00
+WidgetEnd
+
+Widget Fader6
+	Fader14Bit e5 70 7f
+	FB_Fader14Bit e5 70 7f
+	Touch 90 6d 7f 90 6d 00
+WidgetEnd
+
+Widget Fader7
+	Fader14Bit e6 70 7f
+	FB_Fader14Bit e6 70 7f
+	Touch 90 6e 7f 90 6e 00
+WidgetEnd
+
+Widget Fader8
+	Fader14Bit e7 70 7f
+	FB_Fader14Bit e7 70 7f
+	Touch 90 6f 7f 90 6f 00
+WidgetEnd
+
+Widget AssignmentDisplay
+	FB_MCUAssignmentDisplay
+WidgetEnd
+
+Widget DisplayUpper1
+	FB_MCUDisplayUpper 0
+WidgetEnd
+
+Widget DisplayUpper2
+	FB_MCUDisplayUpper 1
+WidgetEnd
+
+Widget DisplayUpper3
+	FB_MCUDisplayUpper 2
+WidgetEnd
+
+Widget DisplayUpper4
+	FB_MCUDisplayUpper 3
+WidgetEnd
+
+Widget DisplayUpper5
+	FB_MCUDisplayUpper 4
+WidgetEnd
+
+Widget DisplayUpper6
+	FB_MCUDisplayUpper 5
+WidgetEnd
+
+Widget DisplayUpper7
+	FB_MCUDisplayUpper 6
+WidgetEnd
+
+Widget DisplayUpper8
+	FB_MCUDisplayUpper 7
+WidgetEnd
+
+Widget DisplayLower1
+	FB_MCUDisplayLower 0
+WidgetEnd
+
+Widget DisplayLower2
+	FB_MCUDisplayLower 1
+WidgetEnd
+
+Widget DisplayLower3
+	FB_MCUDisplayLower 2
+WidgetEnd
+
+Widget DisplayLower4
+	FB_MCUDisplayLower 3
+WidgetEnd
+
+Widget DisplayLower5
+	FB_MCUDisplayLower 4
+WidgetEnd
+
+Widget DisplayLower6
+	FB_MCUDisplayLower 5
+WidgetEnd
+
+Widget DisplayLower7
+	FB_MCUDisplayLower 6
+WidgetEnd
+
+Widget DisplayLower8
+	FB_MCUDisplayLower 7
+WidgetEnd
+
+Widget VUMeter1
+	FB_MCUVUMeter 0
+WidgetEnd
+
+Widget VUMeter2
+	FB_MCUVUMeter 1
+WidgetEnd
+
+Widget VUMeter3
+	FB_MCUVUMeter 2
+WidgetEnd
+
+Widget VUMeter4
+	FB_MCUVUMeter 3
+WidgetEnd
+
+Widget VUMeter5
+	FB_MCUVUMeter 4
+WidgetEnd
+
+Widget VUMeter6
+	FB_MCUVUMeter 5
+WidgetEnd
+
+Widget VUMeter7
+	FB_MCUVUMeter 6
+WidgetEnd
+
+Widget VUMeter8
+	FB_MCUVUMeter 7
+WidgetEnd

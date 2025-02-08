@@ -1,0 +1,284 @@
+Zone "VST3: soothe2 (oeksound)" "soothe2"
+
+#Begin auto generated section
+	InvertFB+Param FXParam 57 [ 0  1  ] 
+
+
+	Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush1	FXParam 3 [ 0 1 ]
+	DisplayUpper1	FixedTextDisplay "mode" 
+	DisplayLower1	FXParamValueDisplay 3
+
+
+	Rotary2	FXParam 4  RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Depth" 
+	DisplayLower2	FXParamValueDisplay 4
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 5  RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Sharp" 
+	DisplayLower3	FXParamValueDisplay 5
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 6  RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Select" 
+	DisplayLower4	FXParamValueDisplay 6
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush5	FXParam 43 [ 0 1 ] RingStyle=
+	DisplayUpper5	FixedTextDisplay "ST" 
+	DisplayLower5	FXParamValueDisplay 43
+
+
+	Rotary6	FXParam 44  RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Link" 
+	DisplayLower6	FXParamValueDisplay 44
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 45  RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Bal" 
+	DisplayLower7	FXParamValueDisplay 45
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	RotaryPush8	NoAction
+	DisplayUpper8	NoAction
+	DisplayLower8	NoAction
+
+
+	Shift+Rotary1	FXParam 11  RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "low cut freq" 
+	Shift+DisplayLower1	FXParamValueDisplay 11
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 10  RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "low cut q" 
+	Shift+DisplayLower2	FXParamValueDisplay 10
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 15  RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "band1 freq" 
+	Shift+DisplayLower3	FXParamValueDisplay 15
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 16  RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "band1 sens" 
+	Shift+DisplayLower4	FXParamValueDisplay 16
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 17  RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "band1 q" 
+	Shift+DisplayLower5	FXParamValueDisplay 17
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 21  RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "band2 freq" 
+	Shift+DisplayLower6	FXParamValueDisplay 21
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 22  RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "band2 sens" 
+	Shift+DisplayLower7	FXParamValueDisplay 22
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 23  RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "band2 q" 
+	Shift+DisplayLower8	FXParamValueDisplay 23
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Option+Rotary1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush1	NoAction
+	Option+DisplayUpper1	NoAction
+	Option+DisplayLower1	NoAction
+
+
+	Option+Rotary2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush2	NoAction
+	Option+DisplayUpper2	NoAction
+	Option+DisplayLower2	NoAction
+
+
+	Option+Rotary3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush3	NoAction
+	Option+DisplayUpper3	NoAction
+	Option+DisplayLower3	NoAction
+
+
+	Option+Rotary4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush4	NoAction
+	Option+DisplayUpper4	NoAction
+	Option+DisplayLower4	NoAction
+
+
+	Option+Rotary5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush5	NoAction
+	Option+DisplayUpper5	NoAction
+	Option+DisplayLower5	NoAction
+
+
+	Option+Rotary6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush6	NoAction
+	Option+DisplayUpper6	NoAction
+	Option+DisplayLower6	NoAction
+
+
+	Option+Rotary7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush7	NoAction
+	Option+DisplayUpper7	NoAction
+	Option+DisplayLower7	NoAction
+
+
+	Option+Rotary8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Option+RotaryPush8	NoAction
+	Option+DisplayUpper8	NoAction
+	Option+DisplayLower8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 band solo on
+1 selected band
+2 sidechain solo on
+3 mode
+4 depth
+5 sharpness
+6 selectivity
+7 attack
+8 release
+9 low cut on
+10 low cut q
+11 low cut freq
+12 low cut balance
+13 low cut slope
+14 band1 on
+15 band1 freq
+16 band1 sens
+17 band1 q
+18 band1 balance
+19 band1 mode
+20 band2 on
+21 band2 freq
+22 band2 sens
+23 band2 q
+24 band2 balance
+25 band2 mode
+26 band3 on
+27 band3 freq
+28 band3 sens
+29 band3 q
+30 band3 balance
+31 band3 mode
+32 band4 on
+33 band4 freq
+34 band4 sens
+35 band4 q
+36 band4 balance
+37 band4 mode
+38 high cut on
+39 high cut q
+40 high cut freq
+41 high cut balance
+42 high cut slope
+43 stereo mode
+44 stereo link
+45 stereo balance
+46 offline oversample
+47 offline resolution
+48 oversample
+49 resolution
+50 mix
+51 trim
+52 delta
+53 bypass
+54 sidechain
+55 input trim
+56 Bypass
+57 Bypass
+58 Wet
+59 Delta

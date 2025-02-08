@@ -1,0 +1,80 @@
+Zone Track
+
+     OnTrackSelection                        Reaper _RS033ffff68994996ad05b1d856ef3cd86ec540314       // MT4U_FX_Remember.eel
+     OnTrackSelection                        Reaper _RS8a2f2f022ffebde85f32fa3643a3bad6b10588bc       // MT4U_F_Load.eel
+
+     DisplayUpper|                           TrackNameDisplay
+     DisplayLower|                           FixedTextDisplay ""
+     
+     Touch+DisplayLower|                     TrackVolumeDisplay
+
+     Alt+DisplayLower1                       FixedTextDisplay "Fz Cut"
+     Control+Alt+DisplayLower1               NoAction
+
+
+     Fader|                                  TrackVolume
+     Flip+Fader|                             TrackPan
+     Flip+Rotary|                            TrackVolume
+
+     Shift+Option+DisplayLower|              TrackAutoModeDisplay
+     Shift+Option+Select|                    CycleTrackAutoMode
+
+     Solo|                                   TrackSolo
+     Hold+Solo|                              ClearAllSolo Feedback=No
+     Option+Solo1                            Reaper 40745                                           // Solo in front (dim solo)
+
+     Alt+Solo|                               TrackSolo
+     Alt+Solo|                               Reaper _b34471a91fd4264dab539ecc8a9e94f1 Feedback=No //Solo in place Selected track
+     
+     Mute|                                   TrackMute
+     Alt+Mute|                               TrackInvertPolarity 
+     Select|                                 TrackUniqueSelect
+
+     Hold+Select|                            TrackVolume [ 0.716 ] Feedback=No            // Sets fader to unity gain
+     Shift+Select|                           TrackRangeSelect    
+     Control+Select|                         TrackSelect
+
+     Toggle+DisplayLower|                    TrackPanAutoRightDisplay
+     Alt+RotaryPush|                         ToggleChannel Feedback=No
+     Rotary|                                 TrackPanAutoLeft RingStyle=Dot
+     Toggle+Rotary|                          TrackPanAutoRight RingStyle=Dot
+     
+     RecordArm|                              TrackRecordArm
+     Control+Option+RecordArm|               CycleTrackInputMonitor Feedback=No
+     Control+Option+DisplayLower|            TrackInputMonitorDisplay
+     
+     VUMeter|                                TrackOutputMeterAverageLR 
+         
+     RotaryPush1                             Reaper _RS4a59873d8a864b25ad252cf47f7bed5a73c17cbf                    // MT4U_F_FX4.eel
+     RotaryPush1                             ClearModifiers Feedback=No
+     Alt+RotaryPush1                         Reaper _RS94d36270a59c05e387a234a4a359347c63cb2273 Feedback=No        // MT4U_F_FX4_Add.eel
+
+     RotaryPush2                             Reaper _RS87571b848a098b379fa88401f9884989becf701c                    // MT4U_F_FX5.eel
+     RotaryPush2                             ClearModifiers Feedback=No
+     Alt+RotaryPush2                         Reaper _RS5fbaef55bfde55c2ebdd2ba5a7f3ef84e1684df9 Feedback=No        // MT4U_F_FX5_Add.eel
+
+     RotaryPush3                             Reaper _RS3d5b56e2458a161a4e2191dc32c52f5aa9726bd6                    // MT4U_F_FX6.eel
+     RotaryPush3                             ClearModifiers Feedback=No
+     Alt+RotaryPush3                         Reaper _RSa65abfe8faf42eeffddef53188b1646c7ca9d81d Feedback=No        // MT4U_F_FX6_Add.eel
+
+     RotaryPush4                             Reaper _RS3a001acbac4ded63ca2187d0290fce88dbc713cc                    // MT4U_F_FX7.eel
+     RotaryPush4                             ClearModifiers Feedback=No
+     Alt+RotaryPush4                         Reaper _RSa13088123d871028400c1ffeb126af7f58d627d1 Feedback=No        // MT4U_F_FX7_Add.eel
+
+     RotaryPush5                             Reaper _RS70deecde9d1768ba2e1fc7c32dbe5e5ebffe02a3                    // MT4U_F_FX10.eel
+     RotaryPush5                             ClearModifiers Feedback=No
+     Alt+RotaryPush5                         Reaper _RSfd2aee83062555058002371a7cd46ad9f7aff08b Feedback=No        // MT4U_F_FX10_Add.eel
+     
+     RotaryPush6                             Reaper _RS46fd31e460a025da8b02d46b4266ad1f4e6db9a6                    // MT4U_F_FX11.eel
+     RotaryPush6                             ClearModifiers Feedback=No
+     Alt+RotaryPush6                         Reaper _RSdf35b4848af3dc6d07971386f976fffb023c98ca Feedback=No        // MT4U_F_FX11_Add.eel
+     
+     RotaryPush7                             Reaper _RS81348526f4d175fa6d40bbfcb4051dea643c6ac4                    // MT4U_F_FX8.eel
+     RotaryPush7                             ClearModifiers Feedback=No
+     Alt+RotaryPush7                         Reaper _RS173b2f63134d8e63d55783518c1b61a328a33751 Feedback=No        // MT4U_F_FX8_Add.eel
+
+     RotaryPush8                             Reaper _RSc761747e39961c41fe2919a6330954754c0dd28d                    // MT4U_F_FX9.eel
+     RotaryPush8                             ClearModifiers Feedback=No
+     Alt+RotaryPush8                         Reaper _RS3064fad6946f480771ec28ec13eebfce92221b86 Feedback=No        // MT4U_F_FX9_Add.eel
+     
+ZoneEnd
