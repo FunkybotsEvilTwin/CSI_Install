@@ -1,0 +1,251 @@
+// Korg_Nanokontrol_2 CSI v7
+
+StepSize
+    RotaryWidgetClass   0.003
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass       Dec     41      42      43      44      45      46      47      48      49      4a      4b      4c      4d      4e      4f                
+    RotaryWidgetClass       Inc     01      02      03      04      05      06      07      08      09      0a      0b      0c      0d      0e      0f
+    RotaryWidgetClass       Val     0.0025  0.003   0.004   0.006   0.008   0.01    0.015   0.02    0.025   0.03    0.06    0.08    0.1     0.2     0.6
+AccelerationValuesEnd
+
+
+Widget TrackRew
+    Press 90 2E 7F 90 2E 00
+WidgetEnd
+
+Widget TrackFF
+    Press 90 2F 7F 90 2F 00
+WidgetEnd
+
+Widget Cycle
+    Press 90 56 7F 90 56 00
+    FB_TwoState 90 56 7F 90 56 00
+WidgetEnd
+
+Widget Set
+    Press 90 52 7F 90 52 00
+WidgetEnd
+
+Widget MarkerRew
+    Press 90 54 7F 90 54 00
+WidgetEnd
+
+Widget MarkerFF
+    Press 90 55 7F 90 55 00
+WidgetEnd
+
+Widget Rewind
+    Press 90 5B 7F 90 5B 00
+    FB_TwoState 90 5B 7F 90 5B 00
+WidgetEnd
+
+Widget FastForward
+    Press 90 5C 7F 90 5C 00
+    FB_TwoState 90 5C 7F 90 5C 00
+WidgetEnd
+
+Widget Stop
+    Press 90 5D 7F 90 5D 00
+    FB_TwoState 90 5D 7F 90 5D 00
+WidgetEnd
+
+Widget Play
+    Press 90 5E 7F 90 5E 00
+    FB_TwoState 90 5E 7F 90 5E 00
+WidgetEnd
+
+Widget Record
+    Press 90 5F 7F 90 5F 00
+    FB_TwoState 90 5F 7F 90 5F 00
+WidgetEnd
+
+Widget Fader1
+    Fader14Bit E0 7F 7F
+WidgetEnd
+
+Widget Fader2
+    Fader14Bit E1 7F 7F
+WidgetEnd
+
+Widget Fader3
+    Fader14Bit E2 7F 7F
+WidgetEnd
+
+Widget Fader4
+    Fader14Bit E3 7F 7F
+WidgetEnd
+
+Widget Fader5
+    Fader14Bit E4 7F 7F
+WidgetEnd
+
+Widget Fader6
+    Fader14Bit E5 7F 7F
+WidgetEnd
+
+Widget Fader7
+    Fader14Bit E6 7F 7F
+WidgetEnd
+
+Widget Fader8
+    Fader14Bit E7 7F 7F
+WidgetEnd
+
+Widget Rotary1 
+    Encoder B0 10 7F 
+WidgetEnd
+
+Widget Rotary2 
+    Encoder B0 11 7F 
+WidgetEnd
+
+Widget Rotary3 
+    Encoder B0 12 7F  
+WidgetEnd
+
+Widget Rotary4 
+    Encoder B0 13 7F 
+WidgetEnd
+
+Widget Rotary5 
+    Encoder B0 14 7F 
+WidgetEnd
+
+Widget Rotary6 
+    Encoder B0 15 7F 
+WidgetEnd
+
+Widget Rotary7 
+    Encoder B0 16 7F 
+WidgetEnd
+
+Widget Rotary8 
+    Encoder B0 17 7F 
+WidgetEnd
+
+Widget RecArm1
+    Press 90 00 7F 90 00 00
+    FB_TwoState 90 00 7F 90 00 00
+WidgetEnd
+
+Widget RecArm2
+    Press 90 01 7F 90 01 00
+    FB_TwoState 90 01 7F 90 01 00
+WidgetEnd
+
+Widget RecArm3
+    Press 90 02 7F 90 02 00
+    FB_TwoState 90 02 7F 90 02 00
+WidgetEnd
+
+Widget RecArm4
+    Press 90 03 7F 90 03 00
+    FB_TwoState 90 03 7F 90 03 00
+WidgetEnd
+
+Widget RecArm5
+    Press 90 04 7F 90 04 00
+    FB_TwoState 90 04 7F 90 04 00
+WidgetEnd
+
+Widget RecArm6
+    Press 90 05 7F 90 05 00
+    FB_TwoState 90 05 7F 90 05 00
+WidgetEnd
+
+Widget RecArm7
+    Press 90 06 7F 90 06 00
+    FB_TwoState 90 06 7F 90 06 00
+WidgetEnd
+
+Widget RecArm8
+    Press 90 07 7F 90 07 00
+    FB_TwoState 90 07 7F 90 07 00
+WidgetEnd
+
+Widget Solo1
+    Press 90 08 7F 90 08 00
+    FB_TwoState 90 08 7F 90 08 00
+WidgetEnd
+
+Widget Solo2
+    Press 90 09 7F 90 09 00
+    FB_TwoState 90 09 7F 90 09 00
+WidgetEnd
+
+Widget Solo3
+    Press 90 0A 7F 90 0A 00
+    FB_TwoState 90 0A 7F 90 0A 00
+WidgetEnd
+
+Widget Solo4
+    Press 90 0B 7F 90 0B 00
+    FB_TwoState 90 0B 7F 90 0B 00
+WidgetEnd
+
+Widget Solo5
+    Press 90 0C 7F 90 0C 00
+    FB_TwoState 90 0C 7F 90 0C 00
+WidgetEnd
+
+Widget Solo6
+    Press 90 0D 7F 90 0D 00
+    FB_TwoState 90 0D 7F 90 0D 00
+WidgetEnd
+
+Widget Solo7
+    Press 90 0E 7F 90 0E 00
+    FB_TwoState 90 0E 7F 90 0E 00
+WidgetEnd
+
+Widget Solo8
+    Press 90 0F 7F 90 0F 00
+    FB_TwoState 90 0F 7F 90 0F 00
+WidgetEnd
+
+Widget Mute1
+    Press 90 10 7F 90 10 00
+    FB_TwoState 90 10 7F 90 10 00
+WidgetEnd
+
+Widget Mute2
+    Press 90 11 7F 90 11 00
+    FB_TwoState 90 11 7F 90 11 00
+WidgetEnd
+
+Widget Mute3
+    Press 90 12 7F 90 12 00
+    FB_TwoState 90 12 7F 90 12 00
+WidgetEnd
+
+Widget Mute4
+    Press 90 13 7F 90 13 00
+    FB_TwoState 90 13 7F 90 13 00
+WidgetEnd
+
+Widget Mute5
+    Press 90 14 7F 90 14 00
+    FB_TwoState 90 14 7F 90 14 00
+WidgetEnd
+
+Widget Mute6
+    Press 90 15 7F 90 15 00
+    FB_TwoState 90 15 7F 90 15 00
+WidgetEnd
+
+Widget Mute7
+    Press 90 16 7F 90 16 00
+    FB_TwoState 90 16 7F 90 16 00
+WidgetEnd
+
+Widget Mute8
+    Press 90 17 7F 90 17 00
+    FB_TwoState 90 17 7F 90 17 00
+WidgetEnd
+
+
+
+
+

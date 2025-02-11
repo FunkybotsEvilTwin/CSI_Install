@@ -1,0 +1,7 @@
+Zone Track
+    Fader|                   TrackVolume
+    Rotary|                  TrackPanAutoLeft     // Pan
+    RecArm|                  TrackRecordArm
+    Solo|                    TrackSolo
+    Mute|                    TrackMute
+ZoneEnd

@@ -1,0 +1,22 @@
+Zone Home
+    OnInitialization            SetLatchTime 100
+        
+    IncludedZones
+        Track
+    IncludedZonesEnd
+
+//  Transport Section
+
+    TrackRew        Reaper 40029                                      // Undo edit
+    TrackFF         Reaper 40030                                      // Redo edit
+    Cycle           Reaper 40364                                      // Toggle metronome
+    Set             Reaper 40605                                      // Show Actions List
+    MarkerRew       Reaper 40252                                      // Record: Set record mode to normal
+    MarkerFF        Reaper 40253                                      // Record: Set record mode to selected item auto-punch                                                
+    Rewind          Reaper 40630                                      // Go to start of time selection   
+    FastForward     Reaper 40631                                      // Go to end of time selection
+    Stop            Reaper 40668                                      // Transport: Stop (DELETE all recorded media)
+    Play            Reaper _XENAKIOS_TIMERTEST1                       // Xenakios/SWS: Play selected items once
+    Record          Reaper 41038                                      // Pre-roll: Toggle pre-roll on record [deprecated duplicate]
+ZoneEnd
+
