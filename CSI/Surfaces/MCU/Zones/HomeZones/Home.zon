@@ -33,7 +33,7 @@ Zone Home
     F2                          ClearAllSolo
     Option+F2                   Reaper 40745                                // Solo in front (dim solo)  
     F3                          Reaper 1157                                 // Toggle snapping
-    F4                          NoAction
+    F4                          GoZone LastTouchedFXParam
     F5                          GoSelectedTrackFX
     F6                          ClearSelectedTrackFX
     F7                          NoAction

@@ -1,4 +1,4 @@
-Zone "MasterTrackFXMenu"
+Zone MasterTrackFXMenu
     DisplayUpper|           FXMenuNameDisplay
     DisplayLower|           FXBypassedDisplay
     Rotary|                 NoAction

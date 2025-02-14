@@ -1,4 +1,4 @@
-Zone "SelectedTrackSend"
+Zone SelectedTrackSend
         DisplayUpper|               TrackSendNameDisplay
         DisplayLower|               TrackSendPanDisplay
         Touch+DisplayLower|         TrackSendVolumeDisplay

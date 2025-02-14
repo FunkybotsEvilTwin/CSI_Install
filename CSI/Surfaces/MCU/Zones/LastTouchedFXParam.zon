@@ -1,0 +1,5 @@
+Zone LastTouchedFXParam
+     DisplayUpper1     LastTouchedFXParamNameDisplay
+	DiplayLower1      LastTouchedFXParamValueDisplay
+	Fader1            LastTouchedFXParam
+ZoneEnd

@@ -1,4 +1,4 @@
-Zone "TrackFXMenu"
+Zone TrackFXMenu
     OnZoneDeactivation  Reaper _S&M_WNCLS3
         
         DisplayUpper|       FixedTextDisplay "FXMenu"

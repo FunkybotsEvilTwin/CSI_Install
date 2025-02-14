@@ -1,4 +1,4 @@
-Zone "SelectedTrackTCPFX"   
+Zone SelectedTrackTCPFX
         DisplayUpper1       TCPFXParamNameDisplay 0
         DisplayLower1       TCPFXParamValueDisplay 0
         Rotary1             TCPFXParam 0

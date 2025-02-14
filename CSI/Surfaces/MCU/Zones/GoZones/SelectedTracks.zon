@@ -1,4 +1,4 @@
-Zone "SelectedTracks"
+Zone SelectedTracks
     VUMeter|                 TrackOutputMeterMaxPeakLR
     DisplayUpper|            TrackNameDisplay
     Fader|                   TrackVolume

@@ -1,4 +1,4 @@
-Zone "SelectedTrackFXMenu"
+Zone SelectedTrackFXMenu
         DisplayUpper|               FXMenuNameDisplay
         DisplayLower|               FXBypassDisplay
         Rotary|                     NoAction

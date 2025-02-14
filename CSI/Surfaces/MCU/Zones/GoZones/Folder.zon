@@ -1,4 +1,4 @@
-Zone "Folder"
+Zone Folder
     VUMeter|                 TrackOutputMeterMaxPeakLR
     DisplayUpper|            TrackNameDisplay
     Fader|                   TrackVolume

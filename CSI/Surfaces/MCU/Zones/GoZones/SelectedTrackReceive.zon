@@ -1,4 +1,4 @@
-Zone "SelectedTrackReceive"
+Zone SelectedTrackReceive
         DisplayUpper|               TrackReceiveNameDisplay
         DisplayLower|               TrackReceiveVolumeDisplay
         Alt+DisplayLower|           TrackReceivePanDisplay

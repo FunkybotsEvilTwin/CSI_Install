@@ -1,4 +1,4 @@
-Zone "Track"
+Zone Track
     DisplayUpper|            TrackNameDisplay
     Fader|                   TrackVolume
     Touch+DisplayLower|      TrackVolumeDisplay
