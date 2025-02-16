@@ -1,0 +1,11 @@
+Zone SelectedTrackFXMenu
+        DisplayUpper|               FXMenuNameDisplay
+        DisplayLower|               FXBypassDisplay
+        Rotary|                     NoAction
+        RotaryPush|                 Reaper _S&M_TOGLFLOATFX|        //Toggle flost FX window    
+        Option+RotaryPush|          Reaper _S&M_FXOFF|              //Toggle FX online/offline
+        RotaryPush|                 GoFXSlot
+        Shift+RotaryPush|           ToggleFXBypass
+        BankLeft                    Bank SelectedTrackFXMenu -8
+        BankRight                   Bank SelectedTrackFXMenu 8
+ZoneEnd

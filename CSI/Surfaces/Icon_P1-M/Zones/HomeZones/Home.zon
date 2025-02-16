@@ -1,13 +1,14 @@
 Zone Home
     OnInitialization     ToggleRestrictTextLength 7
-/    OnInitialization     ToggleEnableFocusedFXMapping     // Uncomment this line to turn off focused fx mapping
-    OnInitialization     SetLatchTime 100
-    IncludedZones
-       Track
-       MasterTrack
-    IncludedZonesEnd
+/    OnInitialization    ToggleEnableFocusedFXMapping
+    OnInitialization    ToggleUseLocalModifiers
+    OnInitialization    SetLatchTime 100
 
-   
+    IncludedZones
+        Track
+        MasterTrack
+    IncludedZonesEnd
+    
 //  Encoder Assign Buttons
 
     Track                       GoZone SelectedTracks 

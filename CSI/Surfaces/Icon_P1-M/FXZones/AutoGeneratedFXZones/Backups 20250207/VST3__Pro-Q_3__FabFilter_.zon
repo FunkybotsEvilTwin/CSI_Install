@@ -1,0 +1,90 @@
+Zone "VST3: Pro-Q 3 (FabFilter)" "Pro-Q 3"
+//	OnZoneActivation		SetXTouchDisplayColors Cyan
+//	OnZoneActivation		ToggleUseLocalModifiers
+//	OnZoneDeactivation		RestoreXTouchDisplayColors
+//	OnZoneDeactivation		ToggleUseLocalModifiers
+//	Plugin					ClearFXSlot
+
+	Select1        			ToggleChannel
+	Rotary1					FXParam 7
+	RotaryPush1				FXParam 1 [ 0 1 ]
+	Fader1					FXParam 3
+	Toggle+Fader1			FXParam 2
+	Toggle+DisplayUpper1	FixedTextDisplay "FREQ 1"
+	Toggle+DisplayLower1	FXParamValueDisplay 2
+	DisplayUpper1			FixedTextDisplay "GAIN 1"
+	DisplayLower1			FXParamValueDisplay 3
+//	RecordArm1				Shift                  // JRA test
+//	Shift+DisplayUpper1		FXParamValueDisplay 1  // JRA test
+	
+	Select2        			ToggleChannel
+	Rotary2					FXParam 20
+	RotaryPush2				FXParam 14 [ 0 1 ]
+	Fader2					FXParam 16
+	Toggle+Fader2			FXParam 15
+	Toggle+DisplayUpper2	FixedTextDisplay "FREQ 2"
+	Toggle+DisplayLower2	FXParamValueDisplay 15
+	DisplayUpper2			FixedTextDisplay "GAIN 2"
+	DisplayLower2			FXParamValueDisplay 16
+
+	Select3        			ToggleChannel
+	Rotary3					FXParam 33
+	RotaryPush3				FXParam 27 [ 0 1 ]
+	Fader3					FXParam 29
+	Toggle+Fader3			FXParam 28
+	Toggle+DisplayUpper3	FixedTextDisplay "FREQ 3"
+	Toggle+DisplayLower3	FXParamValueDisplay 28
+	DisplayUpper3			FixedTextDisplay "GAIN 3"
+	DisplayLower3			FXParamValueDisplay 29
+	
+	Select4        			ToggleChannel
+	Rotary4					FXParam 46
+	RotaryPush4				FXParam 40 [ 0 1 ]
+	Fader4					FXParam 42
+	Toggle+Fader4			FXParam 41
+	Toggle+DisplayUpper4	FixedTextDisplay "FREQ 4"
+	Toggle+DisplayLower4	FXParamValueDisplay 41
+	DisplayUpper4			FixedTextDisplay "GAIN 4"
+	DisplayLower4			FXParamValueDisplay 42
+	
+	Select5        			ToggleChannel
+	Rotary5					FXParam 59
+	RotaryPush5				FXParam 53 [ 0 1 ]
+	Fader5					FXParam 55
+	Toggle+Fader5			FXParam 54
+	Toggle+DisplayUpper5	FixedTextDisplay "FREQ 5"
+	Toggle+DisplayLower5	FXParamValueDisplay 54
+	DisplayUpper5			FixedTextDisplay "GAIN 5"
+	DisplayLower5			FXParamValueDisplay 55
+	
+	Select6       			ToggleChannel
+	Rotary6					FXParam 72
+	RotaryPush6				FXParam 66 [ 0 1 ]
+	Fader6					FXParam 68
+	Toggle+Fader6			FXParam 67
+	Toggle+DisplayUpper6	FixedTextDisplay "FREQ 6"
+	Toggle+DisplayLower6	FXParamValueDisplay 67
+	DisplayUpper6			FixedTextDisplay "GAIN 6"
+	DisplayLower6			FXParamValueDisplay 68
+
+	Select7        			ToggleChannel
+	Rotary7					FXParam 85
+	RotaryPush7				FXParam 79 [ 0 1 ]
+	Fader7					FXParam 81
+	Toggle+Fader7			FXParam 80
+	Toggle+DisplayUpper7	FixedTextDisplay "FREQ 7"
+	Toggle+DisplayLower7	FXParamValueDisplay 80
+	DisplayUpper7			FixedTextDisplay "GAIN 7"
+	DisplayLower7			FXParamValueDisplay 81
+	
+	Select8        			ToggleChannel
+	Rotary8					FXParam 98
+	RotaryPush8				FXParam 92 [ 0 1 ]
+	Fader8					FXParam 94
+	Toggle+Fader8			FXParam 93
+	Toggle+DisplayUpper8	FixedTextDisplay "FREQ 8"
+	Toggle+DisplayLower8	FXParamValueDisplay 93
+	DisplayUpper8			FixedTextDisplay "GAIN 8"
+	DisplayLower8			FXParamValueDisplay 94
+
+ZoneEnd

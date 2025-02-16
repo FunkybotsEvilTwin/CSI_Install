@@ -169,16 +169,18 @@ ZoneEnd
     Shift+Decrease+JogWheel          Reaper 40286                // Track: Go to previous track       
     Shift+Increase+JogWheel          Reaper 40285                // Track: Go to next track                     
     
-    Zoom+Decrease+JogWheel           Reaper 40112           // Zoom out vertical 
-    Zoom+Increase+JogWheel           Reaper 40111           // Zoom in vertical          
-    Zoom+Shift+Decrease+JogWheel     Reaper 1011            // Zoom out horizontal
-    Zoom+Shift+Increase+JogWheel     Reaper 1012            // Zoom in horizontal   
+    Zoom+Decrease+JogWheel           Reaper 40112                // Zoom out vertical 
+    Zoom+Increase+JogWheel           Reaper 40111                // Zoom in vertical          
+    Zoom+Shift+Decrease+JogWheel     Reaper 1011                 // Zoom out horizontal
+    Zoom+Shift+Increase+JogWheel     Reaper 1012                 // Zoom in horizontal   
   
     Marker+Decrease+JogWheel         MoveEditCursor Marker       
     Marker+Increase+JogWheel         MoveEditCusror Marker       
                                      
-    Scrub+Decrease+Jogwheel          Reaper 40084                // Transport: Rewind a little bit
-    Scrub+Increase+Jogwheel          Reaper 40085                // Transport: Fast forward a little bit
+    Scrub+Decrease+JogWheel          Reaper 40104                // View: Move cursor left one pixel
+    Scrub+Increase+JogWheel          Reaper 40105                // View: Move cursor right one pixel
+    Scrub+Shift+Decrease+JogWheel    Reaper 41666                // View: Move cursor left 8 pixels
+    Scrub+Shift+Increase+JogWheel    Reaper 41667                // View: Move cursor right 8 pixels
 
 // Footswitches
 
