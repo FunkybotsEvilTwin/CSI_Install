@@ -1,0 +1,26 @@
+ // X-Touch_Mini CSI v7
+
+Zone VCA
+    Rotary|                   TrackPanAutoLeft RingStyle=Dot
+    Toggle+Rotary|            TrackPanAutoRight RingStyle=Dot
+    RotaryPush|               ToggleChannel
+    Shift+RotaryPush|         TrackPan [ 0.5 ]                       // Reset track pan to center
+    Option+RotaryPush|        TrackPanWidth [ 1.0 ]                  // Reset track width to maximum
+
+    Flip+Rotary|              TrackVolume
+    Flip+RotaryPush|          TrackVolume [ 0.76 ]                    // Sets volume to unity gain
+    Flip+Shift+RotaryPush|    TrackRecordArm
+    Flip+Shift+Rotary|        TrackRecordArm RingStyle=Fill
+    Flip+Option+RotaryPush|   TrackSolo
+    Flip+Option+Rotary|       TrackSolo RingStyle=Fill
+    Flip+Alt+RotaryPush|      TrackMute
+    Flip+Alt+Rotary|          TrackMute RingStyle=Fill
+
+    Control+RotaryPush|       TrackToggleVCASpill
+    Alt+RotaryPush|           CycleTrackAutoMode
+
+    Rewind|                   Bank VCA -8
+    FastForward|              Bank VCA 8
+    Shift+Rewind|             Bank VCA -1
+    Shift+FastForward|        Bank VCA 1
+ZoneEnd

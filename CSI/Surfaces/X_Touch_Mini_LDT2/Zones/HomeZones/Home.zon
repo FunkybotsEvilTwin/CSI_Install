@@ -1,0 +1,113 @@
+// X-Touch_Mini CSI v7
+
+// CSI Page Edit settings: Select "TCP" & "Ensure Selected Track Visible in both CSI and Reaper"        //
+// Mixer settings: check "Scroll view when tracks activated" to connect mouse selected tracks with surface" //
+
+Zone Home
+    OnInitialization       ToggleEnableFocusedFXMapping
+    OnInitialization       ToggleRestrictTextLength 7  
+    OnInitialization       ToggleUseLocalModifiers     
+    OnInitialization       SetLatchTime 100            
+
+    IncludedZones
+        Track                                     
+    IncludedZonesEnd
+
+// Modifiers
+
+    Click                  Shift                                // Reset track Pan       /RotaryPush
+    Solo                   Option                               // Reset track width     /RotaryPush
+    Drop                   Control                              // TrackInvertPolarity   /RotaryPush
+    Replace                Alt                                  // CycleTrackAutoMode    /RotaryPush
+
+    Hold+Click             Reaper 40016 Feedback=No             // Options: Preferences...esc to close
+    Hold+Solo              Reaper 40605 Feedback=No             // Show action list...esc to close
+    Hold+Drop              Reaper 40021 Feedback=No             // File: Project settings...esc to close
+    Hold+Replace           Reaper 42678 Feedback=No             // View: Show envelope manager window...Hold to close
+
+    Hold+Marker            Reaper 40769 Feedback=No             // Unselect (clear selection of) all tracks/items/envelope points
+    Hold+Nudge             Reaper 40527 Feedback=No             // View: Clear all peak indicators
+
+// Encoder Assign Buttons
+
+    Track                  GoHome                               // aka Track
+    Track                  ClearModifiers                        
+    Track                  Reaper _S&M_WNCLS4 Feedback=No       // Closes all FX chain windows
+    Track                  Reaper _S&M_WNCLS3 Feedback=No       // Closes all floating FX windows
+    Hold+Track             SaveProject Feedback=No              
+    Send                   GoZone SelectedTrackSend             
+    Send                   Reaper 40293 Feedback=No             // Track: View routing and I/O for current/last touched track
+    Pan                    GoZone SelectedTrackReceive           
+    Pan                    Reaper 40293 Feedback=No             // Track: View routing and I/O for current/last touched track
+    Plugin                 GoZone SelectedTrackFXMenu          
+    EQ                     Reaper 40271                         // View: Show FX browser window
+    Instrument             LearnFocusedFX                       
+
+// GlobalView
+
+    Marker                 Global                               
+    Global+Click           Shift                                
+    Global+Solo            Option                               
+    Global+Drop            Control                              
+    Global+Replace         Alt                                  
+
+    Global+Send            GoZone VCA                           
+    Global+Hold+Send       Reaper 40772 Feedback=No             // Track: Set track grouping parameters...esc to close
+    Global+Pan             GoZone Folder                         
+    Global+Flip+Pan        Reaper 40081                         // Mixer: Toggle folder tracks grouping to left
+    Global+Plugin          ToggleScrollLink                     
+    Global+EQ              ToggleFollowMCP                      
+    Global+Instrument      ToggleEnableLastTouchedFXParamMapping
+
+    Global+Cycle           Reaper 8                             // Track: Toggle FX bypass for selected tracks
+
+// Flip
+
+    Nudge                  Flip                                 // TrackVolume
+    Flip+Click             Shift                                // TrackRecordArm        /RotaryPush
+    Flip+Solo              Option                               // CycleTrackInputMonitor/RotaryPush
+    Flip+Hold+Drop         Reaper 40109                         // Item: Open items in primary external editor
+    Flip+Drop              Reaper 40716                         // View: Toggle show MIDI editor windows
+    Flip+Replace           Reaper 40251                         // View: Show routing matrix window
+
+    Flip+Send             Undo                                  // 
+    Flip+Pan              Redo                                  // 
+    Flip+Plugin           GoZone MasterTrackFXMenu              // 
+    Flip+Instrument       Reaper 40279                          // View: Show docker
+
+    Flip+Cycle            Reaper _S&M_FXBYPSEL                  // Track: SWS/S&M: Toggle selected FX bypass for selected tracks
+
+// Banking
+
+    Rewind                 Bank Track -8                         
+    Rewind                 Bank SelectedTrack -8                 
+    Rewind                 Reaper 40913                         // Track: Vertical scroll selected tracks into view
+    FastForward            Bank Track 8                          
+    FastForward            Bank SelectedTrack 8                 
+    FastForward            Reaper 40913                         // Track: Vertical scroll selected tracks into view
+
+    Shift+Rewind           Bank Track -1                         
+    Shift+Rewind           Bank SelectedTrack -1                
+    Shift+Rewind           Reaper 40913                         // Track: Vertical scroll selected tracks into view
+    Shift+FastForward      Bank Track 1                         
+    Shift+FastForward      Bank SelectedTrack 1                 
+    Shift+FastForward      Reaper 40913                         // Track: Vertical scroll selected tracks into view
+
+    Option+Rewind          Reaper 40286                         // Track: Go to previous track
+    Option+FastForward     Reaper 40287                         // Track: Go to next track (leaving other tracks selected)
+
+// Transport Section
+
+    Cycle                  CycleTimeline                        // Loop
+    Shift+Cycle            Reaper 40364                         // Toggle metronome
+    Shift+Hold+Cycle       Reaper 40363 Feedback=No             // Show metronome settings...esc to close
+    Option+Cycle           ClearAllSolo                         
+    Control+Cycle          Reaper _SWS_TOGZOOMTT                // SWS: Toggle zoom to selected tracks and time selection
+    Alt+Cycle              CycleTrackAutoMode                    
+    Stop                   Stop                                  
+    Hold+Stop              Reaper 40042 Feedback=No             // Go to start of project
+    Play                   Play                                 
+    Record                 Record                               
+    Shift+Record           Reaper _BR_CYCLE_RECORD_MODES        // SWS/BR: Options - Cycle through record modes
+
+ZoneEnd

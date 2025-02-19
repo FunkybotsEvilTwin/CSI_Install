@@ -1,0 +1,5 @@
+// X-Touch_Mini CSI v7
+
+Zone "MasterTrack"
+    MasterFader TrackVolume
+ZoneEnd

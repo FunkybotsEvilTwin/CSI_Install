@@ -1,0 +1,23 @@
+ // X-Touch_Mini CSI v7
+
+Zone TrackSend
+    Rotary|                   TrackSendPan
+    Shift+RotaryPush|         TrackSendPan [ 0.5 ]                     // Sets pan to center
+
+    RotaryPush|               TrackSendPrePost
+
+    Flip+Rotary|              TrackSendVolume
+    Flip+RotaryPush|          TrackSendVolume [ 0.76 ]                // Sets fader to unity gain
+
+    Option+RotaryPush|        TrackSendStereoMonoToggle
+    Option+Rotary|            TrackSendStereoMonoToggle RingStyle=Fill
+    Control+RotaryPush|       TrackSendInvertPolarity
+    Control+Rotary|           TrackSendInvertPolarity RingStyle=Fill
+    Alt+RotaryPush|           TrackSendMute
+    Alt+Rotary|               TrackSendMute RingStyle=Fill
+ 
+    Rewind|                   Bank SelectedTrackSend -8
+    FastForward|              Bank SelectedTrackSend 8
+    Shift+Rewind|             Bank SelectedTrackSend -1
+    Shift+FastForward|        Bank SelectedTrackSend 1
+ZoneEnd

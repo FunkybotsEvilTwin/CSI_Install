@@ -1,0 +1,7 @@
+// X-Touch_Mini CSI v7
+
+Zone LastTouchedFXParam
+     Rotary|                            FocusedFXParam
+     DisplayUpper1                      FocusedFXParamNameDisplay
+     DisplayLower1                      FocusedFXParamValueDisplay
+ZoneEnd

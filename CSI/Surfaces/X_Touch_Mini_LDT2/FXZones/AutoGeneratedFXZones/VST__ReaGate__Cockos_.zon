@@ -1,0 +1,345 @@
+Zone "VST: ReaGate (Cockos)" "ReaGate"
+	OnZoneActivation SetXTouchDisplayColors Cyan
+	OnZoneDeactivation RestoreXTouchDisplayColors
+	Plugin        ClearFXSlot
+
+#Begin auto generated section
+	Rotary1	FXParam 0 RingStyle=Dot
+	DisplayUpper1	FixedTextDisplay "Threshold"
+	DisplayLower1	FXParamValueDisplay 0
+
+	RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Fader	FXParam 0
+	DisplayUpper1	FixedTextDisplay "Threshold" 
+	DisplayLower1	FXParamValueDisplay 0
+
+
+	Rotary2	FXParam 1 RingStyle=Dot
+	DisplayUpper2	FixedTextDisplay "Attack"
+	DisplayLower2	FXParamValueDisplay 1
+
+	RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Fader2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary3	FXParam 2 RingStyle=Dot
+	DisplayUpper3	FixedTextDisplay "Release"
+	DisplayLower3	FXParamValueDisplay 2
+
+	RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Fader3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary4	FXParam 3 RingStyle=Dot
+	DisplayUpper4	FixedTextDisplay "Pre-open"
+	DisplayLower4	FXParamValueDisplay 3
+
+	RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Fader4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary5	FXParam 4 RingStyle=Dot
+	DisplayUpper5	FixedTextDisplay "Hold"
+	DisplayLower5	FXParamValueDisplay 4
+
+	RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Fader5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary6	FXParam 5 RingStyle=Dot
+	DisplayUpper6	FixedTextDisplay "Lowpass"
+	DisplayLower6	FXParamValueDisplay 5
+
+	RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Fader6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary7	FXParam 6 RingStyle=Dot
+	DisplayUpper7	FixedTextDisplay "Hipass"
+	DisplayLower7	FXParamValueDisplay 6
+
+	RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Fader7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Rotary8	FXParam 7 RingStyle=Dot
+	DisplayUpper8	FixedTextDisplay "SignIn"
+	DisplayLower8	FXParamValueDisplay 7
+
+	RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Fader8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary1	FXParam 8 RingStyle=Dot
+	Shift+DisplayUpper1	FixedTextDisplay "AudIn"
+	Shift+DisplayLower1	FXParamValueDisplay 8
+
+	Shift+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Fader1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary2	FXParam 9 RingStyle=Dot
+	Shift+DisplayUpper2	FixedTextDisplay "Dry"
+	Shift+DisplayLower2	FXParamValueDisplay 9
+
+	Shift+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Fader2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary3	FXParam 10 RingStyle=Dot
+	Shift+DisplayUpper3	FixedTextDisplay "Wet"
+	Shift+DisplayLower3	FXParamValueDisplay 10
+
+	Shift+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Fader3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary4	FXParam 11 RingStyle=Dot
+	Shift+DisplayUpper4	FixedTextDisplay "Noise level"
+	Shift+DisplayLower4	FXParamValueDisplay 11
+
+	Shift+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Fader4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary5	FXParam 12 RingStyle=Dot
+	Shift+DisplayUpper5	FixedTextDisplay "Hysteresis"
+	Shift+DisplayLower5	FXParamValueDisplay 12
+
+	Shift+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Fader5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary6	FXParam 13 RingStyle=Dot
+	Shift+DisplayUpper6	FixedTextDisplay "Preview Filter"
+	Shift+DisplayLower6	FXParamValueDisplay 13
+
+	Shift+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Fader6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary7	FXParam 14 RingStyle=Dot
+	Shift+DisplayUpper7	FixedTextDisplay "RMS size"
+	Shift+DisplayLower7	FXParamValueDisplay 14
+
+	Shift+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Fader7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Shift+Rotary8	FXParam 15 RingStyle=Dot
+	Shift+DisplayUpper8	FixedTextDisplay "Send MIDI"
+	Shift+DisplayLower8	FXParamValueDisplay 15
+
+	Shift+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Shift+Fader8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Control+Rotary1	FXParam 16 RingStyle=Dot
+	Control+DisplayUpper1	FixedTextDisplay "Midi Note"
+	Control+DisplayLower1	FXParamValueDisplay 16
+
+	Control+RotaryPush1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+Fader1	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Control+Rotary2	FXParam 17 RingStyle=Dot
+	Control+DisplayUpper2	FixedTextDisplay "Midi Channel"
+	Control+DisplayLower2	FXParamValueDisplay 17
+
+	Control+RotaryPush2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+Fader2	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Control+Rotary3	FXParam 18 RingStyle=Dot
+	Control+DisplayUpper3	FixedTextDisplay "Invert Wet"
+	Control+DisplayLower3	FXParamValueDisplay 18
+
+	Control+RotaryPush3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+Fader3	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Control+Rotary4	FXParam 19 RingStyle=Dot
+	Control+DisplayUpper4	FixedTextDisplay "Multichannel Mode"
+	Control+DisplayLower4	FXParamValueDisplay 19
+
+	Control+RotaryPush4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+Fader4	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Control+Rotary5	FXParam 20 RingStyle=Dot
+	Control+DisplayUpper5	FixedTextDisplay "Metering Index"
+	Control+DisplayLower5	FXParamValueDisplay 20
+
+	Control+RotaryPush5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+Fader5	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Control+Rotary6	FXParam 21 RingStyle=Dot [ 0.0 1.0 ]
+	Control+DisplayUpper6	FixedTextDisplay "Bypass"
+	Control+DisplayLower6	FXParamValueDisplay 21
+
+	Control+RotaryPush6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+Fader6	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Control+Rotary7	FXParam 22 RingStyle=Dot
+	Control+DisplayUpper7	FixedTextDisplay "Wet"
+	Control+DisplayLower7	FXParamValueDisplay 22
+
+	Control+RotaryPush7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+Fader7	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+	Control+Rotary8	FXParam 23 RingStyle=Dot
+	Control+DisplayUpper8	FixedTextDisplay "Delta"
+	Control+DisplayLower8	FXParamValueDisplay 23
+
+	Control+RotaryPush8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+	Control+Fader8	NoAction
+	NullDisplay	NoAction
+	NullDisplay	NoAction
+
+
+#End auto generated section
+ZoneEnd
+
+0 Threshold
+1 Attack
+2 Release
+3 Pre-open
+4 Hold
+5 Lowpass
+6 Hipass
+7 SignIn
+8 AudIn
+9 Dry
+10 Wet
+11 Noise level
+12 Hysteresis
+13 Preview Filter
+14 RMS size
+15 Send MIDI
+16 Midi Note
+17 Midi Channel
+18 Invert Wet
+19 Multichannel Mode
+20 Metering Index
+21 Bypass
+22 Wet
+23 Delta
