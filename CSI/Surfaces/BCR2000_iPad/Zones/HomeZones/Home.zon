@@ -1,0 +1,63 @@
+Zone Home
+    OnInitialization ToggleEnableFocusedFXMapping
+    OnInitialization ToggleRestrictTextLength 12    // Good on MM_BCR2000_iPad.osc and pcScreen
+        IncludedZones
+            SelectedTrackFXMenu
+            SelectedTrack
+        IncludedZonesEnd
+
+     Footswitch1                Reaper 1013 { #4C1111 #E03131 }
+     Footswitch1DisplayUpper    FixedTextDisplay REC
+						  
+     Footswitch2                Reaper _76e7e70e7e40aa4e90e07bc2d607b3db { #4C1111 #E03131 }
+     Footswitch2DisplayUpper    FixedTextDisplay REDO
+
+    EncoderGroup1               GoZone MasterTrackFXMenu  { #643701 #FA9501 } 
+    EncoderGroup1DisplayUpper   FixedTextDisplay MSTFX                  
+    EncoderGroup1DisplayLower   NoAction
+    
+    EncoderGroup2               GoZone SelectedTrackTCPFX { #643701 #FA9501 }     
+    EncoderGroup2DisplayUpper   FixedTextDisplay TCPFX              
+    EncoderGroup2DisplayLower   NoAction
+    
+    EncoderGroup3               GoZone SelectedTrackSend  { #643701 #FA9501 }  
+    EncoderGroup3DisplayUpper   FixedTextDisplay SEND                                   
+    EncoderGroup3DisplayLower   NoAction
+    
+    EncoderGroup4               GoZone SelectedTrackReceive { #643701 #FA9501 }    
+    EncoderGroup4DisplayUpper   FixedTextDisplay RECV                                        
+    EncoderGroup4DisplayLower   NoAction 
+
+    Store                       Shift  { #4C1111 #E03131 }                                      
+    StoreDisplayUpper           FixedTextDisplay SHIFT 
+    StoreDisplayLower           NoAction           
+                                                            
+    Learn                       Option  { #4C1111 #E03131 }                                     
+    LearnDisplayUpper           FixedTextDisplay OPTN
+    LearnDisplayLower           NoAction             
+                                                        
+    Edit                        Control { #4C1111 #E03131 }                                     
+    EditDisplayUpper            FixedTextDisplay CNTRL
+    EditDisplayLower            NoAction                                                                                    
+                                
+    Exit                        Alt  { #4C1111 #E03131 }                                        
+    ExitDisplayUpper            FixedTextDisplay ALT
+    ExitDisplayLower            NoAction
+        
+    User1                       AllSurfacesGoHome { #643701 #643701 }
+    User1DisplayUpper           FixedTextDisplay HOME
+    User1DisplayLower           NoAction           
+                                    
+    User2                       LearnFocusedFX { #4C1111 #E03131 }   
+    User2DisplayUpper           FixedTextDisplay LEARN                                    
+    User2DisplayLower           NoAction                                                       
+                                
+    User3                       NoAction { #00285F #00285F }
+    User3DisplayUpper           FixedTextDisplay "  "
+    User3DisplayLower           NoAction
+        
+    User4                       NoAction  { #00285F #00285F } 
+    User4DisplayUpper           FixedTextDisplay "  " 
+    User4DisplayLower           NoAction           
+       
+ZoneEnd

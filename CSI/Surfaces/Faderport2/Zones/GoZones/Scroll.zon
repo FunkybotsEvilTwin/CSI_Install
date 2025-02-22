@@ -1,14 +1,16 @@
 Zone Scroll
 
-  Scroll			     FixedRGBColorDisplay { 0 0 255 }
-				     
+  Scroll                      FixedRGBColorDisplay { 0 0 255 }
 
+  Prev                        Reaper 40140        // View: Scroll view left
+  Next                        Reaper 40141        // View: Scroll view right
 
-  Prev				Reaper 40141		// View: Scroll view right
-  Next				Reaper 40140		// View: Scroll view left
+  Increase+Rotary             Reaper 40141        // View: Scroll view right
+  Decrease+Rotary             Reaper 40140        // View: Scroll view left
+  
+  Shift+Increase+Rotary       Reaper 40139        // View: Scroll view down
+  Shift+Decrease+Rotary       Reaper 40138        // View: Scroll view up
 
-  Increase+Rotary		Reaper 40141		// View: Scroll view right
-  Decrease+Rotary		Reaper 40140		// View: Scroll view left
+  Scroll                      GoHome
 
-  Scroll			     GoHome
 ZoneEnd

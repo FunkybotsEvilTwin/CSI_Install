@@ -1,11 +1,12 @@
 Zone LastTouchedFXParam
 
-  Link			FixedRGBColorDisplay	{ 0 0 255 }
+  Link         FixedRGBColorDisplay { 150 150 150 }
 
-  Prev			FXParam -1
-  Next			FXParam 1
+  Rotary       TrackPan
+  RotaryPush   TrackPan [ 0.5 ]
 
-  Fader			LastTouchedFXParam
+  Fader        LastTouchedFXParam
 
-  Link			GoHome
+  Link         GoHome
+
 ZoneEnd

@@ -1,0 +1,3107 @@
+Zone "VST3i: Jup-8 V4 (Arturia)" "Jup-8 V4"
+	SelectedFXName FXNameDisplay
+
+#Begin auto generated section
+
+	RotaryA1	FXParam 58  RingStyle=
+	DisplayUpperA1	FixedTextDisplay "Arpeggiator Rate (Synced)" 
+	DisplayLowerA1	FXParamValueDisplay 58
+
+	RotaryA1	FXParam 57  RingStyle=
+	DisplayUpperA1	FixedTextDisplay "Arpeggiator Rate (Unsync)" 
+	DisplayLowerA1	FXParamValueDisplay 57
+
+
+	RotaryA2	FXParam 341 
+	DisplayUpperA2	FixedTextDisplay "Time" 
+	DisplayLowerA2	FXParamValueDisplay 341
+
+
+	RotaryA3	FXParam 19 
+	DisplayUpperA3	FixedTextDisplay "Source Mix" 
+	DisplayLowerA3	FXParamValueDisplay 19
+
+
+	RotaryA4	FXParam 10 
+	DisplayUpperA4	FixedTextDisplay "VCO LFO Modulation" 
+	DisplayLowerA4	FXParamValueDisplay 10
+
+
+	RotaryA5	FXParam 11 
+	DisplayUpperA5	FixedTextDisplay "VCO Envelope Modulation" 
+	DisplayLowerA5	FXParamValueDisplay 11
+
+
+	RotaryA6	FXParam 141 
+	DisplayUpperA6	FixedTextDisplay "FX1 Reverb Size" 
+	DisplayLowerA6	FXParamValueDisplay 141
+
+
+	RotaryA7	FXParam 114 
+	DisplayUpperA7	FixedTextDisplay "FX2 Delay Time Synced" 
+	DisplayLowerA7	FXParamValueDisplay 114
+
+
+	RotaryA8	FXParam 211 
+	DisplayUpperA8	FixedTextDisplay "FX2 Delay Feedback" 
+	DisplayLowerA8	FXParamValueDisplay 211
+
+
+	RotaryB1	FXParam 41 
+	DisplayUpperB1	FixedTextDisplay "Volume" 
+	DisplayLowerB1	FXParamValueDisplay 41
+
+
+	RotaryB2	FXParam 21 
+	DisplayUpperB2	FixedTextDisplay "VCF Cutoff" 
+	DisplayLowerB2	FXParamValueDisplay 21
+
+
+	RotaryB3	FXParam 22 
+	DisplayUpperB3	FixedTextDisplay "VCF Resonance" 
+	DisplayLowerB3	FXParamValueDisplay 22
+
+
+	RotaryB4	FXParam 1 
+	DisplayUpperB4	FixedTextDisplay "LFO Rate (Sync)" 
+	DisplayLowerB4	FXParamValueDisplay 1
+
+	RotaryB4	FXParam 2 
+	DisplayUpperB4	FixedTextDisplay "LFO Rate (Unsync)" 
+	DisplayLowerB4	FXParamValueDisplay 2
+
+
+	RotaryB5	FXParam 30 
+	DisplayUpperB5	FixedTextDisplay "Envelope 1 Attack" 
+	DisplayLowerB5	FXParamValueDisplay 30
+
+
+	RotaryB6	FXParam 31 
+	DisplayUpperB6	FixedTextDisplay "Envelope 1 Decay" 
+	DisplayLowerB6	FXParamValueDisplay 31
+
+
+	RotaryB7	FXParam 32 
+	DisplayUpperB7	FixedTextDisplay "Envelope 1 Sustain" 
+	DisplayLowerB7	FXParamValueDisplay 32
+
+
+	RotaryB8	FXParam 33 
+	DisplayUpperB8	FixedTextDisplay "Envelope 1 Release" 
+	DisplayLowerB8	FXParamValueDisplay 33
+
+
+	RotaryC1	FXParam 336 
+	DisplayUpperC1	FixedTextDisplay "ModWheel" 
+	DisplayLowerC1	FXParamValueDisplay 336
+
+
+	RotaryC2	FXParam 12 
+	DisplayUpperC2	FixedTextDisplay "VCO Pulse-Width Modulation" 
+	DisplayLowerC2	FXParamValueDisplay 12
+
+
+	RotaryC3	FXParam 10 
+	DisplayUpperC3	FixedTextDisplay "VCO LFO Modulation" 
+	DisplayLowerC3	FXParamValueDisplay 10
+
+
+	RotaryC4	FXParam 13 
+	DisplayUpperC4	FixedTextDisplay "VCO Cross Modulation" 
+	DisplayLowerC4	FXParamValueDisplay 13
+
+
+	RotaryC5	FXParam 46 
+	DisplayUpperC5	FixedTextDisplay "Portamento ON/OFF" 
+	DisplayLowerC5	FXParamValueDisplay 46
+
+
+	RotaryC6	FXParam 45 
+	DisplayUpperC6	FixedTextDisplay "Portamento" 
+	DisplayLowerC6	FXParamValueDisplay 45
+
+
+	RotaryC7	FXParam 43 
+	DisplayUpperC7	FixedTextDisplay "Unison Detune" 
+	DisplayLowerC7	FXParamValueDisplay 43
+
+
+	RotaryC8	FXParam 47 
+	DisplayUpperC8	FixedTextDisplay "Dispersion" 
+	DisplayLowerC8	FXParamValueDisplay 47
+
+
+	RotaryD1	FXParam 27 
+	DisplayUpperD1	FixedTextDisplay "VCF KYBD Follow Amount" 
+	DisplayLowerD1	FXParamValueDisplay 27
+
+
+	RotaryD2	FXParam 20 
+	DisplayUpperD2	FixedTextDisplay "HPF" 
+	DisplayLowerD2	FXParamValueDisplay 20
+
+
+	RotaryD3	FXParam 26 
+	DisplayUpperD3	FixedTextDisplay "VCF LFO 1 Modulation Amount" 
+	DisplayLowerD3	FXParamValueDisplay 26
+
+
+	RotaryD4	FXParam 24 
+	DisplayUpperD4	FixedTextDisplay "VCF Envelope Modulation" 
+	DisplayLowerD4	FXParamValueDisplay 24
+
+
+	RotaryD5	FXParam 36 
+	DisplayUpperD5	FixedTextDisplay "Envelope 2 Attack" 
+	DisplayLowerD5	FXParamValueDisplay 36
+
+
+	RotaryD6	FXParam 37 
+	DisplayUpperD6	FixedTextDisplay "Envelope 2 Decay" 
+	DisplayLowerD6	FXParamValueDisplay 37
+
+
+	RotaryD7	FXParam 38 
+	DisplayUpperD7	FixedTextDisplay "Envelope 2 Sustain" 
+	DisplayLowerD7	FXParamValueDisplay 38
+
+
+	RotaryD8	FXParam 39 
+	DisplayUpperD8	FixedTextDisplay "Envelope 2 Release" 
+	DisplayLowerD8	FXParamValueDisplay 39
+
+
+	RotaryPushP1	FXParam 55 [ 0 1 ]
+	DisplayUpperP1	FixedTextDisplay "Hold" 
+	DisplayLowerP1	FXParamValueDisplay 55
+
+
+	RotaryPushP2	FXParam 60 [ 0 0.17 0.33 0.5 0.67 0.83 1 ]
+	DisplayUpperP2	FixedTextDisplay "Arpeggiator Mode" 
+	DisplayLowerP2	FXParamValueDisplay 60
+
+
+	RotaryPushP3	FXParam 16 [ 0 0.33 0.67 1 ]
+	DisplayUpperP3	FixedTextDisplay "VCO 1 Waveform" 
+	DisplayLowerP3	FXParamValueDisplay 16
+
+
+	RotaryPushP4	FXParam 5 [ 0 0.33 0.67 1 ]
+	DisplayUpperP4	FixedTextDisplay "LFO Wave Shape" 
+	DisplayLowerP4	FXParamValueDisplay 5
+
+
+	RotaryPushP5	FXParam 18 [ 0 0.33 0.67 1 ]
+	DisplayUpperP5	FixedTextDisplay "VCO 2 Waveform" 
+	DisplayLowerP5	FXParamValueDisplay 18
+
+
+	RotaryPushP6	FXParam 135 [ 0 1 ]
+	DisplayUpperP6	FixedTextDisplay "FX Section On/Off" 
+	DisplayLowerP6	FXParamValueDisplay 135
+
+
+	RotaryPushP7	FXParam 202 [ 0 1 ]
+	DisplayUpperP7	FixedTextDisplay "FX2 Bypass" 
+	DisplayLowerP7	FXParamValueDisplay 202
+
+
+	RotaryPushP8	FXParam 210 [ 0 0.5 1 ]
+	DisplayUpperP8	FixedTextDisplay "Delay Type" 
+	DisplayLowerP8	FXParamValueDisplay 210
+
+
+	RotaryPushQ1	FXParam 56 [ 0 1 ]
+	DisplayUpperQ1	FixedTextDisplay "Arpeggiator ON/OFF" 
+	DisplayLowerQ1	FXParamValueDisplay 56
+
+
+	RotaryPushQ2	FXParam 61 [ 0 0.33 0.67 1 ]
+	DisplayUpperQ2	FixedTextDisplay "Arpeggiator Octave Range" 
+	DisplayLowerQ2	FXParamValueDisplay 61
+
+
+	RotaryPushQ3	FXParam 6 [ 0 0.33 0.67 1 ]
+	DisplayUpperQ3	FixedTextDisplay "VCO 1 Coarse" 
+	DisplayLowerQ3	FXParamValueDisplay 6
+
+
+	RotaryPushQ4	FXParam 3 [ 0 0.11 0.22 0.33 0.44 0.56 0.67 0.78 0.89 1 ]
+	DisplayUpperQ4	FixedTextDisplay "LFO Delay" 
+	DisplayLowerQ4	FXParamValueDisplay 3
+
+
+	RotaryPushQ5	FXParam 7 [ 0 0.33 0.67 1 ]
+	DisplayUpperQ5	FixedTextDisplay "VCO 2 Coarse" 
+	DisplayLowerQ5	FXParamValueDisplay 7
+
+
+	RotaryPushQ6	FXParam 98 [ 0 0.17 0.33 0.5 0.67 0.83 1 ]
+	DisplayUpperQ6	FixedTextDisplay "FX1 Dry/Wet" 
+	DisplayLowerQ6	FXParamValueDisplay 98
+
+
+	RotaryPushQ7	FXParam 99 [ 0 0.17 0.33 0.5 0.67 0.83 1 ]
+	DisplayUpperQ7	FixedTextDisplay "FX2 Dry/Wet" 
+	DisplayLowerQ7	FXParamValueDisplay 99
+
+
+	RotaryPushQ8	FXParam 216 [ 0 1 ]
+	DisplayUpperQ8	FixedTextDisplay "FX2 Delay Stereo Mode" 
+	DisplayLowerQ8	FXParamValueDisplay 216
+
+
+	RotaryPushR1	FXParam 59 [ 0 1 ]
+	DisplayUpperR1	FixedTextDisplay "Arpeggiator Sync" 
+	DisplayLowerR1	FXParamValueDisplay 59
+
+
+	RotaryPushR2	NoAction
+	DisplayUpperR2	NoAction
+	DisplayLowerR2	NoAction
+
+
+	RotaryPushR3	FXParam 9 [ 0 1 ]
+	DisplayUpperR3	FixedTextDisplay "VCO Sync" 
+	DisplayLowerR3	FXParamValueDisplay 9
+
+
+	RotaryPushR4	FXParam 0 [ 0 1 ]
+	DisplayUpperR4	FixedTextDisplay "LFO Sync" 
+	DisplayLowerR4	FXParamValueDisplay 0
+
+
+	RotaryPushR5	FXParam 17 [ 0 1 ]
+	DisplayUpperR5	FixedTextDisplay "VCO 2 Low Freq" 
+	DisplayLowerR5	FXParamValueDisplay 17
+
+
+	RotaryPushR6	FXParam 14 [ 0 0.5 1 ]
+	DisplayUpperR6	FixedTextDisplay "VCO Pulse-Width Mode" 
+	DisplayLowerR6	FXParamValueDisplay 14
+
+
+	RotaryPushR7	FXParam 209 [ 0 1 ]
+	DisplayUpperR7	FixedTextDisplay "FX2 Delay Midi Sync" 
+	DisplayLowerR7	FXParamValueDisplay 209
+
+
+	RotaryPushR8	FXParam 47 [ 0 0.33 0.67 1 ]
+	DisplayUpperR8	FixedTextDisplay "Dispersion" 
+	DisplayLowerR8	FXParamValueDisplay 47
+
+
+	Shift+RotaryA1	NoAction
+	Shift+DisplayUpperA1	NoAction
+	Shift+DisplayLowerA1	NoAction
+
+
+	Shift+RotaryA2	NoAction
+	Shift+DisplayUpperA2	NoAction
+	Shift+DisplayLowerA2	NoAction
+
+
+	Shift+RotaryA3	NoAction
+	Shift+DisplayUpperA3	NoAction
+	Shift+DisplayLowerA3	NoAction
+
+
+	Shift+RotaryA4	NoAction
+	Shift+DisplayUpperA4	NoAction
+	Shift+DisplayLowerA4	NoAction
+
+
+	Shift+RotaryA5	NoAction
+	Shift+DisplayUpperA5	NoAction
+	Shift+DisplayLowerA5	NoAction
+
+
+	Shift+RotaryA6	NoAction
+	Shift+DisplayUpperA6	NoAction
+	Shift+DisplayLowerA6	NoAction
+
+
+	Shift+RotaryA7	NoAction
+	Shift+DisplayUpperA7	NoAction
+	Shift+DisplayLowerA7	NoAction
+
+
+	Shift+RotaryA8	NoAction
+	Shift+DisplayUpperA8	NoAction
+	Shift+DisplayLowerA8	NoAction
+
+
+	Shift+RotaryB1	NoAction
+	Shift+DisplayUpperB1	NoAction
+	Shift+DisplayLowerB1	NoAction
+
+
+	Shift+RotaryB2	NoAction
+	Shift+DisplayUpperB2	NoAction
+	Shift+DisplayLowerB2	NoAction
+
+
+	Shift+RotaryB3	NoAction
+	Shift+DisplayUpperB3	NoAction
+	Shift+DisplayLowerB3	NoAction
+
+
+	Shift+RotaryB4	NoAction
+	Shift+DisplayUpperB4	NoAction
+	Shift+DisplayLowerB4	NoAction
+
+
+	Shift+RotaryB5	NoAction
+	Shift+DisplayUpperB5	NoAction
+	Shift+DisplayLowerB5	NoAction
+
+
+	Shift+RotaryB6	NoAction
+	Shift+DisplayUpperB6	NoAction
+	Shift+DisplayLowerB6	NoAction
+
+
+	Shift+RotaryB7	NoAction
+	Shift+DisplayUpperB7	NoAction
+	Shift+DisplayLowerB7	NoAction
+
+
+	Shift+RotaryB8	NoAction
+	Shift+DisplayUpperB8	NoAction
+	Shift+DisplayLowerB8	NoAction
+
+
+	Shift+RotaryC1	NoAction
+	Shift+DisplayUpperC1	NoAction
+	Shift+DisplayLowerC1	NoAction
+
+
+	Shift+RotaryC2	NoAction
+	Shift+DisplayUpperC2	NoAction
+	Shift+DisplayLowerC2	NoAction
+
+
+	Shift+RotaryC3	NoAction
+	Shift+DisplayUpperC3	NoAction
+	Shift+DisplayLowerC3	NoAction
+
+
+	Shift+RotaryC4	NoAction
+	Shift+DisplayUpperC4	NoAction
+	Shift+DisplayLowerC4	NoAction
+
+
+	Shift+RotaryC5	NoAction
+	Shift+DisplayUpperC5	NoAction
+	Shift+DisplayLowerC5	NoAction
+
+
+	Shift+RotaryC6	NoAction
+	Shift+DisplayUpperC6	NoAction
+	Shift+DisplayLowerC6	NoAction
+
+
+	Shift+RotaryC7	NoAction
+	Shift+DisplayUpperC7	NoAction
+	Shift+DisplayLowerC7	NoAction
+
+
+	Shift+RotaryC8	NoAction
+	Shift+DisplayUpperC8	NoAction
+	Shift+DisplayLowerC8	NoAction
+
+
+	Shift+RotaryD1	NoAction
+	Shift+DisplayUpperD1	NoAction
+	Shift+DisplayLowerD1	NoAction
+
+
+	Shift+RotaryD2	NoAction
+	Shift+DisplayUpperD2	NoAction
+	Shift+DisplayLowerD2	NoAction
+
+
+	Shift+RotaryD3	NoAction
+	Shift+DisplayUpperD3	NoAction
+	Shift+DisplayLowerD3	NoAction
+
+
+	Shift+RotaryD4	NoAction
+	Shift+DisplayUpperD4	NoAction
+	Shift+DisplayLowerD4	NoAction
+
+
+	Shift+RotaryD5	NoAction
+	Shift+DisplayUpperD5	NoAction
+	Shift+DisplayLowerD5	NoAction
+
+
+	Shift+RotaryD6	NoAction
+	Shift+DisplayUpperD6	NoAction
+	Shift+DisplayLowerD6	NoAction
+
+
+	Shift+RotaryD7	NoAction
+	Shift+DisplayUpperD7	NoAction
+	Shift+DisplayLowerD7	NoAction
+
+
+	Shift+RotaryD8	NoAction
+	Shift+DisplayUpperD8	NoAction
+	Shift+DisplayLowerD8	NoAction
+
+
+	Shift+RotaryPushP1	NoAction
+	Shift+DisplayUpperP1	NoAction
+	Shift+DisplayLowerP1	NoAction
+
+
+	Shift+RotaryPushP2	NoAction
+	Shift+DisplayUpperP2	NoAction
+	Shift+DisplayLowerP2	NoAction
+
+
+	Shift+RotaryPushP3	NoAction
+	Shift+DisplayUpperP3	NoAction
+	Shift+DisplayLowerP3	NoAction
+
+
+	Shift+RotaryPushP4	NoAction
+	Shift+DisplayUpperP4	NoAction
+	Shift+DisplayLowerP4	NoAction
+
+
+	Shift+RotaryPushP5	NoAction
+	Shift+DisplayUpperP5	NoAction
+	Shift+DisplayLowerP5	NoAction
+
+
+	Shift+RotaryPushP6	NoAction
+	Shift+DisplayUpperP6	NoAction
+	Shift+DisplayLowerP6	NoAction
+
+
+	Shift+RotaryPushP7	NoAction
+	Shift+DisplayUpperP7	NoAction
+	Shift+DisplayLowerP7	NoAction
+
+
+	Shift+RotaryPushP8	NoAction
+	Shift+DisplayUpperP8	NoAction
+	Shift+DisplayLowerP8	NoAction
+
+
+	Shift+RotaryPushQ1	NoAction
+	Shift+DisplayUpperQ1	NoAction
+	Shift+DisplayLowerQ1	NoAction
+
+
+	Shift+RotaryPushQ2	NoAction
+	Shift+DisplayUpperQ2	NoAction
+	Shift+DisplayLowerQ2	NoAction
+
+
+	Shift+RotaryPushQ3	NoAction
+	Shift+DisplayUpperQ3	NoAction
+	Shift+DisplayLowerQ3	NoAction
+
+
+	Shift+RotaryPushQ4	NoAction
+	Shift+DisplayUpperQ4	NoAction
+	Shift+DisplayLowerQ4	NoAction
+
+
+	Shift+RotaryPushQ5	NoAction
+	Shift+DisplayUpperQ5	NoAction
+	Shift+DisplayLowerQ5	NoAction
+
+
+	Shift+RotaryPushQ6	NoAction
+	Shift+DisplayUpperQ6	NoAction
+	Shift+DisplayLowerQ6	NoAction
+
+
+	Shift+RotaryPushQ7	NoAction
+	Shift+DisplayUpperQ7	NoAction
+	Shift+DisplayLowerQ7	NoAction
+
+
+	Shift+RotaryPushQ8	NoAction
+	Shift+DisplayUpperQ8	NoAction
+	Shift+DisplayLowerQ8	NoAction
+
+
+	Shift+RotaryPushR1	NoAction
+	Shift+DisplayUpperR1	NoAction
+	Shift+DisplayLowerR1	NoAction
+
+
+	Shift+RotaryPushR2	NoAction
+	Shift+DisplayUpperR2	NoAction
+	Shift+DisplayLowerR2	NoAction
+
+
+	Shift+RotaryPushR3	NoAction
+	Shift+DisplayUpperR3	NoAction
+	Shift+DisplayLowerR3	NoAction
+
+
+	Shift+RotaryPushR4	NoAction
+	Shift+DisplayUpperR4	NoAction
+	Shift+DisplayLowerR4	NoAction
+
+
+	Shift+RotaryPushR5	NoAction
+	Shift+DisplayUpperR5	NoAction
+	Shift+DisplayLowerR5	NoAction
+
+
+	Shift+RotaryPushR6	NoAction
+	Shift+DisplayUpperR6	NoAction
+	Shift+DisplayLowerR6	NoAction
+
+
+	Shift+RotaryPushR7	NoAction
+	Shift+DisplayUpperR7	NoAction
+	Shift+DisplayLowerR7	NoAction
+
+
+	Shift+RotaryPushR8	NoAction
+	Shift+DisplayUpperR8	NoAction
+	Shift+DisplayLowerR8	NoAction
+
+
+#End auto generated section
+ZoneEnd
+0 LFO Sync
+1 LFO Rate (Sync)
+2 LFO Rate (Unsync)
+3 LFO Delay
+4 LFO Retrig
+5 LFO Wave Shape
+6 VCO 1 Coarse
+7 VCO 2 Coarse
+8 VCO 2 Fine tune
+9 VCO Sync
+10 VCO LFO Modulation
+11 VCO Envelope Modulation
+12 VCO Pulse-Width Modulation
+13 VCO Cross Modulation
+14 VCO Pulse-Width Mode
+15 VCO Mod Select
+16 VCO 1 Waveform
+17 VCO 2 Low Freq
+18 VCO 2 Waveform
+19 Source Mix
+20 HPF Cutoff
+21 VCF Cutoff
+22 VCF Resonance
+23 VCF slope
+24 VCF Envelope Modulation
+25 VCF Envelope Selector
+26 VCF LFO 1 Modulation Amount
+27 VCF KYBD Follow Amount
+28 VCA Envelope 2 Mod Amount 
+29 VCA LFO 1 Modulation Amount
+30 Envelope 1 Attack
+31 Envelope 1 Decay
+32 Envelope 1 Sustain
+33 Envelope 1 Release
+34 Envelope 1 KYBD Follow
+35 Envelope 1 Polarity
+36 Envelope 2 Attack
+37 Envelope 2 Decay
+38 Envelope 2 Sustain
+39 Envelope 2 Release
+40 Envelope 2 KYBD Follow
+41 Volume
+42 Master Tune
+43 Unison Detune
+44 Pan Spread
+45 Portamento
+46 Portamento ON/OFF
+47 Dispersion
+48 Pitch Dispersion
+49 Pulse-Width Dispersion
+50 Envelopes Dispersion
+51 Cutoff Dispersion
+52 Resonance Dispersion
+53 Modulations Dispersion
+54 Voice Assign
+55 Hold
+56 Arpeggiator ON/OFF
+57 Arpeggiator Rate (Unsync)
+58 Arpeggiator Rate (Synced)
+59 Arpeggiator Sync
+60 Arpeggiator Mode
+61 Arpeggiator Octave Range
+62 Bender VCO1 ON/OFF
+63 Bender VCO2 ON/OFF
+64 Bender VCF ON/OFF
+65 Bender VCO Amount
+66 Bender VCF Amount
+67 LFO MOD VCO ON/OFF
+68 LFO MOD VCF ON/OFF
+69 LFO MOD VCO Amount
+70 LFO MOD VCF Amount
+71 Modulation Section On/Off
+72 Sequencer Section On/Off
+73 Keyboard Section On/Off
+74 LFO 2 Waveform
+75 LFO 2 Sync Mode
+76 LFO 2 Rate (Unsync)
+77 LFO 2 Rate (Sync)
+78 LFO 2 Fade
+79 LFO 2 Warp
+80 LFO 3 Waveform
+81 LFO 3 Sync Mode
+82 LFO 3 Rate (Unsync)
+83 LFO 3 Rate (Sync)
+84 LFO 3 Fade
+85 LFO 3 Warp
+86 Mod Mixer Amount
+87 SEQ Playback Mode
+88 SEQ Sync Mode
+89 SEQ Rate (BPM)
+90 SEQ Rate (Sync)
+91 SEQ Swing
+92 SEQ Mod Multiplier
+93 Notes SEQ Bypass
+94 Notes SEQ Accent Decay
+95 Notes SEQ Accent Env Amount
+96 Notes SEQ Glide
+97 Mod SEQ Bypass
+98 FX1 Dry/Wet
+99 FX2 Dry/Wet
+100 FX3 Dry/Wet
+101 FX1 Reverb Decay
+102 FX1 Delay Time
+103 FX1 Delay Time Synced
+104 FX1 Chorus Feedback
+105 FX1 Flanger Freq
+106 FX1 Phaser Rate Unsynced
+107 FX1 Phaser Rate Synced
+108 FX1 Overdrive Drive
+109 FX1 Compressor Release
+110 FX1 BitCrusher Bit Depth
+111 FX1 Filter Frequency
+112 FX2 Reverb Decay
+113 FX2 Delay Time
+114 FX2 Delay Time Synced
+115 FX2 Chorus Feedback
+116 FX2 Flanger Freq
+117 FX2 Phaser Rate Unsynced
+118 FX2 Phaser Rate Synced
+119 FX2 Overdrive Drive
+120 FX2 Compressor Release
+121 FX2 BitCrusher Bit Depth
+122 FX2 Filter Frequency
+123 FX3 Reverb Decay
+124 FX3 Delay Time
+125 FX3 Delay Time Synced
+126 FX3 Chorus Feedback
+127 FX3 Flanger Freq
+128 FX3 Phaser Rate Unsynced
+129 FX3 Phaser Rate Synced
+130 FX3 Overdrive Drive
+131 FX3 Compressor Release
+132 FX3 BitCrusher Bit Depth
+133 FX3 Filter Frequency
+134 FX Routing
+135 FX Section On/Off
+136 FX1 Bypass
+137 FX1 Reverb Predelay
+138 FX1 Reverb Damping
+139 FX1 Reverb Input LowPass Freq
+140 FX1 Reverb Input HighPass Freq
+141 FX1 Reverb Size
+142 FX1 Reverb Output MS Mix (Stereo)
+143 FX1 Delay Midi Sync
+144 FX1 Delay Rate Synced Type
+145 FX1 Delay Feedback
+146 FX1 Delay HighPass freq
+147 FX1 Delay LowPass freq
+148 FX1 Delay Stereo Width
+149 FX1 Delay Stereo Ping Pong 
+150 FX1 Delay Stereo Mode
+151 FX1 Chorus Fixed Delay Time
+152 FX1 Chorus Depth
+153 FX1 Chorus Rate
+154 FX1 Chorus Stereo Mode
+155 FX1 Chorus Voices
+156 FX1 Chorus LFO Shape
+157 FX1 Flanger MinDelay
+158 FX1 Flanger Depth
+159 FX1 Flanger Feedback
+160 FX1 Flanger Feedback Polarity
+161 FX1 Flanger Stereo
+162 FX1 Flanger LowPass Cutoff Frequency
+163 FX1 Flanger HighPass Cutoff Frequency
+164 FX1 Flanger LFO Waveform
+165 FX1 Phaser Frequency
+166 FX1 Phaser N Poles
+167 FX1 Phaser Feedback
+168 FX1 Phaser LFO Wave
+169 FX1 Phaser LFO Amount
+170 FX1 Phaser Sync Rate Type
+171 FX1 Phaser Midi Sync
+172 FX1 Phaser Stereo
+173 FX1 Overdrive Tone
+174 FX1 Overdrive Level
+175 FX1 Compressor Threshold
+176 FX1 Compressor Ratio
+177 FX1 Compressor Attack
+178 FX1 Compressor Auto Make up
+179 FX1 Compressor OutputGain
+180 FX1 BitCrusher Downsample
+181 FX1 Filter Q
+182 FX1 Filter Comb Freq
+183 FX1 Param Eq LowShelf Frequency
+184 FX1 Param Eq LowShelf Gain
+185 FX1 Param Eq LowShelf Q
+186 FX1 Param Eq Peak 1 Frequency
+187 FX1 Param Eq Peak 1 Gain
+188 FX1 Param Eq Peak 1 Q
+189 FX1 Param Eq Peak 2 Frequency
+190 FX1 Param Eq Peak 2 Gain
+191 FX1 Param Eq Peak 2 Q
+192 FX1 Param Eq Peak 3 Frequency
+193 FX1 Param Eq Peak 3 Gain
+194 FX1 Param Eq Peak 3 Q
+195 FX1 Param Eq HighShelf Frequency
+196 FX1 Param Eq HighShelf Gain
+197 FX1 Param Eq HighShelf Q
+198 FX1 Param Eq Scale
+199 FX1 Stereo Pan 1 Amount
+200 FX1 Stereo Pan 1 Rate Unsynced
+201 FX1 Stereo Pan 1 Rate Synced
+202 FX2 Bypass
+203 FX2 Reverb Predelay
+204 FX2 Reverb Damping
+205 FX2 Reverb Input LowPass Freq
+206 FX2 Reverb Input HighPass Freq
+207 FX2 Reverb Size
+208 FX2 Reverb Output MS Mix (Stereo)
+209 FX2 Delay Midi Sync
+210 FX2 Delay Rate Synced Type
+211 FX2 Delay Feedback
+212 FX2 Delay HighPass freq
+213 FX2 Delay LowPass freq
+214 FX2 Delay Stereo Width
+215 FX2 Delay Stereo Ping Pong 
+216 FX2 Delay Stereo Mode
+217 FX2 Chorus Fixed Delay Time
+218 FX2 Chorus Depth
+219 FX2 Chorus Rate
+220 FX2 Chorus Stereo Mode
+221 FX2 Chorus Voices
+222 FX2 Chorus LFO Shape
+223 FX2 Flanger MinDelay
+224 FX2 Flanger Depth
+225 FX2 Flanger Feedback
+226 FX2 Flanger Feedback Polarity
+227 FX2 Flanger Stereo
+228 FX2 Flanger LowPass Cutoff Frequency
+229 FX2 Flanger HighPass Cutoff Frequency
+230 FX2 Flanger LFO Waveform
+231 FX2 Phaser Frequency
+232 FX2 Phaser N Poles
+233 FX2 Phaser Feedback
+234 FX2 Phaser LFO Wave
+235 FX2 Phaser LFO Amount
+236 FX2 Phaser Sync Rate Type
+237 FX2 Phaser Midi Sync
+238 FX2 Phaser Stereo
+239 FX2 Overdrive Tone
+240 FX2 Overdrive Level
+241 FX2 Compressor Threshold
+242 FX2 Compressor Ratio
+243 FX2 Compressor Attack
+244 FX2 Compressor Auto Make up
+245 FX2 Compressor OutputGain
+246 FX2 BitCrusher Downsample
+247 FX2 Filter Q
+248 FX2 Filter Comb Freq
+249 FX2 Param Eq LowShelf Frequency
+250 FX2 Param Eq LowShelf Gain
+251 FX2 Param Eq LowShelf Q
+252 FX2 Param Eq Peak 1 Frequency
+253 FX2 Param Eq Peak 1 Gain
+254 FX2 Param Eq Peak 1 Q
+255 FX2 Param Eq Peak 2 Frequency
+256 FX2 Param Eq Peak 2 Gain
+257 FX2 Param Eq Peak 2 Q
+258 FX2 Param Eq Peak 3 Frequency
+259 FX2 Param Eq Peak 3 Gain
+260 FX2 Param Eq Peak 3 Q
+261 FX2 Param Eq HighShelf Frequency
+262 FX2 Param Eq HighShelf Gain
+263 FX2 Param Eq HighShelf Q
+264 FX2 Param Eq Scale
+265 FX2 Stereo Pan 2 Amount
+266 FX2 Stereo Pan 2 Rate Unsynced
+267 FX2 Stereo Pan 2 Rate Synced
+268 FX3 Bypass
+269 FX3 Reverb Predelay
+270 FX3 Reverb Damping
+271 FX3 Reverb Input LowPass Freq
+272 FX3 Reverb Input HighPass Freq
+273 FX3 Reverb Size
+274 FX3 Reverb Output MS Mix (Stereo)
+275 FX3 Delay Midi Sync
+276 FX3 Delay Rate Synced Type
+277 FX3 Delay Feedback
+278 FX3 Delay HighPass freq
+279 FX3 Delay LowPass freq
+280 FX3 Delay Stereo Width
+281 FX3 Delay Stereo Ping Pong 
+282 FX3 Delay Stereo Mode
+283 FX3 Chorus Fixed Delay Time
+284 FX3 Chorus Depth
+285 FX3 Chorus Rate
+286 FX3 Chorus Stereo Mode
+287 FX3 Chorus Voices
+288 FX3 Chorus LFO Shape
+289 FX3 Flanger MinDelay
+290 FX3 Flanger Depth
+291 FX3 Flanger Feedback
+292 FX3 Flanger Feedback Polarity
+293 FX3 Flanger Stereo
+294 FX3 Flanger LowPass Cutoff Frequency
+295 FX3 Flanger HighPass Cutoff Frequency
+296 FX3 Flanger LFO Waveform
+297 FX3 Phaser Frequency
+298 FX3 Phaser N Poles
+299 FX3 Phaser Feedback
+300 FX3 Phaser LFO Wave
+301 FX3 Phaser LFO Amount
+302 FX3 Phaser Sync Rate Type
+303 FX3 Phaser Midi Sync
+304 FX3 Phaser Stereo
+305 FX3 Overdrive Tone
+306 FX3 Overdrive Level
+307 FX3 Compressor Threshold
+308 FX3 Compressor Ratio
+309 FX3 Compressor Attack
+310 FX3 Compressor Auto Make up
+311 FX3 Compressor OutputGain
+312 FX3 BitCrusher Downsample
+313 FX3 Filter Q
+314 FX3 Filter Comb Freq
+315 FX3 Param Eq LowShelf Frequency
+316 FX3 Param Eq LowShelf Gain
+317 FX3 Param Eq LowShelf Q
+318 FX3 Param Eq Peak 1 Frequency
+319 FX3 Param Eq Peak 1 Gain
+320 FX3 Param Eq Peak 1 Q
+321 FX3 Param Eq Peak 2 Frequency
+322 FX3 Param Eq Peak 2 Gain
+323 FX3 Param Eq Peak 2 Q
+324 FX3 Param Eq Peak 3 Frequency
+325 FX3 Param Eq Peak 3 Gain
+326 FX3 Param Eq Peak 3 Q
+327 FX3 Param Eq HighShelf Frequency
+328 FX3 Param Eq HighShelf Gain
+329 FX3 Param Eq HighShelf Q
+330 FX3 Param Eq Scale
+331 FX3 Stereo Pan 3 Amount
+332 FX3 Stereo Pan 3 Rate Unsynced
+333 FX3 Stereo Pan 3 Rate Synced
+334 Pitch Bend
+335 VST3_AfterTouch
+336 Mod Wheel
+337 VST3_CtrlAllNotesOff
+338 VST3_CtrlAllSoundsOff
+339 Brightness
+340 Timbre
+341 Time
+342 Movement
+343 LFO 2 Modulation Amount 1
+344 LFO 2 Modulation Amount 2
+345 LFO 3 Modulation Amount 1
+346 LFO 3 Modulation Amount 2
+347 Mod Mixer Modulation Amount 1
+348 Mod Mixer Modulation Amount 2
+349 Mod Mixer Modulation Amount 3
+350 Mod Sequencer Modulation Amount 1
+351 Mod Sequencer Modulation Amount 2
+352 Mod Sequencer Modulation Amount 3
+353 Velocity Modulation Amount 1
+354 Velocity Modulation Amount 2
+355 Velocity Modulation Amount 3
+356 Aftertouch Modulation Amount 1
+357 Aftertouch Modulation Amount 2
+358 Aftertouch Modulation Amount 3
+359 Keyboard Modulation Amount 1
+360 Keyboard Modulation Amount 2
+361 Keyboard Modulation Amount 3
+362 Mod Wheel Modulation Amount 1
+363 Mod Wheel Modulation Amount 2
+364 Mod Wheel Modulation Amount 3
+365 MPE Slide Modulation Amount 1
+366 MPE Slide Modulation Amount 2
+367 VST_ProgramChange_0
+368 VST_ProgramChange_1
+369 VST_ProgramChange_2
+370 VST_ProgramChange_3
+371 VST_ProgramChange_4
+372 VST_ProgramChange_5
+373 VST_ProgramChange_6
+374 VST_ProgramChange_7
+375 VST_ProgramChange_8
+376 VST_ProgramChange_9
+377 VST_ProgramChange_10
+378 VST_ProgramChange_11
+379 VST_ProgramChange_12
+380 VST_ProgramChange_13
+381 VST_ProgramChange_14
+382 VST_ProgramChange_15
+383 Select Preset Timeout
+384 Navigate through presets
+385 Select Preset
+386 Navigate through filters
+387 Add/Remove selected filter
+388 Select Multi Filter
+389 Clear Filters
+390 Active Filter Preset
+391 Active Filter Category
+392 Browse Back
+393 SendValuesToMIDIController
+394 Previous Preset
+395 Next Preset
+396 HW Controller Shift
+397 Select KeylabMk2 Filter
+398 Oct Minus
+399 Oct Plus
+400 MPE_PitchBend_0
+401 MPE_PitchBend_1
+402 MPE_PitchBend_2
+403 MPE_PitchBend_3
+404 MPE_PitchBend_4
+405 MPE_PitchBend_5
+406 MPE_PitchBend_6
+407 MPE_PitchBend_7
+408 MPE_PitchBend_8
+409 MPE_PitchBend_9
+410 MPE_PitchBend_10
+411 MPE_PitchBend_11
+412 MPE_PitchBend_12
+413 MPE_PitchBend_13
+414 MPE_PitchBend_14
+415 MPE_PitchBend_15
+416 MPE_Aftertouch_0
+417 MPE_Aftertouch_1
+418 MPE_Aftertouch_2
+419 MPE_Aftertouch_3
+420 MPE_Aftertouch_4
+421 MPE_Aftertouch_5
+422 MPE_Aftertouch_6
+423 MPE_Aftertouch_7
+424 MPE_Aftertouch_8
+425 MPE_Aftertouch_9
+426 MPE_Aftertouch_10
+427 MPE_Aftertouch_11
+428 MPE_Aftertouch_12
+429 MPE_Aftertouch_13
+430 MPE_Aftertouch_14
+431 MPE_Aftertouch_15
+432 MPE_Brightness_0
+433 MPE_Brightness_1
+434 MPE_Brightness_2
+435 MPE_Brightness_3
+436 MPE_Brightness_4
+437 MPE_Brightness_5
+438 MPE_Brightness_6
+439 MPE_Brightness_7
+440 MPE_Brightness_8
+441 MPE_Brightness_9
+442 MPE_Brightness_10
+443 MPE_Brightness_11
+444 MPE_Brightness_12
+445 MPE_Brightness_13
+446 MPE_Brightness_14
+447 MPE_Brightness_15
+448 MPE_GlobalBrightness
+449 MIDI CC helper 0 [1]
+450 MIDI CC helper 1 [1]
+451 MIDI CC helper 2 [1]
+452 MIDI CC helper 3 [1]
+453 MIDI CC helper 4 [1]
+454 MIDI CC helper 5 [1]
+455 MIDI CC helper 6 [1]
+456 MIDI CC helper 7 [1]
+457 MIDI CC helper 8 [1]
+458 MIDI CC helper 9 [1]
+459 MIDI CC helper 10 [1]
+460 MIDI CC helper 11 [1]
+461 MIDI CC helper 12 [1]
+462 MIDI CC helper 13 [1]
+463 MIDI CC helper 14 [1]
+464 MIDI CC helper 15 [1]
+465 MIDI CC helper 16 [1]
+466 MIDI CC helper 17 [1]
+467 MIDI CC helper 18 [1]
+468 MIDI CC helper 19 [1]
+469 MIDI CC helper 20 [1]
+470 MIDI CC helper 21 [1]
+471 MIDI CC helper 22 [1]
+472 MIDI CC helper 23 [1]
+473 MIDI CC helper 24 [1]
+474 MIDI CC helper 25 [1]
+475 MIDI CC helper 26 [1]
+476 MIDI CC helper 27 [1]
+477 MIDI CC helper 28 [1]
+478 MIDI CC helper 29 [1]
+479 MIDI CC helper 30 [1]
+480 MIDI CC helper 31 [1]
+481 MIDI CC helper 32 [1]
+482 MIDI CC helper 33 [1]
+483 MIDI CC helper 34 [1]
+484 MIDI CC helper 35 [1]
+485 MIDI CC helper 36 [1]
+486 MIDI CC helper 37 [1]
+487 MIDI CC helper 38 [1]
+488 MIDI CC helper 39 [1]
+489 MIDI CC helper 40 [1]
+490 MIDI CC helper 41 [1]
+491 MIDI CC helper 42 [1]
+492 MIDI CC helper 43 [1]
+493 MIDI CC helper 44 [1]
+494 MIDI CC helper 45 [1]
+495 MIDI CC helper 46 [1]
+496 MIDI CC helper 47 [1]
+497 MIDI CC helper 48 [1]
+498 MIDI CC helper 49 [1]
+499 MIDI CC helper 50 [1]
+500 MIDI CC helper 51 [1]
+501 MIDI CC helper 52 [1]
+502 MIDI CC helper 53 [1]
+503 MIDI CC helper 54 [1]
+504 MIDI CC helper 55 [1]
+505 MIDI CC helper 56 [1]
+506 MIDI CC helper 57 [1]
+507 MIDI CC helper 58 [1]
+508 MIDI CC helper 59 [1]
+509 MIDI CC helper 60 [1]
+510 MIDI CC helper 61 [1]
+511 MIDI CC helper 62 [1]
+512 MIDI CC helper 63 [1]
+513 MIDI CC helper 64 [1]
+514 MIDI CC helper 65 [1]
+515 MIDI CC helper 66 [1]
+516 MIDI CC helper 67 [1]
+517 MIDI CC helper 68 [1]
+518 MIDI CC helper 69 [1]
+519 MIDI CC helper 70 [1]
+520 MIDI CC helper 71 [1]
+521 MIDI CC helper 72 [1]
+522 MIDI CC helper 73 [1]
+523 MIDI CC helper 74 [1]
+524 MIDI CC helper 75 [1]
+525 MIDI CC helper 76 [1]
+526 MIDI CC helper 77 [1]
+527 MIDI CC helper 78 [1]
+528 MIDI CC helper 79 [1]
+529 MIDI CC helper 80 [1]
+530 MIDI CC helper 81 [1]
+531 MIDI CC helper 82 [1]
+532 MIDI CC helper 83 [1]
+533 MIDI CC helper 84 [1]
+534 MIDI CC helper 85 [1]
+535 MIDI CC helper 86 [1]
+536 MIDI CC helper 87 [1]
+537 MIDI CC helper 88 [1]
+538 MIDI CC helper 89 [1]
+539 MIDI CC helper 90 [1]
+540 MIDI CC helper 91 [1]
+541 MIDI CC helper 92 [1]
+542 MIDI CC helper 93 [1]
+543 MIDI CC helper 94 [1]
+544 MIDI CC helper 95 [1]
+545 MIDI CC helper 96 [1]
+546 MIDI CC helper 97 [1]
+547 MIDI CC helper 98 [1]
+548 MIDI CC helper 99 [1]
+549 MIDI CC helper 100 [1]
+550 MIDI CC helper 101 [1]
+551 MIDI CC helper 102 [1]
+552 MIDI CC helper 103 [1]
+553 MIDI CC helper 104 [1]
+554 MIDI CC helper 105 [1]
+555 MIDI CC helper 106 [1]
+556 MIDI CC helper 107 [1]
+557 MIDI CC helper 108 [1]
+558 MIDI CC helper 109 [1]
+559 MIDI CC helper 110 [1]
+560 MIDI CC helper 111 [1]
+561 MIDI CC helper 112 [1]
+562 MIDI CC helper 113 [1]
+563 MIDI CC helper 114 [1]
+564 MIDI CC helper 115 [1]
+565 MIDI CC helper 116 [1]
+566 MIDI CC helper 117 [1]
+567 MIDI CC helper 118 [1]
+568 MIDI CC helper 119 [1]
+569 MIDI CC helper 120 [1]
+570 MIDI CC helper 121 [1]
+571 MIDI CC helper 122 [1]
+572 MIDI CC helper 123 [1]
+573 MIDI CC helper 124 [1]
+574 MIDI CC helper 125 [1]
+575 MIDI CC helper 126 [1]
+576 MIDI CC helper 127 [1]
+577 MIDI CC helper 128 [1]
+578 MIDI CC helper 129 [1]
+579 MIDI CC helper 0 [2]
+580 MIDI CC helper 1 [2]
+581 MIDI CC helper 2 [2]
+582 MIDI CC helper 3 [2]
+583 MIDI CC helper 4 [2]
+584 MIDI CC helper 5 [2]
+585 MIDI CC helper 6 [2]
+586 MIDI CC helper 7 [2]
+587 MIDI CC helper 8 [2]
+588 MIDI CC helper 9 [2]
+589 MIDI CC helper 10 [2]
+590 MIDI CC helper 11 [2]
+591 MIDI CC helper 12 [2]
+592 MIDI CC helper 13 [2]
+593 MIDI CC helper 14 [2]
+594 MIDI CC helper 15 [2]
+595 MIDI CC helper 16 [2]
+596 MIDI CC helper 17 [2]
+597 MIDI CC helper 18 [2]
+598 MIDI CC helper 19 [2]
+599 MIDI CC helper 20 [2]
+600 MIDI CC helper 21 [2]
+601 MIDI CC helper 22 [2]
+602 MIDI CC helper 23 [2]
+603 MIDI CC helper 24 [2]
+604 MIDI CC helper 25 [2]
+605 MIDI CC helper 26 [2]
+606 MIDI CC helper 27 [2]
+607 MIDI CC helper 28 [2]
+608 MIDI CC helper 29 [2]
+609 MIDI CC helper 30 [2]
+610 MIDI CC helper 31 [2]
+611 MIDI CC helper 32 [2]
+612 MIDI CC helper 33 [2]
+613 MIDI CC helper 34 [2]
+614 MIDI CC helper 35 [2]
+615 MIDI CC helper 36 [2]
+616 MIDI CC helper 37 [2]
+617 MIDI CC helper 38 [2]
+618 MIDI CC helper 39 [2]
+619 MIDI CC helper 40 [2]
+620 MIDI CC helper 41 [2]
+621 MIDI CC helper 42 [2]
+622 MIDI CC helper 43 [2]
+623 MIDI CC helper 44 [2]
+624 MIDI CC helper 45 [2]
+625 MIDI CC helper 46 [2]
+626 MIDI CC helper 47 [2]
+627 MIDI CC helper 48 [2]
+628 MIDI CC helper 49 [2]
+629 MIDI CC helper 50 [2]
+630 MIDI CC helper 51 [2]
+631 MIDI CC helper 52 [2]
+632 MIDI CC helper 53 [2]
+633 MIDI CC helper 54 [2]
+634 MIDI CC helper 55 [2]
+635 MIDI CC helper 56 [2]
+636 MIDI CC helper 57 [2]
+637 MIDI CC helper 58 [2]
+638 MIDI CC helper 59 [2]
+639 MIDI CC helper 60 [2]
+640 MIDI CC helper 61 [2]
+641 MIDI CC helper 62 [2]
+642 MIDI CC helper 63 [2]
+643 MIDI CC helper 64 [2]
+644 MIDI CC helper 65 [2]
+645 MIDI CC helper 66 [2]
+646 MIDI CC helper 67 [2]
+647 MIDI CC helper 68 [2]
+648 MIDI CC helper 69 [2]
+649 MIDI CC helper 70 [2]
+650 MIDI CC helper 71 [2]
+651 MIDI CC helper 72 [2]
+652 MIDI CC helper 73 [2]
+653 MIDI CC helper 74 [2]
+654 MIDI CC helper 75 [2]
+655 MIDI CC helper 76 [2]
+656 MIDI CC helper 77 [2]
+657 MIDI CC helper 78 [2]
+658 MIDI CC helper 79 [2]
+659 MIDI CC helper 80 [2]
+660 MIDI CC helper 81 [2]
+661 MIDI CC helper 82 [2]
+662 MIDI CC helper 83 [2]
+663 MIDI CC helper 84 [2]
+664 MIDI CC helper 85 [2]
+665 MIDI CC helper 86 [2]
+666 MIDI CC helper 87 [2]
+667 MIDI CC helper 88 [2]
+668 MIDI CC helper 89 [2]
+669 MIDI CC helper 90 [2]
+670 MIDI CC helper 91 [2]
+671 MIDI CC helper 92 [2]
+672 MIDI CC helper 93 [2]
+673 MIDI CC helper 94 [2]
+674 MIDI CC helper 95 [2]
+675 MIDI CC helper 96 [2]
+676 MIDI CC helper 97 [2]
+677 MIDI CC helper 98 [2]
+678 MIDI CC helper 99 [2]
+679 MIDI CC helper 100 [2]
+680 MIDI CC helper 101 [2]
+681 MIDI CC helper 102 [2]
+682 MIDI CC helper 103 [2]
+683 MIDI CC helper 104 [2]
+684 MIDI CC helper 105 [2]
+685 MIDI CC helper 106 [2]
+686 MIDI CC helper 107 [2]
+687 MIDI CC helper 108 [2]
+688 MIDI CC helper 109 [2]
+689 MIDI CC helper 110 [2]
+690 MIDI CC helper 111 [2]
+691 MIDI CC helper 112 [2]
+692 MIDI CC helper 113 [2]
+693 MIDI CC helper 114 [2]
+694 MIDI CC helper 115 [2]
+695 MIDI CC helper 116 [2]
+696 MIDI CC helper 117 [2]
+697 MIDI CC helper 118 [2]
+698 MIDI CC helper 119 [2]
+699 MIDI CC helper 120 [2]
+700 MIDI CC helper 121 [2]
+701 MIDI CC helper 122 [2]
+702 MIDI CC helper 123 [2]
+703 MIDI CC helper 124 [2]
+704 MIDI CC helper 125 [2]
+705 MIDI CC helper 126 [2]
+706 MIDI CC helper 127 [2]
+707 MIDI CC helper 128 [2]
+708 MIDI CC helper 129 [2]
+709 MIDI CC helper 0 [3]
+710 MIDI CC helper 1 [3]
+711 MIDI CC helper 2 [3]
+712 MIDI CC helper 3 [3]
+713 MIDI CC helper 4 [3]
+714 MIDI CC helper 5 [3]
+715 MIDI CC helper 6 [3]
+716 MIDI CC helper 7 [3]
+717 MIDI CC helper 8 [3]
+718 MIDI CC helper 9 [3]
+719 MIDI CC helper 10 [3]
+720 MIDI CC helper 11 [3]
+721 MIDI CC helper 12 [3]
+722 MIDI CC helper 13 [3]
+723 MIDI CC helper 14 [3]
+724 MIDI CC helper 15 [3]
+725 MIDI CC helper 16 [3]
+726 MIDI CC helper 17 [3]
+727 MIDI CC helper 18 [3]
+728 MIDI CC helper 19 [3]
+729 MIDI CC helper 20 [3]
+730 MIDI CC helper 21 [3]
+731 MIDI CC helper 22 [3]
+732 MIDI CC helper 23 [3]
+733 MIDI CC helper 24 [3]
+734 MIDI CC helper 25 [3]
+735 MIDI CC helper 26 [3]
+736 MIDI CC helper 27 [3]
+737 MIDI CC helper 28 [3]
+738 MIDI CC helper 29 [3]
+739 MIDI CC helper 30 [3]
+740 MIDI CC helper 31 [3]
+741 MIDI CC helper 32 [3]
+742 MIDI CC helper 33 [3]
+743 MIDI CC helper 34 [3]
+744 MIDI CC helper 35 [3]
+745 MIDI CC helper 36 [3]
+746 MIDI CC helper 37 [3]
+747 MIDI CC helper 38 [3]
+748 MIDI CC helper 39 [3]
+749 MIDI CC helper 40 [3]
+750 MIDI CC helper 41 [3]
+751 MIDI CC helper 42 [3]
+752 MIDI CC helper 43 [3]
+753 MIDI CC helper 44 [3]
+754 MIDI CC helper 45 [3]
+755 MIDI CC helper 46 [3]
+756 MIDI CC helper 47 [3]
+757 MIDI CC helper 48 [3]
+758 MIDI CC helper 49 [3]
+759 MIDI CC helper 50 [3]
+760 MIDI CC helper 51 [3]
+761 MIDI CC helper 52 [3]
+762 MIDI CC helper 53 [3]
+763 MIDI CC helper 54 [3]
+764 MIDI CC helper 55 [3]
+765 MIDI CC helper 56 [3]
+766 MIDI CC helper 57 [3]
+767 MIDI CC helper 58 [3]
+768 MIDI CC helper 59 [3]
+769 MIDI CC helper 60 [3]
+770 MIDI CC helper 61 [3]
+771 MIDI CC helper 62 [3]
+772 MIDI CC helper 63 [3]
+773 MIDI CC helper 64 [3]
+774 MIDI CC helper 65 [3]
+775 MIDI CC helper 66 [3]
+776 MIDI CC helper 67 [3]
+777 MIDI CC helper 68 [3]
+778 MIDI CC helper 69 [3]
+779 MIDI CC helper 70 [3]
+780 MIDI CC helper 71 [3]
+781 MIDI CC helper 72 [3]
+782 MIDI CC helper 73 [3]
+783 MIDI CC helper 74 [3]
+784 MIDI CC helper 75 [3]
+785 MIDI CC helper 76 [3]
+786 MIDI CC helper 77 [3]
+787 MIDI CC helper 78 [3]
+788 MIDI CC helper 79 [3]
+789 MIDI CC helper 80 [3]
+790 MIDI CC helper 81 [3]
+791 MIDI CC helper 82 [3]
+792 MIDI CC helper 83 [3]
+793 MIDI CC helper 84 [3]
+794 MIDI CC helper 85 [3]
+795 MIDI CC helper 86 [3]
+796 MIDI CC helper 87 [3]
+797 MIDI CC helper 88 [3]
+798 MIDI CC helper 89 [3]
+799 MIDI CC helper 90 [3]
+800 MIDI CC helper 91 [3]
+801 MIDI CC helper 92 [3]
+802 MIDI CC helper 93 [3]
+803 MIDI CC helper 94 [3]
+804 MIDI CC helper 95 [3]
+805 MIDI CC helper 96 [3]
+806 MIDI CC helper 97 [3]
+807 MIDI CC helper 98 [3]
+808 MIDI CC helper 99 [3]
+809 MIDI CC helper 100 [3]
+810 MIDI CC helper 101 [3]
+811 MIDI CC helper 102 [3]
+812 MIDI CC helper 103 [3]
+813 MIDI CC helper 104 [3]
+814 MIDI CC helper 105 [3]
+815 MIDI CC helper 106 [3]
+816 MIDI CC helper 107 [3]
+817 MIDI CC helper 108 [3]
+818 MIDI CC helper 109 [3]
+819 MIDI CC helper 110 [3]
+820 MIDI CC helper 111 [3]
+821 MIDI CC helper 112 [3]
+822 MIDI CC helper 113 [3]
+823 MIDI CC helper 114 [3]
+824 MIDI CC helper 115 [3]
+825 MIDI CC helper 116 [3]
+826 MIDI CC helper 117 [3]
+827 MIDI CC helper 118 [3]
+828 MIDI CC helper 119 [3]
+829 MIDI CC helper 120 [3]
+830 MIDI CC helper 121 [3]
+831 MIDI CC helper 122 [3]
+832 MIDI CC helper 123 [3]
+833 MIDI CC helper 124 [3]
+834 MIDI CC helper 125 [3]
+835 MIDI CC helper 126 [3]
+836 MIDI CC helper 127 [3]
+837 MIDI CC helper 128 [3]
+838 MIDI CC helper 129 [3]
+839 MIDI CC helper 0 [4]
+840 MIDI CC helper 1 [4]
+841 MIDI CC helper 2 [4]
+842 MIDI CC helper 3 [4]
+843 MIDI CC helper 4 [4]
+844 MIDI CC helper 5 [4]
+845 MIDI CC helper 6 [4]
+846 MIDI CC helper 7 [4]
+847 MIDI CC helper 8 [4]
+848 MIDI CC helper 9 [4]
+849 MIDI CC helper 10 [4]
+850 MIDI CC helper 11 [4]
+851 MIDI CC helper 12 [4]
+852 MIDI CC helper 13 [4]
+853 MIDI CC helper 14 [4]
+854 MIDI CC helper 15 [4]
+855 MIDI CC helper 16 [4]
+856 MIDI CC helper 17 [4]
+857 MIDI CC helper 18 [4]
+858 MIDI CC helper 19 [4]
+859 MIDI CC helper 20 [4]
+860 MIDI CC helper 21 [4]
+861 MIDI CC helper 22 [4]
+862 MIDI CC helper 23 [4]
+863 MIDI CC helper 24 [4]
+864 MIDI CC helper 25 [4]
+865 MIDI CC helper 26 [4]
+866 MIDI CC helper 27 [4]
+867 MIDI CC helper 28 [4]
+868 MIDI CC helper 29 [4]
+869 MIDI CC helper 30 [4]
+870 MIDI CC helper 31 [4]
+871 MIDI CC helper 32 [4]
+872 MIDI CC helper 33 [4]
+873 MIDI CC helper 34 [4]
+874 MIDI CC helper 35 [4]
+875 MIDI CC helper 36 [4]
+876 MIDI CC helper 37 [4]
+877 MIDI CC helper 38 [4]
+878 MIDI CC helper 39 [4]
+879 MIDI CC helper 40 [4]
+880 MIDI CC helper 41 [4]
+881 MIDI CC helper 42 [4]
+882 MIDI CC helper 43 [4]
+883 MIDI CC helper 44 [4]
+884 MIDI CC helper 45 [4]
+885 MIDI CC helper 46 [4]
+886 MIDI CC helper 47 [4]
+887 MIDI CC helper 48 [4]
+888 MIDI CC helper 49 [4]
+889 MIDI CC helper 50 [4]
+890 MIDI CC helper 51 [4]
+891 MIDI CC helper 52 [4]
+892 MIDI CC helper 53 [4]
+893 MIDI CC helper 54 [4]
+894 MIDI CC helper 55 [4]
+895 MIDI CC helper 56 [4]
+896 MIDI CC helper 57 [4]
+897 MIDI CC helper 58 [4]
+898 MIDI CC helper 59 [4]
+899 MIDI CC helper 60 [4]
+900 MIDI CC helper 61 [4]
+901 MIDI CC helper 62 [4]
+902 MIDI CC helper 63 [4]
+903 MIDI CC helper 64 [4]
+904 MIDI CC helper 65 [4]
+905 MIDI CC helper 66 [4]
+906 MIDI CC helper 67 [4]
+907 MIDI CC helper 68 [4]
+908 MIDI CC helper 69 [4]
+909 MIDI CC helper 70 [4]
+910 MIDI CC helper 71 [4]
+911 MIDI CC helper 72 [4]
+912 MIDI CC helper 73 [4]
+913 MIDI CC helper 74 [4]
+914 MIDI CC helper 75 [4]
+915 MIDI CC helper 76 [4]
+916 MIDI CC helper 77 [4]
+917 MIDI CC helper 78 [4]
+918 MIDI CC helper 79 [4]
+919 MIDI CC helper 80 [4]
+920 MIDI CC helper 81 [4]
+921 MIDI CC helper 82 [4]
+922 MIDI CC helper 83 [4]
+923 MIDI CC helper 84 [4]
+924 MIDI CC helper 85 [4]
+925 MIDI CC helper 86 [4]
+926 MIDI CC helper 87 [4]
+927 MIDI CC helper 88 [4]
+928 MIDI CC helper 89 [4]
+929 MIDI CC helper 90 [4]
+930 MIDI CC helper 91 [4]
+931 MIDI CC helper 92 [4]
+932 MIDI CC helper 93 [4]
+933 MIDI CC helper 94 [4]
+934 MIDI CC helper 95 [4]
+935 MIDI CC helper 96 [4]
+936 MIDI CC helper 97 [4]
+937 MIDI CC helper 98 [4]
+938 MIDI CC helper 99 [4]
+939 MIDI CC helper 100 [4]
+940 MIDI CC helper 101 [4]
+941 MIDI CC helper 102 [4]
+942 MIDI CC helper 103 [4]
+943 MIDI CC helper 104 [4]
+944 MIDI CC helper 105 [4]
+945 MIDI CC helper 106 [4]
+946 MIDI CC helper 107 [4]
+947 MIDI CC helper 108 [4]
+948 MIDI CC helper 109 [4]
+949 MIDI CC helper 110 [4]
+950 MIDI CC helper 111 [4]
+951 MIDI CC helper 112 [4]
+952 MIDI CC helper 113 [4]
+953 MIDI CC helper 114 [4]
+954 MIDI CC helper 115 [4]
+955 MIDI CC helper 116 [4]
+956 MIDI CC helper 117 [4]
+957 MIDI CC helper 118 [4]
+958 MIDI CC helper 119 [4]
+959 MIDI CC helper 120 [4]
+960 MIDI CC helper 121 [4]
+961 MIDI CC helper 122 [4]
+962 MIDI CC helper 123 [4]
+963 MIDI CC helper 124 [4]
+964 MIDI CC helper 125 [4]
+965 MIDI CC helper 126 [4]
+966 MIDI CC helper 127 [4]
+967 MIDI CC helper 128 [4]
+968 MIDI CC helper 129 [4]
+969 MIDI CC helper 0 [5]
+970 MIDI CC helper 1 [5]
+971 MIDI CC helper 2 [5]
+972 MIDI CC helper 3 [5]
+973 MIDI CC helper 4 [5]
+974 MIDI CC helper 5 [5]
+975 MIDI CC helper 6 [5]
+976 MIDI CC helper 7 [5]
+977 MIDI CC helper 8 [5]
+978 MIDI CC helper 9 [5]
+979 MIDI CC helper 10 [5]
+980 MIDI CC helper 11 [5]
+981 MIDI CC helper 12 [5]
+982 MIDI CC helper 13 [5]
+983 MIDI CC helper 14 [5]
+984 MIDI CC helper 15 [5]
+985 MIDI CC helper 16 [5]
+986 MIDI CC helper 17 [5]
+987 MIDI CC helper 18 [5]
+988 MIDI CC helper 19 [5]
+989 MIDI CC helper 20 [5]
+990 MIDI CC helper 21 [5]
+991 MIDI CC helper 22 [5]
+992 MIDI CC helper 23 [5]
+993 MIDI CC helper 24 [5]
+994 MIDI CC helper 25 [5]
+995 MIDI CC helper 26 [5]
+996 MIDI CC helper 27 [5]
+997 MIDI CC helper 28 [5]
+998 MIDI CC helper 29 [5]
+999 MIDI CC helper 30 [5]
+1000 MIDI CC helper 31 [5]
+1001 MIDI CC helper 32 [5]
+1002 MIDI CC helper 33 [5]
+1003 MIDI CC helper 34 [5]
+1004 MIDI CC helper 35 [5]
+1005 MIDI CC helper 36 [5]
+1006 MIDI CC helper 37 [5]
+1007 MIDI CC helper 38 [5]
+1008 MIDI CC helper 39 [5]
+1009 MIDI CC helper 40 [5]
+1010 MIDI CC helper 41 [5]
+1011 MIDI CC helper 42 [5]
+1012 MIDI CC helper 43 [5]
+1013 MIDI CC helper 44 [5]
+1014 MIDI CC helper 45 [5]
+1015 MIDI CC helper 46 [5]
+1016 MIDI CC helper 47 [5]
+1017 MIDI CC helper 48 [5]
+1018 MIDI CC helper 49 [5]
+1019 MIDI CC helper 50 [5]
+1020 MIDI CC helper 51 [5]
+1021 MIDI CC helper 52 [5]
+1022 MIDI CC helper 53 [5]
+1023 MIDI CC helper 54 [5]
+1024 MIDI CC helper 55 [5]
+1025 MIDI CC helper 56 [5]
+1026 MIDI CC helper 57 [5]
+1027 MIDI CC helper 58 [5]
+1028 MIDI CC helper 59 [5]
+1029 MIDI CC helper 60 [5]
+1030 MIDI CC helper 61 [5]
+1031 MIDI CC helper 62 [5]
+1032 MIDI CC helper 63 [5]
+1033 MIDI CC helper 64 [5]
+1034 MIDI CC helper 65 [5]
+1035 MIDI CC helper 66 [5]
+1036 MIDI CC helper 67 [5]
+1037 MIDI CC helper 68 [5]
+1038 MIDI CC helper 69 [5]
+1039 MIDI CC helper 70 [5]
+1040 MIDI CC helper 71 [5]
+1041 MIDI CC helper 72 [5]
+1042 MIDI CC helper 73 [5]
+1043 MIDI CC helper 74 [5]
+1044 MIDI CC helper 75 [5]
+1045 MIDI CC helper 76 [5]
+1046 MIDI CC helper 77 [5]
+1047 MIDI CC helper 78 [5]
+1048 MIDI CC helper 79 [5]
+1049 MIDI CC helper 80 [5]
+1050 MIDI CC helper 81 [5]
+1051 MIDI CC helper 82 [5]
+1052 MIDI CC helper 83 [5]
+1053 MIDI CC helper 84 [5]
+1054 MIDI CC helper 85 [5]
+1055 MIDI CC helper 86 [5]
+1056 MIDI CC helper 87 [5]
+1057 MIDI CC helper 88 [5]
+1058 MIDI CC helper 89 [5]
+1059 MIDI CC helper 90 [5]
+1060 MIDI CC helper 91 [5]
+1061 MIDI CC helper 92 [5]
+1062 MIDI CC helper 93 [5]
+1063 MIDI CC helper 94 [5]
+1064 MIDI CC helper 95 [5]
+1065 MIDI CC helper 96 [5]
+1066 MIDI CC helper 97 [5]
+1067 MIDI CC helper 98 [5]
+1068 MIDI CC helper 99 [5]
+1069 MIDI CC helper 100 [5]
+1070 MIDI CC helper 101 [5]
+1071 MIDI CC helper 102 [5]
+1072 MIDI CC helper 103 [5]
+1073 MIDI CC helper 104 [5]
+1074 MIDI CC helper 105 [5]
+1075 MIDI CC helper 106 [5]
+1076 MIDI CC helper 107 [5]
+1077 MIDI CC helper 108 [5]
+1078 MIDI CC helper 109 [5]
+1079 MIDI CC helper 110 [5]
+1080 MIDI CC helper 111 [5]
+1081 MIDI CC helper 112 [5]
+1082 MIDI CC helper 113 [5]
+1083 MIDI CC helper 114 [5]
+1084 MIDI CC helper 115 [5]
+1085 MIDI CC helper 116 [5]
+1086 MIDI CC helper 117 [5]
+1087 MIDI CC helper 118 [5]
+1088 MIDI CC helper 119 [5]
+1089 MIDI CC helper 120 [5]
+1090 MIDI CC helper 121 [5]
+1091 MIDI CC helper 122 [5]
+1092 MIDI CC helper 123 [5]
+1093 MIDI CC helper 124 [5]
+1094 MIDI CC helper 125 [5]
+1095 MIDI CC helper 126 [5]
+1096 MIDI CC helper 127 [5]
+1097 MIDI CC helper 128 [5]
+1098 MIDI CC helper 129 [5]
+1099 MIDI CC helper 0 [6]
+1100 MIDI CC helper 1 [6]
+1101 MIDI CC helper 2 [6]
+1102 MIDI CC helper 3 [6]
+1103 MIDI CC helper 4 [6]
+1104 MIDI CC helper 5 [6]
+1105 MIDI CC helper 6 [6]
+1106 MIDI CC helper 7 [6]
+1107 MIDI CC helper 8 [6]
+1108 MIDI CC helper 9 [6]
+1109 MIDI CC helper 10 [6]
+1110 MIDI CC helper 11 [6]
+1111 MIDI CC helper 12 [6]
+1112 MIDI CC helper 13 [6]
+1113 MIDI CC helper 14 [6]
+1114 MIDI CC helper 15 [6]
+1115 MIDI CC helper 16 [6]
+1116 MIDI CC helper 17 [6]
+1117 MIDI CC helper 18 [6]
+1118 MIDI CC helper 19 [6]
+1119 MIDI CC helper 20 [6]
+1120 MIDI CC helper 21 [6]
+1121 MIDI CC helper 22 [6]
+1122 MIDI CC helper 23 [6]
+1123 MIDI CC helper 24 [6]
+1124 MIDI CC helper 25 [6]
+1125 MIDI CC helper 26 [6]
+1126 MIDI CC helper 27 [6]
+1127 MIDI CC helper 28 [6]
+1128 MIDI CC helper 29 [6]
+1129 MIDI CC helper 30 [6]
+1130 MIDI CC helper 31 [6]
+1131 MIDI CC helper 32 [6]
+1132 MIDI CC helper 33 [6]
+1133 MIDI CC helper 34 [6]
+1134 MIDI CC helper 35 [6]
+1135 MIDI CC helper 36 [6]
+1136 MIDI CC helper 37 [6]
+1137 MIDI CC helper 38 [6]
+1138 MIDI CC helper 39 [6]
+1139 MIDI CC helper 40 [6]
+1140 MIDI CC helper 41 [6]
+1141 MIDI CC helper 42 [6]
+1142 MIDI CC helper 43 [6]
+1143 MIDI CC helper 44 [6]
+1144 MIDI CC helper 45 [6]
+1145 MIDI CC helper 46 [6]
+1146 MIDI CC helper 47 [6]
+1147 MIDI CC helper 48 [6]
+1148 MIDI CC helper 49 [6]
+1149 MIDI CC helper 50 [6]
+1150 MIDI CC helper 51 [6]
+1151 MIDI CC helper 52 [6]
+1152 MIDI CC helper 53 [6]
+1153 MIDI CC helper 54 [6]
+1154 MIDI CC helper 55 [6]
+1155 MIDI CC helper 56 [6]
+1156 MIDI CC helper 57 [6]
+1157 MIDI CC helper 58 [6]
+1158 MIDI CC helper 59 [6]
+1159 MIDI CC helper 60 [6]
+1160 MIDI CC helper 61 [6]
+1161 MIDI CC helper 62 [6]
+1162 MIDI CC helper 63 [6]
+1163 MIDI CC helper 64 [6]
+1164 MIDI CC helper 65 [6]
+1165 MIDI CC helper 66 [6]
+1166 MIDI CC helper 67 [6]
+1167 MIDI CC helper 68 [6]
+1168 MIDI CC helper 69 [6]
+1169 MIDI CC helper 70 [6]
+1170 MIDI CC helper 71 [6]
+1171 MIDI CC helper 72 [6]
+1172 MIDI CC helper 73 [6]
+1173 MIDI CC helper 74 [6]
+1174 MIDI CC helper 75 [6]
+1175 MIDI CC helper 76 [6]
+1176 MIDI CC helper 77 [6]
+1177 MIDI CC helper 78 [6]
+1178 MIDI CC helper 79 [6]
+1179 MIDI CC helper 80 [6]
+1180 MIDI CC helper 81 [6]
+1181 MIDI CC helper 82 [6]
+1182 MIDI CC helper 83 [6]
+1183 MIDI CC helper 84 [6]
+1184 MIDI CC helper 85 [6]
+1185 MIDI CC helper 86 [6]
+1186 MIDI CC helper 87 [6]
+1187 MIDI CC helper 88 [6]
+1188 MIDI CC helper 89 [6]
+1189 MIDI CC helper 90 [6]
+1190 MIDI CC helper 91 [6]
+1191 MIDI CC helper 92 [6]
+1192 MIDI CC helper 93 [6]
+1193 MIDI CC helper 94 [6]
+1194 MIDI CC helper 95 [6]
+1195 MIDI CC helper 96 [6]
+1196 MIDI CC helper 97 [6]
+1197 MIDI CC helper 98 [6]
+1198 MIDI CC helper 99 [6]
+1199 MIDI CC helper 100 [6]
+1200 MIDI CC helper 101 [6]
+1201 MIDI CC helper 102 [6]
+1202 MIDI CC helper 103 [6]
+1203 MIDI CC helper 104 [6]
+1204 MIDI CC helper 105 [6]
+1205 MIDI CC helper 106 [6]
+1206 MIDI CC helper 107 [6]
+1207 MIDI CC helper 108 [6]
+1208 MIDI CC helper 109 [6]
+1209 MIDI CC helper 110 [6]
+1210 MIDI CC helper 111 [6]
+1211 MIDI CC helper 112 [6]
+1212 MIDI CC helper 113 [6]
+1213 MIDI CC helper 114 [6]
+1214 MIDI CC helper 115 [6]
+1215 MIDI CC helper 116 [6]
+1216 MIDI CC helper 117 [6]
+1217 MIDI CC helper 118 [6]
+1218 MIDI CC helper 119 [6]
+1219 MIDI CC helper 120 [6]
+1220 MIDI CC helper 121 [6]
+1221 MIDI CC helper 122 [6]
+1222 MIDI CC helper 123 [6]
+1223 MIDI CC helper 124 [6]
+1224 MIDI CC helper 125 [6]
+1225 MIDI CC helper 126 [6]
+1226 MIDI CC helper 127 [6]
+1227 MIDI CC helper 128 [6]
+1228 MIDI CC helper 129 [6]
+1229 MIDI CC helper 0 [7]
+1230 MIDI CC helper 1 [7]
+1231 MIDI CC helper 2 [7]
+1232 MIDI CC helper 3 [7]
+1233 MIDI CC helper 4 [7]
+1234 MIDI CC helper 5 [7]
+1235 MIDI CC helper 6 [7]
+1236 MIDI CC helper 7 [7]
+1237 MIDI CC helper 8 [7]
+1238 MIDI CC helper 9 [7]
+1239 MIDI CC helper 10 [7]
+1240 MIDI CC helper 11 [7]
+1241 MIDI CC helper 12 [7]
+1242 MIDI CC helper 13 [7]
+1243 MIDI CC helper 14 [7]
+1244 MIDI CC helper 15 [7]
+1245 MIDI CC helper 16 [7]
+1246 MIDI CC helper 17 [7]
+1247 MIDI CC helper 18 [7]
+1248 MIDI CC helper 19 [7]
+1249 MIDI CC helper 20 [7]
+1250 MIDI CC helper 21 [7]
+1251 MIDI CC helper 22 [7]
+1252 MIDI CC helper 23 [7]
+1253 MIDI CC helper 24 [7]
+1254 MIDI CC helper 25 [7]
+1255 MIDI CC helper 26 [7]
+1256 MIDI CC helper 27 [7]
+1257 MIDI CC helper 28 [7]
+1258 MIDI CC helper 29 [7]
+1259 MIDI CC helper 30 [7]
+1260 MIDI CC helper 31 [7]
+1261 MIDI CC helper 32 [7]
+1262 MIDI CC helper 33 [7]
+1263 MIDI CC helper 34 [7]
+1264 MIDI CC helper 35 [7]
+1265 MIDI CC helper 36 [7]
+1266 MIDI CC helper 37 [7]
+1267 MIDI CC helper 38 [7]
+1268 MIDI CC helper 39 [7]
+1269 MIDI CC helper 40 [7]
+1270 MIDI CC helper 41 [7]
+1271 MIDI CC helper 42 [7]
+1272 MIDI CC helper 43 [7]
+1273 MIDI CC helper 44 [7]
+1274 MIDI CC helper 45 [7]
+1275 MIDI CC helper 46 [7]
+1276 MIDI CC helper 47 [7]
+1277 MIDI CC helper 48 [7]
+1278 MIDI CC helper 49 [7]
+1279 MIDI CC helper 50 [7]
+1280 MIDI CC helper 51 [7]
+1281 MIDI CC helper 52 [7]
+1282 MIDI CC helper 53 [7]
+1283 MIDI CC helper 54 [7]
+1284 MIDI CC helper 55 [7]
+1285 MIDI CC helper 56 [7]
+1286 MIDI CC helper 57 [7]
+1287 MIDI CC helper 58 [7]
+1288 MIDI CC helper 59 [7]
+1289 MIDI CC helper 60 [7]
+1290 MIDI CC helper 61 [7]
+1291 MIDI CC helper 62 [7]
+1292 MIDI CC helper 63 [7]
+1293 MIDI CC helper 64 [7]
+1294 MIDI CC helper 65 [7]
+1295 MIDI CC helper 66 [7]
+1296 MIDI CC helper 67 [7]
+1297 MIDI CC helper 68 [7]
+1298 MIDI CC helper 69 [7]
+1299 MIDI CC helper 70 [7]
+1300 MIDI CC helper 71 [7]
+1301 MIDI CC helper 72 [7]
+1302 MIDI CC helper 73 [7]
+1303 MIDI CC helper 74 [7]
+1304 MIDI CC helper 75 [7]
+1305 MIDI CC helper 76 [7]
+1306 MIDI CC helper 77 [7]
+1307 MIDI CC helper 78 [7]
+1308 MIDI CC helper 79 [7]
+1309 MIDI CC helper 80 [7]
+1310 MIDI CC helper 81 [7]
+1311 MIDI CC helper 82 [7]
+1312 MIDI CC helper 83 [7]
+1313 MIDI CC helper 84 [7]
+1314 MIDI CC helper 85 [7]
+1315 MIDI CC helper 86 [7]
+1316 MIDI CC helper 87 [7]
+1317 MIDI CC helper 88 [7]
+1318 MIDI CC helper 89 [7]
+1319 MIDI CC helper 90 [7]
+1320 MIDI CC helper 91 [7]
+1321 MIDI CC helper 92 [7]
+1322 MIDI CC helper 93 [7]
+1323 MIDI CC helper 94 [7]
+1324 MIDI CC helper 95 [7]
+1325 MIDI CC helper 96 [7]
+1326 MIDI CC helper 97 [7]
+1327 MIDI CC helper 98 [7]
+1328 MIDI CC helper 99 [7]
+1329 MIDI CC helper 100 [7]
+1330 MIDI CC helper 101 [7]
+1331 MIDI CC helper 102 [7]
+1332 MIDI CC helper 103 [7]
+1333 MIDI CC helper 104 [7]
+1334 MIDI CC helper 105 [7]
+1335 MIDI CC helper 106 [7]
+1336 MIDI CC helper 107 [7]
+1337 MIDI CC helper 108 [7]
+1338 MIDI CC helper 109 [7]
+1339 MIDI CC helper 110 [7]
+1340 MIDI CC helper 111 [7]
+1341 MIDI CC helper 112 [7]
+1342 MIDI CC helper 113 [7]
+1343 MIDI CC helper 114 [7]
+1344 MIDI CC helper 115 [7]
+1345 MIDI CC helper 116 [7]
+1346 MIDI CC helper 117 [7]
+1347 MIDI CC helper 118 [7]
+1348 MIDI CC helper 119 [7]
+1349 MIDI CC helper 120 [7]
+1350 MIDI CC helper 121 [7]
+1351 MIDI CC helper 122 [7]
+1352 MIDI CC helper 123 [7]
+1353 MIDI CC helper 124 [7]
+1354 MIDI CC helper 125 [7]
+1355 MIDI CC helper 126 [7]
+1356 MIDI CC helper 127 [7]
+1357 MIDI CC helper 128 [7]
+1358 MIDI CC helper 129 [7]
+1359 MIDI CC helper 0 [8]
+1360 MIDI CC helper 1 [8]
+1361 MIDI CC helper 2 [8]
+1362 MIDI CC helper 3 [8]
+1363 MIDI CC helper 4 [8]
+1364 MIDI CC helper 5 [8]
+1365 MIDI CC helper 6 [8]
+1366 MIDI CC helper 7 [8]
+1367 MIDI CC helper 8 [8]
+1368 MIDI CC helper 9 [8]
+1369 MIDI CC helper 10 [8]
+1370 MIDI CC helper 11 [8]
+1371 MIDI CC helper 12 [8]
+1372 MIDI CC helper 13 [8]
+1373 MIDI CC helper 14 [8]
+1374 MIDI CC helper 15 [8]
+1375 MIDI CC helper 16 [8]
+1376 MIDI CC helper 17 [8]
+1377 MIDI CC helper 18 [8]
+1378 MIDI CC helper 19 [8]
+1379 MIDI CC helper 20 [8]
+1380 MIDI CC helper 21 [8]
+1381 MIDI CC helper 22 [8]
+1382 MIDI CC helper 23 [8]
+1383 MIDI CC helper 24 [8]
+1384 MIDI CC helper 25 [8]
+1385 MIDI CC helper 26 [8]
+1386 MIDI CC helper 27 [8]
+1387 MIDI CC helper 28 [8]
+1388 MIDI CC helper 29 [8]
+1389 MIDI CC helper 30 [8]
+1390 MIDI CC helper 31 [8]
+1391 MIDI CC helper 32 [8]
+1392 MIDI CC helper 33 [8]
+1393 MIDI CC helper 34 [8]
+1394 MIDI CC helper 35 [8]
+1395 MIDI CC helper 36 [8]
+1396 MIDI CC helper 37 [8]
+1397 MIDI CC helper 38 [8]
+1398 MIDI CC helper 39 [8]
+1399 MIDI CC helper 40 [8]
+1400 MIDI CC helper 41 [8]
+1401 MIDI CC helper 42 [8]
+1402 MIDI CC helper 43 [8]
+1403 MIDI CC helper 44 [8]
+1404 MIDI CC helper 45 [8]
+1405 MIDI CC helper 46 [8]
+1406 MIDI CC helper 47 [8]
+1407 MIDI CC helper 48 [8]
+1408 MIDI CC helper 49 [8]
+1409 MIDI CC helper 50 [8]
+1410 MIDI CC helper 51 [8]
+1411 MIDI CC helper 52 [8]
+1412 MIDI CC helper 53 [8]
+1413 MIDI CC helper 54 [8]
+1414 MIDI CC helper 55 [8]
+1415 MIDI CC helper 56 [8]
+1416 MIDI CC helper 57 [8]
+1417 MIDI CC helper 58 [8]
+1418 MIDI CC helper 59 [8]
+1419 MIDI CC helper 60 [8]
+1420 MIDI CC helper 61 [8]
+1421 MIDI CC helper 62 [8]
+1422 MIDI CC helper 63 [8]
+1423 MIDI CC helper 64 [8]
+1424 MIDI CC helper 65 [8]
+1425 MIDI CC helper 66 [8]
+1426 MIDI CC helper 67 [8]
+1427 MIDI CC helper 68 [8]
+1428 MIDI CC helper 69 [8]
+1429 MIDI CC helper 70 [8]
+1430 MIDI CC helper 71 [8]
+1431 MIDI CC helper 72 [8]
+1432 MIDI CC helper 73 [8]
+1433 MIDI CC helper 74 [8]
+1434 MIDI CC helper 75 [8]
+1435 MIDI CC helper 76 [8]
+1436 MIDI CC helper 77 [8]
+1437 MIDI CC helper 78 [8]
+1438 MIDI CC helper 79 [8]
+1439 MIDI CC helper 80 [8]
+1440 MIDI CC helper 81 [8]
+1441 MIDI CC helper 82 [8]
+1442 MIDI CC helper 83 [8]
+1443 MIDI CC helper 84 [8]
+1444 MIDI CC helper 85 [8]
+1445 MIDI CC helper 86 [8]
+1446 MIDI CC helper 87 [8]
+1447 MIDI CC helper 88 [8]
+1448 MIDI CC helper 89 [8]
+1449 MIDI CC helper 90 [8]
+1450 MIDI CC helper 91 [8]
+1451 MIDI CC helper 92 [8]
+1452 MIDI CC helper 93 [8]
+1453 MIDI CC helper 94 [8]
+1454 MIDI CC helper 95 [8]
+1455 MIDI CC helper 96 [8]
+1456 MIDI CC helper 97 [8]
+1457 MIDI CC helper 98 [8]
+1458 MIDI CC helper 99 [8]
+1459 MIDI CC helper 100 [8]
+1460 MIDI CC helper 101 [8]
+1461 MIDI CC helper 102 [8]
+1462 MIDI CC helper 103 [8]
+1463 MIDI CC helper 104 [8]
+1464 MIDI CC helper 105 [8]
+1465 MIDI CC helper 106 [8]
+1466 MIDI CC helper 107 [8]
+1467 MIDI CC helper 108 [8]
+1468 MIDI CC helper 109 [8]
+1469 MIDI CC helper 110 [8]
+1470 MIDI CC helper 111 [8]
+1471 MIDI CC helper 112 [8]
+1472 MIDI CC helper 113 [8]
+1473 MIDI CC helper 114 [8]
+1474 MIDI CC helper 115 [8]
+1475 MIDI CC helper 116 [8]
+1476 MIDI CC helper 117 [8]
+1477 MIDI CC helper 118 [8]
+1478 MIDI CC helper 119 [8]
+1479 MIDI CC helper 120 [8]
+1480 MIDI CC helper 121 [8]
+1481 MIDI CC helper 122 [8]
+1482 MIDI CC helper 123 [8]
+1483 MIDI CC helper 124 [8]
+1484 MIDI CC helper 125 [8]
+1485 MIDI CC helper 126 [8]
+1486 MIDI CC helper 127 [8]
+1487 MIDI CC helper 128 [8]
+1488 MIDI CC helper 129 [8]
+1489 MIDI CC helper 0 [9]
+1490 MIDI CC helper 1 [9]
+1491 MIDI CC helper 2 [9]
+1492 MIDI CC helper 3 [9]
+1493 MIDI CC helper 4 [9]
+1494 MIDI CC helper 5 [9]
+1495 MIDI CC helper 6 [9]
+1496 MIDI CC helper 7 [9]
+1497 MIDI CC helper 8 [9]
+1498 MIDI CC helper 9 [9]
+1499 MIDI CC helper 10 [9]
+1500 MIDI CC helper 11 [9]
+1501 MIDI CC helper 12 [9]
+1502 MIDI CC helper 13 [9]
+1503 MIDI CC helper 14 [9]
+1504 MIDI CC helper 15 [9]
+1505 MIDI CC helper 16 [9]
+1506 MIDI CC helper 17 [9]
+1507 MIDI CC helper 18 [9]
+1508 MIDI CC helper 19 [9]
+1509 MIDI CC helper 20 [9]
+1510 MIDI CC helper 21 [9]
+1511 MIDI CC helper 22 [9]
+1512 MIDI CC helper 23 [9]
+1513 MIDI CC helper 24 [9]
+1514 MIDI CC helper 25 [9]
+1515 MIDI CC helper 26 [9]
+1516 MIDI CC helper 27 [9]
+1517 MIDI CC helper 28 [9]
+1518 MIDI CC helper 29 [9]
+1519 MIDI CC helper 30 [9]
+1520 MIDI CC helper 31 [9]
+1521 MIDI CC helper 32 [9]
+1522 MIDI CC helper 33 [9]
+1523 MIDI CC helper 34 [9]
+1524 MIDI CC helper 35 [9]
+1525 MIDI CC helper 36 [9]
+1526 MIDI CC helper 37 [9]
+1527 MIDI CC helper 38 [9]
+1528 MIDI CC helper 39 [9]
+1529 MIDI CC helper 40 [9]
+1530 MIDI CC helper 41 [9]
+1531 MIDI CC helper 42 [9]
+1532 MIDI CC helper 43 [9]
+1533 MIDI CC helper 44 [9]
+1534 MIDI CC helper 45 [9]
+1535 MIDI CC helper 46 [9]
+1536 MIDI CC helper 47 [9]
+1537 MIDI CC helper 48 [9]
+1538 MIDI CC helper 49 [9]
+1539 MIDI CC helper 50 [9]
+1540 MIDI CC helper 51 [9]
+1541 MIDI CC helper 52 [9]
+1542 MIDI CC helper 53 [9]
+1543 MIDI CC helper 54 [9]
+1544 MIDI CC helper 55 [9]
+1545 MIDI CC helper 56 [9]
+1546 MIDI CC helper 57 [9]
+1547 MIDI CC helper 58 [9]
+1548 MIDI CC helper 59 [9]
+1549 MIDI CC helper 60 [9]
+1550 MIDI CC helper 61 [9]
+1551 MIDI CC helper 62 [9]
+1552 MIDI CC helper 63 [9]
+1553 MIDI CC helper 64 [9]
+1554 MIDI CC helper 65 [9]
+1555 MIDI CC helper 66 [9]
+1556 MIDI CC helper 67 [9]
+1557 MIDI CC helper 68 [9]
+1558 MIDI CC helper 69 [9]
+1559 MIDI CC helper 70 [9]
+1560 MIDI CC helper 71 [9]
+1561 MIDI CC helper 72 [9]
+1562 MIDI CC helper 73 [9]
+1563 MIDI CC helper 74 [9]
+1564 MIDI CC helper 75 [9]
+1565 MIDI CC helper 76 [9]
+1566 MIDI CC helper 77 [9]
+1567 MIDI CC helper 78 [9]
+1568 MIDI CC helper 79 [9]
+1569 MIDI CC helper 80 [9]
+1570 MIDI CC helper 81 [9]
+1571 MIDI CC helper 82 [9]
+1572 MIDI CC helper 83 [9]
+1573 MIDI CC helper 84 [9]
+1574 MIDI CC helper 85 [9]
+1575 MIDI CC helper 86 [9]
+1576 MIDI CC helper 87 [9]
+1577 MIDI CC helper 88 [9]
+1578 MIDI CC helper 89 [9]
+1579 MIDI CC helper 90 [9]
+1580 MIDI CC helper 91 [9]
+1581 MIDI CC helper 92 [9]
+1582 MIDI CC helper 93 [9]
+1583 MIDI CC helper 94 [9]
+1584 MIDI CC helper 95 [9]
+1585 MIDI CC helper 96 [9]
+1586 MIDI CC helper 97 [9]
+1587 MIDI CC helper 98 [9]
+1588 MIDI CC helper 99 [9]
+1589 MIDI CC helper 100 [9]
+1590 MIDI CC helper 101 [9]
+1591 MIDI CC helper 102 [9]
+1592 MIDI CC helper 103 [9]
+1593 MIDI CC helper 104 [9]
+1594 MIDI CC helper 105 [9]
+1595 MIDI CC helper 106 [9]
+1596 MIDI CC helper 107 [9]
+1597 MIDI CC helper 108 [9]
+1598 MIDI CC helper 109 [9]
+1599 MIDI CC helper 110 [9]
+1600 MIDI CC helper 111 [9]
+1601 MIDI CC helper 112 [9]
+1602 MIDI CC helper 113 [9]
+1603 MIDI CC helper 114 [9]
+1604 MIDI CC helper 115 [9]
+1605 MIDI CC helper 116 [9]
+1606 MIDI CC helper 117 [9]
+1607 MIDI CC helper 118 [9]
+1608 MIDI CC helper 119 [9]
+1609 MIDI CC helper 120 [9]
+1610 MIDI CC helper 121 [9]
+1611 MIDI CC helper 122 [9]
+1612 MIDI CC helper 123 [9]
+1613 MIDI CC helper 124 [9]
+1614 MIDI CC helper 125 [9]
+1615 MIDI CC helper 126 [9]
+1616 MIDI CC helper 127 [9]
+1617 MIDI CC helper 128 [9]
+1618 MIDI CC helper 129 [9]
+1619 MIDI CC helper 0 [10]
+1620 MIDI CC helper 1 [10]
+1621 MIDI CC helper 2 [10]
+1622 MIDI CC helper 3 [10]
+1623 MIDI CC helper 4 [10]
+1624 MIDI CC helper 5 [10]
+1625 MIDI CC helper 6 [10]
+1626 MIDI CC helper 7 [10]
+1627 MIDI CC helper 8 [10]
+1628 MIDI CC helper 9 [10]
+1629 MIDI CC helper 10 [10]
+1630 MIDI CC helper 11 [10]
+1631 MIDI CC helper 12 [10]
+1632 MIDI CC helper 13 [10]
+1633 MIDI CC helper 14 [10]
+1634 MIDI CC helper 15 [10]
+1635 MIDI CC helper 16 [10]
+1636 MIDI CC helper 17 [10]
+1637 MIDI CC helper 18 [10]
+1638 MIDI CC helper 19 [10]
+1639 MIDI CC helper 20 [10]
+1640 MIDI CC helper 21 [10]
+1641 MIDI CC helper 22 [10]
+1642 MIDI CC helper 23 [10]
+1643 MIDI CC helper 24 [10]
+1644 MIDI CC helper 25 [10]
+1645 MIDI CC helper 26 [10]
+1646 MIDI CC helper 27 [10]
+1647 MIDI CC helper 28 [10]
+1648 MIDI CC helper 29 [10]
+1649 MIDI CC helper 30 [10]
+1650 MIDI CC helper 31 [10]
+1651 MIDI CC helper 32 [10]
+1652 MIDI CC helper 33 [10]
+1653 MIDI CC helper 34 [10]
+1654 MIDI CC helper 35 [10]
+1655 MIDI CC helper 36 [10]
+1656 MIDI CC helper 37 [10]
+1657 MIDI CC helper 38 [10]
+1658 MIDI CC helper 39 [10]
+1659 MIDI CC helper 40 [10]
+1660 MIDI CC helper 41 [10]
+1661 MIDI CC helper 42 [10]
+1662 MIDI CC helper 43 [10]
+1663 MIDI CC helper 44 [10]
+1664 MIDI CC helper 45 [10]
+1665 MIDI CC helper 46 [10]
+1666 MIDI CC helper 47 [10]
+1667 MIDI CC helper 48 [10]
+1668 MIDI CC helper 49 [10]
+1669 MIDI CC helper 50 [10]
+1670 MIDI CC helper 51 [10]
+1671 MIDI CC helper 52 [10]
+1672 MIDI CC helper 53 [10]
+1673 MIDI CC helper 54 [10]
+1674 MIDI CC helper 55 [10]
+1675 MIDI CC helper 56 [10]
+1676 MIDI CC helper 57 [10]
+1677 MIDI CC helper 58 [10]
+1678 MIDI CC helper 59 [10]
+1679 MIDI CC helper 60 [10]
+1680 MIDI CC helper 61 [10]
+1681 MIDI CC helper 62 [10]
+1682 MIDI CC helper 63 [10]
+1683 MIDI CC helper 64 [10]
+1684 MIDI CC helper 65 [10]
+1685 MIDI CC helper 66 [10]
+1686 MIDI CC helper 67 [10]
+1687 MIDI CC helper 68 [10]
+1688 MIDI CC helper 69 [10]
+1689 MIDI CC helper 70 [10]
+1690 MIDI CC helper 71 [10]
+1691 MIDI CC helper 72 [10]
+1692 MIDI CC helper 73 [10]
+1693 MIDI CC helper 74 [10]
+1694 MIDI CC helper 75 [10]
+1695 MIDI CC helper 76 [10]
+1696 MIDI CC helper 77 [10]
+1697 MIDI CC helper 78 [10]
+1698 MIDI CC helper 79 [10]
+1699 MIDI CC helper 80 [10]
+1700 MIDI CC helper 81 [10]
+1701 MIDI CC helper 82 [10]
+1702 MIDI CC helper 83 [10]
+1703 MIDI CC helper 84 [10]
+1704 MIDI CC helper 85 [10]
+1705 MIDI CC helper 86 [10]
+1706 MIDI CC helper 87 [10]
+1707 MIDI CC helper 88 [10]
+1708 MIDI CC helper 89 [10]
+1709 MIDI CC helper 90 [10]
+1710 MIDI CC helper 91 [10]
+1711 MIDI CC helper 92 [10]
+1712 MIDI CC helper 93 [10]
+1713 MIDI CC helper 94 [10]
+1714 MIDI CC helper 95 [10]
+1715 MIDI CC helper 96 [10]
+1716 MIDI CC helper 97 [10]
+1717 MIDI CC helper 98 [10]
+1718 MIDI CC helper 99 [10]
+1719 MIDI CC helper 100 [10]
+1720 MIDI CC helper 101 [10]
+1721 MIDI CC helper 102 [10]
+1722 MIDI CC helper 103 [10]
+1723 MIDI CC helper 104 [10]
+1724 MIDI CC helper 105 [10]
+1725 MIDI CC helper 106 [10]
+1726 MIDI CC helper 107 [10]
+1727 MIDI CC helper 108 [10]
+1728 MIDI CC helper 109 [10]
+1729 MIDI CC helper 110 [10]
+1730 MIDI CC helper 111 [10]
+1731 MIDI CC helper 112 [10]
+1732 MIDI CC helper 113 [10]
+1733 MIDI CC helper 114 [10]
+1734 MIDI CC helper 115 [10]
+1735 MIDI CC helper 116 [10]
+1736 MIDI CC helper 117 [10]
+1737 MIDI CC helper 118 [10]
+1738 MIDI CC helper 119 [10]
+1739 MIDI CC helper 120 [10]
+1740 MIDI CC helper 121 [10]
+1741 MIDI CC helper 122 [10]
+1742 MIDI CC helper 123 [10]
+1743 MIDI CC helper 124 [10]
+1744 MIDI CC helper 125 [10]
+1745 MIDI CC helper 126 [10]
+1746 MIDI CC helper 127 [10]
+1747 MIDI CC helper 128 [10]
+1748 MIDI CC helper 129 [10]
+1749 MIDI CC helper 0 [11]
+1750 MIDI CC helper 1 [11]
+1751 MIDI CC helper 2 [11]
+1752 MIDI CC helper 3 [11]
+1753 MIDI CC helper 4 [11]
+1754 MIDI CC helper 5 [11]
+1755 MIDI CC helper 6 [11]
+1756 MIDI CC helper 7 [11]
+1757 MIDI CC helper 8 [11]
+1758 MIDI CC helper 9 [11]
+1759 MIDI CC helper 10 [11]
+1760 MIDI CC helper 11 [11]
+1761 MIDI CC helper 12 [11]
+1762 MIDI CC helper 13 [11]
+1763 MIDI CC helper 14 [11]
+1764 MIDI CC helper 15 [11]
+1765 MIDI CC helper 16 [11]
+1766 MIDI CC helper 17 [11]
+1767 MIDI CC helper 18 [11]
+1768 MIDI CC helper 19 [11]
+1769 MIDI CC helper 20 [11]
+1770 MIDI CC helper 21 [11]
+1771 MIDI CC helper 22 [11]
+1772 MIDI CC helper 23 [11]
+1773 MIDI CC helper 24 [11]
+1774 MIDI CC helper 25 [11]
+1775 MIDI CC helper 26 [11]
+1776 MIDI CC helper 27 [11]
+1777 MIDI CC helper 28 [11]
+1778 MIDI CC helper 29 [11]
+1779 MIDI CC helper 30 [11]
+1780 MIDI CC helper 31 [11]
+1781 MIDI CC helper 32 [11]
+1782 MIDI CC helper 33 [11]
+1783 MIDI CC helper 34 [11]
+1784 MIDI CC helper 35 [11]
+1785 MIDI CC helper 36 [11]
+1786 MIDI CC helper 37 [11]
+1787 MIDI CC helper 38 [11]
+1788 MIDI CC helper 39 [11]
+1789 MIDI CC helper 40 [11]
+1790 MIDI CC helper 41 [11]
+1791 MIDI CC helper 42 [11]
+1792 MIDI CC helper 43 [11]
+1793 MIDI CC helper 44 [11]
+1794 MIDI CC helper 45 [11]
+1795 MIDI CC helper 46 [11]
+1796 MIDI CC helper 47 [11]
+1797 MIDI CC helper 48 [11]
+1798 MIDI CC helper 49 [11]
+1799 MIDI CC helper 50 [11]
+1800 MIDI CC helper 51 [11]
+1801 MIDI CC helper 52 [11]
+1802 MIDI CC helper 53 [11]
+1803 MIDI CC helper 54 [11]
+1804 MIDI CC helper 55 [11]
+1805 MIDI CC helper 56 [11]
+1806 MIDI CC helper 57 [11]
+1807 MIDI CC helper 58 [11]
+1808 MIDI CC helper 59 [11]
+1809 MIDI CC helper 60 [11]
+1810 MIDI CC helper 61 [11]
+1811 MIDI CC helper 62 [11]
+1812 MIDI CC helper 63 [11]
+1813 MIDI CC helper 64 [11]
+1814 MIDI CC helper 65 [11]
+1815 MIDI CC helper 66 [11]
+1816 MIDI CC helper 67 [11]
+1817 MIDI CC helper 68 [11]
+1818 MIDI CC helper 69 [11]
+1819 MIDI CC helper 70 [11]
+1820 MIDI CC helper 71 [11]
+1821 MIDI CC helper 72 [11]
+1822 MIDI CC helper 73 [11]
+1823 MIDI CC helper 74 [11]
+1824 MIDI CC helper 75 [11]
+1825 MIDI CC helper 76 [11]
+1826 MIDI CC helper 77 [11]
+1827 MIDI CC helper 78 [11]
+1828 MIDI CC helper 79 [11]
+1829 MIDI CC helper 80 [11]
+1830 MIDI CC helper 81 [11]
+1831 MIDI CC helper 82 [11]
+1832 MIDI CC helper 83 [11]
+1833 MIDI CC helper 84 [11]
+1834 MIDI CC helper 85 [11]
+1835 MIDI CC helper 86 [11]
+1836 MIDI CC helper 87 [11]
+1837 MIDI CC helper 88 [11]
+1838 MIDI CC helper 89 [11]
+1839 MIDI CC helper 90 [11]
+1840 MIDI CC helper 91 [11]
+1841 MIDI CC helper 92 [11]
+1842 MIDI CC helper 93 [11]
+1843 MIDI CC helper 94 [11]
+1844 MIDI CC helper 95 [11]
+1845 MIDI CC helper 96 [11]
+1846 MIDI CC helper 97 [11]
+1847 MIDI CC helper 98 [11]
+1848 MIDI CC helper 99 [11]
+1849 MIDI CC helper 100 [11]
+1850 MIDI CC helper 101 [11]
+1851 MIDI CC helper 102 [11]
+1852 MIDI CC helper 103 [11]
+1853 MIDI CC helper 104 [11]
+1854 MIDI CC helper 105 [11]
+1855 MIDI CC helper 106 [11]
+1856 MIDI CC helper 107 [11]
+1857 MIDI CC helper 108 [11]
+1858 MIDI CC helper 109 [11]
+1859 MIDI CC helper 110 [11]
+1860 MIDI CC helper 111 [11]
+1861 MIDI CC helper 112 [11]
+1862 MIDI CC helper 113 [11]
+1863 MIDI CC helper 114 [11]
+1864 MIDI CC helper 115 [11]
+1865 MIDI CC helper 116 [11]
+1866 MIDI CC helper 117 [11]
+1867 MIDI CC helper 118 [11]
+1868 MIDI CC helper 119 [11]
+1869 MIDI CC helper 120 [11]
+1870 MIDI CC helper 121 [11]
+1871 MIDI CC helper 122 [11]
+1872 MIDI CC helper 123 [11]
+1873 MIDI CC helper 124 [11]
+1874 MIDI CC helper 125 [11]
+1875 MIDI CC helper 126 [11]
+1876 MIDI CC helper 127 [11]
+1877 MIDI CC helper 128 [11]
+1878 MIDI CC helper 129 [11]
+1879 MIDI CC helper 0 [12]
+1880 MIDI CC helper 1 [12]
+1881 MIDI CC helper 2 [12]
+1882 MIDI CC helper 3 [12]
+1883 MIDI CC helper 4 [12]
+1884 MIDI CC helper 5 [12]
+1885 MIDI CC helper 6 [12]
+1886 MIDI CC helper 7 [12]
+1887 MIDI CC helper 8 [12]
+1888 MIDI CC helper 9 [12]
+1889 MIDI CC helper 10 [12]
+1890 MIDI CC helper 11 [12]
+1891 MIDI CC helper 12 [12]
+1892 MIDI CC helper 13 [12]
+1893 MIDI CC helper 14 [12]
+1894 MIDI CC helper 15 [12]
+1895 MIDI CC helper 16 [12]
+1896 MIDI CC helper 17 [12]
+1897 MIDI CC helper 18 [12]
+1898 MIDI CC helper 19 [12]
+1899 MIDI CC helper 20 [12]
+1900 MIDI CC helper 21 [12]
+1901 MIDI CC helper 22 [12]
+1902 MIDI CC helper 23 [12]
+1903 MIDI CC helper 24 [12]
+1904 MIDI CC helper 25 [12]
+1905 MIDI CC helper 26 [12]
+1906 MIDI CC helper 27 [12]
+1907 MIDI CC helper 28 [12]
+1908 MIDI CC helper 29 [12]
+1909 MIDI CC helper 30 [12]
+1910 MIDI CC helper 31 [12]
+1911 MIDI CC helper 32 [12]
+1912 MIDI CC helper 33 [12]
+1913 MIDI CC helper 34 [12]
+1914 MIDI CC helper 35 [12]
+1915 MIDI CC helper 36 [12]
+1916 MIDI CC helper 37 [12]
+1917 MIDI CC helper 38 [12]
+1918 MIDI CC helper 39 [12]
+1919 MIDI CC helper 40 [12]
+1920 MIDI CC helper 41 [12]
+1921 MIDI CC helper 42 [12]
+1922 MIDI CC helper 43 [12]
+1923 MIDI CC helper 44 [12]
+1924 MIDI CC helper 45 [12]
+1925 MIDI CC helper 46 [12]
+1926 MIDI CC helper 47 [12]
+1927 MIDI CC helper 48 [12]
+1928 MIDI CC helper 49 [12]
+1929 MIDI CC helper 50 [12]
+1930 MIDI CC helper 51 [12]
+1931 MIDI CC helper 52 [12]
+1932 MIDI CC helper 53 [12]
+1933 MIDI CC helper 54 [12]
+1934 MIDI CC helper 55 [12]
+1935 MIDI CC helper 56 [12]
+1936 MIDI CC helper 57 [12]
+1937 MIDI CC helper 58 [12]
+1938 MIDI CC helper 59 [12]
+1939 MIDI CC helper 60 [12]
+1940 MIDI CC helper 61 [12]
+1941 MIDI CC helper 62 [12]
+1942 MIDI CC helper 63 [12]
+1943 MIDI CC helper 64 [12]
+1944 MIDI CC helper 65 [12]
+1945 MIDI CC helper 66 [12]
+1946 MIDI CC helper 67 [12]
+1947 MIDI CC helper 68 [12]
+1948 MIDI CC helper 69 [12]
+1949 MIDI CC helper 70 [12]
+1950 MIDI CC helper 71 [12]
+1951 MIDI CC helper 72 [12]
+1952 MIDI CC helper 73 [12]
+1953 MIDI CC helper 74 [12]
+1954 MIDI CC helper 75 [12]
+1955 MIDI CC helper 76 [12]
+1956 MIDI CC helper 77 [12]
+1957 MIDI CC helper 78 [12]
+1958 MIDI CC helper 79 [12]
+1959 MIDI CC helper 80 [12]
+1960 MIDI CC helper 81 [12]
+1961 MIDI CC helper 82 [12]
+1962 MIDI CC helper 83 [12]
+1963 MIDI CC helper 84 [12]
+1964 MIDI CC helper 85 [12]
+1965 MIDI CC helper 86 [12]
+1966 MIDI CC helper 87 [12]
+1967 MIDI CC helper 88 [12]
+1968 MIDI CC helper 89 [12]
+1969 MIDI CC helper 90 [12]
+1970 MIDI CC helper 91 [12]
+1971 MIDI CC helper 92 [12]
+1972 MIDI CC helper 93 [12]
+1973 MIDI CC helper 94 [12]
+1974 MIDI CC helper 95 [12]
+1975 MIDI CC helper 96 [12]
+1976 MIDI CC helper 97 [12]
+1977 MIDI CC helper 98 [12]
+1978 MIDI CC helper 99 [12]
+1979 MIDI CC helper 100 [12]
+1980 MIDI CC helper 101 [12]
+1981 MIDI CC helper 102 [12]
+1982 MIDI CC helper 103 [12]
+1983 MIDI CC helper 104 [12]
+1984 MIDI CC helper 105 [12]
+1985 MIDI CC helper 106 [12]
+1986 MIDI CC helper 107 [12]
+1987 MIDI CC helper 108 [12]
+1988 MIDI CC helper 109 [12]
+1989 MIDI CC helper 110 [12]
+1990 MIDI CC helper 111 [12]
+1991 MIDI CC helper 112 [12]
+1992 MIDI CC helper 113 [12]
+1993 MIDI CC helper 114 [12]
+1994 MIDI CC helper 115 [12]
+1995 MIDI CC helper 116 [12]
+1996 MIDI CC helper 117 [12]
+1997 MIDI CC helper 118 [12]
+1998 MIDI CC helper 119 [12]
+1999 MIDI CC helper 120 [12]
+2000 MIDI CC helper 121 [12]
+2001 MIDI CC helper 122 [12]
+2002 MIDI CC helper 123 [12]
+2003 MIDI CC helper 124 [12]
+2004 MIDI CC helper 125 [12]
+2005 MIDI CC helper 126 [12]
+2006 MIDI CC helper 127 [12]
+2007 MIDI CC helper 128 [12]
+2008 MIDI CC helper 129 [12]
+2009 MIDI CC helper 0 [13]
+2010 MIDI CC helper 1 [13]
+2011 MIDI CC helper 2 [13]
+2012 MIDI CC helper 3 [13]
+2013 MIDI CC helper 4 [13]
+2014 MIDI CC helper 5 [13]
+2015 MIDI CC helper 6 [13]
+2016 MIDI CC helper 7 [13]
+2017 MIDI CC helper 8 [13]
+2018 MIDI CC helper 9 [13]
+2019 MIDI CC helper 10 [13]
+2020 MIDI CC helper 11 [13]
+2021 MIDI CC helper 12 [13]
+2022 MIDI CC helper 13 [13]
+2023 MIDI CC helper 14 [13]
+2024 MIDI CC helper 15 [13]
+2025 MIDI CC helper 16 [13]
+2026 MIDI CC helper 17 [13]
+2027 MIDI CC helper 18 [13]
+2028 MIDI CC helper 19 [13]
+2029 MIDI CC helper 20 [13]
+2030 MIDI CC helper 21 [13]
+2031 MIDI CC helper 22 [13]
+2032 MIDI CC helper 23 [13]
+2033 MIDI CC helper 24 [13]
+2034 MIDI CC helper 25 [13]
+2035 MIDI CC helper 26 [13]
+2036 MIDI CC helper 27 [13]
+2037 MIDI CC helper 28 [13]
+2038 MIDI CC helper 29 [13]
+2039 MIDI CC helper 30 [13]
+2040 MIDI CC helper 31 [13]
+2041 MIDI CC helper 32 [13]
+2042 MIDI CC helper 33 [13]
+2043 MIDI CC helper 34 [13]
+2044 MIDI CC helper 35 [13]
+2045 MIDI CC helper 36 [13]
+2046 MIDI CC helper 37 [13]
+2047 MIDI CC helper 38 [13]
+2048 MIDI CC helper 39 [13]
+2049 MIDI CC helper 40 [13]
+2050 MIDI CC helper 41 [13]
+2051 MIDI CC helper 42 [13]
+2052 MIDI CC helper 43 [13]
+2053 MIDI CC helper 44 [13]
+2054 MIDI CC helper 45 [13]
+2055 MIDI CC helper 46 [13]
+2056 MIDI CC helper 47 [13]
+2057 MIDI CC helper 48 [13]
+2058 MIDI CC helper 49 [13]
+2059 MIDI CC helper 50 [13]
+2060 MIDI CC helper 51 [13]
+2061 MIDI CC helper 52 [13]
+2062 MIDI CC helper 53 [13]
+2063 MIDI CC helper 54 [13]
+2064 MIDI CC helper 55 [13]
+2065 MIDI CC helper 56 [13]
+2066 MIDI CC helper 57 [13]
+2067 MIDI CC helper 58 [13]
+2068 MIDI CC helper 59 [13]
+2069 MIDI CC helper 60 [13]
+2070 MIDI CC helper 61 [13]
+2071 MIDI CC helper 62 [13]
+2072 MIDI CC helper 63 [13]
+2073 MIDI CC helper 64 [13]
+2074 MIDI CC helper 65 [13]
+2075 MIDI CC helper 66 [13]
+2076 MIDI CC helper 67 [13]
+2077 MIDI CC helper 68 [13]
+2078 MIDI CC helper 69 [13]
+2079 MIDI CC helper 70 [13]
+2080 MIDI CC helper 71 [13]
+2081 MIDI CC helper 72 [13]
+2082 MIDI CC helper 73 [13]
+2083 MIDI CC helper 74 [13]
+2084 MIDI CC helper 75 [13]
+2085 MIDI CC helper 76 [13]
+2086 MIDI CC helper 77 [13]
+2087 MIDI CC helper 78 [13]
+2088 MIDI CC helper 79 [13]
+2089 MIDI CC helper 80 [13]
+2090 MIDI CC helper 81 [13]
+2091 MIDI CC helper 82 [13]
+2092 MIDI CC helper 83 [13]
+2093 MIDI CC helper 84 [13]
+2094 MIDI CC helper 85 [13]
+2095 MIDI CC helper 86 [13]
+2096 MIDI CC helper 87 [13]
+2097 MIDI CC helper 88 [13]
+2098 MIDI CC helper 89 [13]
+2099 MIDI CC helper 90 [13]
+2100 MIDI CC helper 91 [13]
+2101 MIDI CC helper 92 [13]
+2102 MIDI CC helper 93 [13]
+2103 MIDI CC helper 94 [13]
+2104 MIDI CC helper 95 [13]
+2105 MIDI CC helper 96 [13]
+2106 MIDI CC helper 97 [13]
+2107 MIDI CC helper 98 [13]
+2108 MIDI CC helper 99 [13]
+2109 MIDI CC helper 100 [13]
+2110 MIDI CC helper 101 [13]
+2111 MIDI CC helper 102 [13]
+2112 MIDI CC helper 103 [13]
+2113 MIDI CC helper 104 [13]
+2114 MIDI CC helper 105 [13]
+2115 MIDI CC helper 106 [13]
+2116 MIDI CC helper 107 [13]
+2117 MIDI CC helper 108 [13]
+2118 MIDI CC helper 109 [13]
+2119 MIDI CC helper 110 [13]
+2120 MIDI CC helper 111 [13]
+2121 MIDI CC helper 112 [13]
+2122 MIDI CC helper 113 [13]
+2123 MIDI CC helper 114 [13]
+2124 MIDI CC helper 115 [13]
+2125 MIDI CC helper 116 [13]
+2126 MIDI CC helper 117 [13]
+2127 MIDI CC helper 118 [13]
+2128 MIDI CC helper 119 [13]
+2129 MIDI CC helper 120 [13]
+2130 MIDI CC helper 121 [13]
+2131 MIDI CC helper 122 [13]
+2132 MIDI CC helper 123 [13]
+2133 MIDI CC helper 124 [13]
+2134 MIDI CC helper 125 [13]
+2135 MIDI CC helper 126 [13]
+2136 MIDI CC helper 127 [13]
+2137 MIDI CC helper 128 [13]
+2138 MIDI CC helper 129 [13]
+2139 MIDI CC helper 0 [14]
+2140 MIDI CC helper 1 [14]
+2141 MIDI CC helper 2 [14]
+2142 MIDI CC helper 3 [14]
+2143 MIDI CC helper 4 [14]
+2144 MIDI CC helper 5 [14]
+2145 MIDI CC helper 6 [14]
+2146 MIDI CC helper 7 [14]
+2147 MIDI CC helper 8 [14]
+2148 MIDI CC helper 9 [14]
+2149 MIDI CC helper 10 [14]
+2150 MIDI CC helper 11 [14]
+2151 MIDI CC helper 12 [14]
+2152 MIDI CC helper 13 [14]
+2153 MIDI CC helper 14 [14]
+2154 MIDI CC helper 15 [14]
+2155 MIDI CC helper 16 [14]
+2156 MIDI CC helper 17 [14]
+2157 MIDI CC helper 18 [14]
+2158 MIDI CC helper 19 [14]
+2159 MIDI CC helper 20 [14]
+2160 MIDI CC helper 21 [14]
+2161 MIDI CC helper 22 [14]
+2162 MIDI CC helper 23 [14]
+2163 MIDI CC helper 24 [14]
+2164 MIDI CC helper 25 [14]
+2165 MIDI CC helper 26 [14]
+2166 MIDI CC helper 27 [14]
+2167 MIDI CC helper 28 [14]
+2168 MIDI CC helper 29 [14]
+2169 MIDI CC helper 30 [14]
+2170 MIDI CC helper 31 [14]
+2171 MIDI CC helper 32 [14]
+2172 MIDI CC helper 33 [14]
+2173 MIDI CC helper 34 [14]
+2174 MIDI CC helper 35 [14]
+2175 MIDI CC helper 36 [14]
+2176 MIDI CC helper 37 [14]
+2177 MIDI CC helper 38 [14]
+2178 MIDI CC helper 39 [14]
+2179 MIDI CC helper 40 [14]
+2180 MIDI CC helper 41 [14]
+2181 MIDI CC helper 42 [14]
+2182 MIDI CC helper 43 [14]
+2183 MIDI CC helper 44 [14]
+2184 MIDI CC helper 45 [14]
+2185 MIDI CC helper 46 [14]
+2186 MIDI CC helper 47 [14]
+2187 MIDI CC helper 48 [14]
+2188 MIDI CC helper 49 [14]
+2189 MIDI CC helper 50 [14]
+2190 MIDI CC helper 51 [14]
+2191 MIDI CC helper 52 [14]
+2192 MIDI CC helper 53 [14]
+2193 MIDI CC helper 54 [14]
+2194 MIDI CC helper 55 [14]
+2195 MIDI CC helper 56 [14]
+2196 MIDI CC helper 57 [14]
+2197 MIDI CC helper 58 [14]
+2198 MIDI CC helper 59 [14]
+2199 MIDI CC helper 60 [14]
+2200 MIDI CC helper 61 [14]
+2201 MIDI CC helper 62 [14]
+2202 MIDI CC helper 63 [14]
+2203 MIDI CC helper 64 [14]
+2204 MIDI CC helper 65 [14]
+2205 MIDI CC helper 66 [14]
+2206 MIDI CC helper 67 [14]
+2207 MIDI CC helper 68 [14]
+2208 MIDI CC helper 69 [14]
+2209 MIDI CC helper 70 [14]
+2210 MIDI CC helper 71 [14]
+2211 MIDI CC helper 72 [14]
+2212 MIDI CC helper 73 [14]
+2213 MIDI CC helper 74 [14]
+2214 MIDI CC helper 75 [14]
+2215 MIDI CC helper 76 [14]
+2216 MIDI CC helper 77 [14]
+2217 MIDI CC helper 78 [14]
+2218 MIDI CC helper 79 [14]
+2219 MIDI CC helper 80 [14]
+2220 MIDI CC helper 81 [14]
+2221 MIDI CC helper 82 [14]
+2222 MIDI CC helper 83 [14]
+2223 MIDI CC helper 84 [14]
+2224 MIDI CC helper 85 [14]
+2225 MIDI CC helper 86 [14]
+2226 MIDI CC helper 87 [14]
+2227 MIDI CC helper 88 [14]
+2228 MIDI CC helper 89 [14]
+2229 MIDI CC helper 90 [14]
+2230 MIDI CC helper 91 [14]
+2231 MIDI CC helper 92 [14]
+2232 MIDI CC helper 93 [14]
+2233 MIDI CC helper 94 [14]
+2234 MIDI CC helper 95 [14]
+2235 MIDI CC helper 96 [14]
+2236 MIDI CC helper 97 [14]
+2237 MIDI CC helper 98 [14]
+2238 MIDI CC helper 99 [14]
+2239 MIDI CC helper 100 [14]
+2240 MIDI CC helper 101 [14]
+2241 MIDI CC helper 102 [14]
+2242 MIDI CC helper 103 [14]
+2243 MIDI CC helper 104 [14]
+2244 MIDI CC helper 105 [14]
+2245 MIDI CC helper 106 [14]
+2246 MIDI CC helper 107 [14]
+2247 MIDI CC helper 108 [14]
+2248 MIDI CC helper 109 [14]
+2249 MIDI CC helper 110 [14]
+2250 MIDI CC helper 111 [14]
+2251 MIDI CC helper 112 [14]
+2252 MIDI CC helper 113 [14]
+2253 MIDI CC helper 114 [14]
+2254 MIDI CC helper 115 [14]
+2255 MIDI CC helper 116 [14]
+2256 MIDI CC helper 117 [14]
+2257 MIDI CC helper 118 [14]
+2258 MIDI CC helper 119 [14]
+2259 MIDI CC helper 120 [14]
+2260 MIDI CC helper 121 [14]
+2261 MIDI CC helper 122 [14]
+2262 MIDI CC helper 123 [14]
+2263 MIDI CC helper 124 [14]
+2264 MIDI CC helper 125 [14]
+2265 MIDI CC helper 126 [14]
+2266 MIDI CC helper 127 [14]
+2267 MIDI CC helper 128 [14]
+2268 MIDI CC helper 129 [14]
+2269 MIDI CC helper 0 [15]
+2270 MIDI CC helper 1 [15]
+2271 MIDI CC helper 2 [15]
+2272 MIDI CC helper 3 [15]
+2273 MIDI CC helper 4 [15]
+2274 MIDI CC helper 5 [15]
+2275 MIDI CC helper 6 [15]
+2276 MIDI CC helper 7 [15]
+2277 MIDI CC helper 8 [15]
+2278 MIDI CC helper 9 [15]
+2279 MIDI CC helper 10 [15]
+2280 MIDI CC helper 11 [15]
+2281 MIDI CC helper 12 [15]
+2282 MIDI CC helper 13 [15]
+2283 MIDI CC helper 14 [15]
+2284 MIDI CC helper 15 [15]
+2285 MIDI CC helper 16 [15]
+2286 MIDI CC helper 17 [15]
+2287 MIDI CC helper 18 [15]
+2288 MIDI CC helper 19 [15]
+2289 MIDI CC helper 20 [15]
+2290 MIDI CC helper 21 [15]
+2291 MIDI CC helper 22 [15]
+2292 MIDI CC helper 23 [15]
+2293 MIDI CC helper 24 [15]
+2294 MIDI CC helper 25 [15]
+2295 MIDI CC helper 26 [15]
+2296 MIDI CC helper 27 [15]
+2297 MIDI CC helper 28 [15]
+2298 MIDI CC helper 29 [15]
+2299 MIDI CC helper 30 [15]
+2300 MIDI CC helper 31 [15]
+2301 MIDI CC helper 32 [15]
+2302 MIDI CC helper 33 [15]
+2303 MIDI CC helper 34 [15]
+2304 MIDI CC helper 35 [15]
+2305 MIDI CC helper 36 [15]
+2306 MIDI CC helper 37 [15]
+2307 MIDI CC helper 38 [15]
+2308 MIDI CC helper 39 [15]
+2309 MIDI CC helper 40 [15]
+2310 MIDI CC helper 41 [15]
+2311 MIDI CC helper 42 [15]
+2312 MIDI CC helper 43 [15]
+2313 MIDI CC helper 44 [15]
+2314 MIDI CC helper 45 [15]
+2315 MIDI CC helper 46 [15]
+2316 MIDI CC helper 47 [15]
+2317 MIDI CC helper 48 [15]
+2318 MIDI CC helper 49 [15]
+2319 MIDI CC helper 50 [15]
+2320 MIDI CC helper 51 [15]
+2321 MIDI CC helper 52 [15]
+2322 MIDI CC helper 53 [15]
+2323 MIDI CC helper 54 [15]
+2324 MIDI CC helper 55 [15]
+2325 MIDI CC helper 56 [15]
+2326 MIDI CC helper 57 [15]
+2327 MIDI CC helper 58 [15]
+2328 MIDI CC helper 59 [15]
+2329 MIDI CC helper 60 [15]
+2330 MIDI CC helper 61 [15]
+2331 MIDI CC helper 62 [15]
+2332 MIDI CC helper 63 [15]
+2333 MIDI CC helper 64 [15]
+2334 MIDI CC helper 65 [15]
+2335 MIDI CC helper 66 [15]
+2336 MIDI CC helper 67 [15]
+2337 MIDI CC helper 68 [15]
+2338 MIDI CC helper 69 [15]
+2339 MIDI CC helper 70 [15]
+2340 MIDI CC helper 71 [15]
+2341 MIDI CC helper 72 [15]
+2342 MIDI CC helper 73 [15]
+2343 MIDI CC helper 74 [15]
+2344 MIDI CC helper 75 [15]
+2345 MIDI CC helper 76 [15]
+2346 MIDI CC helper 77 [15]
+2347 MIDI CC helper 78 [15]
+2348 MIDI CC helper 79 [15]
+2349 MIDI CC helper 80 [15]
+2350 MIDI CC helper 81 [15]
+2351 MIDI CC helper 82 [15]
+2352 MIDI CC helper 83 [15]
+2353 MIDI CC helper 84 [15]
+2354 MIDI CC helper 85 [15]
+2355 MIDI CC helper 86 [15]
+2356 MIDI CC helper 87 [15]
+2357 MIDI CC helper 88 [15]
+2358 MIDI CC helper 89 [15]
+2359 MIDI CC helper 90 [15]
+2360 MIDI CC helper 91 [15]
+2361 MIDI CC helper 92 [15]
+2362 MIDI CC helper 93 [15]
+2363 MIDI CC helper 94 [15]
+2364 MIDI CC helper 95 [15]
+2365 MIDI CC helper 96 [15]
+2366 MIDI CC helper 97 [15]
+2367 MIDI CC helper 98 [15]
+2368 MIDI CC helper 99 [15]
+2369 MIDI CC helper 100 [15]
+2370 MIDI CC helper 101 [15]
+2371 MIDI CC helper 102 [15]
+2372 MIDI CC helper 103 [15]
+2373 MIDI CC helper 104 [15]
+2374 MIDI CC helper 105 [15]
+2375 MIDI CC helper 106 [15]
+2376 MIDI CC helper 107 [15]
+2377 MIDI CC helper 108 [15]
+2378 MIDI CC helper 109 [15]
+2379 MIDI CC helper 110 [15]
+2380 MIDI CC helper 111 [15]
+2381 MIDI CC helper 112 [15]
+2382 MIDI CC helper 113 [15]
+2383 MIDI CC helper 114 [15]
+2384 MIDI CC helper 115 [15]
+2385 MIDI CC helper 116 [15]
+2386 MIDI CC helper 117 [15]
+2387 MIDI CC helper 118 [15]
+2388 MIDI CC helper 119 [15]
+2389 MIDI CC helper 120 [15]
+2390 MIDI CC helper 121 [15]
+2391 MIDI CC helper 122 [15]
+2392 MIDI CC helper 123 [15]
+2393 MIDI CC helper 124 [15]
+2394 MIDI CC helper 125 [15]
+2395 MIDI CC helper 126 [15]
+2396 MIDI CC helper 127 [15]
+2397 MIDI CC helper 128 [15]
+2398 MIDI CC helper 129 [15]
+2399 MIDI CC helper 0 [16]
+2400 MIDI CC helper 1 [16]
+2401 MIDI CC helper 2 [16]
+2402 MIDI CC helper 3 [16]
+2403 MIDI CC helper 4 [16]
+2404 MIDI CC helper 5 [16]
+2405 MIDI CC helper 6 [16]
+2406 MIDI CC helper 7 [16]
+2407 MIDI CC helper 8 [16]
+2408 MIDI CC helper 9 [16]
+2409 MIDI CC helper 10 [16]
+2410 MIDI CC helper 11 [16]
+2411 MIDI CC helper 12 [16]
+2412 MIDI CC helper 13 [16]
+2413 MIDI CC helper 14 [16]
+2414 MIDI CC helper 15 [16]
+2415 MIDI CC helper 16 [16]
+2416 MIDI CC helper 17 [16]
+2417 MIDI CC helper 18 [16]
+2418 MIDI CC helper 19 [16]
+2419 MIDI CC helper 20 [16]
+2420 MIDI CC helper 21 [16]
+2421 MIDI CC helper 22 [16]
+2422 MIDI CC helper 23 [16]
+2423 MIDI CC helper 24 [16]
+2424 MIDI CC helper 25 [16]
+2425 MIDI CC helper 26 [16]
+2426 MIDI CC helper 27 [16]
+2427 MIDI CC helper 28 [16]
+2428 MIDI CC helper 29 [16]
+2429 MIDI CC helper 30 [16]
+2430 MIDI CC helper 31 [16]
+2431 MIDI CC helper 32 [16]
+2432 MIDI CC helper 33 [16]
+2433 MIDI CC helper 34 [16]
+2434 MIDI CC helper 35 [16]
+2435 MIDI CC helper 36 [16]
+2436 MIDI CC helper 37 [16]
+2437 MIDI CC helper 38 [16]
+2438 MIDI CC helper 39 [16]
+2439 MIDI CC helper 40 [16]
+2440 MIDI CC helper 41 [16]
+2441 MIDI CC helper 42 [16]
+2442 MIDI CC helper 43 [16]
+2443 MIDI CC helper 44 [16]
+2444 MIDI CC helper 45 [16]
+2445 MIDI CC helper 46 [16]
+2446 MIDI CC helper 47 [16]
+2447 MIDI CC helper 48 [16]
+2448 MIDI CC helper 49 [16]
+2449 MIDI CC helper 50 [16]
+2450 MIDI CC helper 51 [16]
+2451 MIDI CC helper 52 [16]
+2452 MIDI CC helper 53 [16]
+2453 MIDI CC helper 54 [16]
+2454 MIDI CC helper 55 [16]
+2455 MIDI CC helper 56 [16]
+2456 MIDI CC helper 57 [16]
+2457 MIDI CC helper 58 [16]
+2458 MIDI CC helper 59 [16]
+2459 MIDI CC helper 60 [16]
+2460 MIDI CC helper 61 [16]
+2461 MIDI CC helper 62 [16]
+2462 MIDI CC helper 63 [16]
+2463 MIDI CC helper 64 [16]
+2464 MIDI CC helper 65 [16]
+2465 MIDI CC helper 66 [16]
+2466 MIDI CC helper 67 [16]
+2467 MIDI CC helper 68 [16]
+2468 MIDI CC helper 69 [16]
+2469 MIDI CC helper 70 [16]
+2470 MIDI CC helper 71 [16]
+2471 MIDI CC helper 72 [16]
+2472 MIDI CC helper 73 [16]
+2473 MIDI CC helper 74 [16]
+2474 MIDI CC helper 75 [16]
+2475 MIDI CC helper 76 [16]
+2476 MIDI CC helper 77 [16]
+2477 MIDI CC helper 78 [16]
+2478 MIDI CC helper 79 [16]
+2479 MIDI CC helper 80 [16]
+2480 MIDI CC helper 81 [16]
+2481 MIDI CC helper 82 [16]
+2482 MIDI CC helper 83 [16]
+2483 MIDI CC helper 84 [16]
+2484 MIDI CC helper 85 [16]
+2485 MIDI CC helper 86 [16]
+2486 MIDI CC helper 87 [16]
+2487 MIDI CC helper 88 [16]
+2488 MIDI CC helper 89 [16]
+2489 MIDI CC helper 90 [16]
+2490 MIDI CC helper 91 [16]
+2491 MIDI CC helper 92 [16]
+2492 MIDI CC helper 93 [16]
+2493 MIDI CC helper 94 [16]
+2494 MIDI CC helper 95 [16]
+2495 MIDI CC helper 96 [16]
+2496 MIDI CC helper 97 [16]
+2497 MIDI CC helper 98 [16]
+2498 MIDI CC helper 99 [16]
+2499 MIDI CC helper 100 [16]
+2500 MIDI CC helper 101 [16]
+2501 MIDI CC helper 102 [16]
+2502 MIDI CC helper 103 [16]
+2503 MIDI CC helper 104 [16]
+2504 MIDI CC helper 105 [16]
+2505 MIDI CC helper 106 [16]
+2506 MIDI CC helper 107 [16]
+2507 MIDI CC helper 108 [16]
+2508 MIDI CC helper 109 [16]
+2509 MIDI CC helper 110 [16]
+2510 MIDI CC helper 111 [16]
+2511 MIDI CC helper 112 [16]
+2512 MIDI CC helper 113 [16]
+2513 MIDI CC helper 114 [16]
+2514 MIDI CC helper 115 [16]
+2515 MIDI CC helper 116 [16]
+2516 MIDI CC helper 117 [16]
+2517 MIDI CC helper 118 [16]
+2518 MIDI CC helper 119 [16]
+2519 MIDI CC helper 120 [16]
+2520 MIDI CC helper 121 [16]
+2521 MIDI CC helper 122 [16]
+2522 MIDI CC helper 123 [16]
+2523 MIDI CC helper 124 [16]
+2524 MIDI CC helper 125 [16]
+2525 MIDI CC helper 126 [16]
+2526 MIDI CC helper 127 [16]
+2527 MIDI CC helper 128 [16]
+2528 MIDI CC helper 129 [16]
+2529 Bypass
+2530 Wet
+2531 Delta

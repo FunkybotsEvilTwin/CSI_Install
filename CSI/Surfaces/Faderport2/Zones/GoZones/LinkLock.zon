@@ -1,0 +1,15 @@
+Zone LinkLock
+  
+  Link                   FixedRGBColorDisplay { 255 0 0 }
+  
+  Rotary                 TrackPan
+  RotaryPush             TrackPan [ 0.5 ]
+
+  Shift+Rotary           TrackPanWidth
+  Shift+RotaryPush       TrackPanWidth [ 1.0 ]
+
+  Fader                  TrackVolume
+                              
+  Link                   GoHome
+						
+ZoneEnd

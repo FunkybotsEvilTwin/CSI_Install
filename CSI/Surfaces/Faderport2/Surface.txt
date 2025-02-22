@@ -13,7 +13,7 @@ StepSizeEnd
 AccelerationValues
     RotaryWidgetClass   Dec 41     42    43    44    45    46    47
     RotaryWidgetClass   Inc 01     02    03    04    05    06    07
-    RotaryWidgetClass   Val 0.0006 0.001 0.002 0.003 0.008 0.04  0.08
+    RotaryWidgetClass   Val 0.005 0.01 0.02 0.04 0.08 0.16  0.32
 AccelerationValuesEnd
 
 / SESSION NAVIGATOR
