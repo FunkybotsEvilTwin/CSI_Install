@@ -1,0 +1,122 @@
+/////////////////////////////////////////////////////      Notes      ////////////////////////////////////////////////////                
+// When the MIDI button is off, the CMC-QC encoders function as endless rotaries and transmit on the CMC-QC-2 port.     // 
+// Use this mode for most tasks. You don't need to map the CMC-QC-1 port at all if you don't want.                      //
+// When the MIDI button is on, CMC-QC-1 becomes active. In that mode, the rotaries act as faders with absolute start    //
+// and end points. The buttons always transmit on CMC-QC-2.                                                             // 
+// If you wanted both setups, you'd add these as two separate devices in CSI. I recommend not using the MIDI button.    //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+StepSize
+    RotaryWidgetClass   0.01
+StepSizeEnd
+
+AccelerationValues
+    RotaryWidgetClass   Dec 41
+    RotaryWidgetClass   Inc 01
+    RotaryWidgetClass   Val 0.01
+AccelerationValuesEnd
+    
+Widget Rotary1 RotaryWidgetClass
+	Encoder b0 10 7f
+	FB_Encoder b0 10 00
+WidgetEnd
+
+Widget Rotary2 RotaryWidgetClass
+	Encoder b0 11 7f
+	FB_Encoder b0 11 00
+WidgetEnd
+
+Widget Rotary3 RotaryWidgetClass
+	Encoder b0 12 7f
+	FB_Encoder b0 12 00
+WidgetEnd
+
+Widget Rotary4 RotaryWidgetClass
+	Encoder b0 13 7f
+	FB_Encoder b0 13 00
+WidgetEnd
+
+Widget Rotary5 RotaryWidgetClass
+	Encoder b0 14 7f
+	FB_Encoder b0 14 00
+WidgetEnd
+
+Widget Rotary6 RotaryWidgetClass
+	Encoder b0 15 7f
+	FB_Encoder b0 15 00
+WidgetEnd
+
+Widget Rotary7 RotaryWidgetClass
+	Encoder b0 16 7f
+	FB_Encoder b0 16 00
+WidgetEnd
+
+Widget Rotary8 RotaryWidgetClass
+	Encoder b0 17 7f
+	FB_Encoder b0 17 00
+WidgetEnd
+
+Widget QC
+    Press 90 2a 7f 90 2a 00
+    FB_TwoState 90 2a 7f 90 2a 00
+WidgetEnd 
+
+Widget IOLearn
+    Press 90 32 7f 90 32 00
+    FB_TwoState 90 32 7f 90 32 00
+WidgetEnd 
+
+Widget EQ
+    Press 90 2c 7f 90 2c 00
+    FB_TwoState 90 2c 7f 90 2c 00
+WidgetEnd
+
+Widget MIDI
+    Press 90 74 7f 90 74 00
+    FB_TwoState 90 74 7f 90 74 00
+WidgetEnd 
+
+Widget F1
+    Press 90 36 7f 90 36 00
+    FB_TwoState 90 36 7f 90 36 00
+WidgetEnd 
+
+Widget F2
+    Press 90 37 7f 90 37 00
+    FB_TwoState 90 37 7f 90 37 00
+WidgetEnd 
+
+Widget F3
+    Press 90 38 7f 90 38 00
+    FB_TwoState 90 38 7f 90 38 00
+WidgetEnd
+
+Widget F4
+    Press 90 39 7f 90 39 00
+    FB_TwoState 90 39 7f 90 39 00
+WidgetEnd 
+
+Widget Shift
+    Press 90 46 7f  90 46 00
+    FB_TwoState 90 46 7f  90 46 00
+WidgetEnd
+
+Widget Previous
+    Press 90 30 7f 90 30 00
+    FB_TwoState 90 30 7f 90 30 00
+WidgetEnd
+
+Widget Next
+    Press 90 31 7f 90 31 00
+    FB_TwoState 90 31 7f 90 31 00
+WidgetEnd
+
+Widget Read
+    Press 90 51 7f 90 51 00
+    FB_TwoState 90 51 7f  90 51 00
+WidgetEnd
+
+Widget Write
+    Press 90 4e 7f 90 4e 00
+    FB_TwoState 90 4e 7f  90 4e 00
+WidgetEnd

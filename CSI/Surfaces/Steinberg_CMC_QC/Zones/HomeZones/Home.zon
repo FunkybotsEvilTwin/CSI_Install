@@ -1,0 +1,29 @@
+Zone Home
+     IncludedZones
+          SelectedTrackTCPFX
+     IncludedZonesEnd
+
+//////////////////////////////////////////////////////////NOTES////////////////////////////////////////////////////////
+//  DO NOT turn on the MIDI button. That shifts the rotaries into a low resolution mode that transmits on CMC-QC 1.  //
+//  Using the MIDI button would require a 2nd mst file and a second CSI device for low resolution. Not worth it IMO. //
+//  To setup the Device in CSI use CMC-QC 2 as the ports.                                                            //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+     IOLearn        Reaper 40906                  // View: Show track manager window
+     EQ             Reaper 40271                  // View: Show FX browser window
+
+     Shift          Shift
+     F1             Alt
+     F2             Control
+     F3             Option
+     F4             ClearModifiers
+     
+     Previous       Bank SelectedTrack -1
+     Next           Bank SelectedTrack 1
+     
+     Read           TrackAutoMode 0               // Trim/default
+     Shift+Read     TrackAutoMode 1               // Read   
+     Write          TrackAutoMode 3               // Write
+     Shift+Write    TrackAutoMode 2               // Touch
+     
+ZoneEnd
