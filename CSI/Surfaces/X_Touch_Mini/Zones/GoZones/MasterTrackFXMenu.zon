@@ -5,7 +5,7 @@ Zone "MasterTrackFXMenu"
 	Plugin      		ClearFXSlot
 
         DisplayUpper|       	FXMenuNameDisplay
-	DisplayLower|       	FXBypassedDisplay
+	DisplayLower|       	FXBypassDisplay
 
         Rotary|             	NoAction
         RotaryPush|             ShowFXSlot

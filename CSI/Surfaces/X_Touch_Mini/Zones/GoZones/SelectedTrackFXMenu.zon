@@ -4,7 +4,7 @@ Zone "SelectedTrackFXMenu"
 	OnZoneDeactivation 	HideFXSlot
 
         DisplayUpper|       	FXMenuNameDisplay
-	DisplayLower|       	FXBypassedDisplay
+	DisplayLower|       	FXBypassDisplay
 
         Rotary|             	NoAction
         RotaryPush|             ShowFXSlot

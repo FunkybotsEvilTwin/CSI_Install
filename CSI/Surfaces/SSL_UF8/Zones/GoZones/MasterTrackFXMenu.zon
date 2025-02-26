@@ -5,7 +5,7 @@ Zone "MasterTrackFXMenu"
 	Global+Track				GoHome
 	
      DisplayUpper|            FXMenuNameDisplay
-     DisplayLower|            FXBypassedDisplay
+     DisplayLower|            FXBypassDisplay
      Rotary|                  NoAction
      RotaryPush|              GoFXSlot
      Mute|                    Reaper "_S&M_FXOFF|"             //Offline FX slot

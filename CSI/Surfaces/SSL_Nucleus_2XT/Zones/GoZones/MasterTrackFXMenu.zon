@@ -1,7 +1,7 @@
 Zone "MasterTrackFXMenu"
 
     DisplayUpper|            FXMenuNameDisplay
-    DisplayLower|            FXBypassedDisplay
+    DisplayLower|            FXBypassDisplay
     Rotary|                  NoAction
     RotaryPush|              Reaper _S&M_TOGLFLOATFX|           // Float the FX window
     InvertFB+Mute|           ToggleFXBypass

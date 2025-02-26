@@ -3,7 +3,7 @@ Zone "SelectedTrackFXMenu"
      OnZoneDeactivation         RestoreXTouchDisplayColors
      
      DisplayUpper|              FXMenuNameDisplay
-     DisplayLower|              FXBypassedDisplay
+     DisplayLower|              FXBypassDisplay
      Rotary|                    NoAction
      RotaryPush|                ShowFXSlot
      RotaryPush|                GoFXSlot

@@ -1,7 +1,7 @@
 Zone SelectedTrackFXMenu
      AsparionDisplayEncoder|  FixedTextDisplay "FX"
      DisplayUpper|            FXMenuNameDisplay
-     DisplayLower|            FXBypassedDisplay
+     DisplayLower|            FXBypassDisplay
      Rotary|                  NoAction
      RotaryPush|              GoFXSlot
      Mute|                    ToggleFXBypass

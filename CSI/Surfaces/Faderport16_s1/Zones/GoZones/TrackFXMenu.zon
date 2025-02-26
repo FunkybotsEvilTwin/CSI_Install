@@ -2,7 +2,7 @@ Zone TrackFXMenu
 
   ScribbleLine1_|         TrackNameDisplay
   ScribbleLine2_|         FXMenuNameDisplay
-  ScribbleLine3_|         FXBypassedDisplay
+  ScribbleLine3_|         FXBypassDisplay
   ScribbleLine4_|         NoAction
   ValueBar|               NoAction
 
