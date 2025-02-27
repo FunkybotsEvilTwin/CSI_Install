@@ -1,7 +1,0 @@
-// X-Touch_Mini
-
-Zone "MasterTrack"
-
-    MasterFader TrackVolume
-
-ZoneEnd

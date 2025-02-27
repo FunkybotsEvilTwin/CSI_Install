@@ -1,5 +1,0 @@
-Zone "FocusedFXParam"
-     Fader1                             FocusedFXParam
-     DisplayUpper1                      FocusedFXParamNameDisplay
-     DisplayLower1                      FocusedFXParamValueDisplay
-ZoneEnd
