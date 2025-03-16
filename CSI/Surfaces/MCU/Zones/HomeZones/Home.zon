@@ -55,7 +55,8 @@ Zone Home
     Global+Trim                      GlobalAutoMode 0
     Global+Touch                     GlobalAutoMode 2
     Global+Latch                     GlobalAutoMode 4  
-    Global+Group                     GlobalAutoMode 5   
+    Global+Group                     GlobalAutoMode 5
+    Shift+Read                       Reaper 40876                                // Global automation override: No override (set automation modes per track)    
 						       
     Save                             SaveProject
     Undo                             Undo

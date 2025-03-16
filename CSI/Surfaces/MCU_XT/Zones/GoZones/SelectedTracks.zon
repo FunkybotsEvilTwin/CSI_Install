@@ -1,24 +1,43 @@
-Zone "SelectedTracks"
-    DisplayUpper|            TrackNameDisplay
-    Fader|                   TrackVolume
+Zone SelectedTracks
+   
+    VUMeter|                 TrackOutputMeterMaxPeakLR
+    DisplayUpper|            TrackNameDisplay  { Track }
     Touch+DisplayLower|      TrackVolumeDisplay
+
+    Fader|                   TrackVolume
     Flip+Fader|              TrackPan 
+
     Rotary|                  TrackPanAutoLeft  RingStyle=Dot   // Pan
-    Toggle+Rotary|           TrackPanAutoRight RingStyle=Dot  // Width
     DisplayLower|            TrackPanAutoLeftDisplay
+    Toggle+Rotary|           TrackPanAutoRight RingStyle=Dot  // Width
     Toggle+DisplayLower|     TrackPanAutoRightDisplay
+
     RotaryPush|              ToggleChannel
-    Control+RotaryPush|      TrackPan [ 0.5 ]
+    Shift+RotaryPush|        TrackPan [ 0.5 ]
     Option+RotaryPush|       TrackPanWidth [ 1.0 ]
+
     RecordArm|               TrackRecordArm
     Option+RecordArm|        CycleTrackAutoMode
     Option+DisplayLower|     TrackAutoModeDisplay
     Alt+RecordArm|           TrackInvertPolarity
     Alt+DisplayLower|        TrackInvertPolarityDisplay
+    Control+RecordArm|       CycleTrackInputMonitor
+    Control+DisplayLower|    TrackInputMonitorDisplay
+
     Solo|                    TrackSolo
+    Shift+Solo|              ClearAllSolo
+    
     Mute|                    TrackMute
+    Shift+Mute|              Reaper 40339 Feedback=No            // Track: Unmute all tracks
+    
     Select|                  TrackUniqueSelect
     Shift+Select|            TrackRangeSelect
     Control+Select|          TrackSelect
-    VUMeter|                 TrackOutputMeter    
+    Hold+Select|             TrackVolume [ 0.760 ] Feedback=No   // Reset track volume to unity
+
+    BankLeft                 Bank SelectedTracks -8
+    BankRight                Bank SelectedTracks 8
+    ChannelLeft              Bank SelectedTracks -1
+    ChannelRight             Bank SelectedTracks 1
+
 ZoneEnd

@@ -1,32 +1,46 @@
 Zone VCA
-    OnZoneActivation          SetXTouchDisplayColors Cyan
-    OnZoneDeactivation        RestoreXTouchDisplayColors
+    OnZoneActivation            SetXTouchDisplayColors Cyan
+    OnZoneDeactivation          RestoreXTouchDisplayColors
     
-    DisplayUpper|             TrackNameDisplay
-    Touch+DisplayLower|       TrackVolumeDisplay
-    DisplayLower|             TrackVCALeaderDisplay
-    Shift+DisplayLower|       TrackAutoModeDisplay
-    Toggle+DisplayLower|      TrackPanAutoLeftDisplay
-    Alt+DisplayLower|         TrackInputMonitorDisplay
-    VUMeter|                  TrackOutputMeterMaxPeakLR
-    Fader|                    TrackVolume 
-    Flip+Fader|               TrackPan 
-    Rotary|                   NoAction
-    Toggle+Rotary|            TrackPanAutoLeft
-    RotaryPush|               ToggleChannel
-    Shift+RotaryPush|         TrackPan [ 0.5 ]
-    Option+RotaryPush|        TrackPanWidth [ 1.0 ]
-    Alt+RotaryPush|           CycleTrackInputMonitor
-    RecordArm|                TrackRecordArm
-    Shift+RecordArm|          CycleTrackAutoMode
-    Solo|                     TrackSolo
-    Mute|                     TrackMute
-    Select|                   TrackToggleVCASpill
-    Shift+Select|             TrackRangeSelect
-    Control+Select|           TrackSelect
+    VUMeter|                    TrackOutputMeterMaxPeakLR
+    DisplayUpper|               TrackNameDisplay { Track }
+    Touch+DisplayLower|         TrackVolumeDisplay
+    Option+DisplayLower|        TrackVCALeaderDisplay
     
-    BankLeft                  Bank VCA -8
-    BankRight                 Bank VCA 8
-    ChannelLeft               Bank VCA -1
-    ChannelRight              Bank VCA 1
+    Fader|                      TrackVolume 
+    Flip+Fader|                 TrackPan 
+					       
+    Rotary|                     TrackPanAutoLeft RingStyle=Dot
+    DisplayLower|               TrackPanAutoLeftDisplay 
+    Toggle+Rotary|              TrackPanAutoRight RingStyle=Dot
+    Toggle+DisplayLower|        TrackPanAutoRightDisplay
+					       
+    RotaryPush|                 ToggleChannel
+    Shift+RotaryPush|           TrackPan [ 0.5 ]                    // Reset track pan to center
+    Option+RotaryPush|          TrackPanWidth [ 1.0 ]               // Reset track width to maximum
+					       
+    RecordArm|                  TrackRecordArm
+    Option+RecordArm|           CycleTrackInputMonitor  
+    Option+DisplayLower|        TrackInputMonitorDisplay   
+    Control+RecordArm|          TrackInvertPolarity         
+    Control+DisplayLower|       TrackInvertPolarityDisplay
+    Alt+RecordArm|              CycleTrackAutoMode
+    Alt+DisplayLower|           TrackAutoModeDisplay
+					       
+    Solo|                       TrackSolo
+    Shift+Solo|                 ClearAllSolo
+					       
+    Mute|                       TrackMute
+    Shift+Mute|                 Reaper 40339 Feedback=No            // Track: Unmute all tracks
+    
+    Select|                     TrackUniqueSelect
+    Shift+Select|               TrackRangeSelect    
+    Control+Select|             TrackSelect
+    Hold+Select|                TrackToggleVCASpill Feedback=No
+    
+    BankLeft                    Bank Folder -8
+    BankRight                   Bank Folder 8
+    ChannelLeft                 Bank Folder -1
+    ChannelRight                Bank Folder 1
+    
 ZoneEnd

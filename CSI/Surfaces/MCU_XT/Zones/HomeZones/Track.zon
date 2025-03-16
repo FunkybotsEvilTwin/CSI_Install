@@ -1,25 +1,38 @@
-Zone "Track"
-    DisplayUpper|            TrackNameDisplay
-    Fader|                   TrackVolume
+Zone Track
+
+    VUMeter|                 TrackOutputMeterMaxPeakLR
+    DisplayUpper|            TrackNameDisplay { Track }
     Touch+DisplayLower|      TrackVolumeDisplay
+
+    Fader|                   TrackVolume 
     Flip+Fader|              TrackPan 
-    Rotary|                  TrackPanAutoLeft  RingStyle=Dot   // Pan
-    Toggle+Rotary|           TrackPanAutoRight RingStyle=Dot  // Width
-    DisplayLower|            TrackPanAutoLeftDisplay
+
+    Rotary|                  TrackPanAutoLeft RingStyle=Dot
+    DisplayLower|            TrackPanAutoLeftDisplay 
+    Toggle+Rotary|           TrackPanAutoRight RingStyle=Dot
     Toggle+DisplayLower|     TrackPanAutoRightDisplay
+
     RotaryPush|              ToggleChannel
-    Control+RotaryPush|      TrackPan [ 0.5 ]
-    Option+RotaryPush|       TrackPanWidth [ 1.0 ]
+    Shift+RotaryPush|        TrackPan [ 0.5 ]                    // Reset track pan to center
+    Option+RotaryPush|       TrackPanWidth [ 1.0 ]               // Reset track width to maximum
+
     RecordArm|               TrackRecordArm
-    Option+RecordArm|        CycleTrackAutoMode
-    Option+DisplayLower|     TrackAutoModeDisplay
-    Alt+RecordArm|           TrackInvertPolarity
-    Alt+DisplayLower|        TrackInvertPolarityDisplay
+    Option+RecordArm|        CycleTrackInputMonitor  
+    Option+DisplayLower|     TrackInputMonitorDisplay   
+    Control+RecordArm|       TrackInvertPolarity         
+    Control+DisplayLower|    TrackInvertPolarityDisplay
+    Alt+RecordArm|           CycleTrackAutoMode
+    Alt+DisplayLower|        TrackAutoModeDisplay
+
     Solo|                    TrackSolo
+    Shift+Solo|              ClearAllSolo
+
     Mute|                    TrackMute
+    Shift+Mute|              Reaper 40339 Feedback=No            // Track: Unmute all tracks
+    
     Select|                  TrackUniqueSelect
     Shift+Select|            TrackRangeSelect
     Control+Select|          TrackSelect
-    VUMeter|                 TrackOutputMeter
-    Control+RecordArm1       LearnFocusedFX
+    Hold+Select|             TrackVolume [ 0.760 ] Feedback=No   // Reset track volume to unity
+
 ZoneEnd

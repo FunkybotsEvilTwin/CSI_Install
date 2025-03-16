@@ -1,28 +1,43 @@
 Zone SelectedTracks
-    DisplayUpper|               TrackNameDisplay { Track }
-    Touch+DisplayLower|         TrackVolumeDisplay
-    DisplayLower|               TrackPanAutoLeftDisplay
-    Shift+DisplayLower|         TrackAutoModeDisplay
-    Toggle+DisplayLower|        TrackPanAutoRightDisplay
-    Alt+DisplayLower|           TrackInputMonitorDisplay
-    Control+DisplayLower|       TrackRecordInputDisplay
-    VUMeter|                    TrackOutputMeterMaxPeakLR
-    Fader|                      TrackVolume 
-    Flip+Fader|                 TrackPan 
-    Rotary|                     TrackPanAutoLeft RingStyle=Dot
-    Toggle+Rotary|              TrackPanAutoRight RingStyle=Dot
-    RotaryPush|                 ToggleChannel
-    Shift+RotaryPush|           TrackPan [ 0.5 ]
-    Option+RotaryPush|          TrackPanWidth [ 1.0 ]
-    Alt+RotaryPush|             CycleTrackInputMonitor
-    RecordArm|                  TrackRecordArm
-    Shift+RecordArm|            CycleTrackAutoMode
-    Solo|                       Reaper 7                   // Track: Toggle solo for selected tracks
-    Mute|                       Reaper 6                   // Track: Toggle mute for selected tracks
-    Option+Select|              TrackInvertPolarity    
+   
+    VUMeter|                 TrackOutputMeterMaxPeakLR
+    DisplayUpper|            TrackNameDisplay  { Track }
+    Touch+DisplayLower|      TrackVolumeDisplay
 
-    BankLeft                    Bank SelectedTracks -8
-    BankRight                   Bank SelectedTracks 8
-    ChannelLeft                 Bank SelectedTracks -1
-    ChannelRight                Bank SelectedTracks 1
+    Fader|                   TrackVolume
+    Flip+Fader|              TrackPan 
+
+    Rotary|                  TrackPanAutoLeft  RingStyle=Dot   // Pan
+    DisplayLower|            TrackPanAutoLeftDisplay
+    Toggle+Rotary|           TrackPanAutoRight RingStyle=Dot  // Width
+    Toggle+DisplayLower|     TrackPanAutoRightDisplay
+
+    RotaryPush|              ToggleChannel
+    Shift+RotaryPush|        TrackPan [ 0.5 ]
+    Option+RotaryPush|       TrackPanWidth [ 1.0 ]
+
+    RecordArm|               TrackRecordArm
+    Option+RecordArm|        CycleTrackAutoMode
+    Option+DisplayLower|     TrackAutoModeDisplay
+    Alt+RecordArm|           TrackInvertPolarity
+    Alt+DisplayLower|        TrackInvertPolarityDisplay
+    Control+RecordArm|       CycleTrackInputMonitor
+    Control+DisplayLower|    TrackInputMonitorDisplay
+
+    Solo|                    TrackSolo
+    Shift+Solo|              ClearAllSolo
+    
+    Mute|                    TrackMute
+    Shift+Mute|              Reaper 40339 Feedback=No            // Track: Unmute all tracks
+    
+    Select|                  TrackUniqueSelect
+    Shift+Select|            TrackRangeSelect
+    Control+Select|          TrackSelect
+    Hold+Select|             TrackVolume [ 0.760 ] Feedback=No   // Reset track volume to unity
+
+    BankLeft                 Bank SelectedTracks -8
+    BankRight                Bank SelectedTracks 8
+    ChannelLeft              Bank SelectedTracks -1
+    ChannelRight             Bank SelectedTracks 1
+
 ZoneEnd

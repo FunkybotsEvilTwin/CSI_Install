@@ -1,4 +1,4 @@
-Zone "TrackSend"
+Zone TrackSend
         DisplayUpper|               TrackNameDisplay
         DisplayLower|               TrackSendNameDisplay
         FaderTouch+DisplayLower|    TrackSendVolumeDisplay

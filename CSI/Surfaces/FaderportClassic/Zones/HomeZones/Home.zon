@@ -6,8 +6,7 @@ Zone Home
 
     Shift                       Shift                           
     Bank                        Alt
-    Off                         Option                          //This button also KILLS the fader while enabled!!!!!!
-          
+
     ChannelLeft                 Bank SelectedTrack -1                                     
     ChannelRight                Bank SelectedTrack 1
 
@@ -19,28 +18,27 @@ Zone Home
     Read                        TrackAutoMode 1
     Write                       TrackAutoMode 3                                                               
     Touch                       TrackAutoMode 2
+    Off                         TrackAutoMode 0 Feedback=No     //This button also KILLS the fader if Feedback enabled!!!!!!
 
     Shift+Read                  GlobalAutoMode 1
     Shift+Write                 GlobalAutoMode 3
     Shift+Touch                 GlobalAutoMode 2
-          
-    Option+Read                 TrackAutoMode 0                 //Return to trim mode
-    Hold+Read                   TrackAutoMode 0                 //Return to trim mode
-												    
+    Shift+Off                   Reaper 40876                    // Global automation override: No override (set automation modes per track)    
+                                                                
     Mix                         Reaper 40078                    //Toggle Mixer
     Shift+Mix                   Reaper 40279                    //Toggle Docker
-												    
+                                                                
     Proj                        NoAction                        
-												    
+                                                                
     Punch                       NoAction                        
     User                        NoAction                        
-												    
+                                                                
     Shift+Punch                 Reaper 40172                    //As labeled on Faderport - Previous Marker
     Shift+User                  Reaper 40173                    //As labeled on Faderport - Next Marker
                                                                 
     Undo                        Undo                            
     Shift+Undo                  Redo                            
-												    
+                                                                
     Loop                        CycleTimeline                   
     Shift+Loop                  Reaper 40171                    //As labeled on Faderport - Add/Edit Marker
           

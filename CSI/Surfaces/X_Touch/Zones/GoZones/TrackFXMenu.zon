@@ -18,4 +18,5 @@ Zone TrackFXMenu
      Mute|                      Reaper "_S&M_FXOFF|"             //Offline FX slot
      Select|                    ToggleFXBypass                   //Bypass FX Slot
      Fader|                     NoAction   
+
 ZoneEnd

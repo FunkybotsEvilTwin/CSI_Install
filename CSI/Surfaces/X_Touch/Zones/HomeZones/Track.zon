@@ -1,4 +1,4 @@
-Zone "Track"
+Zone Track
 
     VUMeter|                 TrackOutputMeterMaxPeakLR
     DisplayUpper|            TrackNameDisplay { Track }

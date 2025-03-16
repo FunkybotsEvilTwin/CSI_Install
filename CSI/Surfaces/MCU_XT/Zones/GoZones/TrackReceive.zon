@@ -1,4 +1,4 @@
-Zone "TrackReceive"
+Zone TrackReceive
         DisplayUpper|               TrackNameDisplay
         DisplayLower|               TrackReceiveNameDisplay
         FaderTouch+DisplayLower|    TrackReceiveVolumeDisplay
