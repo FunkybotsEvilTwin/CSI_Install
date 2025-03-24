@@ -1,8 +1,9 @@
 Zone Home
+    OnInitialization SendMIDIMessage "91 00 64"    // Initializes the Faderport Classic in Native Mode	   
     OnInitialization ToggleEnableFocusedFXMapping
         IncludedZones
             Track
-        IncludedZonesEnd       
+        IncludedZonesEnd
 
     Shift                       Shift                           
     Bank                        Alt
