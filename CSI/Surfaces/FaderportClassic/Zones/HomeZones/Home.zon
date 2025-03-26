@@ -1,5 +1,5 @@
 Zone Home
-    OnInitialization SendMIDIMessage "91 00 64"    // Initializes the Faderport Classic in Native Mode	   
+    OnInitialization SendMIDIMessage "91 00 64"                 // Initializes the Faderport Classic in Native Mode      
     OnInitialization ToggleEnableFocusedFXMapping
         IncludedZones
             Track
@@ -7,6 +7,8 @@ Zone Home
 
     Shift                       Shift                           
     Bank                        Alt
+
+    WriteNonNative              SendMIDIMessage "91 00 64"      // Puts Faderport in Native Mode if it has been disconnected
 
     ChannelLeft                 Bank SelectedTrack -1                                     
     ChannelRight                Bank SelectedTrack 1

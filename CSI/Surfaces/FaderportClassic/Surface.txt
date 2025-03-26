@@ -29,6 +29,10 @@ AccelerationValues
     RotaryWidgetClass   	Val 	0.0025	0.003	
 AccelerationValuesEnd
 
+Widget WriteNonNative         // In case the Faderport gets stuck in non-native mode, press the Write button.
+	Press b0 0f 00 b0 2f 04
+WidgetEnd
+
 Widget Mute 				
 	Press a0 12 01 	A0 12 00
 	FB_TwoState a0 15 01 a0 15 00
