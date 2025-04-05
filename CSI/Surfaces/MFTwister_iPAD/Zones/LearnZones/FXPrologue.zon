@@ -1,0 +1,13 @@
+Zone FXPrologue
+
+    OnZoneActivation             ToggleRestrictTextLength 12
+
+    MainDisplay1                 TrackNameDisplay
+    MainDisplay2                 FXMenuNameDisplay
+
+    Bank1Left                    GoHome
+    Bank1LeftDisplay             FixedTextDisplay "GoHome"
+    Bank1Right                   GoHome
+    Bank1RightDisplay            FixedTextDisplay "GoHome"
+
+ZoneEnd

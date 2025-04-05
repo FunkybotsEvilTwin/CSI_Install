@@ -1,0 +1,24 @@
+Zone MasterTrackFXMenu
+
+    Bank1Left                    GoHome
+    Bank1LeftDisplay             FixedTextDisplay "GoHome"
+    Bank1Right                   GoHome
+    Bank1RightDisplay            FixedTextDisplay "GoHome"
+    
+    MainDisplay1                 FixedTextDisplay "MasterTrack"
+    MainDisplay2                 FixedTextDisplay "FX Menu"
+    
+    DisplayUpperA|               FXMenuNameDisplay
+    DisplayLowerA|               FXBypassDisplay
+    AltDisplayUpperA|            FixedTextDisplay "Push to Map"
+    AltDisplayLowerA|            NoAction 
+   
+    RotaryPushA|                 GoFXSlot
+    RotaryPushA|                 ShowFXSlot
+    Shift+RotaryPushA|           ToggleFXBypass
+    Option+RotaryPushA|          Reaper "_S&M_FXOFF|"             //Offline FX slot
+
+    RotaryA|                     NoAction 
+    ShiftRotaryA|                NoAction 
+
+ZoneEnd

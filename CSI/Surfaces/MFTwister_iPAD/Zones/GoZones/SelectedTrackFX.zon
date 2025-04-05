@@ -1,0 +1,11 @@
+Zone SelectedTrackFX
+
+Bank1Left             GoHome
+Bank1LeftDisplay      FixedTextDisplay "GoHome"
+Bank1Right            GoHome
+Bank1RightDisplay     FixedTextDisplay "GoHome"
+
+MainDisplay1          FixedTextDisplay "SelectedTrackFX"
+MainDisplay2          TrackNameDisplay
+
+ZoneEnd

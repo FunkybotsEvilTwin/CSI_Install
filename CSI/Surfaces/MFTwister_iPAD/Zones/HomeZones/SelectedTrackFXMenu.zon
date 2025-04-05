@@ -1,0 +1,16 @@
+Zone SelectedTrackFXMenu
+    
+    DisplayUpperA|               FXMenuNameDisplay
+    DisplayLowerA|               FXBypassDisplay
+    AltDisplayUpperA|            FixedTextDisplay "Push to Map"
+    AltDisplayLowerA|            NoAction  
+ 
+    RotaryPushA|                 GoFXSlot
+    RotaryPushA|                 ShowFXSlot
+    Shift+RotaryPushA|           ToggleFXBypass
+    Option+RotaryPushA|          Reaper "_S&M_FXOFF|"             //Offline FX slot
+
+    RotaryA|                     NoAction 
+    ShiftRotaryA|                NoAction
+    
+ZoneEnd

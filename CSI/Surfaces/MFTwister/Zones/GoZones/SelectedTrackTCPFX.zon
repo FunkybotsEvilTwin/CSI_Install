@@ -1,0 +1,139 @@
+Zone SelectedTrackTCPFX
+
+Bank1Left             GoHome
+Bank1LeftDisplay      FixedTextDisplay "GoHome"
+Bank1Right            GoHome
+Bank1RightDisplay     FixedTextDisplay "GoHome"
+
+MainDisplay1          FixedTextDisplay "SelectedTrackTCPFX"
+MainDisplay2          TrackNameDisplay
+/
+DisplayUpperA1        TCPFXParamNameDisplay 0
+DisplayLowerA1        TCPFXParamValueDisplay 0
+RotaryA1              TCPFXParam 0
+AltDisplayUpperA1     NoAction
+AltDisplayLowerA1     NoAction
+RotaryPushA1          NoAction
+ShiftRotaryA1         NoAction
+
+DisplayUpperA2        TCPFXParamNameDisplay 1
+DisplayLowerA2        TCPFXParamValueDisplay 1
+RotaryA2              TCPFXParam 1
+AltDisplayUpperA2     NoAction
+AltDisplayLowerA2     NoAction
+RotaryPushA2          NoAction
+ShiftRotaryA2         NoAction
+
+DisplayUpperA3        TCPFXParamNameDisplay 2
+DisplayLowerA3        TCPFXParamValueDisplay 2
+RotaryA3              TCPFXParam 2
+AltDisplayUpperA3     NoAction
+AltDisplayLowerA3     NoAction
+RotaryPushA3          NoAction
+ShiftRotaryA3         NoAction
+
+DisplayUpperA4        TCPFXParamNameDisplay 3
+DisplayLowerA4        TCPFXParamValueDisplay 3
+RotaryA4              TCPFXParam 3
+AltDisplayUpperA4     NoAction
+AltDisplayLowerA4     NoAction
+RotaryPushA4          NoAction
+ShiftRotaryA4         NoAction
+
+DisplayUpperA5        TCPFXParamNameDisplay 4
+DisplayLowerA5        TCPFXParamValueDisplay 4
+RotaryA5              TCPFXParam 4
+AltDisplayUpperA5     NoAction
+AltDisplayLowerA5     NoAction
+RotaryPushA5          NoAction
+ShiftRotaryA5         NoAction
+
+DisplayUpperA6        TCPFXParamNameDisplay 5
+DisplayLowerA6        TCPFXParamValueDisplay 5
+RotaryA6              TCPFXParam 5
+AltDisplayUpperA6     NoAction
+AltDisplayLowerA6     NoAction
+RotaryPushA6          NoAction
+ShiftRotaryA6         NoAction
+
+DisplayUpperA7        TCPFXParamNameDisplay 6
+DisplayLowerA7        TCPFXParamValueDisplay 6
+RotaryA7              TCPFXParam 6
+AltDisplayUpperA7     NoAction
+AltDisplayLowerA7     NoAction
+RotaryPushA7          NoAction
+ShiftRotaryA7         NoAction
+
+DisplayUpperA8        TCPFXParamNameDisplay 7
+DisplayLowerA8        TCPFXParamValueDisplay 7
+RotaryA8              TCPFXParam 7
+AltDisplayUpperA8     NoAction
+AltDisplayLowerA8     NoAction
+RotaryPushA8          NoAction
+ShiftRotaryA8         NoAction
+
+DisplayUpperB1        TCPFXParamNameDisplay 8 
+DisplayLowerB1        TCPFXParamValueDisplay 8 
+RotaryB1              TCPFXParam 8
+AltDisplayUpperB1     NoAction 
+AltDisplayLowerB1     NoAction 
+RotaryPushB1          NoAction 
+ShiftRotaryB1         NoAction 
+
+DisplayUpperB2        TCPFXParamNameDisplay 9 
+DisplayLowerB2        TCPFXParamValueDisplay 9 
+RotaryB2              TCPFXParam 9 
+AltDisplayUpperB2     NoAction 
+AltDisplayLowerB2     NoAction 
+RotaryPushB2          NoAction 
+ShiftRotaryB2         NoAction 
+
+DisplayUpperB3        TCPFXParamNameDisplay 10 
+DisplayLowerB3        TCPFXParamValueDisplay 10 
+RotaryB3              TCPFXParam 10 
+AltDisplayUpperB3     NoAction 
+AltDisplayLowerB3     NoAction 
+RotaryPushB3          NoAction 
+ShiftRotaryB3         NoAction 
+
+DisplayUpperB4        TCPFXParamNameDisplay 11 
+DisplayLowerB4        TCPFXParamValueDisplay 11 
+RotaryB4              TCPFXParam 11 
+AltDisplayUpperB4     NoAction 
+AltDisplayLowerB4     NoAction 
+RotaryPushB4          NoAction 
+ShiftRotaryB4         NoAction 
+
+DisplayUpperB5        TCPFXParamNameDisplay 12 
+DisplayLowerB5        TCPFXParamValueDisplay 12 
+RotaryB5              TCPFXParam 12 
+AltDisplayUpperB5     NoAction 
+AltDisplayLowerB5     NoAction 
+RotaryPushB5          NoAction 
+ShiftRotaryB5         NoAction 
+
+DisplayUpperB6        TCPFXParamNameDisplay 13 
+DisplayLowerB6        TCPFXParamValueDisplay 13 
+RotaryB6              TCPFXParam 13 
+AltDisplayUpperB6     NoAction 
+AltDisplayLowerB6     NoAction 
+RotaryPushB6          NoAction 
+ShiftRotaryB6         NoAction 
+
+DisplayUpperB7        TCPFXParamNameDisplay 14 
+DisplayLowerB7        TCPFXParamValueDisplay 14 
+RotaryB7              TCPFXParam 14 
+AltDisplayUpperB7     NoAction 
+AltDisplayLowerB7     NoAction 
+RotaryPushB7          NoAction 
+ShiftRotaryB7         NoAction 
+
+DisplayUpperB8        TCPFXParamNameDisplay 15 
+DisplayLowerB8        TCPFXParamValueDisplay 15 
+RotaryB8              TCPFXParam 15 
+AltDisplayUpperB8     NoAction 
+AltDisplayLowerB8     NoAction 
+RotaryPushB8          NoAction 
+ShiftRotaryB8         NoAction
+
+ZoneEnd       

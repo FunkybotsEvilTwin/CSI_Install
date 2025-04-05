@@ -1,0 +1,173 @@
+Zone "VST: ReaComp (Cockos)" "ReaComp"
+
+	Bank1Left             GoHome
+	Bank1LeftDisplay      FixedTextDisplay "GoHome"
+	Bank1Right            GoHome
+	Bank1RightDisplay     FixedTextDisplay "GoHome"
+
+/
+/
+	MainDisplay1 FXNameDisplay  
+	MainDisplay2 TrackNameDisplay  
+/  
+	DisplayUpperA1 FXParamNameDisplay 0 "Thresh"
+	DisplayLowerA1 FXParamValueDisplay 0 
+	RotaryA1 FXParam 0 [ (0.001,0.0015,0.002,0.0025,0.005,0.0075,0.0125,0.0215,0.033,0.05,0.075) ]
+	RotaryPushA1 NoAction 
+	ShiftRotaryA1 NoAction 
+	AltDisplayUpperA1 NoAction
+	AltDisplayLowerA1 NoAction
+	ShiftRotaryA1 NoAction 
+
+/  
+	DisplayUpperA2 FXParamNameDisplay 1 "Ratio"
+	DisplayLowerA2 FXParamValueDisplay 1 
+	RotaryA2 FXParam 1 [ (0.001,0.0015,0.002,0.0025,0.005,0.0075,0.0125,0.0215,0.033,0.05,0.075) ]
+	RotaryPushA2 NoAction 
+	ShiftRotaryA2 NoAction 
+	AltDisplayUpperA2 NoAction
+	AltDisplayLowerA2 NoAction
+	ShiftRotaryA2 NoAction 
+
+/  
+	DisplayUpperA3 FXParamNameDisplay 2 "Attack"
+	DisplayLowerA3 FXParamValueDisplay 2 
+	RotaryA3 FXParam 2 [ 0.0>0.1 (0.001,0.0015,0.002,0.0025,0.003,0.004,0.005,0.006,0.0066,0.007,0.0075) ]
+	RotaryPushA3 FXParam 17 [ 0.33 0.75 0.55 0.0 1.0 ] { 255 50 0 90 255 0 }
+	ShiftRotaryA3 NoAction 
+	AltDisplayUpperA3 FXParamNameDisplay 17 "CompatOp"
+	AltDisplayLowerA3 FXParamValueDisplay 17
+	ShiftRotaryA3 NoAction 
+
+/  
+	DisplayUpperA4 FXParamNameDisplay 3 "Release"
+	DisplayLowerA4 FXParamValueDisplay 3 
+	RotaryA4 FXParam 3 [ 0.0>0.1 (0.001,0.0015,0.002,0.0025,0.003,0.004,0.005,0.006,0.0066,0.007,0.0075) ]
+	RotaryPushA4 FXParam 16 [ 0.0 1.0 ] { 255 50 0 90 255 0 }
+	ShiftRotaryA4 NoAction 
+	AltDisplayUpperA4 FXParamNameDisplay 16 "AutoRel"
+	AltDisplayLowerA4 FXParamValueDisplay 16
+	ShiftRotaryA4 NoAction 
+
+/  
+	DisplayUpperA5 FXParamNameDisplay 4 "Pre-comp"
+	DisplayLowerA5 FXParamValueDisplay 4 
+	RotaryA5 FXParam 4 [ (0.001,0.0015,0.002,0.0025,0.005,0.0075,0.0125,0.0215,0.033,0.05,0.075) ]
+	RotaryPushA5 NoAction 
+	ShiftRotaryA5 NoAction 
+	AltDisplayUpperA5 NoAction
+	AltDisplayLowerA5 NoAction
+	ShiftRotaryA5 NoAction 
+
+/  
+	DisplayUpperA6 FXParamNameDisplay 14 "Knee"
+	DisplayLowerA6 FXParamValueDisplay 14 
+	RotaryA6 FXParam 14 [ (0.001,0.0015,0.002,0.0025,0.005,0.0075,0.0125,0.0215,0.033,0.05,0.075) ]
+	RotaryPushA6 NoAction 
+	ShiftRotaryA6 NoAction 
+	AltDisplayUpperA6 NoAction
+	AltDisplayLowerA6 NoAction
+	ShiftRotaryA6 NoAction 
+
+/  
+	DisplayUpperA7 NoAction 
+	DisplayLowerA7 NoAction 
+	RotaryA7 NoAction 
+	RotaryPushA7 FXParam 999 { 0 75 255 0 75 255 }
+	ShiftRotaryA7 NoAction 
+	AltDisplayUpperA7 FXParamNameDisplay 999 "Unassigned"
+	AltDisplayLowerA7 FXParamValueDisplay 999
+	ShiftRotaryA7 NoAction 
+
+/  
+	DisplayUpperA8 NoAction 
+	DisplayLowerA8 NoAction 
+	RotaryA8 NoAction 
+	RotaryPushA8 FXParam 999 { 0 75 255 0 75 255 }
+	ShiftRotaryA8 NoAction 
+	AltDisplayUpperA8 FXParamNameDisplay 999 "Unassigned"
+	AltDisplayLowerA8 FXParamValueDisplay 999
+	ShiftRotaryA8 NoAction 
+
+/  
+	DisplayUpperB1 FXParamNameDisplay 8 "SignIn"
+	DisplayLowerB1 FXParamValueDisplay 8 
+	RotaryB1 FXParam 8 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushB1 NoAction 
+	ShiftRotaryB1 NoAction 
+	AltDisplayUpperB1 NoAction
+	AltDisplayLowerB1 NoAction
+	ShiftRotaryB1 NoAction 
+
+/  
+	DisplayUpperB2 FXParamNameDisplay 6 "Lowpass"
+	DisplayLowerB2 FXParamValueDisplay 6 
+	RotaryB2 FXParam 6 [ (0.001,0.0015,0.002,0.0025,0.005,0.0075,0.0125,0.0215,0.033,0.05,0.075) ]
+	RotaryPushB2 NoAction 
+	ShiftRotaryB2 NoAction 
+	AltDisplayUpperB2 NoAction
+	AltDisplayLowerB2 NoAction
+	ShiftRotaryB2 NoAction 
+
+/  
+	DisplayUpperB3 FXParamNameDisplay 7 "Hipass"
+	DisplayLowerB3 FXParamValueDisplay 7 
+	RotaryB3 FXParam 7 [ (0.001,0.0015,0.002,0.0025,0.005,0.0075,0.0125,0.0215,0.033,0.05,0.075) ]
+	RotaryPushB3 NoAction 
+	ShiftRotaryB3 NoAction 
+	AltDisplayUpperB3 NoAction
+	AltDisplayLowerB3 NoAction
+	ShiftRotaryB3 NoAction 
+
+/  
+	DisplayUpperB4 FXParamNameDisplay 13 "RMS size"
+	DisplayLowerB4 FXParamValueDisplay 13 
+	RotaryB4 FXParam 13 [ (0.001,0.0015,0.002,0.0025,0.005,0.0075,0.0125,0.0215,0.033,0.05,0.075) ]
+	RotaryPushB4 NoAction 
+	ShiftRotaryB4 NoAction 
+	AltDisplayUpperB4 NoAction
+	AltDisplayLowerB4 NoAction
+	ShiftRotaryB4 NoAction 
+
+/  
+	DisplayUpperB5 NoAction 
+	DisplayLowerB5 NoAction 
+	RotaryB5 NoAction 
+	RotaryPushB5 FXParam 18 [ 0.0 1.0 ] { 255 50 0 90 255 0 }
+	ShiftRotaryB5 NoAction 
+	AltDisplayUpperB5 FXParamNameDisplay 18 "DeprAnti"
+	AltDisplayLowerB5 FXParamValueDisplay 18
+	ShiftRotaryB5 NoAction 
+
+/  
+	DisplayUpperB6 FXParamNameDisplay 11 "Wet"
+	DisplayLowerB6 FXParamValueDisplay 11 
+	RotaryB6 FXParam 11 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushB6 FXParam 12 [ 0.0 1.0 ] { 255 50 0 90 255 0 }
+	ShiftRotaryB6 NoAction 
+	AltDisplayUpperB6 FXParamNameDisplay 12 "PreviewF"
+	AltDisplayLowerB6 FXParamValueDisplay 12
+	ShiftRotaryB6 NoAction 
+
+/  
+	DisplayUpperB7 FXParamNameDisplay 10 "Dry"
+	DisplayLowerB7 FXParamValueDisplay 10 
+	RotaryB7 FXParam 10 [ (0.001,0.0015,0.002,0.0025,0.005,0.0075,0.0125,0.0215,0.033,0.05,0.075) ]
+	RotaryPushB7 FXParam 15 [ 0.0 1.0 ] { 255 50 0 90 255 0 }
+	ShiftRotaryB7 NoAction 
+	AltDisplayUpperB7 FXParamNameDisplay 15 "AutoMkUp"
+	AltDisplayLowerB7 FXParamValueDisplay 15
+	ShiftRotaryB7 NoAction 
+
+/  
+	DisplayUpperB8 FXParamNameDisplay 20 "Wet"
+	DisplayLowerB8 FXParamValueDisplay 20 
+	RotaryB8 FXParam 20 [ (0.001,0.0015,0.002,0.0025,0.005,0.0075,0.0125,0.0215,0.033,0.05,0.075) ]
+	RotaryPushB8 FXParam 19 [ 0.0 1.0 ] { 90 255 0 255 50 0 }
+	ShiftRotaryB8 NoAction 
+	AltDisplayUpperB8 FXParamNameDisplay 19 "Bypass"
+	AltDisplayLowerB8 FXParamValueDisplay 19
+	ShiftRotaryB8 NoAction 
+
+/
+ZoneEnd

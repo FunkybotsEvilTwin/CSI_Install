@@ -1,0 +1,15 @@
+Zone SelectedTrack
+
+MainDisplay1 TrackNameDisplay
+MainDisplay2 TrackVolumeDisplay 
+
+Bank1Left                 SelectedTrackBank -1
+Bank1LeftDisplay          FixedTextDisplay "Bank -1"
+Bank1Right                SelectedTrackBank 1
+Bank1RightDisplay         FixedTextDisplay "Bank +1"
+Shift+Bank1Left           SelectedTrackBank -8
+Shift+Bank1LeftDisplay    FixedTextDisplay "Bank -8"
+Shift+Bank1Right          SelectedTrackBank 8
+Shift+Bank1RightDisplay   FixedTextDisplay "Bank +8"
+
+ZoneEnd

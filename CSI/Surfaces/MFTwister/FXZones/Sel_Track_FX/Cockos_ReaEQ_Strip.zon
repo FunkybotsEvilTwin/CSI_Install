@@ -1,0 +1,94 @@
+Zone "ReaEQ_Strip"
+
+	Bank1Left             GoHome
+	Bank1LeftDisplay      FixedTextDisplay "GoHome"
+	Bank1Right            GoHome
+	Bank1RightDisplay     FixedTextDisplay "GoHome"
+
+
+	Bank1Left             GoHome
+	Bank1LeftDisplay      FixedTextDisplay "GoHome"
+	Bank1Right            GoHome
+	Bank1RightDisplay     FixedTextDisplay "GoHome"
+
+	Bank1Left             GoHome
+	Bank1LeftDisplay      FixedTextDisplay "GoHome"
+	Bank1Right            GoHome
+	Bank1RightDisplay     FixedTextDisplay "GoHome"
+
+	MainDisplay1          FixedTextDisplay "SelectedTrackFX"
+	MainDisplay2          TrackNameDisplay
+/
+	DisplayUpperA1        FixedTextDisplay "LF Gain"
+	DisplayLowerA1        FXParamValueDisplay 1
+	RotaryA1              FXParam 1 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushA1          NoAction
+	ShiftRotaryA1         NoAction
+	AltDisplayUpperA1 NoAction
+	AltDisplayLowerA1 NoAction
+	ShiftRotaryA1         NoAction
+
+	DisplayUpperA2        FixedTextDisplay "LMF Gain"
+	DisplayLowerA2        FXParamValueDisplay 4
+	RotaryA2              FXParam 4 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushA2          NoAction
+	ShiftRotaryA2         NoAction
+	AltDisplayUpperA2 NoAction
+	AltDisplayLowerA2 NoAction
+	ShiftRotaryA2         NoAction
+
+	DisplayUpperA3        FixedTextDisplay "HMF Gain"
+	DisplayLowerA3        FXParamValueDisplay 7
+	RotaryA3              FXParam 7 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushA3          NoAction
+	ShiftRotaryA3         NoAction
+	AltDisplayUpperA3 NoAction
+	AltDisplayLowerA3 NoAction
+	ShiftRotaryA3         NoAction
+
+	DisplayUpperA4        FixedTextDisplay "HF Gain"
+	DisplayLowerA4        FXParamValueDisplay 10
+	RotaryA4              FXParam 10 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushA4          NoAction
+	ShiftRotaryA4         NoAction
+	AltDisplayUpperA4 NoAction
+	AltDisplayLowerA4 NoAction
+	ShiftRotaryA4         NoAction
+
+	DisplayUpperA5        FixedTextDisplay "LF"
+	DisplayLowerA5        FXParamValueDisplay 0
+	RotaryA5              FXParam 0 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushA5          NoAction
+	ShiftRotaryA5         FXParam 2
+	AltDisplayUpperA5 NoAction
+	AltDisplayLowerA5 NoAction
+	ShiftRotaryA5         FXParam 2
+
+	DisplayUpperA6        FixedTextDisplay "LMF"
+	DisplayLowerA6        FXParamValueDisplay 3
+	RotaryA6              FXParam 3 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushA6          NoAction
+	ShiftRotaryA6         FXParam 5
+	AltDisplayUpperA6 NoAction
+	AltDisplayLowerA6 NoAction
+	ShiftRotaryA6         FXParam 5
+
+	DisplayUpperA7        FixedTextDisplay "HMF"
+	DisplayLowerA7        FXParamValueDisplay 6
+	RotaryA7              FXParam 6 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushA7          NoAction
+	ShiftRotaryA7         FXParam 8
+	AltDisplayUpperA7 NoAction
+	AltDisplayLowerA7 NoAction
+	ShiftRotaryA7         FXParam 8
+
+	DisplayUpperA8        FixedTextDisplay "HF"
+	DisplayLowerA8        FXParamValueDisplay 9
+	RotaryA8              FXParam 9 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	RotaryPushA8          NoAction
+	ShiftRotaryA8         FXParam 11
+	AltDisplayUpperA8 NoAction
+	AltDisplayLowerA8 NoAction
+	ShiftRotaryA8         FXParam 11
+
+ZoneAnd

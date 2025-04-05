@@ -1,0 +1,29 @@
+Zone SelectedTrackSend
+
+     Bank3MainDisplay1         FixedTextDisplay "Send Zone"
+     Bank3MainDisplay2         NoAction
+
+	DisplayUpperE|		      TrackSendNameDisplay
+	DisplayLowerE|		      TrackSendVolumeDisplay
+	RotaryE|                  TrackSendVolume     [ (0.001,0.0015,0.002,0.0025,0.003,0.0035,0.005,0.075,0.01,0.02,0.03) ]
+	RotaryPushE|              TrackSendPrePost
+	AltDisplayUpperE|         TrackSendPrePostDisplay
+	AltDisplayLowerE|         NoAction
+					      
+     RotaryF|                  TrackSendPan        [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	DisplayUpperF|		      TrackSendNameDisplay
+     DisplayLowerF|		      TrackSendPanDisplay
+     RotaryPushF|              TrackSendMute { 90 255 0 242 255 0 }
+	AltDisplayUpperF|         FixedTextDisplay "SendMute|"
+	AltDisplayLowerF|         NoAction
+
+     Bank3Left                 SelectedTrackSendBank -1
+	Bank3LeftDisplay          FixedTextDisplay "Bank -1"
+	Bank3Right                SelectedTrackSendBank 1
+	Bank3RightDisplay         FixedTextDisplay "Bank +1"
+     Shift+Bank3Left           SelectedTrackSendBank -8
+	Shift+Bank3LeftDisplay    FixedTextDisplay "Bank -8"
+	Shift+Bank3Right          SelectedTrackSendBank 8
+	Shift+Bank3RightDisplay   FixedTextDisplay "Bank +8"
+
+ZoneEnd

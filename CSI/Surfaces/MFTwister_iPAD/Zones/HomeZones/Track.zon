@@ -1,0 +1,37 @@
+Zone Track
+
+     Bank2MainDisplay1         FixedTextDisplay "Track Zone"
+     Bank2MainDisplay2         NoAction
+
+     Bank2Left                 Bank Track -1
+     Bank2LeftDisplay          FixedTextDisplay "Bank -1"
+     Bank2Right                Bank Track 1
+     Bank2RightDisplay         FixedTextDisplay "Bank +1"
+     Shift+Bank2Left           Bank Track -8
+     Shift+Bank2LeftDisplay    FixedTextDisplay "Bank -8"
+     Shift+Bank2Right          Bank Track 8
+     Shift+Bank2RightDisplay   FixedTextDisplay "Bank +8"
+
+// Top-half of Bank2 controls TrackVolume (Rotary) and Solo (Push)
+
+     RotaryC|                  TrackVolume     [ (0.001,0.0015,0.002,0.0025,0.003,0.0035,0.005,0.075,0.01,0.02,0.03) ]
+     DisplayUpperC|            TrackNameDisplay
+     DisplayLowerC|            TrackVolumeDisplay
+     RotaryPushC|              TrackSolo { 242 255 0 255 115 0 }
+     AltDisplayUpperC|         FixedTextDisplay "Press to Solo"
+     AltDisplayLowerC|         NoAction
+     ShiftRotaryC|             NoAction
+     
+// Bottom-half of Bank2 controls TrackPan (Rotary) and Mute (Push)
+     
+     RotaryD|                  TrackPan        [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+     DisplayUpperD|            TrackNameDisplay
+     DisplayLowerD|            TrackPanDisplay
+     Shift+RotaryD|            TrackPanWidth
+     Shift+DisplayLowerD|      TrackPanWidthDisplay    
+     RotaryPushD|              TrackMute { 90 255 0 255 50 0 }
+     AltDisplayUpperD|         FixedTextDisplay "Pres to Mute"
+     AltDisplayLowerD|         NoAction
+     ShiftRotaryD|             NoAction
+
+ZoneEnd

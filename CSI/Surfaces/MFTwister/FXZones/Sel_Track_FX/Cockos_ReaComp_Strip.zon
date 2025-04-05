@@ -1,0 +1,86 @@
+Zone "ReaComp_Strip"
+
+	Bank1Left             GoHome
+	Bank1LeftDisplay      FixedTextDisplay "GoHome"
+	Bank1Right            GoHome
+	Bank1RightDisplay     FixedTextDisplay "GoHome"
+
+
+	Bank1Left             GoHome
+	Bank1LeftDisplay      FixedTextDisplay "GoHome"
+	Bank1Right            GoHome
+	Bank1RightDisplay     FixedTextDisplay "GoHome"
+
+	DisplayUpperB1         FixedTextDisplay "Thresh"
+	DisplayLowerB1         FXParamValueDisplay 0
+	RotaryB1               FXParam 0 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]     
+	RotaryPushB1           NoAction 
+	ShiftRotaryB1          NoAction 
+	AltDisplayUpperB1 NoAction
+	AltDisplayLowerB1 NoAction
+	ShiftRotaryB1          NoAction 
+
+	DisplayUpperB2         FixedTextDisplay "Ratio"
+	DisplayLowerB2         FXParamValueDisplay 1
+	RotaryB2               FXParam 1 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]     
+	RotaryPushB2           NoAction 
+	ShiftRotaryB2          NoAction 
+	AltDisplayUpperB2 NoAction
+	AltDisplayLowerB2 NoAction
+	ShiftRotaryB2          NoAction 
+
+	DisplayUpperB3         FixedTextDisplay "Attack"
+	DisplayLowerB3         FXParamValueDisplay 2
+	RotaryB3               FXParam 2 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]     
+	RotaryPushB3           NoAction 
+	ShiftRotaryB3          NoAction 
+	AltDisplayUpperB3 NoAction
+	AltDisplayLowerB3 NoAction
+	ShiftRotaryB3          NoAction 
+
+	DisplayUpperB4         FixedTextDisplay "Release"
+	DisplayLowerB4         FXParamValueDisplay 3
+	RotaryB4               FXParam 3 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]     
+	RotaryPushB4           NoAction 
+	ShiftRotaryB4          NoAction 
+	AltDisplayUpperB4 NoAction
+	AltDisplayLowerB4 NoAction
+	ShiftRotaryB4          NoAction 
+
+	DisplayUpperB5         FixedTextDisplay "PreComp"     
+	DisplayLowerB5         FXParamValueDisplay 4     
+	RotaryB5               FXParam 4 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]     
+	RotaryPushB5           NoAction 
+	ShiftRotaryB5          NoAction 
+	AltDisplayUpperB5 NoAction
+	AltDisplayLowerB5 NoAction
+	ShiftRotaryB5          NoAction 
+
+	DisplayUpperB6         FixedTextDisplay "Knee"
+	DisplayLowerB6         FXParamValueDisplay 14
+	RotaryB6               FXParam 14 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]     
+	RotaryPushB6           NoAction 
+	ShiftRotaryB6          NoAction 
+	AltDisplayUpperB6 NoAction
+	AltDisplayLowerB6 NoAction
+	ShiftRotaryB6          NoAction 
+
+	DisplayUpperB7         FixedTextDisplay "SC_HPF"
+	DisplayLowerB7         FXParamValueDisplay 7
+	RotaryB7               FXParam 7 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]     
+	RotaryPushB7           NoAction 
+	ShiftRotaryB7          NoAction 
+	AltDisplayUpperB7 NoAction
+	AltDisplayLowerB7 NoAction
+	ShiftRotaryB7          NoAction 
+
+	DisplayUpperB8         FixedTextDisplay "SC_LPF"
+	DisplayLowerB8         FXParamValueDisplay 6
+	RotaryB8               FXParam 6 [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]     
+	RotaryPushB8           NoAction 
+	ShiftRotaryB8          NoAction 
+	AltDisplayUpperB8 NoAction
+	AltDisplayLowerB8 NoAction
+	ShiftRotaryB8          NoAction 
+
+ZoneEnd

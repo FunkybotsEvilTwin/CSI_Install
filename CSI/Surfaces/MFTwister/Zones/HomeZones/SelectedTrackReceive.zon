@@ -1,0 +1,33 @@
+Zone SelectedTrackReceive
+
+     Bank4MainDisplay1         FixedTextDisplay "Receive Zone"
+     Bank4MainDisplay2         NoAction
+
+	RotaryG|                  TrackReceiveVolume     [ (0.001,0.0015,0.002,0.0025,0.003,0.0035,0.005,0.075,0.01,0.02,0.03) ]
+	DisplayUpperG|		      TrackReceiveNameDisplay
+	DisplayLowerG|		      TrackReceiveVolumeDisplay
+
+	RotaryPushG|              TrackReceivePrePost
+	AltDisplayUpperG|         TrackReceivePrePostDisplay
+     AltDisplayLowerG|         NoAction
+					      
+	RotaryH|                  TrackReceivePan        [ (0.001,0.002,0.003,0.004,0.005,0.006,0.0075,0.01,0.02,0.035,0.05) ]
+	DisplayUpperH|		      TrackReceiveNameDisplay
+     DisplayLowerH|		      TrackReceivePanDisplay
+
+     RotaryPushH|              TrackReceiveMute { 90 255 0 242 255 0 }
+	AltDisplayUpperH|         FixedTextDisplay "ReceiveMute|"
+     AltDisplayLowerH|         NoAction
+
+     Bank4Left                 SelectedTrackReceiveBank -1
+	Bank4LeftDisplay          FixedTextDisplay "Bank -1"
+	Bank4Right                SelectedTrackReceiveBank 1
+	Bank4RightDisplay         FixedTextDisplay "Bank +1"
+     Shift+Bank4Left           SelectedTrackReceiveBank -8
+	Shift+Bank4LeftDisplay    FixedTextDisplay "Bank -8"
+	Shift+Bank4Right          SelectedTrackReceiveBank 8
+	Shift+Bank4RightDisplay   FixedTextDisplay "Bank +8"
+
+
+
+ZoneEnd

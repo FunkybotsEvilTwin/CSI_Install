@@ -1,0 +1,7 @@
+Zone LastTouchedFXParam  
+	
+	DisplayUpperB8    LastTouchedFXParamNameDisplay
+	DisplayLowerB8    LastTouchedFXParamValueDisplay
+	RotaryB8          LastTouchedFXParam
+	
+ZoneEnd

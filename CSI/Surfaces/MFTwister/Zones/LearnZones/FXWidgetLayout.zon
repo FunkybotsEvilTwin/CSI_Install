@@ -1,0 +1,17 @@
+Zone FXWidgetLayout
+	Rotary FXParam RingStyle=Dot
+	DisplayUpper FixedTextDisplay
+	DisplayLower FXParamValueDisplay
+ZoneEnd
+
+#WidgetType Rotary
+#WidgetType RotaryPush
+#WidgetType ShiftRotary
+#DisplayRow DisplayUpper
+#DisplayRow DisplayLower
+#DisplayRow AltDisplayUpper
+#DisplayRow AltDisplayLower
+#RingStyle Dot
+#RingStyle Fill
+#RingStyle BoostCut
+#RingStyle Spread
