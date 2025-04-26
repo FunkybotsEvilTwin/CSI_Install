@@ -35,13 +35,13 @@ Bank3Display              NoAction
 Bank4                     NoAction
 Bank4Display              NoAction
 
-Bank1Left                 Reaper 40286
+Bank1Left                 Bank SelectedTrack -1
 Bank1LeftDisplay          FixedTextDisplay "Bank -1"
-Bank1Right                Reaper 40285
+Bank1Right                Bank SelectedTrack 1
 Bank1RightDisplay         FixedTextDisplay "Bank +1"
-Shift+Bank1Left           SelectedTrackBank -8
+Shift+Bank1Left           Bank SelectedTrack -8
 Shift+Bank1LeftDisplay    FixedTextDisplay "Bank -8"
-Shift+Bank1Right          SelectedTrackBank 8
+Shift+Bank1Right          Bank SelectedTrack 8
 Shift+Bank1RightDisplay   FixedTextDisplay "Bank +8"
                 
 DisplayUpperB1 FixedTextDisplay "Go Home"

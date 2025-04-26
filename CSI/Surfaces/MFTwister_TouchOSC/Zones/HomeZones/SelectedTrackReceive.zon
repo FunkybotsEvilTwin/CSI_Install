@@ -19,13 +19,13 @@ Zone SelectedTrackReceive
 	AltDisplayUpperH|         FixedTextDisplay "ReceiveMute|"
      AltDisplayLowerH|         NoAction
 
-     Bank4Left                 SelectedTrackReceiveBank -1
+     Bank4Left                 Bank SelectedTrackReceive -1
 	Bank4LeftDisplay          FixedTextDisplay "Bank -1"
-	Bank4Right                SelectedTrackReceiveBank 1
+	Bank4Right                Bank SelectedTrackReceive 1
 	Bank4RightDisplay         FixedTextDisplay "Bank +1"
-     Shift+Bank4Left           SelectedTrackReceiveBank -8
+     Shift+Bank4Left           Bank SelectedTrackReceive -8
 	Shift+Bank4LeftDisplay    FixedTextDisplay "Bank -8"
-	Shift+Bank4Right          SelectedTrackReceiveBank 8
+	Shift+Bank4Right          Bank SelectedTrackReceive 8
 	Shift+Bank4RightDisplay   FixedTextDisplay "Bank +8"
 
 

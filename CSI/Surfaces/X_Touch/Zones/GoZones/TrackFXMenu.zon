@@ -8,8 +8,8 @@ Zone TrackFXMenu
      RotaryPush|                ShowFXSlot
 	RotaryPush|                GoFXSlot
 
-     Left                       SelectedTrackFXMenuBank -1
-     Right                      SelectedTrackFXMenuBank 1
+     Left                       Bank TrackFXMenu -1
+     Right                      Bank TrackFXMenu 1
      Up                         Bank TrackFXMenu -1
      Down                       Bank TrackFXMenu 1
 					       

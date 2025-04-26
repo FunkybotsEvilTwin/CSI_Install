@@ -17,13 +17,13 @@ Zone SelectedTrackSend
 	AltDisplayUpperF|         FixedTextDisplay "SendMute|"
 	AltDisplayLowerF|         NoAction
 
-     Bank3Left                 SelectedTrackSendBank -1
+     Bank3Left                 Bank SelectedTrackSend -1
 	Bank3LeftDisplay          FixedTextDisplay "Bank -1"
-	Bank3Right                SelectedTrackSendBank 1
+	Bank3Right                Bank SelectedTrackSend 1
 	Bank3RightDisplay         FixedTextDisplay "Bank +1"
-     Shift+Bank3Left           SelectedTrackSendBank -8
+     Shift+Bank3Left           Bank SelectedTrackSend -8
 	Shift+Bank3LeftDisplay    FixedTextDisplay "Bank -8"
-	Shift+Bank3Right          SelectedTrackSendBank 8
+	Shift+Bank3Right          Bank SelectedTrackSend 8
 	Shift+Bank3RightDisplay   FixedTextDisplay "Bank +8"
 
 ZoneEnd
