@@ -1,0 +1,16 @@
+Zone Section
+
+  OnZoneActivation      SendMIDIMessage     "90 3C 7f"
+  OnZoneDeactivation    SendMIDIMessage     "90 3C 00"
+
+  Increase+Rotary       Reaper 41042         // Move edit cursor forward one measure
+  Decrease+Rotary       Reaper 41043        // Move edit cursor back one measure
+  
+  RotaryPush            Reaper 40069        // View: Jump (go) to time windowposition
+  
+  Next                  Reaper 41044        // Move edit cursor forward one beat
+  Prev                  Reaper 41045        // Move edit cursor back one beat
+  
+  Section               GoHome
+
+ZoneEnd

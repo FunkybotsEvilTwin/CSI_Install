@@ -1,0 +1,87 @@
+Zone Home
+
+  OnInitialization       SetHoldTime 200
+ 
+  IncludedZones
+    SelectedTrack
+  IncludedZonesEnd
+
+
+//  Buttons
+
+  Shift                  Shift
+
+// 2nd Row Automation buttons
+
+  Bypass                 Reaper 8                         // Track: Toggle FX bypass for selected tracks
+  Shift+Bypass           Reaper 40344                     // Toggle Bypass All/All FX
+                         
+  Touch                  TrackAutoMode 2   { 9 9 1 255 255 0 }   // Touch
+  Shift+Touch            TrackAutoMode 4   { 9 9 1 255 0 255 }   // Latch
+  
+  Write                  TrackAutoMode 3   { 9 1 1 255 0 0 }     // Write
+  Shift+Write            TrackAutoMode 5   { 9 1 1 0 0 255 }     // LatchPreview
+  
+  Read                   TrackAutoMode 1   { 1 9 1 0 255 0 }     // Read
+  Shift+Read             TrackAutoMode 0   { 1 9 1 150 150 150 } // Trim/Read
+
+
+// Center Buttons
+
+  Prev                   Reaper 40286                     // Track: Go to previous track
+  Next                   Reaper 40285                     // Track: Go to next track
+                         
+  Shift+Prev             Reaper 40029                     // Undo
+  Shift+Next             Reaper 40030                     // Redo
+                         
+// Joghweel Actions
+                                    
+  Decrease+Rotary        Reaper 40286                     // Track: Go to previous track
+  Increase+Rotary        Reaper 40285                     // Track: Go to next track
+
+  RotaryPush             Flip                             // Holding down RotaryPush will flip the Pan onto the Fader
+
+// 3rd Row Mode buttons
+
+  Link                   GoZone LastTouchedFXParam   { 7 10 10 200 200 0 }
+  Shift+Link             GoZone LinkLock             { 7 10 10 255 0 120 }
+  
+  Pan                    GoZone Pan                  { 0 1 8 10 10 255 }
+  
+  Channel                GoZone SelectedTrackSend    { 0 1 8 255 0 0 }
+  Shift+Channel          GoZone SelectedTrackReceive { 0 1 8 0 255 255 }
+  
+  Scroll                 GoZone Scroll               { 0 1 8 10 10 255 }
+  Shift+Scroll           GoZone Zoom                 { 0 1 8 10 10 255 }
+
+
+// 4th Row buttons
+
+  Master                 GoZone MasterTrack
+  Hold+Master            Reaper 41157  Feedback=No   // Open project bay window
+  
+  Click                  Reaper 40364                // Toggle metronome
+  Shift+Click            Reaper _SWS_AWCOUNTRECTOG   // Toggle count-in before recording
+  Hold+Click             Reaper 40364 Feedback=No    // Just for consistency
+  Hold+Click             Reaper 40363 Feedback=No    // Show metronome settings
+  
+  Section                GoZone Section
+  
+  Marker                 GoZone Marker
+  Hold+Marker            Reaper 40326 Feedback=No    // Open marker/regions manager window
+
+
+//Transport Buttons
+
+  Loop                   CycleTimeline
+  
+  Rewind                 Rewind
+  FastForward            FastForward
+  
+  Stop                   Stop
+  Hold+Stop              Reaper 40042 Feedback=No    // Go to start of project
+  
+  Play                   Play
+  Record                 Record
+
+ZoneEnd
