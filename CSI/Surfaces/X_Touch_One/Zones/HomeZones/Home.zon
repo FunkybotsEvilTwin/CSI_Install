@@ -166,8 +166,8 @@ ZoneEnd
 
 //  JogWheel
 
-    Decrease+JogWheel                MoveEditCursor Bar          
-    Increase+JogWheel                MoveEditCustor Bar                                                 
+    JogWheel                         MoveEditCursor Bar     
+    
     Shift+Decrease+JogWheel          Reaper 40286                // Track: Go to previous track       
     Shift+Increase+JogWheel          Reaper 40285                // Track: Go to next track                     
     
@@ -176,8 +176,7 @@ ZoneEnd
     Zoom+Shift+Decrease+JogWheel     Reaper 1011                 // Zoom out horizontal
     Zoom+Shift+Increase+JogWheel     Reaper 1012                 // Zoom in horizontal   
   
-    Marker+Decrease+JogWheel         MoveEditCursor Marker       
-    Marker+Increase+JogWheel         MoveEditCusror Marker       
+    Marker+JogWheel                  MoveEditCursor Marker          
                                      
     Scrub+Decrease+JogWheel          Reaper 40104                // View: Move cursor left one pixel
     Scrub+Increase+JogWheel          Reaper 40105                // View: Move cursor right one pixel
