@@ -63,7 +63,7 @@ Zone Home
     Control                     Control
     Alt                         Alt     
 
-// Automation Buttonsg
+// Automation Buttons
 
     Read                        TrackAutoMode 1
     Write                       TrackAutoMode 3
