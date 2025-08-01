@@ -1,0 +1,17 @@
+Zone MasterTrackFXMenu
+
+     DisplayUpper|            FXMenuNameDisplay
+     DisplayLower|            FXBypassDisplay
+     Rotary|                  NoAction
+     RotaryPush|              GoFXSlot
+     
+     RecordArm|               NoAction            
+     Solo|                    NoAction
+     Mute|                    Reaper "_S&M_FXOFF|"             //Offline FX slot
+     Select|                  ToggleFXBypass                   //Bypass FX Slot
+
+     Left                     Bank MasterTrackFXMenu -1
+     Right                    Bank MasterTrackFXMenu 1
+
+     Fader|                   NoAction    
+ZoneEnd

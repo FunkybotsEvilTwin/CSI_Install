@@ -1,0 +1,6 @@
+Zone "MasterTrack"
+    MasterFader TrackVolume
+    MasterChannelMeterLeft 	TrackOutputMeterMaxPeakLR 0 //ClipDetection=Precise
+    MasterChannelMeterRight 	TrackOutputMeterMaxPeakLR 1 //ClipDetection=Precise
+
+ZoneEnd

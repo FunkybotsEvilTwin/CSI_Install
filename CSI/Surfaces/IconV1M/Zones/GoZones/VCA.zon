@@ -1,0 +1,46 @@
+Zone VCA
+        
+    VUMeter|                 TrackOutputMeterMaxPeakLR MeterMode=IconV1M //ClipDetection=Precise
+    DisplayUpper|            TrackNameDisplay { Track }
+    Touch+DisplayLower|      TrackVolumeDisplay
+
+    Fader|                   TrackVolume 
+    Flip+Fader|              TrackPan 
+
+    Rotary|                  TrackPanAutoLeft RingStyle=BoostCut
+    DisplayLower|            TrackPanDisplay
+    Shift+DisplayLower|      TrackPanWidthDisplay
+    Display2Upper|           TrackNameDisplay
+    Display2Lower|           TrackFolderParentDisplay
+    Shift+Rotary|            TrackPanWidth RingStyle=Spread
+    RotaryPush|              TrackPan [ 0.5 ]			// Sets Pan to center
+    Shift+RotaryPush|        TrackPanWidth [ 1.0 ]		// Sets Width to 100%
+    Option+RotaryPush|       TrackPanWidth [ 0.0 ]		// Sets Width to 0%
+
+
+    RecordArm|               TrackRecordArm
+    Option+RecordArm|        CycleTrackInputMonitor  
+    Option+DisplayLower|     TrackInputMonitorDisplay   
+    Control+RecordArm|       TrackInvertPolarity         
+    Control+DisplayLower|    TrackInvertPolarityDisplay
+    Alt+RecordArm|           CycleTrackAutoMode
+    Alt+DisplayLower|        TrackAutoModeDisplay
+
+    Control+Solo|            TrackSolo
+    Control+Mute|            TrackMute
+    Solo|              	     TracksSolo
+    Mute|                    TracksMute    
+    Shift+Mute|              Reaper 40339 Feedback=No            // Track: Unmute all tracks
+    
+    Select|                  TrackUniqueSelect
+    Shift+Select|            TrackRangeSelect
+    Control+Select|          TrackSelect
+    Hold+Select|             TrackVolume [ 0.760 ] Feedback=No   // Reset track volume to unity
+    DoublePress+Select|      TrackToggleVCASpill Feedback=No
+    
+    BankLeft                    Bank Folder -8
+    BankRight                   Bank Folder 8
+    ChannelLeft                 Bank Folder -1
+    ChannelRight                Bank Folder 1
+    
+ZoneEnd

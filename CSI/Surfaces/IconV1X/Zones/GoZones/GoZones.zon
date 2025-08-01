@@ -1,0 +1,13 @@
+Zone GoZones
+    SelectedTracks
+    SelectedTrackSend
+    SelectedTrackReceive
+    SelectedTrackFXMenu
+    MasterTrackFXMenu
+    TrackSend
+    TrackReceive
+    TrackFXMenu
+    VCA
+    Folder
+    SelectedTrackTCPFX
+ZoneEnd

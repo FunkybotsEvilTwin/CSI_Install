@@ -1,0 +1,15 @@
+Zone TrackSend
+     
+     DisplayUpper|               FixedTextDisplay "TrkSnd"
+     DisplayLower|               TrackSendNameDisplay
+     Touch+DisplayLower|         TrackSendVolumeDisplay
+     Mute|                       TrackSendMute
+     Rotary|                     TrackSendPan
+     Fader|                      TrackSendVolume
+     Up                          Bank TrackSend -1
+     Down                        Bank TrackSend 1
+
+     RecordArm|                  NoAction
+     Solo|                       NoAction
+     Select|                     NoAction
+ZoneEnd
