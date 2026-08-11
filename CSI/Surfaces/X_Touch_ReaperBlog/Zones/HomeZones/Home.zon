@@ -57,7 +57,7 @@ Zone Home
     F2                          ToggleEnableFocusedFXMapping
     F3                          ToggleScrollLink
     F4                          NoAction
-    F5                          GoSelectedTrackFX
+    F5                          GoZone SelectedTrackFX
     F6                          ClearSelectedTrackFX
     F7                          NoAction
     F8                          ClearModifiers
